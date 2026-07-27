@@ -82,16 +82,16 @@ sources:
   - {name: CoinDesk, weight: 0.8, url: https://www.coindesk.com/arc/outboundfeeds/rss/}
 
   # ---- Technology / AI / cyber / space / cloud ----
-  - {name: Ars Technica, weight: 0.9, url: https://feeds.arstechnica.com/arstechnica/index}
-  - {name: Ars Technica (AI), weight: 0.9, url: https://arstechnica.com/ai/feed/}
-  - {name: The Verge, weight: 0.9, url: https://www.theverge.com/rss/index.xml}
+  - {name: Ars Technica, weight: 0.9, trust_single: true, url: https://feeds.arstechnica.com/arstechnica/index}
+  - {name: Ars Technica (AI), weight: 0.9, trust_single: true, url: https://arstechnica.com/ai/feed/}
+  - {name: The Verge, weight: 0.9, trust_single: true, url: https://www.theverge.com/rss/index.xml}
   - {name: The Guardian (Technology), url: https://www.theguardian.com/uk/technology/rss}
-  - {name: MIT Technology Review, url: https://www.technologyreview.com/feed/}
-  - {name: The Hacker News, weight: 0.8, url: https://feeds.feedburner.com/TheHackersNews}
-  - {name: BleepingComputer, weight: 0.8, url: https://www.bleepingcomputer.com/feed/}
-  - {name: Krebs on Security, weight: 0.9, url: https://krebsonsecurity.com/feed/}
-  - {name: NASA, weight: 0.9, url: https://www.nasa.gov/feed/}
-  - {name: Space.com, weight: 0.8, url: https://www.space.com/feeds/all}
+  - {name: MIT Technology Review, trust_single: true, url: https://www.technologyreview.com/feed/}
+  - {name: The Hacker News, weight: 0.8, trust_single: true, url: https://feeds.feedburner.com/TheHackersNews}
+  - {name: BleepingComputer, weight: 0.8, trust_single: true, url: https://www.bleepingcomputer.com/feed/}
+  - {name: Krebs on Security, weight: 0.9, trust_single: true, url: https://krebsonsecurity.com/feed/}
+  - {name: NASA, weight: 0.9, trust_single: true, url: https://www.nasa.gov/feed/}
+  - {name: Space.com, weight: 0.8, trust_single: true, url: https://www.space.com/feeds/all}
 
   # ---- Poland / EU-startup trusted lane (single-source OK, flagged) ----
   - {name: Notes from Poland, weight: 1.2, trust_single: true, url: https://notesfrompoland.com/feed/}
