@@ -44,6 +44,7 @@ def load_config():
         s.setdefault(k, v)
     cfg.setdefault("interests", [])
     cfg.setdefault("categories", ["Breaking News", "Business", "Technology", "Health"])
+    cfg.setdefault("markets", {"enabled": False, "provider": "none", "regions": []})
     return cfg
 
 
@@ -320,7 +321,7 @@ def story_body_html(st):
     return "".join(p)
 
 
-def build_rss(stories, cfg, report):
+def build_rss(stories, cfg, report, markets=None):
     s, now = cfg["settings"], datetime.now(timezone.utc)
     corr = sum(1 for x in stories if x["corr"] == "corroborated")
     ts = sum(1 for x in stories if x["corr"] == "trusted_single")
@@ -328,6 +329,10 @@ def build_rss(stories, cfg, report):
            f"<p>Spend this month: ${report['month_spent']:.4f} of ${report['cap']:.2f}"
            + (" — <strong>cap reached, AI paused</strong>." if report["over_budget"] else ".") + "</p>"
            f"<p>AI summaries: {'on' if report['ai_used'] else 'off (outlet text)'}.</p>")
+    if markets:
+        led = "; ".join(f"{r['name']}: {esc(r['rows'][0]['name'])} {esc(fmt_cap(r['rows'][0]['cap'], r['cur']))}"
+                        for r in markets)
+        rep += f"<p>Market cap leaders — {led}</p>"
     items = [f"""    <item>
       <title>Digest run report — {now:%Y-%m-%d}</title>
       <link>{esc(s['site_url'] or 'https://example.com')}</link>
@@ -392,10 +397,117 @@ ul.hl{margin:.3rem 0 .55rem;padding-left:1.15rem}ul.hl li{margin:.3rem 0}
 .sources a,.body a{color:var(--accent);text-decoration:none;border-bottom:1px solid #C7CEE0}
 .note{font-size:.64rem;color:var(--muted);margin:.4rem 0 0;font-family:var(--mono)}
 .fail .cn{color:var(--warn)}.fail li{color:var(--warn);font-size:.72rem;margin:.2rem 0;font-family:var(--mono)}
+.mgrid{display:grid;grid-template-columns:1fr;gap:.4rem;padding:.2rem 0 .5rem}
+@media(min-width:38rem){.mgrid{grid-template-columns:repeat(3,1fr)}}
+.mreg h3{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:.4rem 0 .3rem;font-family:var(--mono)}
+ol.mlist{list-style:none;margin:0;padding:0}
+ol.mlist li{display:flex;align-items:baseline;gap:.4rem;font-size:.82rem;padding:.16rem 0;border-bottom:1px solid #F0F2F5}
+.rk{color:var(--muted);font-size:.68rem;width:1rem;font-family:var(--mono)}
+.nm{flex:1;font-weight:600}
+.cap{font-family:var(--mono);font-size:.74rem;color:var(--ink)}
+.chg{font-family:var(--mono);font-size:.7rem;width:3.1rem;text-align:right}
+.chg.up{color:var(--ok)}.chg.dn{color:#C0392B}
+.stale{color:var(--warn);font-weight:700}
+.mnote{font-size:.62rem;color:var(--muted);font-family:var(--mono);margin:.2rem 0 0}
 """
 
 
-def build_html(stories, cfg, report, failures):
+def fmt_cap(v, cur):
+    if not v:
+        return "—"
+    for unit, div in (("T", 1e12), ("B", 1e9), ("M", 1e6)):
+        if v >= div:
+            return f"{cur}{v/div:.2f}{unit}"
+    return f"{cur}{v:,.0f}"
+
+
+def _yf_one(sym):
+    import yfinance as yf
+    cap = last = prev = None
+    try:
+        fi = yf.Ticker(sym).fast_info
+        get = (lambda k: fi.get(k)) if isinstance(fi, dict) else (lambda k: getattr(fi, k, None))
+        cap, last, prev = get("market_cap"), get("last_price"), get("previous_close")
+    except Exception:
+        pass
+    pct = ((last / prev) - 1) * 100 if last and prev else None
+    return cap, pct
+
+
+def _finnhub_one(sym, key):
+    cap = pct = None
+    try:
+        p = requests.get("https://finnhub.io/api/v1/stock/profile2",
+                         params={"symbol": sym, "token": key}, timeout=20).json()
+        mc = p.get("marketCapitalization")             # millions, USD
+        cap = mc * 1e6 if mc else None
+    except Exception:
+        pass
+    try:
+        q = requests.get("https://finnhub.io/api/v1/quote",
+                         params={"symbol": sym, "token": key}, timeout=20).json()
+        pct = q.get("dp")
+    except Exception:
+        pass
+    return cap, pct
+
+
+def fetch_market_caps(cfg, state):
+    """Ranked market caps per region. Caches last-good; never raises to caller."""
+    import time
+    m = cfg.get("markets", {})
+    if not m.get("enabled") or m.get("provider", "none") == "none":
+        return []
+    provider = m["provider"]
+    key = os.environ.get("FINNHUB_API_KEY", "").strip()
+    cache = state.setdefault("markets_cache", {})
+    now_iso = datetime.now(timezone.utc).isoformat()
+    out = []
+    for region in m.get("regions", []):
+        rows = []
+        for e in region.get("symbols", []):
+            sym = e["sym"]
+            cap = pct = None
+            stale = False
+            for _ in range(2):
+                cap, pct = (_finnhub_one(sym, key) if provider == "finnhub" else _yf_one(sym))
+                if cap:
+                    break
+                time.sleep(0.6)
+            if cap:
+                cache[sym] = {"cap": cap, "pct": pct, "ts": now_iso}
+            elif sym in cache:                          # fall back to last-good value
+                cap, pct, stale = cache[sym]["cap"], cache[sym].get("pct"), True
+            if cap:
+                rows.append({"name": e.get("name", sym), "cap": cap, "pct": pct, "stale": stale})
+            time.sleep(0.25)
+        rows.sort(key=lambda r: r["cap"], reverse=True)
+        if rows:
+            out.append({"name": region["name"], "cur": region.get("currency", "$"), "rows": rows})
+    return out
+
+
+def build_markets_panel(markets):
+    if not markets:
+        return ""
+    cols = []
+    for reg in markets:
+        lis = []
+        for i, r in enumerate(reg["rows"], 1):
+            if r["pct"] is None:
+                chg = ""
+            else:
+                chg = f"<span class='chg {'up' if r['pct'] >= 0 else 'dn'}'>{r['pct']:+.1f}%</span>"
+            stale = "<span class='stale' title='last known'>*</span>" if r["stale"] else ""
+            lis.append(f"<li><span class='rk'>{i}</span><span class='nm'>{esc(r['name'])}</span>"
+                       f"<span class='cap'>{esc(fmt_cap(r['cap'], reg['cur']))}{stale}</span>{chg}</li>")
+        cols.append(f"<div class='mreg'><h3>{esc(reg['name'])}</h3><ol class='mlist'>{''.join(lis)}</ol></div>")
+    return ("<details class='cat mkt' open><summary><span class='cn'>Markets — top by market cap</span>"
+            "</summary><div class='mgrid'>" + "".join(cols)
+            + "</div><p class='mnote'>* = last known value (live fetch failed)</p></details>")
+
+
+def build_html(stories, cfg, report, failures, markets=None):
     s, now = cfg["settings"], datetime.now(timezone.utc)
     by_cat = {}
     for st in stories:
@@ -443,7 +555,7 @@ def build_html(stories, cfg, report, failures):
 <style>{CSS}</style></head><body>
 <header><h1>{esc(s['site_title'])}</h1><p class="meta mono">{esc(meta)}</p>
 <p class="legend mono"><span class="k ok">■</span> corroborated (2+)&nbsp;&nbsp;<span class="k tw">■</span> trusted single&nbsp;&nbsp;<span class="k warn">■</span> single</p></header>
-<main>{''.join(blocks)}{fail}</main></body></html>"""
+<main>{build_markets_panel(markets)}{''.join(blocks)}{fail}</main></body></html>"""
 
 
 # --------------------------------------------------------------------------- #
@@ -458,12 +570,18 @@ def main():
     stories = rank_and_select(clusters, cfg)
     print(f"[rank] {len(clusters)} clusters -> {len(stories)} stories")
     report = summarize(stories, cfg, state)
+    try:
+        markets = fetch_market_caps(cfg, state)
+        print(f"[markets] {sum(len(r['rows']) for r in markets)} tickers across {len(markets)} regions")
+    except Exception as e:
+        markets = []
+        print(f"[markets] skipped: {e}", file=sys.stderr)
     save_state(state)
     print(f"[cost] run ${report['cost_this_run']:.5f} · month ${report['month_spent']:.4f}"
           f"/${report['cap']:.2f} · ai={report['ai_used']}")
     OUT_DIR.mkdir(exist_ok=True)
-    (OUT_DIR / "feed.xml").write_text(build_rss(stories, cfg, report), encoding="utf-8")
-    (OUT_DIR / "index.html").write_text(build_html(stories, cfg, report, failures), encoding="utf-8")
+    (OUT_DIR / "feed.xml").write_text(build_rss(stories, cfg, report, markets), encoding="utf-8")
+    (OUT_DIR / "index.html").write_text(build_html(stories, cfg, report, failures, markets), encoding="utf-8")
     print(f"[out] wrote {OUT_DIR/'feed.xml'} and {OUT_DIR/'index.html'}")
 
 
