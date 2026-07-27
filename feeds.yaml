@@ -103,3 +103,43 @@ sources:
   - {name: Nature News, research: true, url: https://www.nature.com/nature.rss}
   - {name: ScienceDaily (Health), research: true, url: https://www.sciencedaily.com/rss/health_medicine.xml}
   - {name: EurekAlert (Medicine), research: true, url: https://www.eurekalert.org/rss/medicine_health.xml}
+
+# ===========================================================================
+# MARKETS PANEL  (top companies by market cap, rendered at the top of the page)
+# provider: yfinance (no key, covers US+EU+Poland) | finnhub (needs FINNHUB_API_KEY,
+#           US-only on free tier) | none (off). Regions kept single-currency so the
+# ranking is apples-to-apples without FX conversion.
+# ===========================================================================
+markets:
+  enabled: true
+  provider: yfinance
+  regions:
+    - name: "US (USD)"
+      currency: "$"
+      symbols:
+        - {sym: AAPL,  name: Apple}
+        - {sym: MSFT,  name: Microsoft}
+        - {sym: NVDA,  name: Nvidia}
+        - {sym: GOOGL, name: Alphabet}
+        - {sym: AMZN,  name: Amazon}
+        - {sym: META,  name: Meta}
+    - name: "Europe (EUR)"
+      currency: "€"
+      symbols:
+        - {sym: ASML.AS, name: ASML}
+        - {sym: SAP.DE,  name: SAP}
+        - {sym: MC.PA,   name: LVMH}
+        - {sym: TTE.PA,  name: TotalEnergies}
+        - {sym: SIE.DE,  name: Siemens}
+        - {sym: OR.PA,   name: L'Oréal}
+    - name: "Poland (PLN)"
+      currency: "zł"
+      symbols:
+        - {sym: PKN.WA, name: Orlen}
+        - {sym: PKO.WA, name: PKO BP}
+        - {sym: PEO.WA, name: Pekao}
+        - {sym: PZU.WA, name: PZU}
+        - {sym: KGH.WA, name: KGHM}
+        - {sym: ALE.WA, name: Allegro}
+        - {sym: DNP.WA, name: Dino}
+        - {sym: CDR.WA, name: CD Projekt}
