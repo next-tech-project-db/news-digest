@@ -50,3 +50,18 @@ This is a credibility-filtered, corroboration-scored briefing, not a truth oracl
 Health sourcing + corroboration is the best available proxy for "well-studied," but it
 can't guarantee a paper is correct. A live "top companies by market cap" ranking is
 reference data, not news — it needs a finance API, not RSS (ask to add it if you want it).
+
+## Markets panel (top companies by market cap)
+A compact ranked panel renders at the top of `index.html`, three regions side by side:
+US (USD), Europe (EUR), Poland (PLN) — kept single-currency so the ranking is exact
+without FX conversion. Configure the watchlists under `markets:` in `feeds.yaml`.
+
+- **provider: yfinance** (default) — no API key, covers US + EU + Warsaw tickers. It's an
+  unofficial Yahoo source, so it can occasionally be throttled; the job caches the last-good
+  value per ticker and shows it marked `*` if a live fetch fails, and never breaks the digest.
+- **provider: finnhub** — more reliable but US-only on the free tier. Add a `FINNHUB_API_KEY`
+  secret (Settings → Secrets → Actions) and set `provider: finnhub`.
+- **provider: none** — turns the panel off.
+
+Add or remove companies by editing the `symbols` lists (use the Yahoo ticker, e.g. `CDR.WA`
+for CD Projekt, `SAP.DE` for SAP). Requires `yfinance` (already in requirements.txt).
