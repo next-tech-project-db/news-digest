@@ -1,114 +1,105 @@
-# ---------------------------------------------------------------------------
+# ===========================================================================
 # Behaviour + cost controls
-# ---------------------------------------------------------------------------
+# ===========================================================================
 settings:
-  lookback_hours: 30            # 30 = daily digest; set 168 for a weekly one
-  max_stories_per_category: 6
-  min_sources_for_corroborated: 2   # >= this many DISTINCT outlets => "corroborated"
-  cluster_similarity: 0.32          # 0.25 groups more loosely, 0.45 more strictly
+  lookback_hours: 30
+  max_stories_per_category: 8
+  min_sources_for_corroborated: 2
 
-  # --- spend guardrails ---
-  monthly_cost_cap_usd: 3.00        # circuit breaker: at this spend, AI pauses, digest still ships
-  llm_provider: gemini              # "gemini" or "none" (none = outlet summaries only, $0)
+  hide_single_source: true      # global: drop <2-source stories, EXCEPT trust_single sources
+  focus_mode: mostly_topics     # your topics fill the feed; Breaking News = reserved headlines
+  headline_slots: 6             # how many Breaking News items to allow through
+  interest_boost: 3.0
+  cluster_similarity: 0.28
+
+  monthly_cost_cap_usd: 3.00
+  llm_provider: gemini
   gemini_model: gemini-flash-lite-latest
   price_input_per_mtok: 0.10
   price_output_per_mtok: 0.40
 
-  site_title: "My Fact-Aware News Digest"
-  site_url: ""                      # after deploy, put your GitHub Pages URL here
+  site_title: "Daily Briefing"
+  site_url: ""
 
+# Only these four categories. Order = display order on the page.
 categories:
-  - Top
-  - World
+  - Breaking News
   - Business
   - Technology
-  - Science
+  - Health
 
 # ===========================================================================
-# CURATED SOURCE ALLOWLIST  (your main anti-"shady news" control)
-# Grouped by region for vetting. Delete anything you don't trust. Verify each
-# URL resolves after deploy — the run report lists any feed that fails.
-# weight nudges ranking (higher = surfaces sooner).
+# INTERESTS  ->  each maps a set of keywords to ONE category.
+# A story is routed to the category of its highest-scoring interest.
+# Edit keywords freely; prefer specific multi-word terms to avoid false matches.
+# ===========================================================================
+interests:
+  # ---------- BUSINESS ----------
+  - {name: Markets & indices, category: Business, keywords: [stock market, "s&p 500", sp500, nasdaq, dow jones, ftse, wall street, equities, bond yield, dividend, earnings report, stock exchange, wig20]}
+  - {name: Macro & economy, category: Business, keywords: [inflation, interest rate, central bank, "the fed", federal reserve, ecb, gdp, recession, monetary policy, economic growth]}
+  - {name: Crypto & blockchain, category: Business, keywords: [crypto, bitcoin, ethereum, blockchain, stablecoin, defi]}
+  - {name: Currencies & FX, category: Business, keywords: [foreign exchange, exchange rate, "the dollar", the euro, zloty, currency market]}
+  - {name: Oil & gas, category: Business, keywords: [oil price, crude oil, natural gas, opec, brent crude, lng]}
+  - {name: Metals & commodities, category: Business, keywords: [copper price, lithium, industrial metals, iron ore, gold price, commodities]}
+  - {name: Startups & funding, category: Business, keywords: [startup, raises funding, seed round, series a, series b, venture capital, valuation, ipo]}
+  - {name: Companies & deals, category: Business, keywords: [merger, acquisition, takeover, quarterly profit, revenue growth, earnings call]}
+  - {name: Poland economy, category: Business, weight: 1.5, keywords: [poland, polish, warsaw, zloty]}
+  - {name: Trade & geopolitics, category: Business, keywords: [tariff, trade deal, sanction, export control, supply chain]}
+
+  # ---------- TECHNOLOGY ----------
+  - {name: AI & ML, category: Technology, keywords: [artificial intelligence, machine learning, chatgpt, openai, anthropic, deepmind, large language model, neural network, generative ai]}
+  - {name: Chips & hardware, category: Technology, keywords: [semiconductor, nvidia, tsmc, asml, gpu, microchip, foundry, processor]}
+  - {name: Cybersecurity, category: Technology, keywords: [cybersecurity, ransomware, data breach, malware, vulnerability, phishing, hacking, cyberattack]}
+  - {name: Autonomous & space, category: Technology, keywords: [autonomous vehicle, self-driving, drone, robotics, spacex, nasa, satellite, rocket launch, space mission]}
+  - {name: Cloud & infrastructure, category: Technology, keywords: [cloud computing, data center, on-premise, kubernetes, aws, azure, cloud infrastructure]}
+  - {name: Big tech companies, category: Technology, keywords: [apple, microsoft, google, amazon, meta, nvidia, tesla, samsung]}
+
+  # ---------- HEALTH (research only; gated to research sources below) ----------
+  - {name: Medical research, category: Health, keywords: [clinical trial, peer-reviewed, research paper, study finds, published in, medical research, new treatment, drug trial, vaccine, findings]}
+
+# ===========================================================================
+# SOURCES  (verify URLs after first run; the report lists failures)
+#   trust_single: true  -> may appear single-source, flagged (your Poland/startup lane)
+#   research: true      -> counts as a vetted research outlet (required for Health)
 # ===========================================================================
 sources:
+  # ---- Worldwide / Breaking ----
+  - {name: NPR News, url: https://feeds.npr.org/1001/rss.xml}
+  - {name: PBS NewsHour, url: https://www.pbs.org/newshour/feeds/rss/headlines}
+  - {name: BBC News (World), url: https://feeds.bbci.co.uk/news/world/rss.xml}
+  - {name: The Guardian (World), url: https://www.theguardian.com/world/rss}
+  - {name: Deutsche Welle, url: https://rss.dw.com/rdf/rss-en-all}
+  - {name: France 24, url: https://www.france24.com/en/rss}
+  - {name: Al Jazeera, url: https://www.aljazeera.com/xml/rss/all.xml}
+  - {name: NYT World, url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml}
+  - {name: South China Morning Post, weight: 0.8, url: https://www.scmp.com/rss/91/feed}
+  - {name: China Daily, weight: 0.6, url: https://www.chinadaily.com.cn/rss/world_rss.xml}
 
-  # ---------------- UNITED STATES ----------------
-  - name: NPR News                 # independent nonprofit, partly publicly funded
-    category: Top
-    weight: 1.0
-    url: https://feeds.npr.org/1001/rss.xml
+  # ---- Business / markets / crypto ----
+  - {name: BBC Business, url: https://feeds.bbci.co.uk/news/business/rss.xml}
+  - {name: The Guardian (Business), url: https://www.theguardian.com/uk/business/rss}
+  - {name: CNBC, weight: 0.8, url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664'}
+  - {name: CoinDesk, weight: 0.8, url: https://www.coindesk.com/arc/outboundfeeds/rss/}
 
-  - name: PBS NewsHour             # public media; verify URL resolves
-    category: Top
-    weight: 1.0
-    url: https://www.pbs.org/newshour/feeds/rss/headlines
+  # ---- Technology / AI / cyber / space / cloud ----
+  - {name: Ars Technica, weight: 0.9, url: https://feeds.arstechnica.com/arstechnica/index}
+  - {name: Ars Technica (AI), weight: 0.9, url: https://arstechnica.com/ai/feed/}
+  - {name: The Verge, weight: 0.9, url: https://www.theverge.com/rss/index.xml}
+  - {name: The Guardian (Technology), url: https://www.theguardian.com/uk/technology/rss}
+  - {name: MIT Technology Review, url: https://www.technologyreview.com/feed/}
+  - {name: The Hacker News, weight: 0.8, url: https://feeds.feedburner.com/TheHackersNews}
+  - {name: BleepingComputer, weight: 0.8, url: https://www.bleepingcomputer.com/feed/}
+  - {name: Krebs on Security, weight: 0.9, url: https://krebsonsecurity.com/feed/}
+  - {name: NASA, weight: 0.9, url: https://www.nasa.gov/feed/}
+  - {name: Space.com, weight: 0.8, url: https://www.space.com/feeds/all}
 
-  - name: NYT World                # independent for-profit; headlines free, articles paywalled
-    category: World
-    weight: 1.0
-    url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+  # ---- Poland / EU-startup trusted lane (single-source OK, flagged) ----
+  - {name: Notes from Poland, weight: 1.2, trust_single: true, url: https://notesfrompoland.com/feed/}
+  - {name: Sifted, weight: 1.0, trust_single: true, url: https://sifted.eu/feed}
+  - {name: EU-Startups, weight: 1.0, trust_single: true, url: https://www.eu-startups.com/feed/}
+  - {name: Silicon Canals, weight: 0.9, trust_single: true, url: https://siliconcanals.com/feed/}
 
-  # ---------------- EUROPE ----------------
-  - name: Deutsche Welle           # Germany, EU public international broadcaster
-    category: World
-    weight: 1.0
-    url: https://rss.dw.com/rdf/rss-en-all
-
-  - name: France 24                # France, EU public international broadcaster
-    category: World
-    weight: 0.9
-    url: https://www.france24.com/en/rss
-
-  - name: Euronews                 # pan-European (Lyon)
-    category: World
-    weight: 0.9
-    url: https://www.euronews.com/rss
-
-  - name: BBC News (World)         # UK public broadcaster (European, not EU)
-    category: World
-    weight: 1.0
-    url: https://feeds.bbci.co.uk/news/world/rss.xml
-
-  - name: BBC Business             # UK
-    category: Business
-    weight: 1.0
-    url: https://feeds.bbci.co.uk/news/business/rss.xml
-
-  - name: BBC Science & Environment
-    category: Science
-    weight: 1.0
-    url: https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
-
-  - name: The Guardian (World)     # UK, independent trust-owned
-    category: World
-    weight: 1.0
-    url: https://www.theguardian.com/world/rss
-
-  - name: The Guardian (Business)
-    category: Business
-    weight: 1.0
-    url: https://www.theguardian.com/uk/business/rss
-
-  - name: The Guardian (Technology)
-    category: Technology
-    weight: 1.0
-    url: https://www.theguardian.com/uk/technology/rss
-
-  # ---------------- CHINA ----------------
-  # NOTE: mainland outlets below are STATE-CONTROLLED. Useful for the official
-  # position, not independent verification. The app flags any story carried
-  # only by these as "single source". Low weight so corroborated stories rank higher.
-  - name: South China Morning Post # Hong Kong, Alibaba-owned; closest to independent
-    category: World
-    weight: 0.8
-    url: https://www.scmp.com/rss/91/feed
-
-  - name: China Daily (World)      # STATE media; verify exact section URL
-    category: World
-    weight: 0.6
-    url: https://www.chinadaily.com.cn/rss/world_rss.xml
-
-  - name: China Daily (Business)   # STATE media
-    category: Business
-    weight: 0.6
-    url: https://www.chinadaily.com.cn/rss/bizchina_rss.xml
+  # ---- Health / research (research:true required for Health category) ----
+  - {name: Nature News, research: true, url: https://www.nature.com/nature.rss}
+  - {name: ScienceDaily (Health), research: true, url: https://www.sciencedaily.com/rss/health_medicine.xml}
+  - {name: EurekAlert (Medicine), research: true, url: https://www.eurekalert.org/rss/medicine_health.xml}
