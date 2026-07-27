@@ -1,0 +1,114 @@
+# ---------------------------------------------------------------------------
+# Behaviour + cost controls
+# ---------------------------------------------------------------------------
+settings:
+  lookback_hours: 30            # 30 = daily digest; set 168 for a weekly one
+  max_stories_per_category: 6
+  min_sources_for_corroborated: 2   # >= this many DISTINCT outlets => "corroborated"
+  cluster_similarity: 0.32          # 0.25 groups more loosely, 0.45 more strictly
+
+  # --- spend guardrails ---
+  monthly_cost_cap_usd: 3.00        # circuit breaker: at this spend, AI pauses, digest still ships
+  llm_provider: gemini              # "gemini" or "none" (none = outlet summaries only, $0)
+  gemini_model: gemini-flash-lite-latest
+  price_input_per_mtok: 0.10
+  price_output_per_mtok: 0.40
+
+  site_title: "My Fact-Aware News Digest"
+  site_url: ""                      # after deploy, put your GitHub Pages URL here
+
+categories:
+  - Top
+  - World
+  - Business
+  - Technology
+  - Science
+
+# ===========================================================================
+# CURATED SOURCE ALLOWLIST  (your main anti-"shady news" control)
+# Grouped by region for vetting. Delete anything you don't trust. Verify each
+# URL resolves after deploy — the run report lists any feed that fails.
+# weight nudges ranking (higher = surfaces sooner).
+# ===========================================================================
+sources:
+
+  # ---------------- UNITED STATES ----------------
+  - name: NPR News                 # independent nonprofit, partly publicly funded
+    category: Top
+    weight: 1.0
+    url: https://feeds.npr.org/1001/rss.xml
+
+  - name: PBS NewsHour             # public media; verify URL resolves
+    category: Top
+    weight: 1.0
+    url: https://www.pbs.org/newshour/feeds/rss/headlines
+
+  - name: NYT World                # independent for-profit; headlines free, articles paywalled
+    category: World
+    weight: 1.0
+    url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+
+  # ---------------- EUROPE ----------------
+  - name: Deutsche Welle           # Germany, EU public international broadcaster
+    category: World
+    weight: 1.0
+    url: https://rss.dw.com/rdf/rss-en-all
+
+  - name: France 24                # France, EU public international broadcaster
+    category: World
+    weight: 0.9
+    url: https://www.france24.com/en/rss
+
+  - name: Euronews                 # pan-European (Lyon)
+    category: World
+    weight: 0.9
+    url: https://www.euronews.com/rss
+
+  - name: BBC News (World)         # UK public broadcaster (European, not EU)
+    category: World
+    weight: 1.0
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+
+  - name: BBC Business             # UK
+    category: Business
+    weight: 1.0
+    url: https://feeds.bbci.co.uk/news/business/rss.xml
+
+  - name: BBC Science & Environment
+    category: Science
+    weight: 1.0
+    url: https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+
+  - name: The Guardian (World)     # UK, independent trust-owned
+    category: World
+    weight: 1.0
+    url: https://www.theguardian.com/world/rss
+
+  - name: The Guardian (Business)
+    category: Business
+    weight: 1.0
+    url: https://www.theguardian.com/uk/business/rss
+
+  - name: The Guardian (Technology)
+    category: Technology
+    weight: 1.0
+    url: https://www.theguardian.com/uk/technology/rss
+
+  # ---------------- CHINA ----------------
+  # NOTE: mainland outlets below are STATE-CONTROLLED. Useful for the official
+  # position, not independent verification. The app flags any story carried
+  # only by these as "single source". Low weight so corroborated stories rank higher.
+  - name: South China Morning Post # Hong Kong, Alibaba-owned; closest to independent
+    category: World
+    weight: 0.8
+    url: https://www.scmp.com/rss/91/feed
+
+  - name: China Daily (World)      # STATE media; verify exact section URL
+    category: World
+    weight: 0.6
+    url: https://www.chinadaily.com.cn/rss/world_rss.xml
+
+  - name: China Daily (Business)   # STATE media
+    category: Business
+    weight: 0.6
+    url: https://www.chinadaily.com.cn/rss/bizchina_rss.xml
