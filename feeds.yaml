@@ -1,51 +1,6 @@
 # ===========================================================================
 # Behaviour + cost controls
 # ===========================================================================
-# ── Paste this block into feeds.yaml (top level) ─────────────────────────────
-pv_tube:
-  enabled: true
-  timezone: Europe/Warsaw
-  window_hours: 36                 # daily run + overlap; repeats are suppressed by the "shown" log
-  max_per_region: 3                # reading-fatigue cap → max 9 stories in the section
-  max_entries_per_feed: 40
-  fetch_timeout_s: 15
-  cluster_similarity: 0.28         # same value as the main digest
-  dead_feed_after_runs: 3          # one warning per dead feed, re-armed after it recovers
-
-  # Region rules (trade-offs, change freely)
-  eu_include_wider_europe: true    # UK, Norway, Switzerland, Ukraine counted under EU
-  asia_include_gulf: false         # Saudi/UAE/Oman/Qatar/Israel — off = "Asia" means South/East/Central Asia
-
-  # AI — separate sub-cap INSIDE the global monthly_cost_cap_usd: 3.00
-  model: claude-haiku-4-5-20251001
-  price_in_per_mtok: 1.00          # verify against Anthropic pricing page if the model changes
-  price_out_per_mtok: 5.00
-  max_output_tokens: 2500          # bounds worst-case output cost per call
-  max_sources_per_story: 2
-  chars_per_source: 900            # bounds input cost
-  monthly_cost_cap_usd: 0.75       # hard stop → extractive mode, digest still builds
-
-  # owner = newsroom/company. Corroboration (🟢) needs 2+ DIFFERENT owners.
-  # region = home region for regional outlets; null = global outlet (region decided from text,
-  #          dropped if the text names no EU/Asia/US geography).
-  # All URLs must pass `python pv_tube.py --validate` before relying on them.
-  sources:
-    # ── Global trade press ──
-    - {name: pv magazine,          url: "https://www.pv-magazine.com/feed/",        owner: pv-magazine-group, region: null, lang: en, trust_single: true}
-    - {name: PV Tech,              url: "https://www.pv-tech.org/feed/",            owner: solar-media,       region: null, lang: en, trust_single: true}
-    - {name: Energy-Storage.news,  url: "https://www.energy-storage.news/feed/",    owner: solar-media,       region: null, lang: en, trust_single: true}
-    # ── EU / Poland ──
-    - {name: Gramwzielone.pl,      url: "https://www.gramwzielone.pl/rss",          owner: gramwzielone,      region: EU,   lang: pl, trust_single: true}
-    - {name: WysokieNapiecie.pl,   url: "https://wysokienapiecie.pl/feed/",         owner: wysokienapiecie,   region: EU,   lang: pl, trust_single: true}
-    # ── Asia ──
-    - {name: pv magazine India,    url: "https://www.pv-magazine-india.com/feed/",  owner: pv-magazine-group, region: Asia, lang: en, trust_single: true}
-    - {name: Mercom India,         url: "https://www.mercomindia.com/feed",         owner: mercom,            region: Asia, lang: en, trust_single: true}
-    # ── US ──
-    - {name: pv magazine USA,      url: "https://pv-magazine-usa.com/feed/",        owner: pv-magazine-group, region: US,   lang: en, trust_single: true}
-    - {name: Solar Power World,    url: "https://www.solarpowerworldonline.com/feed/", owner: wtwh-media,     region: US,   lang: en, trust_single: true}
-    - {name: Utility Dive,         url: "https://www.utilitydive.com/feeds/news/",  owner: industry-dive,     region: US,   lang: en, trust_single: true}
-    - {name: EIA Today in Energy,  url: "https://www.eia.gov/rss/todayinenergy.xml", owner: us-eia,           region: US,   lang: en, trust_single: true}
-
 settings:
   lookback_hours: 30
   max_stories_per_category: 8
@@ -59,14 +14,17 @@ settings:
 
   monthly_cost_cap_usd: 3.00
   llm_provider: gemini
-  gemini_model: gemini-flash-lite-latest
-  price_input_per_mtok: 0.10
-  price_output_per_mtok: 0.40
+  # Pinned model instead of "gemini-flash-lite-latest": the -latest alias is hot-swapped by Google
+  # to newer (pricier) Flash-Lite versions, which made the prices below — and the cost cap — wrong.
+  gemini_model: gemini-3.1-flash-lite
+  price_input_per_mtok: 0.25
+  price_output_per_mtok: 1.50     # thinking tokens are billed at this rate too
 
   site_title: "Daily Briefing"
   site_url: ""
 
 # Only these four categories. Order = display order on the page.
+# (PV Tube is its own section rendered ABOVE these — configured in `pv_tube:` at the bottom.)
 categories:
   - Breaking News
   - Business
@@ -188,4 +146,45 @@ markets:
         - {sym: ALE.WA, name: Allegro}
         - {sym: DNP.WA, name: Dino}
         - {sym: CDR.WA, name: CD Projekt}
-        
+
+# ===========================================================================
+# PV TUBE  (photovoltaics · energy storage · inverters — EU / Asia / US)
+# Rendered ABOVE the categories. Uses the SAME llm_provider, model, prices and
+# API key as `settings` above — no second AI account. Read by pv_tube.py.
+# ===========================================================================
+pv_tube:
+  enabled: true
+  timezone: Europe/Warsaw
+  window_hours: 36                 # daily run + overlap; repeats are suppressed by the "shown" log
+  max_per_region: 3                # reading-fatigue cap → max 9 stories in the section
+  max_entries_per_feed: 40
+  fetch_timeout_s: 15
+  cluster_similarity: 0.28
+  dead_feed_after_runs: 3          # one warning per dead feed, re-armed after it recovers
+
+  eu_include_wider_europe: true    # UK, Norway, Switzerland, Ukraine counted under EU
+  asia_include_gulf: false         # Saudi/UAE/Oman/Qatar/Israel excluded from Asia
+
+  max_output_tokens: 2500          # bounds worst-case cost per call
+  max_sources_per_story: 2
+  chars_per_source: 900            # bounds input cost
+  monthly_cost_cap_usd: 0.30       # sub-cap INSIDE the 3.00 above; hit → extractive mode, page still builds
+
+  # owner = newsroom/company. Corroboration (🟢) needs 2+ DIFFERENT owners.
+  # region: home region for regional outlets; null = global outlet (region read from the text).
+  sources:
+    # ── Global trade press ──
+    - {name: pv magazine,          url: "https://www.pv-magazine.com/feed/",        owner: pv-magazine-group, region: null, lang: en, trust_single: true}
+    - {name: PV Tech,              url: "https://www.pv-tech.org/feed/",            owner: solar-media,       region: null, lang: en, trust_single: true}
+    - {name: Energy-Storage.news,  url: "https://www.energy-storage.news/feed/",    owner: solar-media,       region: null, lang: en, trust_single: true}
+    # ── EU / Poland ──
+    - {name: Gramwzielone.pl,      url: "https://www.gramwzielone.pl/rss",          owner: gramwzielone,      region: EU,   lang: pl, trust_single: true}
+    - {name: WysokieNapiecie.pl,   url: "https://wysokienapiecie.pl/feed/",         owner: wysokienapiecie,   region: EU,   lang: pl, trust_single: true}
+    # ── Asia ──
+    - {name: pv magazine India,    url: "https://www.pv-magazine-india.com/feed/",  owner: pv-magazine-group, region: Asia, lang: en, trust_single: true}
+    - {name: Mercom India,         url: "https://www.mercomindia.com/feed",         owner: mercom,            region: Asia, lang: en, trust_single: true}
+    # ── US ──
+    - {name: pv magazine USA,      url: "https://pv-magazine-usa.com/feed/",        owner: pv-magazine-group, region: US,   lang: en, trust_single: true}
+    - {name: Solar Power World,    url: "https://www.solarpowerworldonline.com/feed/", owner: wtwh-media,     region: US,   lang: en, trust_single: true}
+    - {name: Utility Dive,         url: "https://www.utilitydive.com/feeds/news/",  owner: industry-dive,     region: US,   lang: en, trust_single: true}
+    - {name: EIA Today in Energy,  url: "https://www.eia.gov/rss/todayinenergy.xml", owner: us-eia,           region: US,   lang: en, trust_single: true}
