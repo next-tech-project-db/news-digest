@@ -7,7 +7,7 @@ Design (same principles as the rest of the digest):
     PV Tech + Energy-Storage.news = one owner).
   * 🟢 = 2+ independent owners, 🟡 = single trusted outlet, everything else hidden.
   * Sponsored / partner / press-release / webinar content is dropped before any AI call.
-  * One batched Claude Haiku call per run, constrained to fetched text; every number
+  * One batched LLM call per run (same provider/model/key as the main digest), constrained to fetched text; every number
     and (for English sources) every proper noun in the output is checked against the
     source text. A failing bullet is dropped; a failing item falls back to an
     extractive summary (📝). Nothing unverified is shown as verified.
@@ -468,29 +468,67 @@ def _source_block(story: Story, max_sources: int, chars: int) -> tuple[str, str,
     return "\n\n".join(parts), " ".join(raw), [it.source for it in picked]
 
 
-def _call_claude(prompt: str, cfg: dict, api_key: str) -> tuple[str | None, dict, str | None]:
-    body = {"model": cfg.get("model", "claude-haiku-4-5-20251001"),
-            "max_tokens": cfg.get("max_output_tokens", 2500), "temperature": 0,
-            "system": SYSTEM_PROMPT, "messages": [{"role": "user", "content": prompt}]}
-    headers = {"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"}
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+
+def _post_with_retry(url: str, headers: dict, body: dict):
+    """One retry on rate-limit / overload, honouring Retry-After (capped). Returns (response|None, err)."""
     for attempt in range(2):
         try:
-            r = requests.post(API_URL, headers=headers, json=body, timeout=90)
+            r = requests.post(url, headers=headers, json=body, timeout=90)
         except requests.RequestException as e:
-            err = f"{type(e).__name__}"
             if attempt == 0:
                 time.sleep(5)
                 continue
-            return None, {}, err
+            return None, type(e).__name__
         if r.status_code in (429, 500, 502, 503, 529) and attempt == 0:
             time.sleep(min(float(r.headers.get("retry-after", "10") or 10), 20))
             continue
         if r.status_code != 200:
-            return None, {}, f"HTTP {r.status_code}: {r.text[:150]}"
-        data = r.json()
-        text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
-        return text, data.get("usage", {}), None
-    return None, {}, "retries exhausted"
+            return None, f"HTTP {r.status_code}: {r.text[:150]}"
+        return r, None
+    return None, "retries exhausted"
+
+
+def _call_llm(prompt: str, cfg: dict, api_key: str) -> tuple[str | None, dict, str | None]:
+    """Returns (text, usage{in,out,model}, error). Usage includes thinking tokens (billed as output)."""
+    max_out = cfg["max_output_tokens"]
+    if cfg["provider"] == "anthropic":
+        body = {"model": cfg["model"], "max_tokens": max_out, "temperature": 0, "system": SYSTEM_PROMPT,
+                "messages": [{"role": "user", "content": prompt}]}
+        r, err = _post_with_retry(API_URL, {"x-api-key": api_key, "anthropic-version": "2023-06-01",
+                                            "content-type": "application/json"}, body)
+        if err:
+            return None, {}, err
+        d = r.json()
+        text = "".join(b.get("text", "") for b in d.get("content", []) if b.get("type") == "text")
+        u = d.get("usage", {})
+        return text, {"in": u.get("input_tokens", 0), "out": u.get("output_tokens", 0),
+                      "model": d.get("model", cfg["model"])}, None
+
+    # --- Gemini (default: same provider, model and key as the rest of the digest) ---
+    gen = {"temperature": 0, "maxOutputTokens": max_out, "responseMimeType": "application/json"}
+    if cfg["model"].startswith("gemini-3"):
+        gen["thinkingConfig"] = {"thinkingLevel": "minimal"}      # thinking tokens are billed as output
+    body = {"systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+            "contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": gen}
+    r, err = _post_with_retry(GEMINI_URL.format(model=cfg["model"]),
+                              {"x-goog-api-key": api_key, "content-type": "application/json"}, body)
+    if err:
+        return None, {}, err
+    d = r.json()
+    u = d.get("usageMetadata", {})
+    usage = {"in": u.get("promptTokenCount", 0),
+             "out": u.get("candidatesTokenCount", 0) + u.get("thoughtsTokenCount", 0),
+             "model": d.get("modelVersion", cfg["model"])}
+    cands = d.get("candidates") or []
+    if not cands:
+        return None, usage, f"no candidates ({d.get('promptFeedback', {}).get('blockReason', 'unknown')})"
+    parts = cands[0].get("content", {}).get("parts", [])
+    text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
+    if cands[0].get("finishReason") not in (None, "STOP"):
+        return None, usage, f"finishReason={cands[0].get('finishReason')}"
+    return text, usage, None
 
 
 def _parse_json_array(text: str) -> list:
@@ -529,22 +567,28 @@ def summarise(stories: list[Story], cfg: dict, state: dict, month: str, today: s
     blocks = {s.key: _source_block(s, ms, chars) for s in todo}
     prompt = "\n\n=====\n\n".join(f"STORY id={k}\n{b[0]}" for k, b in blocks.items())
 
-    p_in, p_out = cfg.get("price_in_per_mtok", 1.0), cfg.get("price_out_per_mtok", 5.0)
+    p_in, p_out = cfg["price_in"], cfg["price_out"]
     est_in_tokens = (len(SYSTEM_PROMPT) + len(prompt)) / 2.5          # conservative for Polish text
-    worst = 2 * (est_in_tokens * p_in + cfg.get("max_output_tokens", 2500) * p_out) / 1e6  # 2 = one retry
+    # x2 output: allowance for thinking tokens; x2 overall: one retry
+    worst = 2 * (est_in_tokens * p_in + 2 * cfg["max_output_tokens"] * p_out) / 1e6
     spent = state["ledger"].get(month, 0.0)
     cap = cfg.get("monthly_cost_cap_usd", 0.75)
 
     text = None
     if not api_key:
-        notes.append("no ANTHROPIC_API_KEY — extractive mode")
+        notes.append(f"no API key in {cfg['api_key_env']} — extractive mode")
     elif spent + worst > cap:
         notes.append(f"budget guard: ${spent:.2f} spent + ${worst:.3f} worst case > ${cap:.2f} cap — extractive mode")
     else:
-        text, usage, err = _call_claude(prompt, cfg, api_key)
+        text, usage, err = _call_llm(prompt, cfg, api_key)
         if usage:
-            cost = (usage.get("input_tokens", 0) * p_in + usage.get("output_tokens", 0) * p_out) / 1e6
+            cost = (usage["in"] * p_in + usage["out"] * p_out) / 1e6
             state["ledger"][month] = round(spent + cost, 6)
+            # "-latest" aliases get hot-swapped by the provider → prices in feeds.yaml can silently go stale
+            prev = state.get("model_seen")
+            if prev and prev != usage["model"]:
+                notes.append(f"MODEL CHANGED: {prev} → {usage['model']} — re-check prices in feeds.yaml")
+            state["model_seen"] = usage["model"]
         if err:
             notes.append(f"AI call failed ({err}) — extractive mode")
 
@@ -649,13 +693,37 @@ def render(stories: list[Story], footer: str, cfg: dict) -> str:
 
 
 # ---------------------------------------------------------------- entry point
-def build_pv_tube(cfg: dict, state_path: str = "data/pv_tube_state.json",
+def resolve_config(full: dict) -> dict:
+    """PV Tube settings + LLM settings inherited from the digest's `settings` block (one provider, one key)."""
+    cfg = dict(full.get("pv_tube", full))
+    st = full.get("settings", {})
+    provider = cfg.get("llm_provider", st.get("llm_provider", "gemini"))
+    cfg["provider"] = provider
+    if provider == "anthropic":
+        cfg.setdefault("model", st.get("anthropic_model", "claude-haiku-4-5-20251001"))
+        cfg.setdefault("api_key_env", "ANTHROPIC_API_KEY")
+    else:
+        cfg["model"] = cfg.get("model") or st.get("gemini_model", "gemini-3.1-flash-lite")
+        cfg.setdefault("api_key_env", "GEMINI_API_KEY")
+    cfg["price_in"] = cfg.get("price_input_per_mtok", st.get("price_input_per_mtok", 1.0))
+    cfg["price_out"] = cfg.get("price_output_per_mtok", st.get("price_output_per_mtok", 5.0))
+    cfg.setdefault("max_output_tokens", 2500)
+    return cfg
+
+
+def build_pv_tube(full_config: dict, state_path: str | None = None,
                   api_key: str | None = None) -> PVTubeResult:
-    """Never raises: on any unexpected error returns a minimal section so the digest still builds."""
+    """Pass the whole parsed feeds.yaml. Never raises: on any unexpected error returns a
+    minimal section so the digest still builds."""
+    cfg = resolve_config(full_config)
+    # state lives next to this module (PV/pv_tube_state.json) regardless of the working directory
+    state_path = state_path or os.path.join(os.path.dirname(os.path.abspath(__file__)), "pv_tube_state.json")
     tz = ZoneInfo(cfg.get("timezone", "Europe/Warsaw"))
     now = datetime.now(timezone.utc)
     today, month = now.astimezone(tz).date().isoformat(), now.astimezone(tz).strftime("%Y-%m")
-    api_key = api_key if api_key is not None else os.environ.get("ANTHROPIC_API_KEY")
+    if api_key is None:
+        api_key = os.environ.get(cfg["api_key_env"]) or (
+            os.environ.get("GOOGLE_API_KEY") if cfg["provider"] == "gemini" else None)
     state = load_state(state_path)
     try:
         if not cfg.get("enabled", True):
@@ -674,7 +742,7 @@ def build_pv_tube(cfg: dict, state_path: str = "data/pv_tube_state.json",
                   f"Filtered out: {stats['shady']} sponsored/PR, {stats['offdomain']} off-domain · "
                   f"AI spend {month}: ${spent:.2f} / ${cap:.2f}")
         warn = alerts(cfg, state, month)
-        md = (f"### PV Tube\n- stories: {len(stories)} ({sum(s.mode == 'ai' for s in stories)} AI, "
+        md = (f"### PV Tube\n- model: {state.get('model_seen', cfg['model'])}\n- stories: {len(stories)} ({sum(s.mode == 'ai' for s in stories)} AI, "
               f"{sum(s.mode == 'extractive' for s in stories)} extractive)\n- run cost: ${cost:.4f}; "
               f"month: ${spent:.3f} / ${cap:.2f}\n- stats: {stats}\n"
               + "".join(f"- note: {n}\n" for n in notes) + "".join(f"- ⚠️ {w}\n" for w in warn))
@@ -724,9 +792,10 @@ def validate_feeds(cfg: dict) -> int:
 if __name__ == "__main__":
     import sys
     import yaml
-    with open(os.environ.get("FEEDS_YAML", "feeds.yaml"), encoding="utf-8") as f:
-        conf = yaml.safe_load(f)["pv_tube"]
+    default_yaml = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "feeds.yaml")
+    with open(os.environ.get("FEEDS_YAML", default_yaml), encoding="utf-8") as f:
+        conf = yaml.safe_load(f)
     if "--validate" in sys.argv:
-        sys.exit(validate_feeds(conf))
+        sys.exit(validate_feeds(resolve_config(conf)))
     res = build_pv_tube(conf)
     print(res.html)
