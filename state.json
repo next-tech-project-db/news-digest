@@ -1,6 +1,191 @@
 {
   "month": "2026-09",
-  "spent_usd": 0.039774,
-  "requests": 27,
-  "markets_cache": {}
+  "spent_usd": 0.046669,
+  "requests": 29,
+  "markets_cache": {},
+  "pv_tube": {
+    "ledger": {
+      "2026-09": 0.002829
+    },
+    "cache": {
+      "0b6ec1d33be8e9af": {
+        "summary": {
+          "title": "El Ni\u00f1o weather pattern impacts global solar irradiance levels",
+          "main_point": "The 2026 El Ni\u00f1o weather pattern has caused significant variations in global solar irradiance, with some regions seeing deviations from long-term averages of over 30%.",
+          "bullets": [
+            "Research from Solargis indicates that global horizontal irradiance levels departed from long-term seasonal averages by over 30% in some locations.",
+            "The June-July-August season variations are attributed to El Ni\u00f1o and higher-than-normal temperatures."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "a48928da3e84d507": {
+        "summary": {
+          "title": "Spain awards \u20ac265 million for pumped hydro storage projects",
+          "main_point": "Spain has awarded \u20ac265 million to 11 pumped hydro energy storage projects totaling 4.1 GW and 49.9 GWh of capacity.",
+          "bullets": [
+            "The funding is part of the Boralmac program, with projects expected to be completed by 2035.",
+            "The first round in July 2024 awarded \u20ac100 million to four projects totaling nearly 2 GW of turbine capacity and 28.85 GWh of storage.",
+            "The BOREAL project in Alc\u00e1ntara received the largest award of \u20ac44.9 million."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "50e0771f68529a1c": {
+        "summary": {
+          "title": "Energiequelle sells French subsidiary to H2air",
+          "main_point": "German renewables developer Energiequelle has sold its French subsidiary, which includes a 500MW solar PV and wind pipeline, to H2air.",
+          "bullets": [
+            "The sale includes a 500MW solar PV and wind pipeline."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "f2ee1ee0c12bb00b": {
+        "summary": {
+          "title": "REMCL tenders rooftop solar for Mumbai railway stations",
+          "main_point": "Railway Energy Management Company has invited bids for grid-connected rooftop solar projects at four Central Railway stations in Mumbai.",
+          "bullets": [
+            "The tender is issued on behalf of Mumbai Railway Vikas Corporation."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "e524d1f41efde02f": {
+        "summary": {
+          "title": "India reports solar manufacturing capacity growth in first half of 2026",
+          "main_point": "India added 50.6 GW of solar module and 9.7 GW of cell manufacturing capacity in the first half of 2026.",
+          "bullets": [
+            "Cumulative capacity reached 261.7 GW for modules and 36.6 GW for cells as of June 2026.",
+            "Capacity under the Approved List of Models and Manufacturers stood at 225.5 GW for modules and nearly 35.5 GW for cells.",
+            "Domestic cell shortages are identified as the biggest near-term challenge for the market."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "450f152894ad665b": {
+        "summary": {
+          "title": "China module prices remain steady ahead of Golden Week",
+          "main_point": "Mainstream TOPCon module prices in China remained unchanged at $0.108/W FOB China as market liquidity stayed thin.",
+          "bullets": [
+            "The Chinese Module Marker benchmark for TOPCon modules below 645W remained at $0.108/W.",
+            "Market participants are showing reluctance to commit to transactions due to uncertainty regarding year-end price directions."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "58ddbc3d64e364d2": {
+        "summary": {
+          "title": "US solar module prices rise following Section 232 measures",
+          "main_point": "Median prices for imported solar modules in the U.S. have increased by over 40% following the introduction of Section 232 price floors and tariffs.",
+          "bullets": [
+            "Anza reports that the median price for imported modules was $0.27 (pv magazine USA).",
+            "A 15% additional tariff on certain polysilicon products and minimum import prices for wafers, cells, and modules were announced on August 6, 2026 (Mercom India).",
+            "The 15% tariff on polysilicon products takes effect on December 4 (pv magazine USA)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "24eaa942c0db66d7": {
+        "summary": {
+          "title": "Floating solar array installed on Ohio village reservoir",
+          "main_point": "Floating solar developer D3Energy has energized a 6 MW floating photovoltaic (FPV) array in the Village of Monroeville, Ohio.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-09-25"
+      },
+      "3e6a8cb47a76fe3a": {
+        "summary": {
+          "title": "B2U and LGES partner on battery repurposing for grid storage",
+          "main_point": "B2U Storage Solutions and LG Energy Solution are partnering to repurpose EV batteries for grid-scale energy storage applications.",
+          "bullets": [
+            "The partnership aims to use B2U's technology to extend the life of LG Energy Solution EV batteries before recycling.",
+            "NYSERDA has selected 950MW of bids for its first large-scale energy storage resource solicitation (Energy-Storage.news)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      }
+    },
+    "shown": {
+      "pv-magazine-usa.com/2026/09/25/a-powerful-el-nino-season-upends-global-solar-resource-assumptions": "2026-09-25",
+      "pv-magazine.com/2026/09/25/spain-awards-e265-million-for-49-9-gwh-of-pumped-hydro-storage": "2026-09-25",
+      "pv-tech.org/energiequelle-sells-french-subsidiary-including-500mw-solar-pv-wind-pipeline": "2026-09-25",
+      "mercomindia.com/remcl-tenders-rooftop-solar-projects-at-railway-stations-in-mumbai": "2026-09-25",
+      "pv-magazine-india.com/2026/09/25/india-added-50-6-gw-of-solar-module-and-9-7-gw-of-cell-manufacturing-capacity-in-1h-2026-says-mercom": "2026-09-25",
+      "pv-magazine-india.com/2026/09/25/waaree-clean-energy-solutions-enters-specialty-gases-business-plans-gujarat-plant-for-supply-to-semiconductor-and-solar-cell-manufacturers": "2026-09-25",
+      "pv-magazine.com/2026/09/25/china-and-u-s-module-prices-hold-ahead-of-golden-week-and-section-232-price-floors": "2026-09-25",
+      "mercomindia.com/us-solar-module-prices-jump-over-40-after-section-232-measures": "2026-09-25",
+      "pv-magazine-usa.com/2026/09/25/anza-expects-at-least-a-40-spike-in-solar-module-prices-after-section-232": "2026-09-25",
+      "pv-magazine-usa.com/2026/09/25/floating-solar-array-installed-on-ohio-village-reservoir": "2026-09-25",
+      "solarpowerworldonline.com/2026/09/illinois-solar-project-adapts-layout-to-train-tracks-wetland-and-existing-power-lines": "2026-09-25",
+      "solarpowerworldonline.com/2026/09/b2u-lges-partner-on-battery-repurposing-for-grid-scale-applications": "2026-09-25",
+      "energy-storage.news/nyserda-picks-eight-projects-for-new-york-utility-scale-energy-storage-programme": "2026-09-25"
+    },
+    "health": {
+      "pv magazine": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "PV Tech": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "Energy-Storage.news": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "Gramwzielone.pl": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "WysokieNapiecie.pl": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "pv magazine India": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "Mercom India": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "pv magazine USA": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "Solar Power World": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "Utility Dive": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      },
+      "EIA Today in Energy": {
+        "fails": 0,
+        "last_ok": "2026-09-25"
+      }
+    },
+    "alerts": {},
+    "model_seen": "gemini-3.1-flash-lite"
+  }
 }
