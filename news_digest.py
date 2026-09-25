@@ -22,6 +22,15 @@ CONFIG_PATH = ROOT / "feeds.yaml"
 OUT_DIR = ROOT / "public"
 STATE_PATH = ROOT / "state.json"
 
+# PV Tube (photovoltaics / energy storage / inverters) lives in PV/pv_tube.py.
+# Optional: if it can't load, the digest runs exactly as before.
+sys.path.insert(0, str(ROOT / "PV"))
+try:
+    from pv_tube import build_pv_tube
+except Exception as _e:
+    build_pv_tube = None
+    print(f"[pv] PV Tube disabled: {_e}", file=sys.stderr)
+
 STOPWORDS = set("""
 the a an and or but of to in on at for from with by as is are was were be been being
 this that these those it its into over under after before new says say said report
@@ -246,6 +255,8 @@ def call_gemini(prompt, cfg):
            f"{cfg['settings']['gemini_model']}:generateContent")
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}
+    if cfg["settings"]["gemini_model"].startswith("gemini-3"):
+        body["generationConfig"]["thinkingConfig"] = {"thinkingLevel": "minimal"}
     try:
         r = requests.post(url, params={"key": key}, json=body, timeout=120)
         r.raise_for_status()
@@ -254,12 +265,14 @@ def call_gemini(prompt, cfg):
         print(f"[llm] request failed, using raw summaries: {e}", file=sys.stderr)
         return None, 0, 0
     u = data.get("usageMetadata", {})
+    out_tok = u.get("candidatesTokenCount", 0) + u.get("thoughtsTokenCount", 0)   # thinking is billed too
     try:
-        parsed = json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
-        return parsed, u.get("promptTokenCount", 0), u.get("candidatesTokenCount", 0)
+        parts = data["candidates"][0]["content"]["parts"]
+        parsed = json.loads("".join(p.get("text", "") for p in parts if not p.get("thought")))
+        return parsed, u.get("promptTokenCount", 0), out_tok
     except Exception as e:
         print(f"[llm] bad JSON, using raw summaries: {e}", file=sys.stderr)
-        return None, u.get("promptTokenCount", 0), u.get("candidatesTokenCount", 0)
+        return None, u.get("promptTokenCount", 0), out_tok
 
 
 def summarize(stories, cfg, state):
@@ -329,6 +342,8 @@ def build_rss(stories, cfg, report, markets=None):
            f"<p>Spend this month: ${report['month_spent']:.4f} of ${report['cap']:.2f}"
            + (" — <strong>cap reached, AI paused</strong>." if report["over_budget"] else ".") + "</p>"
            f"<p>AI summaries: {'on' if report['ai_used'] else 'off (outlet text)'}.</p>")
+    if report.get("pv_line"):
+        rep += f"<p>{esc(report['pv_line'])}</p>"
     if markets:
         led = "; ".join(f"{r['name']}: {esc(r['rows'][0]['name'])} {esc(fmt_cap(r['rows'][0]['cap'], r['cur']))}"
                         for r in markets)
@@ -507,7 +522,7 @@ def build_markets_panel(markets):
             + "</div><p class='mnote'>* = last known value (live fetch failed)</p></details>")
 
 
-def build_html(stories, cfg, report, failures, markets=None):
+def build_html(stories, cfg, report, failures, markets=None, pv_html=""):
     s, now = cfg["settings"], datetime.now(timezone.utc)
     by_cat = {}
     for st in stories:
@@ -555,7 +570,7 @@ def build_html(stories, cfg, report, failures, markets=None):
 <style>{CSS}</style></head><body>
 <header><h1>{esc(s['site_title'])}</h1><p class="meta mono">{esc(meta)}</p>
 <p class="legend mono"><span class="k ok">■</span> corroborated (2+)&nbsp;&nbsp;<span class="k tw">■</span> trusted single&nbsp;&nbsp;<span class="k warn">■</span> single</p></header>
-<main>{build_markets_panel(markets)}{''.join(blocks)}{fail}</main></body></html>"""
+<main>{pv_html}{build_markets_panel(markets)}{''.join(blocks)}{fail}</main></body></html>"""
 
 
 # --------------------------------------------------------------------------- #
@@ -563,13 +578,35 @@ def main():
     cfg = load_config()
     state = load_state()
     if state.get("month") != current_month():
-        state = {"month": current_month(), "spent_usd": 0.0, "requests": 0}
+        state = {"month": current_month(), "spent_usd": 0.0, "requests": 0,
+                 "pv_tube": state.get("pv_tube", {})}          # keep PV Tube's "already shown" log
+
+    # ---- PV Tube: runs first so its stories aren't repeated below, shares the monthly cap ----
+    pv = None
+    if build_pv_tube and cfg.get("pv_tube", {}).get("enabled", False):
+        try:
+            left = 0.0 if cfg["settings"]["llm_provider"] == "none" else \
+                max(cfg["settings"]["monthly_cost_cap_usd"] - state["spent_usd"], 0.0)
+            pv = build_pv_tube(cfg, state=state, global_left_usd=left)
+            state["spent_usd"] = round(state["spent_usd"] + pv.cost_usd, 6)
+            if pv.cost_usd:
+                state["requests"] = state.get("requests", 0) + 1
+            print(f"[pv] {len(pv.digest_stories)} stories · run ${pv.cost_usd:.5f}")
+        except Exception as e:
+            pv = None
+            print(f"[pv] skipped: {e}", file=sys.stderr)
+
     items, failures = fetch_sources(cfg)
+    if pv:
+        items = [i for i in items if i["link"] not in pv.used_urls]
     print(f"[fetch] {len(items)} items, {len(failures)} feed failures")
     clusters = cluster_items(items, cfg["settings"]["cluster_similarity"])
     stories = rank_and_select(clusters, cfg)
     print(f"[rank] {len(clusters)} clusters -> {len(stories)} stories")
     report = summarize(stories, cfg, state)
+    if pv:
+        report["cost_this_run"] = round(report["cost_this_run"] + pv.cost_usd, 6)
+        report["pv_line"] = pv.report_line
     try:
         markets = fetch_market_caps(cfg, state)
         print(f"[markets] {sum(len(r['rows']) for r in markets)} tickers across {len(markets)} regions")
@@ -580,8 +617,11 @@ def main():
     print(f"[cost] run ${report['cost_this_run']:.5f} · month ${report['month_spent']:.4f}"
           f"/${report['cap']:.2f} · ai={report['ai_used']}")
     OUT_DIR.mkdir(exist_ok=True)
-    (OUT_DIR / "feed.xml").write_text(build_rss(stories, cfg, report, markets), encoding="utf-8")
-    (OUT_DIR / "index.html").write_text(build_html(stories, cfg, report, failures, markets), encoding="utf-8")
+    pv_stories = pv.digest_stories if pv else []
+    pv_html = pv.html if pv else ""
+    (OUT_DIR / "feed.xml").write_text(build_rss(pv_stories + stories, cfg, report, markets), encoding="utf-8")
+    (OUT_DIR / "index.html").write_text(build_html(stories, cfg, report, failures, markets, pv_html),
+                                        encoding="utf-8")
     print(f"[out] wrote {OUT_DIR/'feed.xml'} and {OUT_DIR/'index.html'}")
 
 
