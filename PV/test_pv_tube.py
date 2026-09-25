@@ -7,7 +7,7 @@ from email.utils import format_datetime
 import pytest
 import yaml
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # pv_tube.py sits next to this file (PV/)
 import pv_tube as pv  # noqa: E402
 
 NOW = datetime.now(timezone.utc)
@@ -63,14 +63,17 @@ class Resp:
 
 
 @pytest.fixture
-def cfg():
-    root = os.path.join(os.path.dirname(__file__), "..")
-    path = next(p for p in (os.path.join(root, "feeds.yaml"), os.path.join(root, "feeds.pv_tube.yaml"))
-                if os.path.exists(p) and "pv_tube" in (yaml.safe_load(open(p)) or {}))
-    c = yaml.safe_load(open(path))["pv_tube"]
-    c["sources"] = [s for s in c["sources"] if s["url"] in FEEDS] + [
+def full():
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")   # repo root, where feeds.yaml lives
+    c = yaml.safe_load(open(os.path.join(root, "feeds.yaml")))
+    c["pv_tube"]["sources"] = [s for s in c["pv_tube"]["sources"] if s["url"] in FEEDS] + [
         {"name": "Dead feed", "url": "https://dead.example/feed", "owner": "dead", "region": "EU", "trust_single": True}]
     return c
+
+
+@pytest.fixture
+def cfg(full):
+    return pv.resolve_config(full)
 
 
 def fake_get(url, **kw):
@@ -80,12 +83,17 @@ def fake_get(url, **kw):
 
 
 def make_post(response_builder, calls):
+    """Mimics the Gemini generateContent response (the digest's llm_provider)."""
     def fake_post(url, headers, json, timeout):
+        assert "generativelanguage.googleapis.com" in url and headers["x-goog-api-key"] == "k"
         calls.append(json)
-        prompt = json["messages"][0]["content"]
+        prompt = json["contents"][0]["parts"][0]["text"]
         ids = [l.split("id=")[1].strip() for l in prompt.splitlines() if l.startswith("STORY id=")]
-        return Resp(js={"content": [{"type": "text", "text": response_builder(ids, prompt)}],
-                        "usage": {"input_tokens": 3000, "output_tokens": 800}})
+        return Resp(js={"candidates": [{"content": {"parts": [{"text": response_builder(ids, prompt)}]},
+                                        "finishReason": "STOP"}],
+                        "usageMetadata": {"promptTokenCount": 3000, "candidatesTokenCount": 600,
+                                          "thoughtsTokenCount": 200},
+                        "modelVersion": "gemini-3.1-flash-lite"})
     return fake_post
 
 
@@ -113,13 +121,13 @@ def good_builder(ids, prompt):
     return "```json\n" + json.dumps(out) + "\n```"
 
 
-def test_full_run(cfg, tmp_path, monkeypatch):
+def test_full_run(full, cfg, tmp_path, monkeypatch):
     calls = []
     monkeypatch.setattr(pv.requests, "get", fake_get)
     monkeypatch.setattr(pv.requests, "post", make_post(good_builder, calls))
     monkeypatch.setattr(pv.time, "sleep", lambda s: None)
     state = tmp_path / "s.json"
-    r = pv.build_pv_tube(cfg, str(state), api_key="k")
+    r = pv.build_pv_tube(full, str(state), api_key="k")
     h = r.html
     assert len(calls) == 1                                           # one batched call
     assert "Sponsored" not in h and "sponsorowany" not in h           # shady filtered
@@ -134,67 +142,67 @@ def test_full_run(cfg, tmp_path, monkeypatch):
     assert h.index("🇪🇺 EU") < h.index("🌏 Asia") < h.index("🇺🇸 US")
     assert "Chinese module prices" in h.split("🌏 Asia")[1].split("🇺🇸 US")[0]
     assert "📊 official data" in h
-    assert r.cost_usd == pytest.approx((3000 * 1 + 800 * 5) / 1e6)
+    assert r.cost_usd == pytest.approx((3000 * cfg["price_in"] + 800 * cfg["price_out"]) / 1e6)  # thinking billed
     s = json.loads(state.read_text())
     assert s["health"]["Dead feed"]["fails"] == 1
 
     # same-day rerun: served from cache, zero AI calls, same stories
-    r2 = pv.build_pv_tube(cfg, str(state), api_key="k")
+    r2 = pv.build_pv_tube(full, str(state), api_key="k")
     assert len(calls) == 1 and r2.cost_usd == 0 and "Texas battery" in r2.html
 
 
-def test_next_day_no_repeats(cfg, tmp_path, monkeypatch):
+def test_next_day_no_repeats(full, tmp_path, monkeypatch):
     calls = []
     monkeypatch.setattr(pv.requests, "get", fake_get)
     monkeypatch.setattr(pv.requests, "post", make_post(good_builder, calls))
     state = tmp_path / "s.json"
-    pv.build_pv_tube(cfg, str(state), api_key="k")
+    pv.build_pv_tube(full, str(state), api_key="k")
     s = json.loads(state.read_text())
     s["shown"] = {k: "2000-01-01" for k in s["shown"]}                 # pretend shown on an earlier day
     state.write_text(json.dumps(s))
-    r = pv.build_pv_tube(cfg, str(state), api_key="k")
+    r = pv.build_pv_tube(full, str(state), api_key="k")
     assert "No new verified PV news" in r.html and "Texas battery" not in r.html
 
 
-def test_budget_guard_and_alert_once(cfg, tmp_path, monkeypatch, capsys):
+def test_budget_guard_and_alert_once(full, cfg, tmp_path, monkeypatch, capsys):
     calls = []
     monkeypatch.setattr(pv.requests, "get", fake_get)
     monkeypatch.setattr(pv.requests, "post", make_post(good_builder, calls))
     state = tmp_path / "s.json"
     month = datetime.now(pv.ZoneInfo("Europe/Warsaw")).strftime("%Y-%m")
-    state.write_text(json.dumps({"ledger": {month: 0.749}}))
-    r = pv.build_pv_tube(cfg, str(state), api_key="k")
+    state.write_text(json.dumps({"ledger": {month: cfg["monthly_cost_cap_usd"] - 0.0001}}))
+    r = pv.build_pv_tube(full, str(state), api_key="k")
     assert calls == [] and "📝" in r.html                              # no call, extractive
     out = capsys.readouterr().out
     assert out.count("80% of cap") == 1
-    pv.build_pv_tube(cfg, str(state), api_key="k")
+    pv.build_pv_tube(full, str(state), api_key="k")
     assert "80% of cap" not in capsys.readouterr().out                # deduplicated
 
 
-def test_api_failure_and_garbage_fall_back(cfg, tmp_path, monkeypatch):
+def test_api_failure_and_garbage_fall_back(full, tmp_path, monkeypatch):
     monkeypatch.setattr(pv.requests, "get", fake_get)
     monkeypatch.setattr(pv.time, "sleep", lambda s: None)
     monkeypatch.setattr(pv.requests, "post", lambda *a, **k: Resp(status=529, js={"error": "overloaded"}))
-    r = pv.build_pv_tube(cfg, str(tmp_path / "a.json"), api_key="k")
+    r = pv.build_pv_tube(full, str(tmp_path / "a.json"), api_key="k")
     assert "📝" in r.html and "unavailable" not in r.html
     monkeypatch.setattr(pv.requests, "post", make_post(lambda ids, p: "sorry, not JSON", []))
-    r = pv.build_pv_tube(cfg, str(tmp_path / "b.json"), api_key="k")
+    r = pv.build_pv_tube(full, str(tmp_path / "b.json"), api_key="k")
     assert "📝" in r.html
 
 
-def test_crash_isolated(cfg, tmp_path, monkeypatch):
+def test_crash_isolated(full, tmp_path, monkeypatch):
     monkeypatch.setattr(pv, "fetch_all", lambda *a: 1 / 0)
-    r = pv.build_pv_tube(cfg, str(tmp_path / "c.json"), api_key="k")
+    r = pv.build_pv_tube(full, str(tmp_path / "c.json"), api_key="k")
     assert "temporarily unavailable" in r.html
 
 
-def test_xss_escaped(cfg, tmp_path, monkeypatch):
+def test_xss_escaped(full, tmp_path, monkeypatch):
     evil = {"https://www.pv-magazine.com/feed/": rss([(
         "PV &amp;lt;script&amp;gt;alert(1)&amp;lt;/script&amp;gt; in Poland", "evil", 1,
         "Photovoltaic news in Poland. <img src=x onerror=alert(2)>", [])],
         "pv-magazine.com")}
     monkeypatch.setattr(pv.requests, "get", lambda url, **k: Resp(evil.get(url, b""), 200 if url in evil else 404))
-    r = pv.build_pv_tube(cfg, str(tmp_path / "x.json"), api_key=None)
+    r = pv.build_pv_tube(full, str(tmp_path / "x.json"), api_key=None)
     assert "<script" not in r.html and "<img" not in r.html and "PV Tube" in r.html
     assert "&lt;script&gt;" in r.html                                  # double-encoded payload shown as inert text
 
@@ -218,3 +226,18 @@ def test_regions(text, expected, cfg):
     ("Solar storm hits satellites", False), ("NPV of the deal", False), ("solar module prices", True)])
 def test_keywords(text, ok):
     assert pv.matches_keywords(text) is ok
+
+
+def test_inherits_digest_llm_settings(full):
+    c = pv.resolve_config(full)
+    assert c["provider"] == "gemini" and c["model"] == full["settings"]["gemini_model"]
+    assert c["api_key_env"] == "GEMINI_API_KEY"
+
+
+def test_model_swap_detected(full, tmp_path, monkeypatch):
+    monkeypatch.setattr(pv.requests, "get", fake_get)
+    monkeypatch.setattr(pv.requests, "post", make_post(good_builder, []))
+    state = tmp_path / "m.json"
+    state.write_text(json.dumps({"model_seen": "gemini-2.5-flash-lite"}))
+    r = pv.build_pv_tube(full, str(state), api_key="k")
+    assert any("MODEL CHANGED" in n for n in r.status["notes"])
