@@ -1,11 +1,11 @@
 {
   "month": "2026-09",
-  "spent_usd": 0.046669,
-  "requests": 29,
+  "spent_usd": 0.05156,
+  "requests": 31,
   "markets_cache": {},
   "pv_tube": {
     "ledger": {
-      "2026-09": 0.002829
+      "2026-09": 0.003725
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -122,6 +122,36 @@
         },
         "mode": "ai",
         "date": "2026-09-25"
+      },
+      "a6180039e12e4c2b": {
+        "summary": {
+          "title": "Websol secures land for 4GW solar manufacturing plant in West Bengal",
+          "main_point": "Websol Energy System has acquired land to build a 4GW solar cell and module manufacturing facility in West Bengal, India.",
+          "bullets": [
+            "India added 50.6 GW of solar module and 9.7 GW of cell manufacturing capacity in the first half of 2026.",
+            "Cumulative solar manufacturing capacity in India reached 261.7 GW for modules and 36.6 GW for cells as of June 2026.",
+            "As of the report's release, 225.5 GW of module capacity and nearly 35.5 GW of cell capacity were under the Approved List of Models and Manufacturers.",
+            "Domestic cell shortages are identified as a significant challenge, causing production struggles for module manufacturers."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
+      },
+      "4c838bd0de149d25": {
+        "summary": {
+          "title": "Solar irradiance patterns across India during the 2026 monsoon season",
+          "main_point": "Solar irradiance in northwestern and southern India was above average during the 2026 summer monsoon, while eastern and central regions experienced reductions due to August storms.",
+          "bullets": [
+            "Irradiance in sunnier regions was approximately 5% above the long-term average for the early June to September period.",
+            "August irradiance levels in these areas reached up to 10% above the long-term average.",
+            "The majority of India's utility-scale PV capacity is located in regions that experienced favourable irradiance conditions.",
+            "Weaker monsoon effects are consistent with a strong El Ni\u00f1o that developed throughout 2027."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-25"
       }
     },
     "shown": {
@@ -137,7 +167,10 @@
       "pv-magazine-usa.com/2026/09/25/floating-solar-array-installed-on-ohio-village-reservoir": "2026-09-25",
       "solarpowerworldonline.com/2026/09/illinois-solar-project-adapts-layout-to-train-tracks-wetland-and-existing-power-lines": "2026-09-25",
       "solarpowerworldonline.com/2026/09/b2u-lges-partner-on-battery-repurposing-for-grid-scale-applications": "2026-09-25",
-      "energy-storage.news/nyserda-picks-eight-projects-for-new-york-utility-scale-energy-storage-programme": "2026-09-25"
+      "energy-storage.news/nyserda-picks-eight-projects-for-new-york-utility-scale-energy-storage-programme": "2026-09-25",
+      "pv-tech.org/websol-secures-land-for-4gw-solar-cell-module-manufacturing-plant-in-west-bengal": "2026-09-25",
+      "pv-magazine.com/2026/09/25/india-added-50-6-gw-of-solar-module-and-9-7-gw-of-cell-manufacturing-capacity-in-1h-2026-says-mercom": "2026-09-25",
+      "pv-magazine.com/2026/09/25/weaker-monsoon-lifts-irradiance-in-western-india-as-august-storms-dim-the-east": "2026-09-25"
     },
     "health": {
       "pv magazine": {
