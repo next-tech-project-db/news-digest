@@ -1,11 +1,11 @@
 {
   "month": "2026-09",
-  "spent_usd": 0.061996,
-  "requests": 34,
+  "spent_usd": 0.068513,
+  "requests": 36,
   "markets_cache": {},
   "pv_tube": {
     "ledger": {
-      "2026-09": 0.006157
+      "2026-09": 0.00869
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -264,6 +264,119 @@
         },
         "mode": "extractive",
         "date": "2026-09-26"
+      },
+      "c2c7006fe36970ef": {
+        "summary": {
+          "title": "Low Carbon plans to build 500MW UK solar-plus-storage project",
+          "main_point": "UK renewables developer Low Carbon has announced plans for a 500MW solar PV project in Oxfordshire.",
+          "bullets": [
+            "The project is located in the county of Oxfordshire."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "55113adb36bba48e": {
+        "summary": {
+          "title": "Italy raises Macse energy storage auction premium cap",
+          "main_point": "Italy's energy regulator Arera has increased the maximum premium cap for the upcoming Macse energy storage auction to \u20ac27,000 per MWh.",
+          "bullets": [
+            "The cap was raised from \u20ac22,000 to \u20ac27,000 per MWh under resolution 332/2026.",
+            "The auction applies to a 2029 delivery year and provides a 15-year fixed premium."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "c363a4f376e20d34": {
+        "summary": {
+          "title": "Longi sets 28.29% world record for single-junction silicon solar cell efficiency",
+          "main_point": "Longi has achieved a new world record of 28.29% efficiency for a hybrid interdigitated-back-contact silicon solar cell.",
+          "bullets": [
+            "The result was verified by Germany\u2019s Institute for Solar Energy Research Hamelin.",
+            "This surpasses the company's previous record of 28.13% achieved in May."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "a35343983e4aeb47": {
+        "summary": {
+          "title": "India expected to commission 45-50 GWh of BESS capacity by fiscal 2028",
+          "main_point": "Crisil Ratings projects that India will commission 45-50 GWh of battery energy storage system capacity across fiscals 2027 and 2028.",
+          "bullets": [
+            "Around 8-9 GWh of awarded capacity faces delay risks due to weak returns and limited developer experience.",
+            "SECI has separately listed 7.67 GW of renewable energy and storage capacity for sale (Mercom India)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "ad1401686720519e": {
+        "summary": {
+          "title": "CERC allows project more time for 38 MW infirm solar power injection",
+          "main_point": "The Central Electricity Regulatory Commission granted a solar generator 45 additional days to inject infirm power for a 38.1 MW portion of its project.",
+          "bullets": [
+            "The extension applies to the balance 38.1 MW capacity of a 250 MW solar project located in Barmer, Rajasthan."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "83223aa214b0067f": {
+        "summary": {
+          "title": "SECI invites proposals to prepare DPRs for green hydrogen hubs",
+          "main_point": "The Solar Energy Corporation of India is seeking agencies to prepare detailed project reports for green hydrogen hubs.",
+          "bullets": [
+            "The initiative falls under Component B1 of the National Green Hydrogen Mission."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "dd65eb8d5922c1d4": {
+        "summary": {
+          "title": "U.S. government restricts pre-tariff solar stockpiling ahead of December 4 deadline",
+          "main_point": "The U.S. Department of Commerce has implemented emergency rules to limit solar supply chain imports before new tariffs take effect.",
+          "bullets": [
+            "The rule imposes monitoring and volume caps on polysilicon, wafers, cells, and modules.",
+            "A 15% tariff and minimum import prices will apply to shipments starting December 4."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "fefae27fa195a86d": {
+        "summary": {
+          "title": "Why solar contractors should reconsider multi-tenant commercial projects",
+          "main_point": "Solar contractors are encouraged to reconsider multi-tenant commercial projects despite their reputation for complexity.",
+          "bullets": [
+            "Installers often avoid multi-tenant properties due to time-consuming pipelines and project management challenges."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
+      },
+      "d9f8352e63c9518c": {
+        "summary": {
+          "title": "Twenty-two U.S. solar PV manufacturers included in first domestic ratings pyramid",
+          "main_point": "Terawatt PV Research has released a ratings pyramid ranking 22 U.S. solar manufacturers based on production volume and capital expenditure.",
+          "bullets": [
+            "First Solar is the only company to receive a AAA rating.",
+            "Six companies in total are rated A or above."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-28"
       }
     },
     "shown": {
@@ -295,52 +408,67 @@
       "pv-magazine.com/2026/09/26/anza-expects-at-least-a-40-spike-in-solar-module-prices-after-section-232": "2026-09-26",
       "solarpowerworldonline.com/2026/09/power-electronics-building-40-gw-manufacturing-campus-in-houston": "2026-09-26",
       "energy-storage.news/us-power-conversion-manufacturers-in-spotlight-power-electronics-builds-houston-factory-heron-power-lands-rwe-pilot": "2026-09-26",
-      "pv-tech.org/best-of-the-week-irena-us-module-prices-abu-dhabi": "2026-09-26"
+      "pv-tech.org/best-of-the-week-irena-us-module-prices-abu-dhabi": "2026-09-26",
+      "pv-tech.org/low-carbon-plans-500mw-uk-solar-plus-storage-project": "2026-09-28",
+      "pv-magazine.com/2026/09/28/key-takeaways-from-solar-storage-live-uk-birmingham": "2026-09-28",
+      "pv-magazine.com/2026/09/28/italy-raises-macse-energy-storage-auction-premium-cap-from-e22000-to-e27000-mwh": "2026-09-28",
+      "pv-magazine-usa.com/2026/09/28/longi-sets-28-29-world-record-for-single-junction-silicon-solar-cell-efficiency": "2026-09-28",
+      "pv-magazine-india.com/2026/09/28/india-likely-to-commission-45-50-gwh-of-bess-capacity-in-fiscals-2027-and-2028-crisil": "2026-09-28",
+      "mercomindia.com/seci-seeks-offtakers-for-7-67-gw-of-renewable-energy-and-storage-capacity": "2026-09-28",
+      "pv-magazine-india.com/2026/09/28/weaker-monsoon-lifts-irradiance-in-western-india-as-august-storms-dim-the-east": "2026-09-28",
+      "mercomindia.com/cerc-allows-project-more-time-for-38-mw-infirm-solar-power-injection": "2026-09-28",
+      "mercomindia.com/seci-invites-proposals-to-prepare-dprs-for-green-hydrogen-hubs": "2026-09-28",
+      "pv-magazine.com/2026/09/28/commerce-restricts-pre-tariff-solar-stockpiling-ahead-of-december-4-deadline": "2026-09-28",
+      "pv-magazine-usa.com/2026/09/28/commerce-restricts-pre-tariff-solar-stockpiling-ahead-of-december-4-deadline": "2026-09-28",
+      "pv-magazine-india.com/2026/09/28/anza-expects-at-least-a-40-spike-in-u-s-solar-module-prices-after-section-232": "2026-09-28",
+      "solarpowerworldonline.com/2026/09/why-solar-contractors-should-reconsider-multi-tenant-commercial-projects": "2026-09-28",
+      "pv-magazine-usa.com/2026/09/28/twenty-two-u-s-solar-pv-manufacturers-included-in-first-domestic-ratings-pyramid": "2026-09-28"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "Energy-Storage.news": {
-        "fails": 0,
-        "last_ok": "2026-09-27"
+        "fails": 1,
+        "last_ok": "2026-09-27",
+        "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.energy-storage.news/feed/"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-09-27"
+        "last_ok": "2026-09-28"
       }
     },
     "alerts": {},
