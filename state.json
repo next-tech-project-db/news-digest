@@ -1,11 +1,11 @@
 {
   "month": "2026-09",
-  "spent_usd": 0.068513,
-  "requests": 36,
+  "spent_usd": 0.075085,
+  "requests": 38,
   "markets_cache": {},
   "pv_tube": {
     "ledger": {
-      "2026-09": 0.00869
+      "2026-09": 0.011359
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -377,6 +377,123 @@
         },
         "mode": "ai",
         "date": "2026-09-28"
+      },
+      "c292495805052a28": {
+        "summary": {
+          "title": "Germany wraps up solar-plus-storage tender with average price of \u20ac0.0514/kWh",
+          "main_point": "Germany concluded a tender for innovative renewable energy projects, awarding 480 MW of solar-plus-storage capacity at an average price of \u20ac0.0514/kWh.",
+          "bullets": [
+            "The tender attracted 53 bids for a total of 678 MW, with 32 projects selected.",
+            "Awarded tariffs ranged from \u20ac0.0450/kWh to \u20ac0.0540/kWh.",
+            "Bavaria secured the most capacity at 177 MW, followed by Brandenburg with 94 MW and North Rhine-Westphalia with 48 MW.",
+            "A previous tender in June awarded 482 MW across 29 projects with an average price of \u20ac0.0534/kWh."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "058c4286e989b693": {
+        "summary": {
+          "title": "SMA battery inverter first to win grid-forming certification for German inertia market",
+          "main_point": "SMA Solar Technology has received the first certification for a battery inverter capable of providing inertia to the German grid.",
+          "bullets": [
+            "The certification confirms the inverter's capability to support grid stability through inertia."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "800fee3a4a1de6f6": {
+        "summary": {
+          "title": "Neoen starts construction on 122MW solar PV portfolio in France",
+          "main_point": "French independent power producer Neoen has begun construction on a 122MW solar PV portfolio in France, which includes agriPV and floating PV projects.",
+          "bullets": [
+            "The portfolio consists of 122MW of solar capacity."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "7222794e4b0f9cff": {
+        "summary": {
+          "title": "Bilayer transparent conductive film for electrostatic dust removal achieves 96.36% cleaning rate",
+          "main_point": "Researchers in China developed a bilayer film using carbon nanotubes and magnesium fluoride that achieves a 96.36% dust removal rate on solar panels.",
+          "bullets": [
+            "The film combines single-walled carbon nanotubes for conductivity with a magnesium fluoride layer to smooth the surface and improve dust removal.",
+            "The study examined the impact of magnesium fluoride layer thickness on the optical and electrical properties of the films."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "c39c68d178dcd78c": {
+        "summary": {
+          "title": "Heterojunction solar cell based on molybdenum oxide achieves 24.9% efficiency",
+          "main_point": "Researchers from Beijing University of Technology developed a silicon heterojunction solar cell with 24.9% efficiency using a molybdenum oxide hole transport layer.",
+          "bullets": [
+            "The cell incorporates an approximately 1-nm-thick phosphomolybdic acid interlayer to improve stability and efficiency.",
+            "The design aims to reduce reliance on conventional p-type doped silicon hole-selective contacts."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "c78fd58b94224423": {
+        "summary": {
+          "title": "China and U.S. module prices hold ahead of Golden Week",
+          "main_point": "Mainstream TOPCon module prices in China remained stable at $0.108/W as market activity slowed ahead of the Golden Week holiday.",
+          "bullets": [
+            "Market participants are hesitant to commit to transactions due to uncertainty regarding future price directions.",
+            "Weak domestic installation demand has continued to exert pressure on module prices."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "5653496fd203408d": {
+        "summary": {
+          "title": "Anti-stockpiling rules critical ahead of Section 232 tariffs",
+          "main_point": "The US solar industry is addressing new limits on polysilicon imports in anticipation of upcoming Section 232 rules.",
+          "bullets": [
+            "Industry stakeholders view the anti-stockpiling measures as critical ahead of the implementation of new tariffs."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "0626415e15fc0b24": {
+        "summary": {
+          "title": "Decommissioning to drive 23% of solar buildout in the 2040s",
+          "main_point": "Wood Mackenzie forecasts that repowering decommissioned solar and wind projects will account for a significant portion of future installations as global assets reach their end of life.",
+          "bullets": [
+            "More than 2.5 TW of solar and wind projects are expected to reach the end of their design life by 2040.",
+            "Solar is expected to have a larger ageing fleet than wind by 2040."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
+      },
+      "b0717c84a30d0398": {
+        "summary": {
+          "title": "Renewable Properties acquires 71.8 MW Pennsylvania solar portfolio from Prospect14",
+          "main_point": "Renewable Properties acquired three solar projects totaling 71.8 MWdc in Pennsylvania from developer Prospect14.",
+          "bullets": [
+            "The portfolio includes a 26 MWdc project, a 27 MWdc project, and an 18.8 MWdc project.",
+            "This acquisition marks the company's entry into the PJM wholesale market.",
+            "The companies previously completed a deal in August 2025 for 38.13 MWdc of net metered projects."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-29"
       }
     },
     "shown": {
@@ -422,53 +539,62 @@
       "pv-magazine-usa.com/2026/09/28/commerce-restricts-pre-tariff-solar-stockpiling-ahead-of-december-4-deadline": "2026-09-28",
       "pv-magazine-india.com/2026/09/28/anza-expects-at-least-a-40-spike-in-u-s-solar-module-prices-after-section-232": "2026-09-28",
       "solarpowerworldonline.com/2026/09/why-solar-contractors-should-reconsider-multi-tenant-commercial-projects": "2026-09-28",
-      "pv-magazine-usa.com/2026/09/28/twenty-two-u-s-solar-pv-manufacturers-included-in-first-domestic-ratings-pyramid": "2026-09-28"
+      "pv-magazine-usa.com/2026/09/28/twenty-two-u-s-solar-pv-manufacturers-included-in-first-domestic-ratings-pyramid": "2026-09-28",
+      "pv-magazine.com/2026/09/29/germany-wraps-up-solar-plus-storage-tender-with-average-price-of-e0-0514-kwh": "2026-09-29",
+      "energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market": "2026-09-29",
+      "pv-tech.org/neoen-starts-construction-on-122mw-solar-pv-portfolio-in-france-including-agripv-and-fpv": "2026-09-29",
+      "pv-magazine.com/2026/09/29/bilayer-transparent-conductive-film-for-electrostatic-dust-removal-achieves-96-36-cleaning-rate-on-pv-panels": "2026-09-29",
+      "pv-magazine.com/2026/09/29/heterojunction-solar-cell-based-on-molybdenum-oxide-achieves-24-9-efficiency": "2026-09-29",
+      "pv-magazine-usa.com/2026/09/29/china-and-u-s-module-prices-hold-ahead-of-golden-week-and-section-232-price-floors": "2026-09-29",
+      "pv-tech.org/anti-stockpiling-rules-critical-section-232-tariffs-polysilicon-imports-us": "2026-09-29",
+      "pv-magazine-usa.com/2026/09/29/decommissioning-to-drive-23-of-solar-buildout-in-the-2040s-says-wood-mackenzie": "2026-09-29",
+      "pv-magazine-usa.com/2026/09/29/renewable-properties-acquires-71-8-mw-pennsylvania-solar-portfolio-from-prospect14": "2026-09-29",
+      "pv-magazine-usa.com/2026/09/28/toyo-lines-up-announcements-in-anticipation-of-texas-factory-ribbon-cutting": "2026-09-29"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "Energy-Storage.news": {
-        "fails": 1,
-        "last_ok": "2026-09-27",
-        "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.energy-storage.news/feed/"
+        "fails": 0,
+        "last_ok": "2026-09-29"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-09-28"
+        "last_ok": "2026-09-29"
       }
     },
     "alerts": {},
