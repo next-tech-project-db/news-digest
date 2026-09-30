@@ -1,11 +1,11 @@
 {
   "month": "2026-09",
-  "spent_usd": 0.075085,
-  "requests": 38,
+  "spent_usd": 0.082416,
+  "requests": 40,
   "markets_cache": {},
   "pv_tube": {
     "ledger": {
-      "2026-09": 0.011359
+      "2026-09": 0.01426
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -494,6 +494,127 @@
         },
         "mode": "ai",
         "date": "2026-09-29"
+      },
+      "9492659db67ad24b": {
+        "summary": {
+          "title": "Rezolv Energy secures financing for 1.3 GWp solar project in Romania",
+          "main_point": "Rezolv Energy has secured up to \u20ac561 million in financing for the 1.3 GWp Dama Solar project in Romania.",
+          "bullets": [
+            "The financing package is valued at \u20ac561 million (PV Tech) or up to \u20ac561 million ($637.3 million) (pv magazine).",
+            "The project is expected to generate approximately 1.8 TWh of electricity annually.",
+            "The facility will be located in Arad county and is intended to cover the consumption of over 280,000 households."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "0e023dab1d63f281": {
+        "summary": {
+          "title": "Over Easy Solar releases 256 W vertical rooftop PV unit",
+          "main_point": "Over Easy Solar has launched the xM-3 Quattor-256S, a 256 W bifacial vertical PV unit for flat rooftops.",
+          "bullets": [
+            "The company received an Environmental Product Declaration for its xM-3 flat-roof system, covering both panels and mounting structure.",
+            "The system's A1-A3 footprint is 51.5 kg CO\u2082e/m\u00b2.",
+            "The global warming footprint for energy generation is 19 g CO\u2082e/kWh, based on a yield of 1,000 kWh/kW."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "9f44aa971a338950": {
+        "summary": {
+          "title": "Belgium reports results of 2024 PV cable inspection campaign",
+          "main_point": "Belgium's Federal Public Service Economy tested PV cables from 10 manufacturers to verify performance compliance.",
+          "bullets": [
+            "The campaign aimed to verify compliance with Regulation (EU) No. 305/2011 and prevent unfair competition.",
+            "Testing was conducted by the Scientific Institute of Public Service using laboratory analysis of collected samples.",
+            "The assessment included cables with a cross-section of 4 mm\u00b2."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "a09a77be5b54f818": {
+        "summary": {
+          "title": "Global solar capacity additions reached 690 GW in 2025",
+          "main_point": "Global solar installations grew by 15% in 2025 to reach 690 GW, according to IEA-PVPS.",
+          "bullets": [
+            "Cumulative global solar capacity reached 2.96 TW by the end of 2025.",
+            "China led global installations with 415 GW, followed by India (54 GW), the United States (43 GW), Germany (18 GW), and Pakistan (14 GW).",
+            "India's industrial sector accounted for the second-highest share of its 3.8 GW rooftop solar additions in the second quarter of 2026 (Mercom India)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "5eb3d842c5128b0d": {
+        "summary": {
+          "title": "Fox ESS launches modular C&I battery storage system",
+          "main_point": "Fox ESS has introduced the Power Beast modular storage system, which can scale up to 96 MWh.",
+          "bullets": [
+            "The system is scalable from 28 kWh to nearly 1,000 kWh on a single inverter.",
+            "Maximum on-grid configuration allows for 96 MWh, while off-grid is limited to 28.8 MWh.",
+            "The system utilizes 125 kW H3 Plus hybrid inverters and CQ series high-voltage batteries."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "c1403c3e3fad6877": {
+        "summary": {
+          "title": "TrueRE Oriana Power sells 110 MWp solar portfolio to Actis",
+          "main_point": "TrueRE Oriana Power has sold a 110 MWp C&I solar portfolio to Actis for an enterprise value of INR 501 crore.",
+          "bullets": [
+            "The sale is part of a larger proposed divestment of 238 MW of operational solar assets.",
+            "The company transferred its stake in Truere Guj SPV Pvt Ltd and Truere Current Pvt Ltd."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "012c9717dfd8c19c": {
+        "summary": {
+          "title": "Heliene launches new rooftop solar module",
+          "main_point": "Heliene has introduced an all-black solar module for the US rooftop market and secured a supply agreement with Sunrun.",
+          "bullets": [
+            "The new module is designed specifically for the rooftop solar sector.",
+            "The company has entered into a supply agreement with Sunrun."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "025ef75fff5ac666": {
+        "summary": {
+          "title": "Exus acquires 715 MWp solar portfolio in the US",
+          "main_point": "Exus Renewables North America has purchased a four-project solar portfolio totaling 715 MWp from ibV Energy Partners.",
+          "bullets": [
+            "The acquisition consists of four separate solar projects."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
+      },
+      "35aa712c6cabf19b": {
+        "summary": {
+          "title": "150 MW Three W Solar project completed in Texas",
+          "main_point": "Black & Veatch has completed the 150 MW Three W Solar project in Hillsboro, Texas, for Mitsui & Co.",
+          "bullets": [
+            "The project has achieved substantial completion.",
+            "The facility has received approval from ERCOT."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-09-30"
       }
     },
     "shown": {
@@ -549,52 +670,68 @@
       "pv-tech.org/anti-stockpiling-rules-critical-section-232-tariffs-polysilicon-imports-us": "2026-09-29",
       "pv-magazine-usa.com/2026/09/29/decommissioning-to-drive-23-of-solar-buildout-in-the-2040s-says-wood-mackenzie": "2026-09-29",
       "pv-magazine-usa.com/2026/09/29/renewable-properties-acquires-71-8-mw-pennsylvania-solar-portfolio-from-prospect14": "2026-09-29",
-      "pv-magazine-usa.com/2026/09/28/toyo-lines-up-announcements-in-anticipation-of-texas-factory-ribbon-cutting": "2026-09-29"
+      "pv-magazine-usa.com/2026/09/28/toyo-lines-up-announcements-in-anticipation-of-texas-factory-ribbon-cutting": "2026-09-29",
+      "pv-tech.org/rezolv-energy-secures-e561-million-financing-for-europes-largest-solar-pv-plant": "2026-09-30",
+      "pv-magazine.com/2026/09/30/eus-largest-solar-project-reaches-financial-close": "2026-09-30",
+      "pv-magazine.com/2026/09/30/over-easy-solar-launches-256-w-vertical-rooftop-pv-unit": "2026-09-30",
+      "pv-magazine.com/2026/09/30/belgium-reveals-results-of-pv-cable-assessment": "2026-09-30",
+      "mercomindia.com/kanpur-plywood-factory-hopes-to-save-big-on-power-bills-with-rooftop-solar": "2026-09-30",
+      "pv-magazine-india.com/2026/09/29/global-solar-additions-hit-690-gw-in-2025": "2026-09-30",
+      "pv-magazine.com/2026/09/30/fox-ess-launches-modular-ci-battery-system-scalable-to-96-mwh": "2026-09-30",
+      "pv-magazine-india.com/2026/09/29/solaryaan-launches-all-in-one-battery-inverter-solution-in-vietnam": "2026-09-30",
+      "pv-magazine-india.com/2026/09/30/truere-oriana-power-sells-110-mwp-ci-solar-portfolio-to-actis": "2026-09-30",
+      "solarpowerworldonline.com/2026/09/how-a-solar-racking-company-made-electrical-bonding-easier": "2026-09-30",
+      "solarpowerworldonline.com/2026/09/aurora-solar-launches-quarterly-report-analyzing-homeowner-trust-in-the-industry": "2026-09-30",
+      "pv-tech.org/heliene-launches-new-solar-rooftop-module-secures-supply-agreement-with-sunrun": "2026-09-30",
+      "solarpowerworldonline.com/2026/09/heliene-produces-fully-american-solar-panel-for-residential-market": "2026-09-30",
+      "pv-tech.org/exus-acquires-715mwp-solar-portfolio-from-ibv-energy-partners-in-the-us": "2026-09-30",
+      "pv-tech.org/apex-clean-energy-sells-minority-stake-in-339mw-us-solar-wind-portfolio": "2026-09-30",
+      "solarpowerworldonline.com/2026/09/three-w-solar-project-comes-online-in-texas": "2026-09-30"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-09-29"
+        "last_ok": "2026-09-30"
       }
     },
     "alerts": {},
