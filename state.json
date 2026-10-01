@@ -1,11 +1,11 @@
 {
-  "month": "2026-09",
-  "spent_usd": 0.082416,
-  "requests": 40,
-  "markets_cache": {},
+  "month": "2026-10",
+  "spent_usd": 0.007229,
+  "requests": 2,
   "pv_tube": {
     "ledger": {
-      "2026-09": 0.01426
+      "2026-09": 0.01426,
+      "2026-10": 0.002836
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -615,6 +615,118 @@
         },
         "mode": "ai",
         "date": "2026-09-30"
+      },
+      "09b588bb577dac04": {
+        "summary": {
+          "title": "X-Elio starts commercial operations at 368MW Spanish solar PV project",
+          "main_point": "X-Elio has commenced commercial operations at its 368MW Lorca Solar project in Spain.",
+          "bullets": [
+            "The Lorca Solar project is X-Elio's largest solar PV project in Spain."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "720e1b1438325a76": {
+        "summary": {
+          "title": "Spanish researchers validate 10,000 cycles for iron-lead flow battery",
+          "main_point": "CIC energiGUNE has successfully tested an iron-lead redox flow battery for 10,000 charge-discharge cycles.",
+          "bullets": [
+            "The battery design uses abundant materials and a fluorine-free membrane to reduce internal resistance.",
+            "The technology is intended for stationary applications requiring several hours of storage."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "b8d20add22df46f9": {
+        "summary": {
+          "title": "Ireland energizes first SRESS solar farm",
+          "main_point": "The 650 kW Meadhill Solar farm in County Cork is the first project energized under Ireland's Small-Scale Renewable Energy Support Scheme.",
+          "bullets": [
+            "The project generates enough energy to power approximately 150 homes.",
+            "The developer has signed a 15-year power purchase agreement with Flogas."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "7eceea3f9387d66d": {
+        "summary": {
+          "title": "South Korea grid overhaul to connect more than 100 GW of renewables",
+          "main_point": "South Korea's Ministry of Climate, Energy and Environment is lifting renewable energy connection restrictions in the Honam and Chungcheong regions.",
+          "bullets": [
+            "Restrictions on the east coast are scheduled to be lifted in the first half of 2027.",
+            "A new flexible connection regime will allow projects to connect beyond normal hosting limits, subject to curtailment."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "d132358ddc0a39ae": {
+        "summary": {
+          "title": "Assam DISCOM invites bids to install solar projects and solar trees",
+          "main_point": "The Assam Power Distribution Company has issued a tender for 950 kW of solar projects and five 10 kW solar trees.",
+          "bullets": [
+            "The installation is planned for Mahapurush Srimanta Sankardev Avirbhav Kshetra in the Nagaon district."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "f499d3a271e8d35d": {
+        "summary": {
+          "title": "ACME Solar commissions additional 107.36 MW/437.49 MWh of BESS capacity",
+          "main_point": "ACME Solar has added 107.36 MW/437.49 MWh of battery energy storage capacity in Rajasthan, bringing its total operational capacity to 4.96 GWh.",
+          "bullets": [
+            "The new capacity includes a 53.73 MW/222.969 MWh project and a 53.63 MW/214.52 MWh project.",
+            "The firm and dispatchable renewable energy project has a 25-year power purchase agreement."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "1470d04bbec256be": {
+        "summary": {
+          "title": "Heliene launches new solar rooftop module",
+          "main_point": "Heliene has introduced an all-black solar module for the US rooftop market and secured a supply agreement with Sunrun.",
+          "bullets": [
+            "The module is designed specifically for residential rooftop applications."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "e2748b8976ce453f": {
+        "summary": {
+          "title": "Overview Energy to develop homing beacon for space-based solar transmission",
+          "main_point": "Overview Energy has received a Department of War contract to develop a homing beacon for space-based solar energy systems.",
+          "bullets": [
+            "The beacons are designed to authenticate connections between satellites and ground receiving sites to prevent signal spoofing."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
+      },
+      "098da8966cd4d85a": {
+        "summary": {
+          "title": "California governor signs bills approving virtual power plants",
+          "main_point": "Governor Gavin Newsom signed SB 913 and SB 905, authorizing the implementation of virtual power plants across California.",
+          "bullets": [
+            "The legislation aims to reduce electricity bills by utilizing home and business energy equipment."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-01"
       }
     },
     "shown": {
@@ -686,55 +798,74 @@
       "solarpowerworldonline.com/2026/09/heliene-produces-fully-american-solar-panel-for-residential-market": "2026-09-30",
       "pv-tech.org/exus-acquires-715mwp-solar-portfolio-from-ibv-energy-partners-in-the-us": "2026-09-30",
       "pv-tech.org/apex-clean-energy-sells-minority-stake-in-339mw-us-solar-wind-portfolio": "2026-09-30",
-      "solarpowerworldonline.com/2026/09/three-w-solar-project-comes-online-in-texas": "2026-09-30"
+      "solarpowerworldonline.com/2026/09/three-w-solar-project-comes-online-in-texas": "2026-09-30",
+      "pv-tech.org/x-elio-starts-commercial-operations-368mw-spanish-solar-pv-project": "2026-10-01",
+      "pv-tech.org/cox-secures-financing-for-75-2mw-solar-project-in-guatemala": "2026-10-01",
+      "pv-magazine.com/2026/10/01/spanish-researchers-validate-10000-cycles-for-iron-lead-flow-battery": "2026-10-01",
+      "pv-magazine.com/2026/10/01/ireland-energizes-first-sress-solar-farm-opening-new-revenue-opportunities-for-farmers-and-landowners": "2026-10-01",
+      "pv-magazine.com/2026/10/01/south-korea-grid-overhaul-to-connect-more-than-100-gw-of-renewables": "2026-10-01",
+      "pv-magazine-india.com/2026/10/01/actis-launches-leo-energies-with-3-gw-renewables-and-storage-target-in-india": "2026-10-01",
+      "pv-tech.org/actis-launches-indian-renewable-energy-platform-3gw-of-capacity": "2026-10-01",
+      "mercomindia.com/assam-discom-invites-bids-to-install-solar-projects-and-solar-trees": "2026-10-01",
+      "pv-magazine-india.com/2026/10/01/the-new-role-of-solar-epcs-from-project-installers-to-long-term-energy-partners": "2026-10-01",
+      "mercomindia.com/solar-firms-build-bess-capacity-for-next-growth-phase-interview": "2026-10-01",
+      "pv-magazine-india.com/2026/10/01/acme-solar-commissions-additional-107-36-mw-437-49-mwh-of-bess-capacity-in-rajasthan": "2026-10-01",
+      "pv-magazine-india.com/2026/09/30/juniper-green-energy-commissions-additional-100-mwh-bess-capacity-at-bikaner": "2026-10-01",
+      "solarpowerworldonline.com/2026/10/microinverter-manufacturers-anticipate-a-growing-balcony-solar-market": "2026-10-01",
+      "solarpowerworldonline.com/2026/09/sisters-of-mercy-solar-installation-opens-nc-city-to-more-approved-ground-mounts": "2026-10-01",
+      "solarpowerworldonline.com/2026/09/orsted-solar-project-to-also-help-restore-new-mexico-wetlands": "2026-10-01",
+      "solarpowerworldonline.com/2026/09/ftc-solar-hitachi-energy-linxon-collaborate-on-pv-project-service": "2026-10-01",
+      "pv-magazine-usa.com/2026/09/30/overview-energy-to-develop-homing-beacon-for-space-based-solar-transmission": "2026-10-01",
+      "solarpowerworldonline.com/2026/10/california-governor-signs-bills-approving-virtual-power-plants": "2026-10-01"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-09-30"
+        "last_ok": "2026-10-01"
       }
     },
     "alerts": {},
     "model_seen": "gemini-3.1-flash-lite"
-  }
+  },
+  "markets_cache": {}
 }
