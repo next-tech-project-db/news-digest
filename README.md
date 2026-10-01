@@ -49,7 +49,7 @@ Routing is driven by the `interests` keyword lists in `feeds.yaml` — edit them
 This is a credibility-filtered, corroboration-scored briefing, not a truth oracle.
 Health sourcing + corroboration is the best available proxy for "well-studied," but it
 can't guarantee a paper is correct. A live "top companies by market cap" ranking is
-reference data, not news — it needs a finance API, not RSS (ask to add it if you want it).
+reference data, not news — it needs a finance API, not RSS.
 
 ## Markets panel (top companies by market cap)
 A compact ranked panel renders at the top of `index.html`, three regions side by side:
