@@ -1,11 +1,11 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.007229,
-  "requests": 2,
+  "spent_usd": 0.013847,
+  "requests": 4,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.002836
+      "2026-10": 0.005356
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -727,6 +727,117 @@
         },
         "mode": "ai",
         "date": "2026-10-01"
+      },
+      "59a232fa21190d02": {
+        "summary": {
+          "title": "German startup wins grant for grid-charging sodium-ion home battery",
+          "main_point": "Revolta AG has received funding from the German state of Hesse to develop a sodium-ion AC battery for residential use.",
+          "bullets": [
+            "The project has eligible costs of \u20ac660,545 with a 40% EU co-financing rate.",
+            "The system is designed to charge when grid prices are low and discharge when prices are high.",
+            "The project is scheduled to run from Aug. 1, 2026, to Dec. 31, 2029."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
+      },
+      "ac3732ce7a9ae0a4": {
+        "summary": {
+          "title": "Spain\u2019s first pre-commercial marine solar demonstrator enters testing",
+          "main_point": "A 1 MW floating solar installation developed by BlueNewables and Naturgy has begun testing at the Port of Valencia.",
+          "bullets": [
+            "The installation consists of two 500 kW PV-bos platforms.",
+            "Testing will evaluate performance, maintenance requirements, and integration into port infrastructure."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
+      },
+      "127fd35e1bbc833b": {
+        "summary": {
+          "title": "Germany sitting on 600,000 tonnes of solar PV waste by 2030",
+          "main_point": "Germany is projected to generate over 600,000 tonnes of solar PV waste by 2030.",
+          "bullets": [
+            "The waste material is estimated to be potentially worth billions in aluminium and silver."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
+      },
+      "0b730c72bc08d970": {
+        "summary": {
+          "title": "Developments in Indian battery energy storage capacity",
+          "main_point": "The Solar Energy Corporation of India has invited bids for standalone battery storage projects, while Adani Green Energy has expanded its operational capacity.",
+          "bullets": [
+            "Adani Green Energy Ltd has increased its operational BESS capacity to 6.63 GWh at Khavda, Gujarat (pv magazine India).",
+            "Adani Green Energy Ltd claims to account for over 50% of India's total operational BESS capacity of about 12.6 GWh (pv magazine India).",
+            "The Solar Energy Corporation of India has floated a tender for standalone battery energy storage systems for on-demand use (Mercom India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
+      },
+      "0af0eb7a493ec263": {
+        "summary": {
+          "title": "Japan tightens grid access as battery queue reaches 172 GW",
+          "main_point": "Japan's grid operator has introduced new measures to prevent capacity hoarding in a battery storage queue that has reached 172 GW.",
+          "bullets": [
+            "Projects receiving grid connection approval from Oct. 1 must prove site usage rights within two months to maintain their reservation.",
+            "Less than 1 GW of grid-scale storage is currently connected in Japan."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
+      },
+      "55552ffe17c8d284": {
+        "summary": {
+          "title": "Milky Mist Banks on 25 MW Solar Project for Energy Self-Sufficiency",
+          "main_point": "Contributing nearly a quarter of the world\u2019s milk supply, India\u2019s dairy industry employs more than 80 million farmers.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-02"
+      },
+      "8b051ba820f571ac": {
+        "summary": {
+          "title": "California governor signs balcony solar and VPP legislation",
+          "main_point": "California Governor Gavin Newsom has signed legislation legalizing balcony solar systems in the state.",
+          "bullets": [
+            "SB 868, the Plug and Play Solar Act, was signed to eliminate red tape for balcony solar systems.",
+            "California is the 10th state to legalize balcony solar."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
+      },
+      "ab7a9c5271e4fbf3": {
+        "summary": {
+          "title": "India approves US$19.3 billion Green Energy Corridor Phase III with 50GWh BESS",
+          "main_point": "India's Union Cabinet has approved US$ 19.3 billion Green Energy Corridor, including US$ 5.2 billion for 50GWh BESS through FY2032-33.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-02"
+      },
+      "e1e2299471183788": {
+        "summary": {
+          "title": "McKinsey report finds trade barriers increase U.S. storage costs",
+          "main_point": "A McKinsey & Company report projects that trade fragmentation could increase capital expenditure for battery energy storage by 40% to 50%.",
+          "bullets": [
+            "Cost increases are attributed to cathode material tariffs, critical mineral bottlenecks, and supply chain localization barriers."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-02"
       }
     },
     "shown": {
@@ -816,52 +927,66 @@
       "solarpowerworldonline.com/2026/09/orsted-solar-project-to-also-help-restore-new-mexico-wetlands": "2026-10-01",
       "solarpowerworldonline.com/2026/09/ftc-solar-hitachi-energy-linxon-collaborate-on-pv-project-service": "2026-10-01",
       "pv-magazine-usa.com/2026/09/30/overview-energy-to-develop-homing-beacon-for-space-based-solar-transmission": "2026-10-01",
-      "solarpowerworldonline.com/2026/10/california-governor-signs-bills-approving-virtual-power-plants": "2026-10-01"
+      "solarpowerworldonline.com/2026/10/california-governor-signs-bills-approving-virtual-power-plants": "2026-10-01",
+      "pv-magazine.com/2026/10/02/german-startup-wins-grant-for-grid-charging-sodium-ion-home-battery": "2026-10-02",
+      "pv-magazine.com/2026/10/02/spains-first-pre-commercial-marine-solar-demonstrator-enters-testing": "2026-10-02",
+      "pv-tech.org/germany-sitting-on-600000-tonnes-solar-pv-waste-by-2030": "2026-10-02",
+      "mercomindia.com/seci-floats-tender-for-standalone-battery-storage-projects-across-india": "2026-10-02",
+      "mercomindia.com/uttarakhand-regulator-adopts-tariffs-for-190-mwh-battery-storage-projects": "2026-10-02",
+      "pv-magazine-india.com/2026/10/01/adani-green-energy-expands-operational-battery-storage-capacity-to-6-63-gwh": "2026-10-02",
+      "pv-magazine.com/2026/10/02/japan-tightens-grid-access-as-battery-queue-reaches-172-gw": "2026-10-02",
+      "mercomindia.com/milky-mist-banks-on-10-mw-solar-project-for-energy-self-sufficiency": "2026-10-02",
+      "energy-storage.news/california-governor-newsom-signs-vpp-and-balcony-solar-bills-vetoes-community-solar-legislation": "2026-10-02",
+      "solarpowerworldonline.com/2026/10/california-is-10th-state-to-legalize-balcony-solar": "2026-10-02",
+      "pv-magazine-usa.com/2026/10/01/newsom-signs-california-plug-in-solar-bill-establishing-the-nations-largest-balcony-solar-market": "2026-10-02",
+      "pv-magazine-usa.com/2026/10/01/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025": "2026-10-02",
+      "energy-storage.news/india-approves-us19-3-billion-green-energy-corridor-phase-iii-with-50gwh-bess": "2026-10-02",
+      "pv-magazine-usa.com/2026/10/02/u-s-solar-and-storage-face-cost-headwinds-under-fragmented-trade-mckinsey-report-finds": "2026-10-02"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-01"
+        "last_ok": "2026-10-02"
       }
     },
     "alerts": {},
