@@ -1,11 +1,11 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.013847,
-  "requests": 4,
+  "spent_usd": 0.02017,
+  "requests": 6,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.005356
+      "2026-10": 0.007564
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -838,6 +838,105 @@
         },
         "mode": "ai",
         "date": "2026-10-02"
+      },
+      "682a28bc606414f0": {
+        "summary": {
+          "title": "SIAD Group commissions PV-powered hydrogen plant in Italy",
+          "main_point": "SIAD Group has inaugurated a 2 MW PEM electrolyzer in Pignataro Maggiore, Italy, powered by a 2.37 MW photovoltaic field and a 1 MW battery storage system.",
+          "bullets": [
+            "The project represents an investment of more than \u20ac12 million, including \u20ac8 million in funding from Italy\u2019s National Recovery and Resilience Plan.",
+            "Renewable hydrogen produced at the facility will be compressed to pressures of up to 500 bar for industrial customers."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "4c0638446557e253": {
+        "summary": {
+          "title": "Denmark adopts new grid connection prioritization model",
+          "main_point": "The Danish parliament has approved an emergency plan that replaces the first-come, first-served grid connection principle with a new prioritization model.",
+          "bullets": [
+            "The model establishes four priority categories, with critical societal functions and new households in the highest category.",
+            "Renewable energy, carbon capture, storage, and hydrogen projects are placed in the second category, while energy storage is in the third."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "9d4fdfa4d14d3a17": {
+        "summary": {
+          "title": "Alight acquires 2GW Swedish solar and storage pipeline",
+          "main_point": "Alight has purchased a portfolio of 40 utility-scale solar projects from Soltech Energy Solutions in southern Sweden.",
+          "bullets": [
+            "The acquired pipeline has a total capacity of 2GW."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "211a31b8c20b224f": {
+        "summary": {
+          "title": "Research explores railway-integrated solar potential in South Korea",
+          "main_point": "An international research team identified that five surface railway corridors in South Korea could host over 8.5 MW of PV capacity.",
+          "bullets": [
+            "The study suggests using railway corridors to expand solar generation without competing for scarce land in densely populated areas."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "1b1fa301cfad42d6": {
+        "summary": {
+          "title": "Global polysilicon prices remain stable",
+          "main_point": "The Global Polysilicon Marker remained unchanged at $19.312/kg, or $0.041/W, according to the OPIS Global Solar Markets Report.",
+          "bullets": [
+            "Market participants face potential difficulties in fulfilling long-term delivery obligations after November."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "8b697cecdcaa51dd": {
+        "summary": {
+          "title": "Battery storage adoption in U.S. residential solar grows",
+          "main_point": "Battery storage was paired with 37% of new U.S. residential solar systems in 2025, an increase from 25% in 2024.",
+          "bullets": [
+            "In California, 74% of new residential solar installations included storage in 2025, up from 58% in 2024.",
+            "The 2025 data covers approximately 450,000 systems, representing an estimated 93% of the U.S. distributed solar market for the year."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "144c59834bdcbe34": {
+        "summary": {
+          "title": "Clean Capital discusses middle market community solar operations",
+          "main_point": "Clean Capital operates as an independent power producer in the middle market, managing community solar, commercial, and industrial assets across 26 states.",
+          "bullets": [
+            "The company is backed by Manulife Investment Company and has been in operation for approximately 10 years."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
+      },
+      "529918d6e3be5f2d": {
+        "summary": {
+          "title": "Six Flags Magic Mountain completes 12.37-MW solar carport project",
+          "main_point": "Six Flags Magic Mountain has energized a 12.37-MW solar carport project developed with Solar Optimum.",
+          "bullets": [
+            "The installation is described as the largest solar carport project in California and one of the largest single-site commercial solar carport projects in the United States."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-03"
       }
     },
     "shown": {
@@ -941,52 +1040,63 @@
       "pv-magazine-usa.com/2026/10/01/newsom-signs-california-plug-in-solar-bill-establishing-the-nations-largest-balcony-solar-market": "2026-10-02",
       "pv-magazine-usa.com/2026/10/01/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025": "2026-10-02",
       "energy-storage.news/india-approves-us19-3-billion-green-energy-corridor-phase-iii-with-50gwh-bess": "2026-10-02",
-      "pv-magazine-usa.com/2026/10/02/u-s-solar-and-storage-face-cost-headwinds-under-fragmented-trade-mckinsey-report-finds": "2026-10-02"
+      "pv-magazine-usa.com/2026/10/02/u-s-solar-and-storage-face-cost-headwinds-under-fragmented-trade-mckinsey-report-finds": "2026-10-02",
+      "pv-magazine.com/2026/10/02/the-hydrogen-stream-pv-driven-h2-plant-commissioned-in-southern-italy": "2026-10-03",
+      "pv-magazine.com/2026/10/02/denmark-agrees-new-grid-connection-procedure": "2026-10-03",
+      "pv-tech.org/alight-acquires-2gw-swedish-solar-pv-energy-storage-pipeline-from-soltech": "2026-10-03",
+      "energy-storage.news/renalfa-ipp-eurowind-inaugurate-solar-plus-storage-hybrid-renewable-energy-park-in-bulgaria": "2026-10-03",
+      "pv-magazine.com/2026/10/03/the-case-for-railway-integrated-solar-in-south-korea": "2026-10-03",
+      "pv-magazine-usa.com/2026/10/02/global-polysilicon-prices-hold-steady-as-china-price-gains-meet-buyer-resistance": "2026-10-03",
+      "pv-magazine.com/2026/10/03/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025": "2026-10-03",
+      "pv-magazine-usa.com/2026/10/02/in-case-you-missed-it-solar-stories-of-the-week": "2026-10-03",
+      "pv-magazine.com/2026/10/03/middle-market-momentum": "2026-10-03",
+      "solarpowerworldonline.com/2026/10/six-flags-brings-new-meaning-to-solarcoaster-with-completed-pv-project": "2026-10-03",
+      "solarpowerworldonline.com/2026/10/100-mw-michigan-solar-project-supports-ford-automotive": "2026-10-03"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-02"
+        "last_ok": "2026-10-03"
       }
     },
     "alerts": {},
