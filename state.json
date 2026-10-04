@@ -1,7 +1,7 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.02017,
-  "requests": 6,
+  "spent_usd": 0.022861,
+  "requests": 7,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
@@ -1056,47 +1056,47 @@
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-03"
+        "last_ok": "2026-10-04"
       }
     },
     "alerts": {},
