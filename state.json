@@ -1,11 +1,11 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.022861,
-  "requests": 7,
+  "spent_usd": 0.029783,
+  "requests": 9,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.007564
+      "2026-10": 0.010183
     },
     "cache": {
       "0b6ec1d33be8e9af": {
@@ -937,6 +937,96 @@
         },
         "mode": "ai",
         "date": "2026-10-03"
+      },
+      "ed7ec402327963da": {
+        "summary": {
+          "title": "Next2Sun files for insolvency for two subsidiaries",
+          "main_point": "German vertical PV specialist Next2Sun has filed for self-administered insolvency proceedings for two companies within its corporate group at the Saarbr\u00fccken Local Court, in Germany, following an unsuccessful fundraising campaign .",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "1a4fcf34ab4fa208": {
+        "summary": {
+          "title": "Statkraft and Greenvolt sign largest EU battery energy storage tolling agreement for projects in Poland",
+          "main_point": "Statkraft and Greenvolt Power have signed a 10-year tolling agreement covering 400MW of BESS across two operating projects in Poland.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "43982cd5c9defafc": {
+        "summary": {
+          "title": "EU grants cross-border solar, wind project priority status",
+          "main_point": "A hybrid solar-wind project connecting Poland and Germany is among three projects that have been granted cross-border renewable energy status (CB RES) by the European Commission.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "a8c8d3e6c00ca3e9": {
+        "summary": {
+          "title": "Waaree Energies commissions 1.1GW PV inverter nameplate capacity",
+          "main_point": "Waaree Power Private Limited, a wholly owned subsidiary of Indian PV cell and module manufacturer Waaree Energies, has started commercial operations at a 1.1GW solar inverter manufacturing line.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "f6a8d03a26ac1696": {
+        "summary": {
+          "title": "Success of Green Energy Corridor III Hinges on Timely Project Execution",
+          "main_point": "The Green Energy Corridor Phase III (GEC III) program has the potential to create new opportunities for transmission equipment suppliers, EPC firms, battery storage providers, and grid technology companies as India develops infrastructure to accommodate an extra 135 GW of renewable energy.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "f4159f82d2569d42": {
+        "summary": {
+          "title": "MERC Allows Time Extension for Solar Projects Facing Transmission Delays",
+          "main_point": "The Maharashtra Electricity Regulatory Commission (MERC) has allowed, in principle, a petition seeking revision of the scheduled commencement of supply dates (SCSD) for solar projects where the associated transmission evacuation infrastructure is expected to be commissioned after the contractual tim",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "767f3ee0d4f42a46": {
+        "summary": {
+          "title": "First Solar Files Patent Infringement Case Against JA Solar, American Panel",
+          "main_point": "US-based solar technology and manufacturing company, First Solar, has filed a lawsuit against JA Solar and American Panel Solutions (AMPS), alleging unauthorized use of a patent related to tunnel oxide passivated contact (TOPCon) technology .The U.S.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "c08e123fdcea8244": {
+        "summary": {
+          "title": "Distributed solar interconnection timelines stretch to nearly four years for larger projects",
+          "main_point": "Larger distributed solar projects can spend years working through the interconnection process.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
+      },
+      "470fae87c99170f2": {
+        "summary": {
+          "title": "The U.S. market is writing its own sodium-ion spec",
+          "main_point": "Sodium-ion battery cells are manufactured on largely the same equipment and process steps as lithium cells, which has helped scale production faster than alternative chemistries like flow batteries or nickel-hydrogen.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-05"
       }
     },
     "shown": {
@@ -1051,52 +1141,70 @@
       "pv-magazine-usa.com/2026/10/02/in-case-you-missed-it-solar-stories-of-the-week": "2026-10-03",
       "pv-magazine.com/2026/10/03/middle-market-momentum": "2026-10-03",
       "solarpowerworldonline.com/2026/10/six-flags-brings-new-meaning-to-solarcoaster-with-completed-pv-project": "2026-10-03",
-      "solarpowerworldonline.com/2026/10/100-mw-michigan-solar-project-supports-ford-automotive": "2026-10-03"
+      "solarpowerworldonline.com/2026/10/100-mw-michigan-solar-project-supports-ford-automotive": "2026-10-03",
+      "pv-magazine.com/2026/10/05/next2sun-files-for-insolvency-for-two-subsidiaries": "2026-10-05",
+      "energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland": "2026-10-05",
+      "pv-magazine.com/2026/10/05/eu-grants-cross-border-solar-wind-project-priority-status": "2026-10-05",
+      "pv-tech.org/waaree-energies-commissions-1-1gw-pv-inverter-nameplate-capacity": "2026-10-05",
+      "pv-magazine.com/2026/10/05/waaree-power-ramps-up-string-inverter-manufacturing-capacity-to-4-15-gw": "2026-10-05",
+      "pv-magazine-india.com/2026/10/05/waaree-power-ramps-up-string-inverter-manufacturing-capacity-to-4-15-gw": "2026-10-05",
+      "mercomindia.com/success-of-green-energy-corridor-iii-hinges-on-timely-project-execution": "2026-10-05",
+      "pv-magazine-india.com/2026/10/05/ultratech-cement-surpasses-2-gw-of-green-energy-capacity-for-captive-use": "2026-10-05",
+      "pv-magazine-india.com/2026/10/05/cygni-energy-indus-towers-to-collaborate-on-energy-storage-solutions-for-telecom-infrastructure": "2026-10-05",
+      "pv-magazine-india.com/2026/10/05/hero-future-energies-sumitomo-partner-on-500-mwp-renewables-plus-storage-project-in-karnataka": "2026-10-05",
+      "mercomindia.com/merc-allows-time-extension-for-solar-projects-facing-transmission-delays": "2026-10-05",
+      "mercomindia.com/first-solar-files-patent-infringement-case-against-ja-solar-american-panel": "2026-10-05",
+      "pv-magazine.com/2026/10/05/first-solar-sues-ja-solar-and-american-panel-solutions-over-topcon-patents": "2026-10-05",
+      "pv-magazine-usa.com/2026/10/05/first-solar-sues-ja-solar-and-american-panel-solutions-over-topcon-patents": "2026-10-05",
+      "solarpowerworldonline.com/2026/10/solar-on-staten-island-affordable-housing-serves-community-and-tentants": "2026-10-05",
+      "solarpowerworldonline.com/2026/10/first-solar-files-topcon-patent-infringement-lawsuit-against-ja-solar-american-panel-solutions": "2026-10-05",
+      "pv-magazine-usa.com/2026/10/05/distributed-solar-interconnection-timelines-stretch-to-nearly-four-years-for-larger-projects": "2026-10-05",
+      "pv-magazine-usa.com/2026/10/05/the-u-s-market-is-writing-its-own-sodium-ion-spec": "2026-10-05"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-04"
+        "last_ok": "2026-10-05"
       }
     },
     "alerts": {},
