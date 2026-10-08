@@ -1,11 +1,11 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.043866,
-  "requests": 13,
+  "spent_usd": 0.050579,
+  "requests": 15,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.016118
+      "2026-10": 0.01842
     },
     "cache": {
       "c2c7006fe36970ef": {
@@ -1000,6 +1000,117 @@
         },
         "mode": "ai",
         "date": "2026-10-07"
+      },
+      "e8fc3ab8892fe87b": {
+        "summary": {
+          "title": "European solar and wind systems identified as vulnerable to cyber risks",
+          "main_point": "Researchers have identified thousands of internet-facing systems linked to solar and wind energy assets across Europe, highlighting potential cybersecurity threats.",
+          "bullets": [
+            "Modat identified 8,547 internet-facing systems linked to solar parks and wind farms across 35 European countries (Mercom India).",
+            "A joint Dutch team of researchers reported that almost 8,000 European solar energy systems are exposed to internet cyberattacks (PV Tech)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "18ed5ccb5457eeae": {
+        "summary": {
+          "title": "Sungrow patches iSolarCloud vulnerability following security research",
+          "main_point": "Sungrow deployed an emergency patch to its iSolarCloud platform after researchers discovered a vulnerability that allowed unauthorized account access.",
+          "bullets": [
+            "The vulnerability was reported to Sungrow on Aug. 22 by an independent researcher working with Jakkaru.",
+            "Sungrow deployed an emergency patch across all iSolarCloud levels on Aug. 25, resolving the issue the same day.",
+            "The flaw affected the cloud infrastructure, potentially exposing all inverters connected to the platform."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "c1840b293a07426c": {
+        "summary": {
+          "title": "Maxxen Energy operates containerized battery manufacturing facility in T\u00fcrkiye",
+          "main_point": "Maxxen Energy is operating a 20,000-square-meter containerized battery manufacturing plant in Ayd\u0131n, T\u00fcrkiye, which began operations in 2026.",
+          "bullets": [
+            "The facility produces a 5 MWh DC Box container and an optional MV Box power station with outputs of 2.5 MW, 5.0 MW, or 10 MW.",
+            "Maxxen is headquartered in Switzerland and is a subsidiary of Kontek Energy."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "a16e769b2bdd95c4": {
+        "summary": {
+          "title": "Punjab Energy Development Agency invites bids for solar projects",
+          "main_point": "The Punjab Energy Development Agency has issued a tender for grid-connected rooftop and ground-mounted solar projects using the RESCO model.",
+          "bullets": [
+            "The projects will feature a net metering or net billing facility."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "22e283996de5a3a4": {
+        "summary": {
+          "title": "MERC approves compensation for solar developer generation losses",
+          "main_point": "The Maharashtra Electricity Regulatory Commission ordered the Maharashtra State Power Generation Company to pay \u20b911.10 million in compensation for deemed generation losses.",
+          "bullets": [
+            "The compensation relates to a 50 MW solar project that could not evacuate power due to grid unavailability."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "1ed0403474a0cb38": {
+        "summary": {
+          "title": "SECI Invites Bids to Set Up Wind Projects Across India",
+          "main_point": "Listen to this article The Solar Energy Corporation of India (SECI) has floated a tender to set up interstate transmission system (ISTS)-connected wind projects nationwide.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-08"
+      },
+      "6e0e66443a68f6b4": {
+        "summary": {
+          "title": "Recent utility-scale solar project developments in the United States",
+          "main_point": "New utility-scale solar projects have been completed in Minnesota and secured financing in Indiana.",
+          "bullets": [
+            "Cedar Creek Energy completed the 5.046-MW Ramsey II Renewable Station in Minnesota.",
+            "Zelestra secured $350 million in financing for its 203 MW Reclamation solar project in Indiana, which is backed by a power purchase agreement with Meta."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "75e1e427173edb1e": {
+        "summary": {
+          "title": "Green Clean Solar manages solar panel recycling in Georgia",
+          "main_point": "Green Clean Solar is providing recycling services for damaged solar panels at a project site in Maysville, Georgia.",
+          "bullets": [
+            "The company specializes in managing solar waste generated during construction and operations."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
+      },
+      "53b8bf3a4be57590": {
+        "summary": {
+          "title": "AMMP launches AI tool for renewable energy asset management",
+          "main_point": "Data platform AMMP has introduced an AI coworker named Ray to assist renewable energy asset management teams with reporting and decision-making.",
+          "bullets": [
+            "The tool is designed to integrate into existing asset management workflows to identify problems and draft reports."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-08"
       }
     },
     "shown": {
@@ -1136,52 +1247,65 @@
       "solarpowerworldonline.com/2026/10/missouri-utility-solar-project-will-occupy-former-strip-mine-land": "2026-10-07",
       "pv-magazine-usa.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability": "2026-10-07",
       "pv-magazine-usa.com/2026/10/07/high-defect-rates-drag-down-solar-performance-and-yield-finds-report": "2026-10-07",
-      "solarpowerworldonline.com/2026/10/heliovolta-report-quality-issues-raise-solar-systems-lcoe-by-20": "2026-10-07"
+      "solarpowerworldonline.com/2026/10/heliovolta-report-quality-issues-raise-solar-systems-lcoe-by-20": "2026-10-07",
+      "mercomindia.com/over-8500-european-solar-wind-systems-found-vulnerable-to-cyber-risks": "2026-10-08",
+      "pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks": "2026-10-08",
+      "pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access": "2026-10-08",
+      "pv-magazine.com/2026/10/08/inside-bess-manufacturing-maxxens-utility-scale-storage-factory-in-europe": "2026-10-08",
+      "pv-magazine-india.com/2026/10/08/auroracell-launches-9-7-kwh-sodium-ion-chromium-oxide-residential-battery": "2026-10-08",
+      "mercomindia.com/punjab-energy-development-agency-floats-tender-solar-projects": "2026-10-08",
+      "mercomindia.com/seci-invites-bids-peak-power-supply-from-ists-connected-renewable-projects": "2026-10-08",
+      "mercomindia.com/merc-allows-solar-developers-\u20b911-million-generation-loss-compensation-claim": "2026-10-08",
+      "mercomindia.com/seci-invites-bids-to-set-up-wind-projects-across-india": "2026-10-08",
+      "solarpowerworldonline.com/2026/10/cedar-creek-completes-5-mw-solar-project-near-closed-minnesota-landfill": "2026-10-08",
+      "solarpowerworldonline.com/2026/10/from-broken-panels-to-responsible-recovery-green-clean-solar-leads-industry-recycling-efforts": "2026-10-08",
+      "solarpowerworldonline.com/2026/10/nc-foodbank-goes-solar-to-protect-funding-for-community-support": "2026-10-08",
+      "solarpowerworldonline.com/2026/10/ammp-launches-ai-coworker-for-renewable-energy-asset-managers": "2026-10-08"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-07"
+        "last_ok": "2026-10-08"
       }
     },
     "alerts": {},
