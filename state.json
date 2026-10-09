@@ -1,126 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.050579,
-  "requests": 15,
+  "spent_usd": 0.057487,
+  "requests": 17,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.01842
+      "2026-10": 0.021308
     },
     "cache": {
-      "c2c7006fe36970ef": {
-        "summary": {
-          "title": "Low Carbon plans to build 500MW UK solar-plus-storage project",
-          "main_point": "UK renewables developer Low Carbon has announced plans for a 500MW solar PV project in Oxfordshire.",
-          "bullets": [
-            "The project is located in the county of Oxfordshire."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "55113adb36bba48e": {
-        "summary": {
-          "title": "Italy raises Macse energy storage auction premium cap",
-          "main_point": "Italy's energy regulator Arera has increased the maximum premium cap for the upcoming Macse energy storage auction to \u20ac27,000 per MWh.",
-          "bullets": [
-            "The cap was raised from \u20ac22,000 to \u20ac27,000 per MWh under resolution 332/2026.",
-            "The auction applies to a 2029 delivery year and provides a 15-year fixed premium."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "c363a4f376e20d34": {
-        "summary": {
-          "title": "Longi sets 28.29% world record for single-junction silicon solar cell efficiency",
-          "main_point": "Longi has achieved a new world record of 28.29% efficiency for a hybrid interdigitated-back-contact silicon solar cell.",
-          "bullets": [
-            "The result was verified by Germany\u2019s Institute for Solar Energy Research Hamelin.",
-            "This surpasses the company's previous record of 28.13% achieved in May."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "a35343983e4aeb47": {
-        "summary": {
-          "title": "India expected to commission 45-50 GWh of BESS capacity by fiscal 2028",
-          "main_point": "Crisil Ratings projects that India will commission 45-50 GWh of battery energy storage system capacity across fiscals 2027 and 2028.",
-          "bullets": [
-            "Around 8-9 GWh of awarded capacity faces delay risks due to weak returns and limited developer experience.",
-            "SECI has separately listed 7.67 GW of renewable energy and storage capacity for sale (Mercom India)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "ad1401686720519e": {
-        "summary": {
-          "title": "CERC allows project more time for 38 MW infirm solar power injection",
-          "main_point": "The Central Electricity Regulatory Commission granted a solar generator 45 additional days to inject infirm power for a 38.1 MW portion of its project.",
-          "bullets": [
-            "The extension applies to the balance 38.1 MW capacity of a 250 MW solar project located in Barmer, Rajasthan."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "83223aa214b0067f": {
-        "summary": {
-          "title": "SECI invites proposals to prepare DPRs for green hydrogen hubs",
-          "main_point": "The Solar Energy Corporation of India is seeking agencies to prepare detailed project reports for green hydrogen hubs.",
-          "bullets": [
-            "The initiative falls under Component B1 of the National Green Hydrogen Mission."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "dd65eb8d5922c1d4": {
-        "summary": {
-          "title": "U.S. government restricts pre-tariff solar stockpiling ahead of December 4 deadline",
-          "main_point": "The U.S. Department of Commerce has implemented emergency rules to limit solar supply chain imports before new tariffs take effect.",
-          "bullets": [
-            "The rule imposes monitoring and volume caps on polysilicon, wafers, cells, and modules.",
-            "A 15% tariff and minimum import prices will apply to shipments starting December 4."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "fefae27fa195a86d": {
-        "summary": {
-          "title": "Why solar contractors should reconsider multi-tenant commercial projects",
-          "main_point": "Solar contractors are encouraged to reconsider multi-tenant commercial projects despite their reputation for complexity.",
-          "bullets": [
-            "Installers often avoid multi-tenant properties due to time-consuming pipelines and project management challenges."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
-      "d9f8352e63c9518c": {
-        "summary": {
-          "title": "Twenty-two U.S. solar PV manufacturers included in first domestic ratings pyramid",
-          "main_point": "Terawatt PV Research has released a ratings pyramid ranking 22 U.S. solar manufacturers based on production volume and capital expenditure.",
-          "bullets": [
-            "First Solar is the only company to receive a AAA rating.",
-            "Six companies in total are rated A or above."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-28"
-      },
       "c292495805052a28": {
         "summary": {
           "title": "Germany wraps up solar-plus-storage tender with average price of \u20ac0.0514/kWh",
@@ -1111,23 +998,125 @@
         },
         "mode": "ai",
         "date": "2026-10-08"
+      },
+      "2479005bcd5b6261": {
+        "summary": {
+          "title": "Dutch researchers calculate green hydrogen costs as low as \u20ac7.2/kg",
+          "main_point": "A study of a 200 MW electrolyzer in the Netherlands found that long-term revenue guarantees are necessary for financial viability, with LCOH ranging from \u20ac7.2/kg to \u20ac7.7/kg depending on the sourcing configuration.",
+          "bullets": [
+            "The levelized cost of hydrogen was approximately \u20ac7.2/kg to \u20ac7.3/kg for PPA and hybrid configurations.",
+            "Wholesale electricity sourcing resulted in an LCOH of \u20ac7.7/kg.",
+            "Researchers concluded that all three configurations remain financially unviable without additional support, such as a hydrogen contract for difference."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "ef29a928a4b53817": {
+        "summary": {
+          "title": "Dos Grados acquires 500MW-plus of solar projects from Akuo in Spain",
+          "main_point": "Dos Grados has reached an agreement to purchase three solar PV projects from Akuo with a combined capacity exceeding 500MW.",
+          "bullets": [
+            "The acquisition involves three PV solar projects located in Spain.",
+            "The total installed capacity of the projects is more than 500MW."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "d2f5b5018eefc025": {
+        "summary": {
+          "title": "BESS industry buzz: optimisation and curtailment in GB",
+          "main_point": "The latest BESS Industry Buzz highlights ongoing discussions regarding battery energy storage system optimisation, curtailment, and revenue trends across Europe.",
+          "bullets": [
+            "The report covers industry sentiment regarding BESS deal-making and revenue generation."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "97e989b10d571284": {
+        "summary": {
+          "title": "MNRE Adds 402 MW of Solar Cell Capacity to ALMM, Total Nears 38 GW",
+          "main_point": "The Ministry of New and Renewable Energy (MNRE) has added 402 MW of solar cell manufacturing capacity to the Approved List of Models and Manufacturers (ALMM) List-II, taking the total enlisted capacity to 37.8 GW.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-09"
+      },
+      "c04a571341b813b5": {
+        "summary": {
+          "title": "China wafer prices hold steady amid divergent output plans",
+          "main_point": "China's wafer market prices remained stable ahead of the Golden Week holiday, with producers showing varying production strategies for the fourth quarter.",
+          "bullets": [
+            "FOB China N-type M10 and 210R wafer prices remained unchanged at $0.149/pc and $0.153/pc respectively.",
+            "Wafer inventories are estimated at approximately 25 GW.",
+            "Some manufacturers are reportedly planning to increase output in October despite a lack of consensus on production cuts."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "7369dad0dcfcb686": {
+        "summary": {
+          "title": "Prices drive Pakistan\u2019s metered solar, outages drive hidden uptake",
+          "main_point": "A study by researchers from Pakistan and the United Kingdom identifies two distinct solar adoption channels in Pakistan: registered net metering for high-income users and unregistered off-grid systems in areas with poor grid reliability.",
+          "bullets": [
+            "The research combined data from Ember, NEPRA, and Renewables First to analyze solar adoption at the distribution-company level.",
+            "Registered net metering is primarily utilized by higher-income customers in well-served utility areas."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "659899c8c0b676d4": {
+        "summary": {
+          "title": "Batteries beat gas peakers on cost globally",
+          "main_point": "Wood Mackenzie reports that four-hour battery storage has become cheaper than open-cycle gas turbines across all 43 modeled global markets, though North America faces specific trade and policy challenges.",
+          "bullets": [
+            "Single-axis tracker solar is the lowest-cost new-build power source in 43 of 48 modeled markets.",
+            "North American energy storage investment is being supported by data center demand and rising peaking costs."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "d2e8a9ba8f7f1265": {
+        "summary": {
+          "title": "Thermal energy storage delivers industrial heat and grid solutions",
+          "main_point": "Thermal energy storage systems are being positioned to reduce industrial reliance on natural gas while offering potential solutions for renewable energy curtailment.",
+          "bullets": [
+            "A September 2026 IEA report suggested a 35% global electrification target by 2035 is within reach using existing technologies.",
+            "MGA Thermal is developing electro-thermal energy storage systems to manage industrial loads and grid issues."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
+      },
+      "07e03fe25c0c89d2": {
+        "summary": {
+          "title": "Voltus raises $225 million for demand flexibility portfolio",
+          "main_point": "Virtual power plant operator Voltus raised $225 million in a Series D funding round to support its goal of building a 20 GW demand flexibility portfolio.",
+          "bullets": [
+            "The funding round was led by Generation Investment Management, with Activate Capital and Vitol as co-leads.",
+            "Voltus enrolls distributed energy resource owners to help grid operators meet peak demand.",
+            "The North American Electric Reliability Corporation estimates a need for over 270 gigawatts of new peak capacity."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-09"
       }
     },
     "shown": {
-      "pv-tech.org/low-carbon-plans-500mw-uk-solar-plus-storage-project": "2026-09-28",
-      "pv-magazine.com/2026/09/28/key-takeaways-from-solar-storage-live-uk-birmingham": "2026-09-28",
-      "pv-magazine.com/2026/09/28/italy-raises-macse-energy-storage-auction-premium-cap-from-e22000-to-e27000-mwh": "2026-09-28",
-      "pv-magazine-usa.com/2026/09/28/longi-sets-28-29-world-record-for-single-junction-silicon-solar-cell-efficiency": "2026-09-28",
-      "pv-magazine-india.com/2026/09/28/india-likely-to-commission-45-50-gwh-of-bess-capacity-in-fiscals-2027-and-2028-crisil": "2026-09-28",
-      "mercomindia.com/seci-seeks-offtakers-for-7-67-gw-of-renewable-energy-and-storage-capacity": "2026-09-28",
-      "pv-magazine-india.com/2026/09/28/weaker-monsoon-lifts-irradiance-in-western-india-as-august-storms-dim-the-east": "2026-09-28",
-      "mercomindia.com/cerc-allows-project-more-time-for-38-mw-infirm-solar-power-injection": "2026-09-28",
-      "mercomindia.com/seci-invites-proposals-to-prepare-dprs-for-green-hydrogen-hubs": "2026-09-28",
-      "pv-magazine.com/2026/09/28/commerce-restricts-pre-tariff-solar-stockpiling-ahead-of-december-4-deadline": "2026-09-28",
-      "pv-magazine-usa.com/2026/09/28/commerce-restricts-pre-tariff-solar-stockpiling-ahead-of-december-4-deadline": "2026-09-28",
-      "pv-magazine-india.com/2026/09/28/anza-expects-at-least-a-40-spike-in-u-s-solar-module-prices-after-section-232": "2026-09-28",
-      "solarpowerworldonline.com/2026/09/why-solar-contractors-should-reconsider-multi-tenant-commercial-projects": "2026-09-28",
-      "pv-magazine-usa.com/2026/09/28/twenty-two-u-s-solar-pv-manufacturers-included-in-first-domestic-ratings-pyramid": "2026-09-28",
       "pv-magazine.com/2026/09/29/germany-wraps-up-solar-plus-storage-tender-with-average-price-of-e0-0514-kwh": "2026-09-29",
       "energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market": "2026-09-29",
       "pv-tech.org/neoen-starts-construction-on-122mw-solar-pv-portfolio-in-france-including-agripv-and-fpv": "2026-09-29",
@@ -1260,52 +1249,65 @@
       "solarpowerworldonline.com/2026/10/cedar-creek-completes-5-mw-solar-project-near-closed-minnesota-landfill": "2026-10-08",
       "solarpowerworldonline.com/2026/10/from-broken-panels-to-responsible-recovery-green-clean-solar-leads-industry-recycling-efforts": "2026-10-08",
       "solarpowerworldonline.com/2026/10/nc-foodbank-goes-solar-to-protect-funding-for-community-support": "2026-10-08",
-      "solarpowerworldonline.com/2026/10/ammp-launches-ai-coworker-for-renewable-energy-asset-managers": "2026-10-08"
+      "solarpowerworldonline.com/2026/10/ammp-launches-ai-coworker-for-renewable-energy-asset-managers": "2026-10-08",
+      "pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg": "2026-10-09",
+      "pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain": "2026-10-09",
+      "energy-storage.news/bess-industry-buzz-optimisation-curtailment-gb-deal-making-revenues-europe": "2026-10-09",
+      "mercomindia.com/mnre-adds-402-mw-of-solar-cell-capacity-to-almm-total-nears-38-gw": "2026-10-09",
+      "pv-magazine-india.com/2026/10/08/tp-solar-produced-1-gw-of-pv-modules-and-900-mw-cells-in-q2-fy27": "2026-10-09",
+      "pv-magazine-usa.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts": "2026-10-09",
+      "pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts": "2026-10-09",
+      "pv-magazine.com/2026/10/09/prices-drive-pakistans-metered-solar-outages-drive-hidden-uptake": "2026-10-09",
+      "pv-magazine-usa.com/2026/10/08/batteries-beat-gas-peakers-on-cost-globally-but-u-s-faces-trade-headwinds": "2026-10-09",
+      "utilitydive.com/news/4-hour-storage-cheaper-than-gas-peakers-across-global-markets-woodmac/832489": "2026-10-09",
+      "solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe": "2026-10-09",
+      "pv-magazine-usa.com/2026/10/09/thermal-energy-storage-delivers-industrial-heat-but-can-solve-grid-issues-too": "2026-10-09",
+      "pv-magazine-usa.com/2026/10/09/voltus-raises-225-million-in-anticipation-of-20-gw-demand-flexibility-portfolio": "2026-10-09"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-08"
+        "last_ok": "2026-10-09"
       }
     },
     "alerts": {},
