@@ -1,130 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.057487,
-  "requests": 17,
+  "spent_usd": 0.064591,
+  "requests": 19,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.021308
+      "2026-10": 0.024101
     },
     "cache": {
-      "c292495805052a28": {
-        "summary": {
-          "title": "Germany wraps up solar-plus-storage tender with average price of \u20ac0.0514/kWh",
-          "main_point": "Germany concluded a tender for innovative renewable energy projects, awarding 480 MW of solar-plus-storage capacity at an average price of \u20ac0.0514/kWh.",
-          "bullets": [
-            "The tender attracted 53 bids for a total of 678 MW, with 32 projects selected.",
-            "Awarded tariffs ranged from \u20ac0.0450/kWh to \u20ac0.0540/kWh.",
-            "Bavaria secured the most capacity at 177 MW, followed by Brandenburg with 94 MW and North Rhine-Westphalia with 48 MW.",
-            "A previous tender in June awarded 482 MW across 29 projects with an average price of \u20ac0.0534/kWh."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "058c4286e989b693": {
-        "summary": {
-          "title": "SMA battery inverter first to win grid-forming certification for German inertia market",
-          "main_point": "SMA Solar Technology has received the first certification for a battery inverter capable of providing inertia to the German grid.",
-          "bullets": [
-            "The certification confirms the inverter's capability to support grid stability through inertia."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "800fee3a4a1de6f6": {
-        "summary": {
-          "title": "Neoen starts construction on 122MW solar PV portfolio in France",
-          "main_point": "French independent power producer Neoen has begun construction on a 122MW solar PV portfolio in France, which includes agriPV and floating PV projects.",
-          "bullets": [
-            "The portfolio consists of 122MW of solar capacity."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "7222794e4b0f9cff": {
-        "summary": {
-          "title": "Bilayer transparent conductive film for electrostatic dust removal achieves 96.36% cleaning rate",
-          "main_point": "Researchers in China developed a bilayer film using carbon nanotubes and magnesium fluoride that achieves a 96.36% dust removal rate on solar panels.",
-          "bullets": [
-            "The film combines single-walled carbon nanotubes for conductivity with a magnesium fluoride layer to smooth the surface and improve dust removal.",
-            "The study examined the impact of magnesium fluoride layer thickness on the optical and electrical properties of the films."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "c39c68d178dcd78c": {
-        "summary": {
-          "title": "Heterojunction solar cell based on molybdenum oxide achieves 24.9% efficiency",
-          "main_point": "Researchers from Beijing University of Technology developed a silicon heterojunction solar cell with 24.9% efficiency using a molybdenum oxide hole transport layer.",
-          "bullets": [
-            "The cell incorporates an approximately 1-nm-thick phosphomolybdic acid interlayer to improve stability and efficiency.",
-            "The design aims to reduce reliance on conventional p-type doped silicon hole-selective contacts."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "c78fd58b94224423": {
-        "summary": {
-          "title": "China and U.S. module prices hold ahead of Golden Week",
-          "main_point": "Mainstream TOPCon module prices in China remained stable at $0.108/W as market activity slowed ahead of the Golden Week holiday.",
-          "bullets": [
-            "Market participants are hesitant to commit to transactions due to uncertainty regarding future price directions.",
-            "Weak domestic installation demand has continued to exert pressure on module prices."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "5653496fd203408d": {
-        "summary": {
-          "title": "Anti-stockpiling rules critical ahead of Section 232 tariffs",
-          "main_point": "The US solar industry is addressing new limits on polysilicon imports in anticipation of upcoming Section 232 rules.",
-          "bullets": [
-            "Industry stakeholders view the anti-stockpiling measures as critical ahead of the implementation of new tariffs."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "0626415e15fc0b24": {
-        "summary": {
-          "title": "Decommissioning to drive 23% of solar buildout in the 2040s",
-          "main_point": "Wood Mackenzie forecasts that repowering decommissioned solar and wind projects will account for a significant portion of future installations as global assets reach their end of life.",
-          "bullets": [
-            "More than 2.5 TW of solar and wind projects are expected to reach the end of their design life by 2040.",
-            "Solar is expected to have a larger ageing fleet than wind by 2040."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
-      "b0717c84a30d0398": {
-        "summary": {
-          "title": "Renewable Properties acquires 71.8 MW Pennsylvania solar portfolio from Prospect14",
-          "main_point": "Renewable Properties acquired three solar projects totaling 71.8 MWdc in Pennsylvania from developer Prospect14.",
-          "bullets": [
-            "The portfolio includes a 26 MWdc project, a 27 MWdc project, and an 18.8 MWdc project.",
-            "This acquisition marks the company's entry into the PJM wholesale market.",
-            "The companies previously completed a deal in August 2025 for 38.13 MWdc of net metered projects."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-09-29"
-      },
       "9492659db67ad24b": {
         "summary": {
           "title": "Rezolv Energy secures financing for 1.3 GWp solar project in Romania",
@@ -1114,19 +997,119 @@
         },
         "mode": "ai",
         "date": "2026-10-09"
+      },
+      "a36225ee087bb3db": {
+        "summary": {
+          "title": "Austria receives 43,300 solar subsidy applications in ten minutes",
+          "main_point": "Austria's final funding round for photovoltaic and battery storage systems saw 43,300 applications submitted within the first 10 minutes of the portal opening.",
+          "bullets": [
+            "The Federal Ministry for Economic Affairs, Energy and Tourism reported that demand exceeded the second funding round, which saw 24,900 tickets in the first 10 minutes.",
+            "The government is reconsidering its subsidy approach following the high demand and recent consultations."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
+      },
+      "4fb265691f52694b": {
+        "summary": {
+          "title": "Sunbooster secures European patent for bifacial photovoltaic fences",
+          "main_point": "Austrian company Sunbooster has patented a vertical bifacial photovoltaic fence solution now protected in 18 European Union member states.",
+          "bullets": [
+            "The system uses 18.6 cm-high bifacial strips with a conversion efficiency of 22.8%.",
+            "Strips are rated at 62 W for a 2-meter length or 79 W for a 2.5-meter length.",
+            "The company is targeting expansion in the French market, where it has completed its first installation."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
+      },
+      "e3d7b62f03280fe2": {
+        "summary": {
+          "title": "Italy faces grid connection requests exceeding 300 GW",
+          "main_point": "Renewable energy connection requests in Italy have reached over 300 GW, significantly higher than the capacity planned for 2030.",
+          "bullets": [
+            "Since September, grid access is granted based on who obtains authorization first rather than the order of application."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
+      },
+      "237b0c336fdb6c48": {
+        "summary": {
+          "title": "NTPC tenders solar and storage projects while POWERGRID commissions transmission line",
+          "main_point": "POWERGRID has commissioned a transmission project for a 2,500 MW solar zone in Karnataka, while NTPC has issued tenders for a 1 GW solar project and a 3,300 MWh BESS.",
+          "bullets": [
+            "POWERGRID commissioned the Bidar, Karnataka project on October 5, 2026.",
+            "NTPC Renewable Energy Ltd is seeking EPC services for a 1 GW ground-mounted solar project in Andhra Pradesh.",
+            "NTPC Green Energy Ltd is seeking an EPC package for a 3,300 MWh battery energy storage system at the Khavda solar plant in Gujarat."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
+      },
+      "5dfd361bf3a34439": {
+        "summary": {
+          "title": "India adds 402 MW of solar cell capacity to ALMM list",
+          "main_point": "The Ministry of New and Renewable Energy has updated its Approved List of Models and Manufacturers, bringing total enlisted solar cell capacity to 37.8 GW.",
+          "bullets": [
+            "The 12th revision of the list was issued on 8 October 2026 (PV Tech)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
+      },
+      "9a75dd4579696239": {
+        "summary": {
+          "title": "Beyond gigawatts: Why India\u2019s clean energy future depends on storage intelligence",
+          "main_point": "For decades, the success of India\u2019s renewable energy transition has largely been measured in gigawatts.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-10"
+      },
+      "005f0185f52dbb6f": {
+        "summary": {
+          "title": "Majority of U.S. solar manufacturing expansion plans lack financing",
+          "main_point": "Over 70% of announced U.S. solar manufacturing expansion plans have not yet been financed, according to the Solar Manufacturing USA Quarterly report.",
+          "bullets": [
+            "Solar PV manufacturing capital expenditure is forecast to decline year-on-year in 2027 compared to 2026 figures of approximately $3 billion."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
+      },
+      "8f06a0094aaa0e3d": {
+        "summary": {
+          "title": "Poly pricing and potential expansion",
+          "main_point": "Recent industry checks in the United States suggest that an increase in US minimum import prices (MIPs) under the polysilicon Section 232 framework may not occur until after Dec.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-10"
+      },
+      "a5006884d9d9eacb": {
+        "summary": {
+          "title": "Clearway begins construction on 650 MW Swan Energy Center",
+          "main_point": "Clearway Energy Group has closed financing and commenced construction on the 650 MW Swan Energy Center in Bates County, Missouri.",
+          "bullets": [
+            "Construction is expected to continue through the middle of 2028.",
+            "The project site will employ up to 500 workers during the construction period."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-10"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/09/29/germany-wraps-up-solar-plus-storage-tender-with-average-price-of-e0-0514-kwh": "2026-09-29",
-      "energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market": "2026-09-29",
-      "pv-tech.org/neoen-starts-construction-on-122mw-solar-pv-portfolio-in-france-including-agripv-and-fpv": "2026-09-29",
-      "pv-magazine.com/2026/09/29/bilayer-transparent-conductive-film-for-electrostatic-dust-removal-achieves-96-36-cleaning-rate-on-pv-panels": "2026-09-29",
-      "pv-magazine.com/2026/09/29/heterojunction-solar-cell-based-on-molybdenum-oxide-achieves-24-9-efficiency": "2026-09-29",
-      "pv-magazine-usa.com/2026/09/29/china-and-u-s-module-prices-hold-ahead-of-golden-week-and-section-232-price-floors": "2026-09-29",
-      "pv-tech.org/anti-stockpiling-rules-critical-section-232-tariffs-polysilicon-imports-us": "2026-09-29",
-      "pv-magazine-usa.com/2026/09/29/decommissioning-to-drive-23-of-solar-buildout-in-the-2040s-says-wood-mackenzie": "2026-09-29",
-      "pv-magazine-usa.com/2026/09/29/renewable-properties-acquires-71-8-mw-pennsylvania-solar-portfolio-from-prospect14": "2026-09-29",
-      "pv-magazine-usa.com/2026/09/28/toyo-lines-up-announcements-in-anticipation-of-texas-factory-ribbon-cutting": "2026-09-29",
       "pv-tech.org/rezolv-energy-secures-e561-million-financing-for-europes-largest-solar-pv-plant": "2026-09-30",
       "pv-magazine.com/2026/09/30/eus-largest-solar-project-reaches-financial-close": "2026-09-30",
       "pv-magazine.com/2026/09/30/over-easy-solar-launches-256-w-vertical-rooftop-pv-unit": "2026-09-30",
@@ -1262,52 +1245,66 @@
       "utilitydive.com/news/4-hour-storage-cheaper-than-gas-peakers-across-global-markets-woodmac/832489": "2026-10-09",
       "solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe": "2026-10-09",
       "pv-magazine-usa.com/2026/10/09/thermal-energy-storage-delivers-industrial-heat-but-can-solve-grid-issues-too": "2026-10-09",
-      "pv-magazine-usa.com/2026/10/09/voltus-raises-225-million-in-anticipation-of-20-gw-demand-flexibility-portfolio": "2026-10-09"
+      "pv-magazine-usa.com/2026/10/09/voltus-raises-225-million-in-anticipation-of-20-gw-demand-flexibility-portfolio": "2026-10-09",
+      "pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes": "2026-10-10",
+      "pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences": "2026-10-10",
+      "pv-magazine.com/2026/10/10/beyond-gigawatts-why-leadership-decides-italys-energy-security": "2026-10-10",
+      "mercomindia.com/powergrid-commissions-project-to-evacuate-2-5-gw-solar-energy-in-karnataka": "2026-10-10",
+      "mercomindia.com/petrogreen-subsidiaries-secure-20-million-40-mw-solar-project": "2026-10-10",
+      "pv-magazine-india.com/2026/10/09/ntpc-tenders-1-gw-solar-pv-project-in-andhra-pradesh-and-3-3-gwh-bess-at-khavda": "2026-10-10",
+      "pv-tech.org/indias-mnre-issues-12th-solar-cell-almm-revision-capacity-reaches-37-8gw": "2026-10-10",
+      "pv-magazine.com/2026/10/10/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence": "2026-10-10",
+      "pv-magazine-india.com/2026/10/09/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence": "2026-10-10",
+      "pv-magazine.com/2026/10/10/more-than-70-of-announced-u-s-solar-manufacturing-expansion-plans-yet-to-be-financed": "2026-10-10",
+      "pv-magazine-usa.com/2026/10/09/in-case-you-missed-it-solar-stories-of-the-week-2": "2026-10-10",
+      "pv-magazine-usa.com/2026/10/09/more-than-70-of-announced-u-s-solar-manufacturing-expansion-plans-yet-to-be-financed": "2026-10-10",
+      "pv-magazine.com/2026/10/09/poly-pricing-and-potential-expansion": "2026-10-10",
+      "pv-magazine-usa.com/2026/10/09/project-financing-roundup-clearway-begins-construction-pivot-energy-closes-loan": "2026-10-10"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-09"
+        "last_ok": "2026-10-10"
       }
     },
     "alerts": {},
