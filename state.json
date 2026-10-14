@@ -1,112 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.075125,
-  "requests": 24,
+  "spent_usd": 0.081824,
+  "requests": 26,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.027013
+      "2026-10": 0.029685
     },
     "cache": {
-      "682a28bc606414f0": {
-        "summary": {
-          "title": "SIAD Group commissions PV-powered hydrogen plant in Italy",
-          "main_point": "SIAD Group has inaugurated a 2 MW PEM electrolyzer in Pignataro Maggiore, Italy, powered by a 2.37 MW photovoltaic field and a 1 MW battery storage system.",
-          "bullets": [
-            "The project represents an investment of more than \u20ac12 million, including \u20ac8 million in funding from Italy\u2019s National Recovery and Resilience Plan.",
-            "Renewable hydrogen produced at the facility will be compressed to pressures of up to 500 bar for industrial customers."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "4c0638446557e253": {
-        "summary": {
-          "title": "Denmark adopts new grid connection prioritization model",
-          "main_point": "The Danish parliament has approved an emergency plan that replaces the first-come, first-served grid connection principle with a new prioritization model.",
-          "bullets": [
-            "The model establishes four priority categories, with critical societal functions and new households in the highest category.",
-            "Renewable energy, carbon capture, storage, and hydrogen projects are placed in the second category, while energy storage is in the third."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "9d4fdfa4d14d3a17": {
-        "summary": {
-          "title": "Alight acquires 2GW Swedish solar and storage pipeline",
-          "main_point": "Alight has purchased a portfolio of 40 utility-scale solar projects from Soltech Energy Solutions in southern Sweden.",
-          "bullets": [
-            "The acquired pipeline has a total capacity of 2GW."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "211a31b8c20b224f": {
-        "summary": {
-          "title": "Research explores railway-integrated solar potential in South Korea",
-          "main_point": "An international research team identified that five surface railway corridors in South Korea could host over 8.5 MW of PV capacity.",
-          "bullets": [
-            "The study suggests using railway corridors to expand solar generation without competing for scarce land in densely populated areas."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "1b1fa301cfad42d6": {
-        "summary": {
-          "title": "Global polysilicon prices remain stable",
-          "main_point": "The Global Polysilicon Marker remained unchanged at $19.312/kg, or $0.041/W, according to the OPIS Global Solar Markets Report.",
-          "bullets": [
-            "Market participants face potential difficulties in fulfilling long-term delivery obligations after November."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "8b697cecdcaa51dd": {
-        "summary": {
-          "title": "Battery storage adoption in U.S. residential solar grows",
-          "main_point": "Battery storage was paired with 37% of new U.S. residential solar systems in 2025, an increase from 25% in 2024.",
-          "bullets": [
-            "In California, 74% of new residential solar installations included storage in 2025, up from 58% in 2024.",
-            "The 2025 data covers approximately 450,000 systems, representing an estimated 93% of the U.S. distributed solar market for the year."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "144c59834bdcbe34": {
-        "summary": {
-          "title": "Clean Capital discusses middle market community solar operations",
-          "main_point": "Clean Capital operates as an independent power producer in the middle market, managing community solar, commercial, and industrial assets across 26 states.",
-          "bullets": [
-            "The company is backed by Manulife Investment Company and has been in operation for approximately 10 years."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
-      "529918d6e3be5f2d": {
-        "summary": {
-          "title": "Six Flags Magic Mountain completes 12.37-MW solar carport project",
-          "main_point": "Six Flags Magic Mountain has energized a 12.37-MW solar carport project developed with Solar Optimum.",
-          "bullets": [
-            "The installation is described as the largest solar carport project in California and one of the largest single-site commercial solar carport projects in the United States."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-03"
-      },
       "ed7ec402327963da": {
         "summary": {
           "title": "Next2Sun files for insolvency for two subsidiaries",
@@ -889,20 +790,126 @@
         },
         "mode": "ai",
         "date": "2026-10-12"
+      },
+      "6b1e1dcc12b89e6d": {
+        "summary": {
+          "title": "BESS industry experts discuss long-term service agreements",
+          "main_point": "A panel of industry experts discussed the requirements and challenges of long-term service agreements for battery energy storage systems at a summit in the UK and Ireland.",
+          "bullets": [
+            "The discussion took place at the Battery Asset Management Summit UK & Ireland 2026."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "f808cffa951669b9": {
+        "summary": {
+          "title": "Mercedes-Benz introduces bidirectional charging in Germany",
+          "main_point": "Mercedes-Benz has launched a bidirectional charging service in Germany that allows electric vehicle owners to participate in the electricity market.",
+          "bullets": [
+            "The MB.Charge Home Pro Intelligent package includes an 11 kW bidirectional DC wallbox priced at \u20ac2,990.",
+            "Customers receive a payment of \u20ac0.1175 per hour while their vehicle is connected to the wallbox.",
+            "The wallbox was developed by The Mobility House in partnership with EcoG and Zhejiang EV-Tech."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "65df2fa6cfd28c9c": {
+        "summary": {
+          "title": "Heliup and Holcim launch lightweight rooftop solar solution",
+          "main_point": "Heliup and Holcim have partnered to offer a lightweight solar system that combines PV modules with a waterproofing membrane for flat roofs.",
+          "bullets": [
+            "The Solar Light TPO system weighs 7 kg/m\u00b2, compared to 15 kg/m\u00b2 to 20 kg/m\u00b2 for conventional systems.",
+            "The solution uses a mounting method that requires no roof penetrations, additional rails, or ballast.",
+            "The waterproofing membrane is available in thicknesses ranging from 1.5 mm to 2 mm."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "700b89c1520c07b2": {
+        "summary": {
+          "title": "NVVN invites bids for rooftop solar project in Chandigarh",
+          "main_point": "NTPC Vidyut Vyapar Nigam has issued a tender for a 1.89 MW rooftop solar project at the Postgraduate Institute of Medical Education and Research.",
+          "bullets": [
+            "The project scope includes design, engineering, supply, installation, testing, commissioning, and 10 years of operation and maintenance services."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "4c82517c379c314e": {
+        "summary": {
+          "title": "Telangana issues tender for firm renewable power supply",
+          "main_point": "The Telangana Power Generation Corporation has invited bids to supply firm and dispatchable renewable energy from projects equipped with energy storage.",
+          "bullets": [
+            "The projects are to be located at Shankar Pally and Ramagundam."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "bcfe71c5e34a0aac": {
+        "summary": {
+          "title": "India's digital economy growth and industrial transformation",
+          "main_point": "India's digital economy accounted for 11.74% of national income in 2022\u201323 and is expected to reach nearly one fifth by 2030.",
+          "bullets": [
+            "The digital economy's contribution in 2022\u201323 was equivalent to approximately INR 31.64 lakh crore.",
+            "Digital infrastructure is increasingly integrated into the foundation of energy, manufacturing, and industrial services."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "312e0326bdba7ce0": {
+        "summary": {
+          "title": "EcoFlow releases Titan series residential energy storage systems",
+          "main_point": "EcoFlow has launched the Titan series of residential battery storage systems, which are scalable from 5 kWh to 30 kWh.",
+          "bullets": [
+            "The series includes the Titan 5000, Titan 5000 Plus, and Titan 5000 Classic models.",
+            "The Titan 5000 Plus delivers 7.2 kW of output from a 5-kWh battery (Solar Power World).",
+            "EcoFlow stated that 80% of 100,000 households analyzed stayed below a power demand of 6.7 kW for 99% of the time (pv magazine)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "02e3b6ea1a4e4bbe": {
+        "summary": {
+          "title": "Unico launches 330kW bidirectional grid-tie inverter",
+          "main_point": "Unico has introduced a 330kW bidirectional grid-tie inverter designed for solar generation, energy storage, and high-power loads.",
+          "bullets": [
+            "The inverter operates at 98.5% efficiency and features a power density of 72W per cubic inch.",
+            "It supports AC voltages from 380 to 900 VAC and a programmable DC voltage range from 600 to 1500 VDC.",
+            "The platform allows for parallel operation in groups of ten or more units."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
+      },
+      "c99bbd160fadc797": {
+        "summary": {
+          "title": "Tigo Energy releases guide for solar repowering market",
+          "main_point": "Tigo Energy has published a manual to assist solar contractors in transitioning to service and modernization models for aging photovoltaic systems.",
+          "bullets": [
+            "The guide, titled Repowering Business Playbook, addresses the demand for replacing aging hardware such as string inverters and monitoring equipment."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-14"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/02/the-hydrogen-stream-pv-driven-h2-plant-commissioned-in-southern-italy": "2026-10-03",
-      "pv-magazine.com/2026/10/02/denmark-agrees-new-grid-connection-procedure": "2026-10-03",
-      "pv-tech.org/alight-acquires-2gw-swedish-solar-pv-energy-storage-pipeline-from-soltech": "2026-10-03",
-      "energy-storage.news/renalfa-ipp-eurowind-inaugurate-solar-plus-storage-hybrid-renewable-energy-park-in-bulgaria": "2026-10-03",
-      "pv-magazine.com/2026/10/03/the-case-for-railway-integrated-solar-in-south-korea": "2026-10-03",
-      "pv-magazine-usa.com/2026/10/02/global-polysilicon-prices-hold-steady-as-china-price-gains-meet-buyer-resistance": "2026-10-03",
-      "pv-magazine.com/2026/10/03/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025": "2026-10-03",
-      "pv-magazine-usa.com/2026/10/02/in-case-you-missed-it-solar-stories-of-the-week": "2026-10-03",
-      "pv-magazine.com/2026/10/03/middle-market-momentum": "2026-10-03",
-      "solarpowerworldonline.com/2026/10/six-flags-brings-new-meaning-to-solarcoaster-with-completed-pv-project": "2026-10-03",
-      "solarpowerworldonline.com/2026/10/100-mw-michigan-solar-project-supports-ford-automotive": "2026-10-03",
       "pv-magazine.com/2026/10/05/next2sun-files-for-insolvency-for-two-subsidiaries": "2026-10-05",
       "energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland": "2026-10-05",
       "pv-magazine.com/2026/10/05/eu-grants-cross-border-solar-wind-project-priority-status": "2026-10-05",
@@ -1022,52 +1029,65 @@
       "pv-magazine-usa.com/2026/10/13/utility-scale-project-roundup-texas-joint-ventures-illinois-commercial-bess-and-cranberry-bog-agrivoltaics": "2026-10-13",
       "energy-storage.news/clearway-energy-increases-utah-energy-centre-capacity-to-2120mwh": "2026-10-13",
       "pv-magazine-usa.com/2026/10/13/is-toyo-correct-the-u-s-is-done-building-modules": "2026-10-13",
-      "solarpowerworldonline.com/2026/10/integrated-power-services-acquires-aftermarket-solar-inverter-company-bold-renewables": "2026-10-13"
+      "solarpowerworldonline.com/2026/10/integrated-power-services-acquires-aftermarket-solar-inverter-company-bold-renewables": "2026-10-13",
+      "energy-storage.news/ltsas-under-scrutiny-what-bess-owners-really-need-from-their-contracts": "2026-10-14",
+      "pv-magazine.com/2026/10/14/mercedes-benz-launches-bidirectional-charging-in-germany": "2026-10-14",
+      "pv-magazine.com/2026/10/14/heliup-offers-lightweight-rooftop-pv-modules-with-waterproofing-membrane": "2026-10-14",
+      "mercomindia.com/nvvn-issues-tender-for-rooftop-solar-project-at-pgimer-chandigarh": "2026-10-14",
+      "mercomindia.com/telangana-floats-tender-for-supply-of-firm-renewable-power": "2026-10-14",
+      "mercomindia.com/ntpc-renewable-energy-invites-bids-for-supply-of-solar-modules": "2026-10-14",
+      "pv-magazine-india.com/2026/10/14/from-connected-plants-to-intelligent-industry-indias-next-digital-transformation": "2026-10-14",
+      "pv-magazine.com/2026/10/14/ecoflow-launches-5-30-kwh-residential-storage-system": "2026-10-14",
+      "solarpowerworldonline.com/2026/10/ecoflow-release-new-5-kwh-energy-storage-system": "2026-10-14",
+      "pv-magazine-usa.com/2026/10/13/jackery-steps-into-rvs-with-built-in-2-kw-solar-and-45-kwh-storage": "2026-10-14",
+      "pv-magazine-usa.com/2026/10/13/anker-solix-announces-wheeled-power-station-with-4-5-kw-output": "2026-10-14",
+      "pv-magazine-usa.com/2026/10/14/unico-launches-330kw-bidirectional-grid-tie-inverter": "2026-10-14",
+      "pv-magazine-usa.com/2026/10/14/solar-repowering-guide-shows-installers-how-to-tap-into-the-aging-rooftop-market": "2026-10-14"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-13"
+        "last_ok": "2026-10-14"
       }
     },
     "alerts": {},
