@@ -1,11 +1,11 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.081824,
-  "requests": 26,
+  "spent_usd": 0.089043,
+  "requests": 28,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.029685
+      "2026-10": 0.032596
     },
     "cache": {
       "ed7ec402327963da": {
@@ -907,6 +907,122 @@
         },
         "mode": "ai",
         "date": "2026-10-14"
+      },
+      "e4a7b23153e44dc2": {
+        "summary": {
+          "title": "Finland mandates grid-forming control for new large wind and solar plants",
+          "main_point": "Fingrid has introduced new technical requirements under its VJV2024 grid code for large wind and solar plants connecting to weak parts of the network.",
+          "bullets": [
+            "The requirements apply to type D plants connecting where the equivalent short-circuit ratio is below 1.0.",
+            "Existing plants and projects with established connection agreements are exempt from the new rules.",
+            "Grid-forming control must be provided via the plant's own inverters or separate equipment built at or near the site."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "e321f986401e9928": {
+        "summary": {
+          "title": "Poland identified as a top market for energy storage profitability",
+          "main_point": "Industry experts report that energy storage systems in Poland currently offer exceptionally high returns compared to other European markets.",
+          "bullets": [
+            "Maxxen CEO Ruben Valiente stated that battery storage returns in Poland are currently very high but expects them to decrease as more large-scale projects enter the market.",
+            "Clean Horizon consultant Salome Perperot noted that two-hour energy storage systems in Poland achieved the highest revenues among the countries studied by the firm this year."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "6bf5fda99ad6339b": {
+        "summary": {
+          "title": "Researchers study moth-eye-inspired surfaces for solar module durability",
+          "main_point": "Scientists in Portugal are investigating how antireflective nanostructures on silicon surfaces withstand mechanical stress and environmental challenges.",
+          "bullets": [
+            "The study focuses on the friction and wear behavior of these structures to determine their suitability for integration into the outer surfaces of photovoltaic modules.",
+            "Researchers aim to understand how the morphology of these nanostructures evolves under repeated mechanical loading and cleaning operations."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "44314802e843c231": {
+        "summary": {
+          "title": "US solar industry faces trade duties and workforce readiness challenges",
+          "main_point": "The US has ruled that solar imports from India, Indonesia, and Laos harmed domestic manufacturers, while India's own solar sector reports a significant workforce skills gap.",
+          "bullets": [
+            "The US International Trade Commission determined that crystalline silicon PV cell imports from India, Indonesia, and Laos caused material injury to the domestic industry (Mercom India).",
+            "A Mercom India survey of over 100 industry participants found that fresh graduates in India require substantial training to meet the needs of the solar sector (pv magazine)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "bcdb91314433432d": {
+        "summary": {
+          "title": "Oswal Pumps to establish 1.2 GW TOPCon solar cell facility in India",
+          "main_point": "Oswal Pumps Ltd plans to build a 1.2 GW TOPCon solar cell manufacturing plant to support its in-house module production.",
+          "bullets": [
+            "The facility will be developed by the company's subsidiary, Oswal Solar Energy Pvt Ltd.",
+            "Commercial production at the new site is expected to commence by April 2028.",
+            "The output is intended for captive consumption to secure supply and reduce exposure to market price volatility."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "60cb839f79d2721d": {
+        "summary": {
+          "title": "Odisha requires significant investment for renewable energy and infrastructure expansion",
+          "main_point": "A new IEEFA report estimates that Odisha needs approximately INR 1.1 lakh crore to scale up renewable energy and grid infrastructure over the next decade.",
+          "bullets": [
+            "The state aims to add 10.7 GW of renewable energy capacity between financial year 2025\u20132026 and financial year 2035\u20132036.",
+            "The total investment requirement is estimated at INR 1,09,980 crore, or nearly INR 1.1 lakh crore."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "6f60e10e338dedf8": {
+        "summary": {
+          "title": "ARENA launches third round of Solar Sunshot funding",
+          "main_point": "The Australian Renewable Energy Agency has opened a new funding round offering up to AU$250 million for large-scale solar PV manufacturing and demonstration.",
+          "bullets": [
+            "The funding is available to companies that manufacture or demonstrate equipment for building large-scale solar PV power plants in Australia.",
+            "The AU$250 million figure is equivalent to US$175 million."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
+      },
+      "ea5299f45ca08a9c": {
+        "summary": {
+          "title": "Illinois school district invests in solar on three school buildings",
+          "main_point": "Allied Facility Partners, a design-build and performance contracting firm serving K-12, municipal and public-sector organizations across Illinois and Wisconsin, has completed a districtwide rooftop solar project for Cary Community Consolidated School District 26 in Illinois.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-15"
+      },
+      "d70db26ad18645be": {
+        "summary": {
+          "title": "Ameresco completes solar-plus-storage project for Oregon wastewater site",
+          "main_point": "A $1 million solar-plus-storage project has been completed at the Roseburg Urban Sanitary Authority office in Oregon.",
+          "bullets": [
+            "The system is designed to meet 100% of the energy needs for the site.",
+            "This project marks the first phase of a multi-phase energy program intended to improve facility resilience and sustainability."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-15"
       }
     },
     "shown": {
@@ -1042,52 +1158,71 @@
       "pv-magazine-usa.com/2026/10/13/jackery-steps-into-rvs-with-built-in-2-kw-solar-and-45-kwh-storage": "2026-10-14",
       "pv-magazine-usa.com/2026/10/13/anker-solix-announces-wheeled-power-station-with-4-5-kw-output": "2026-10-14",
       "pv-magazine-usa.com/2026/10/14/unico-launches-330kw-bidirectional-grid-tie-inverter": "2026-10-14",
-      "pv-magazine-usa.com/2026/10/14/solar-repowering-guide-shows-installers-how-to-tap-into-the-aging-rooftop-market": "2026-10-14"
+      "pv-magazine-usa.com/2026/10/14/solar-repowering-guide-shows-installers-how-to-tap-into-the-aging-rooftop-market": "2026-10-14",
+      "pv-magazine.com/2026/10/15/finland-demands-grid-forming-support-for-new-wind-solar-in-weak-grids": "2026-10-15",
+      "wysokienapiecie.pl/122081-maxxen-zyski-z-baterii-w-polsce-sa-szalone": "2026-10-15",
+      "pv-magazine.com/2026/10/15/scientists-develop-moth-eye-inspired-antireflective-surfaces-for-pv-modules": "2026-10-15",
+      "mercomindia.com/us-to-impose-antidumping-countervailing-duties-solar-imports-from-india": "2026-10-15",
+      "mercomindia.com/indias-solar-growth-exposes-industry-wide-talent-readiness-gap-mercom": "2026-10-15",
+      "pv-magazine.com/2026/10/15/indias-solar-industry-faces-workforce-readiness-gap-mercom": "2026-10-15",
+      "pv-magazine-india.com/2026/10/15/indias-solar-industry-faces-workforce-readiness-gap-mercom": "2026-10-15",
+      "solarpowerworldonline.com/2026/10/solar-imports-from-india-indonesia-laos-to-be-tariffed-beginning-in-november": "2026-10-15",
+      "pv-tech.org/indias-solar-generation-rises-39-in-q2-crea": "2026-10-15",
+      "pv-tech.org/pv-chart-of-the-week-topcon-to-lead-solar-cell-production-in-india-this-year": "2026-10-15",
+      "pv-magazine-india.com/2026/10/14/oswal-pumps-to-set-up-1-2-gw-topcon-solar-cell-manufacturing-facility": "2026-10-15",
+      "energy-storage.news/we-are-taking-appropriate-action-to-defend-ip-rights-energy-dome-exa-energys-co2-storage-tech-compared-as-1gwh-china-project-goes-online": "2026-10-15",
+      "pv-magazine-india.com/2026/10/15/odisha-needs-inr1-1-lakh-crore-to-expand-renewable-energy-storage-and-grid-infrastructure": "2026-10-15",
+      "pv-tech.org/arena-launches-au250-million-third-solar-sunshot-round-targeting-large-scale-solar-pv-plants-in-australia": "2026-10-15",
+      "solarpowerworldonline.com/2026/10/nominate-the-rising-stars-of-us-solar": "2026-10-15",
+      "solarpowerworldonline.com/2026/10/illinois-school-district-invests-in-solar-on-three-school-buildings": "2026-10-15",
+      "solarpowerworldonline.com/2026/10/adelphi-university-covers-sports-facility-with-new-roof-and-solar-project": "2026-10-15",
+      "pv-tech.org/arevon-signs-three-20-year-rec-contracts-for-200mw-illinois-solar-project": "2026-10-15",
+      "solarpowerworldonline.com/2026/10/ameresco-solar-storage-project-meets-100-of-oregon-wastewater-sites-energy-needs": "2026-10-15"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-14"
+        "last_ok": "2026-10-15"
       }
     },
     "alerts": {},
