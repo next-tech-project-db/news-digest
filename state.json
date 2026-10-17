@@ -1,126 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.089043,
-  "requests": 29,
+  "spent_usd": 0.091917,
+  "requests": 31,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.032596
+      "2026-10": 0.03547
     },
     "cache": {
-      "e82c11bb87b80a2b": {
-        "summary": {
-          "title": "German startup offers AI platform to accelerate battery storage engineering",
-          "main_point": "Morreon GmbH is developing an AI-based operating system called Anchor to streamline the planning and execution of energy infrastructure projects.",
-          "bullets": [
-            "The platform integrates document processing, engineering design, cost management, tendering, and project scheduling.",
-            "It targets battery energy storage systems, substations, electric truck charging infrastructure, and data centers.",
-            "The first stage of the platform converts unstructured inputs like PDFs, CAD files, and emails into standardized engineering briefs."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
-      "29d1de47c5503cfd": {
-        "summary": {
-          "title": "Poland unveils new home storage subsidy",
-          "main_point": "Poland\u2019s Ministry of Climate and Environment has announced a $257.9 million (PLN 1 billion) subsidy scheme for home battery and heat storage, aimed at increasing self-consumption from residential solar and other renewable energy installations.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-06"
-      },
-      "4baef3a6460ce829": {
-        "summary": {
-          "title": "Polish rural energy program supports renewables and storage",
-          "main_point": "A Polish program provided financing for agricultural renewable energy installations and integrated energy storage systems.",
-          "bullets": [
-            "Eligible projects included solar and wind installations between 50 kW and 1 MW, and hydro or biogas plants between 10 kW and 1 MW.",
-            "Energy cooperatives were permitted to install systems between 10 kW and 10 MW.",
-            "Support included loans for solar and wind, and grants of 45 to 65 percent for biogas and hydro, while energy storage received up to 20 percent funding."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
-      "8a04989e7cd90e1a": {
-        "summary": {
-          "title": "MAHAPREIT Floats O&M Tender for Solar Project in Maharashtra",
-          "main_point": "Mahatma Phule Renewable Energy and Infrastructure Technology (MAHAPREIT) has invited bids to provide operation and maintenance (O&M) services for a grid-connected solar power project at Kelapur in Maharashtra\u2019s Wardha district.The project entails providing five years of O&M services for a 3 MW solar",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-06"
-      },
-      "de22d7946d4a2b4b": {
-        "summary": {
-          "title": "Japan proposes four categories for priority commercial solar support",
-          "main_point": "Japan's Agency for Natural Resources and Energy proposed maintaining feed-in support for specific commercial solar categories while phasing out others.",
-          "bullets": [
-            "Support will continue for solar on government land, municipal decarbonization projects, carports, and infrastructure like airports and railways.",
-            "New ground-mounted commercial solar will lose FIT and FIP support starting April 1, 2027."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
-      "f3cc9a549408a9d4": {
-        "summary": {
-          "title": "Solex secures INR 194.14 crore orders for TOPCon solar modules",
-          "main_point": "Gujarat-based Solex Energy and its subsidiary secured orders totaling INR 194.14 crore for TOPCon bifacial solar modules.",
-          "bullets": [
-            "Solex Green Energy received an order worth INR 180.98 crore, while Solex Energy received an order for INR 13.16 crore.",
-            "The company operates a 4 GW annual production facility in Tadkeshwar, Gujarat."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
-      "0cb2c7e6431254bd": {
-        "summary": {
-          "title": "Developments in U.S. solar legislation and patent litigation",
-          "main_point": "U.S. solar news includes the classification of balcony solar as appliances and a new patent lawsuit regarding TOPCon technology.",
-          "bullets": [
-            "Thirty-five states and D.C. have enacted or are deliberating legislation regarding plug-in balcony solar (Solar Power World).",
-            "First Solar filed a patent infringement lawsuit against JA Solar and American Panel Solutions regarding TOPCon cell manufacturing methods (pv magazine India)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
-      "ab5175c3c48a2e81": {
-        "summary": {
-          "title": "Linea Energy closes financing for 500 MWh Texas battery project",
-          "main_point": "Linea Energy secured debt financing and preferred equity for its 250 MW/500 MWh Mesa View battery storage project in Texas.",
-          "bullets": [
-            "The project is located in Upton County and is scheduled to reach commercial operation in 2027.",
-            "NORD/LB acted as coordinating lead arranger, with D.E. Shaw Renewable Investments providing the preferred equity commitment."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
-      "8ceb6bf4f433c9b7": {
-        "summary": {
-          "title": "Research evaluates economic impact of rural U.S. solar and wind",
-          "main_point": "A University of Missouri working paper analyzes the local economic effects of utility-scale wind and solar in rural U.S. counties from 2000 to 2022.",
-          "bullets": [
-            "The study compares rural counties hosting utility-scale installations against non-adopting peer counties.",
-            "Researchers examined the impact on gross domestic product, wage-and-salary employment, and total earnings."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-06"
-      },
       "a819f2ebac0f58cd": {
         "summary": {
           "title": "Auroracell launches 9.7 kwh sodium-ion chromium oxide residential battery",
@@ -933,24 +820,122 @@
         },
         "mode": "ai",
         "date": "2026-10-15"
+      },
+      "7beaa290c083a827": {
+        "summary": {
+          "title": "Ampyr Solar Europe and international investors announce solar project stake sales",
+          "main_point": "Ampyr Solar Europe sold a 49% stake in a 157 MW German project, while Norfund and Impact Fund Denmark acquired a 49% interest in a 500 MWp project in the Philippines.",
+          "bullets": [
+            "Ampyr Solar Europe sold a 49% stake in its 157 MW Elsterheide solar project (Mercom India).",
+            "Norfund and Impact Fund Denmark signed agreements to acquire a 49% interest in the 500 MWp Ixus Bugallon Solar Power Project in the Philippines (PV Tech)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "9272dd6f9977fce8": {
+        "summary": {
+          "title": "France announces measures to improve grid flexibility and reduce energy costs",
+          "main_point": "The French government is introducing initiatives to improve residential energy management and EV charging flexibility, aiming to reduce energy costs by up to 35%.",
+          "bullets": [
+            "Subsidies for heat pumps will be conditional on smart-control capabilities starting in 2027 (pv magazine).",
+            "Households installing smart-control systems could save between \u20ac150 ($168.8) and \u20ac200 annually (pv magazine).",
+            "The government plans to ensure smart-control functions are enabled by default in new EV charging infrastructure (pv magazine)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "0eca8dd947310672": {
+        "summary": {
+          "title": "Study links reduced maintenance to performance decline at Algerian solar plant",
+          "main_point": "A six-year assessment of a 12 MW solar plant in Algeria found that performance dropped in 2020 due to maintenance restrictions during the COVID-19 pandemic.",
+          "bullets": [
+            "The study covered the period from 2018 to 2023 at a 12 MW plant in Sidi Bel-Abbes (pv magazine).",
+            "The facility uses 47,808 Hanwha Qcells polycrystalline modules and SMA Sunny Central 800CP XT inverters (pv magazine)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "b73c13ff170ba4a5": {
+        "summary": {
+          "title": "GRIDCO invites bids for floating solar and battery storage project consultancy",
+          "main_point": "GRIDCO is seeking a consultant to evaluate the environmental and social impacts of the Upper Indravati floating solar and battery energy storage project.",
+          "bullets": [
+            "The scope of work includes assessing evacuation infrastructure and associated transmission lines (Mercom India)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "db171dda00b54103": {
+        "summary": {
+          "title": "NTPC Renewable Energy seeks bids for solar projects in Maharashtra",
+          "main_point": "NTPC Renewable Energy has issued a tender for the engineering, procurement, and construction of solar projects near its Dhule Solar Project.",
+          "bullets": [
+            "The projects are intended to be interstate transmission system-connected (Mercom India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "5aa337655921fc35": {
+        "summary": {
+          "title": "China TOPCon solar cell prices decline following Golden Week",
+          "main_point": "Prices for TOPCon solar cells in China fell following the Golden Week holiday as the industry faces weakening overseas demand.",
+          "bullets": [
+            "FOB China TOPCon M10 cell prices fell 0.86% to $0.0463/W, while 210R cell prices fell 0.66% to $0.0454/W (pv magazine India).",
+            "Both formats are approximately 13% below their late-August peaks (pv magazine India)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "cb6f3f8211e3965d": {
+        "summary": {
+          "title": "Qcells to introduce U.S. domestic frames for residential solar panel lineup",
+          "main_point": "Qcells announced plans to launch new versions of its residential solar panel series featuring U.S.-made aluminum frames by the end of 2026.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-17"
+      },
+      "287fcc985b3bbec3": {
+        "summary": {
+          "title": "Energy storage projects reach financial and operational milestones in US",
+          "main_point": "Flatiron Energy secured $850 million for a Massachusetts storage project, while Nightpeak Energy brought the second phase of a Texas battery system online.",
+          "bullets": [
+            "Flatiron Energy closed approximately US$850 million for the 1,200MWh Energizar project in Chelsea, Massachusetts (Energy-Storage.news).",
+            "Nightpeak Energy\u2019s 150 MW / 300 MWh Bocanova 2 project in Texas reached commercial operation on September 17, bringing the site's total capacity to 300 MW / 600 MWh (pv magazine USA)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
+      },
+      "b5dafad477e31e81": {
+        "summary": {
+          "title": "Patent lawsuit reveals equipment imports for Tesla solar factory",
+          "main_point": "A federal patent lawsuit indicates that Tesla is importing Chinese crystal-pulling equipment for a 10 GW solar production line at its Texas gigafactory.",
+          "bullets": [
+            "Linton Crystal Technologies filed a patent infringement complaint against Chinese manufacturer Zhejiang Jingsheng Mechanical and Electrical (pv magazine USA).",
+            "The legal dispute involves Czochralski crystal pullers intended for the $10.1 billion solar factory in Fort Bend County (pv magazine USA)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-17"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/06/german-startup-offers-ai-platform-to-accelerate-battery-storage-engineering": "2026-10-06",
-      "pv-magazine.com/2026/10/06/poland-unveils-new-home-storage-subsidy": "2026-10-06",
-      "wysokienapiecie.pl/121843-400-mln-zl-w-jeden-dzien-wies-chce-produkowac-energie": "2026-10-06",
-      "mercomindia.com/mahapreit-floats-om-tender-for-solar-project-in-maharashtra": "2026-10-06",
-      "pv-tech.org/sumitomo-invests-in-500mw-200mwh-solar-wind-storage-project-in-india": "2026-10-06",
-      "pv-magazine.com/2026/10/06/japan-proposes-four-categories-for-priority-commercial-solar-support": "2026-10-06",
-      "pv-magazine-india.com/2026/10/06/solex-secures-inr-194-14-crore-orders-for-topcon-solar-modules": "2026-10-06",
-      "pv-magazine-india.com/2026/10/05/solex-energy-secures-inr-75-96-crore-order-for-n-type-topcon-solar-modules": "2026-10-06",
-      "solarpowerworldonline.com/2026/10/balcony-solar-laws-classify-the-technology-as-household-appliances": "2026-10-06",
-      "pv-magazine-india.com/2026/10/06/first-solar-sues-ja-solar-and-american-panel-solutions-over-topcon-patents": "2026-10-06",
-      "solarpowerworldonline.com/2026/10/why-nerc-compliance-starts-in-solar-project-design": "2026-10-06",
-      "energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project": "2026-10-06",
-      "energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us": "2026-10-06",
-      "pv-magazine-usa.com/2026/10/05/linea-energy-closes-debt-financing-and-preferred-equity-for-250-mw-500-mwh-texas-battery-project": "2026-10-06",
-      "pv-magazine-usa.com/2026/10/06/new-research-quantifies-local-economic-impact-of-rural-wind-and-solar-buildout": "2026-10-06",
       "pv-magazine.com/2026/10/07/auroracell-launches-9-7-kwh-sodium-ion-chromium-oxide-residential-battery": "2026-10-07",
       "pv-magazine.com/2026/10/07/thousands-of-european-solar-park-systems-exposed-online-say-researchers": "2026-10-07",
       "energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution": "2026-10-07",
@@ -1084,52 +1069,70 @@
       "energy-storage.news/nightpeak-energy-doubles-texas-bess-site-to-300mw": "2026-10-16",
       "solarpowerworldonline.com/2026/10/pisgah-energy-installs-solar-on-third-building-for-craft-furniture-maker": "2026-10-16",
       "pv-magazine-usa.com/2026/10/15/texas-to-account-for-almost-half-of-domestic-u-s-silicon-module-production-in-2027": "2026-10-16",
-      "solarpowerworldonline.com/2026/10/221-distributed-solar-policy-actions-were-taken-in-q3-all-across-country": "2026-10-16"
+      "solarpowerworldonline.com/2026/10/221-distributed-solar-policy-actions-were-taken-in-q3-all-across-country": "2026-10-16",
+      "mercomindia.com/ampyr-solar-europe-sells-stake-157mw-solar-project-germany": "2026-10-17",
+      "mercomindia.com/germany-adds-12-63-gw-of-solar-capacity-in-9m-2026": "2026-10-17",
+      "pv-tech.org/norfund-impact-fund-denmark-acquire-49-stake-vena-solar-project-philippines": "2026-10-17",
+      "pv-magazine.com/2026/10/17/france-to-ease-grid-connection-rules-for-solar-plus-storage-projects-up-to-25-mw": "2026-10-17",
+      "pv-magazine.com/2026/10/17/six-year-testing-highlights-impact-of-reduced-maintenance-on-pv-plants-during-covid-19-pandemic": "2026-10-17",
+      "mercomindia.com/gridco-seeks-consultant-for-floating-solar-project-with-battery-storage": "2026-10-17",
+      "mercomindia.com/maharashtra-invites-bids-to-set-up-battery-storage-projects": "2026-10-17",
+      "mercomindia.com/ntpc-renewable-energy-invites-bids-for-solar-projects-in-maharashtra": "2026-10-17",
+      "mercomindia.com/energyre-secures-815-million-solar-projects-south-carolina": "2026-10-17",
+      "pv-magazine-india.com/2026/10/16/china-topcon-solar-cell-prices-edge-lower-after-golden-week-as-industry-weighs-price-floors": "2026-10-17",
+      "pv-magazine.com/2026/10/17/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup": "2026-10-17",
+      "solarpowerworldonline.com/2026/10/qcells-residential-solar-panels-to-feature-aluminum-frames-made-in-tennessee": "2026-10-17",
+      "pv-magazine-usa.com/2026/10/16/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup": "2026-10-17",
+      "energy-storage.news/flatiron-energy-closes-us850-million-financing-for-1-2gwh-massachusetts-bess-project": "2026-10-17",
+      "pv-magazine-usa.com/2026/10/16/nightpeak-energy-brings-second-300-mwh-phase-of-texas-project-online": "2026-10-17",
+      "pv-magazine-usa.com/2026/10/16/patent-lawsuit-points-to-10-gw-ingot-and-wafer-equipment-import-for-teslas-10-billion-texas-solar-factory": "2026-10-17",
+      "pv-magazine-usa.com/2026/10/16/in-case-you-missed-it-solar-stories-of-the-week-1016": "2026-10-17",
+      "pv-magazine-usa.com/2026/10/16/swift-current-alleges-widespread-module-defects-in-lawsuit-against-first-solar": "2026-10-17"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-16"
+        "last_ok": "2026-10-17"
       }
     },
     "alerts": {},
