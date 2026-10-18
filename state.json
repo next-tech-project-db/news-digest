@@ -1,130 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.091917,
-  "requests": 31,
+  "spent_usd": 0.096277,
+  "requests": 33,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.03547
+      "2026-10": 0.036241
     },
     "cache": {
-      "a819f2ebac0f58cd": {
-        "summary": {
-          "title": "Auroracell launches 9.7 kwh sodium-ion chromium oxide residential battery",
-          "main_point": "Bulgaria-based Auroracell has introduced a 9.7 kWh residential energy storage system utilizing sodium-ion chromium oxide battery technology.",
-          "bullets": [
-            "The technology uses a specific cathode chemistry designed to improve battery life, thermal stability, and performance across a wider temperature range.",
-            "The system is designed to address typical sodium-ion limitations such as lower energy density and performance constraints at temperature extremes."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "0f2afc2e454b784f": {
-        "summary": {
-          "title": "Thousands of european solar park systems exposed online, say researchers",
-          "main_point": "Researchers identified 8,547 internet-facing systems at European solar and wind projects that should not be reachable from the internet.",
-          "bullets": [
-            "Solar projects accounted for 7,942 of the exposed systems across 34 countries.",
-            "Spain had 2,766 exposed systems, followed by Greece with 1,860, Italy with 753, and Germany with 672."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "61bc5fa6aee0b210": {
-        "summary": {
-          "title": "Bw ess starts building 828mwh bess in italy",
-          "main_point": "BESS owner-operator BW ESS has begun construction on its second large-scale project in Italy within one month.",
-          "bullets": [
-            "The project is an 828 MWh battery energy storage system.",
-            "Developers Galileo and Aura Power have also progressed their respective portfolios in Italy."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "5bf9e5bd93c121dd": {
-        "summary": {
-          "title": "Tata power renewables and seci report rooftop solar updates",
-          "main_point": "The Solar Energy Corporation of India has invited bids for rooftop solar projects in New Delhi, while Tata Power Renewables reported reaching over 5.67 GWp of cumulative rooftop capacity.",
-          "bullets": [
-            "Tata Power Solaroof completed 88,397 installations in the July-September quarter (Q2 FY27), representing 426 MWp of capacity.",
-            "During the first six months of FY27, Tata Power Solaroof added over 168,530 installations totaling 801 MWp of capacity.",
-            "Tata Power Solaroof has surpassed 5.67 GWp of cumulative rooftop solar capacity across 575,000 installations."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "c432a8988d716ead": {
-        "summary": {
-          "title": "Bondada engineering secures solar epc order and financing for subsidiary",
-          "main_point": "Bondada Engineering Ltd received an EPC order worth INR 1,153.93 crore for a 270 MWp solar project in Maharashtra, while its subsidiary Onix IPP secured financing for a 225 MW project.",
-          "bullets": [
-            "The EPC order for the 270 MWp project is to be executed over a six-month period."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "570bb6197f1467e6": {
-        "summary": {
-          "title": "Heterojunction solar cell achieves 25.96% efficiency with biomass-based paste",
-          "main_point": "Researchers at Guangdong University of Technology developed a silver paste using biomass lignin that enabled silicon heterojunction solar cells to reach 25.96% efficiency.",
-          "bullets": [
-            "The lignin-based paste replaces 25% of petroleum-based bisphenol F epoxy resin.",
-            "The strategy uses solvent fractionation followed by epoxidation grafting to convert lignin into a functional binder."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "6e7ef45635b0ac78": {
-        "summary": {
-          "title": "Zelestra secures $350 million for indiana solar project",
-          "main_point": "Zelestra closed a $350 million credit facility for its 203 MW Reclamation solar project in Indiana.",
-          "bullets": [
-            "The project is backed by a long-term power purchase agreement with Meta.",
-            "This financing brings Zelestra's total U.S. capital raised in 2026 to $1.14 billion."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "13fe461ddf92920f": {
-        "summary": {
-          "title": "Hithium and antora energy announce energy storage developments",
-          "main_point": "Hithium is advancing sodium-ion storage toward large-scale deployment, while Antora Energy announced a 5.8 GWh thermal energy storage project in Kansas.",
-          "bullets": [
-            "Antora Energy's project is located at Pratt Energy\u2019s biorefinery in Pratt, Kansas.",
-            "Hithium views sodium-ion technology as a way to address concerns regarding lithium resource concentration and price volatility."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
-      "456ab7fdb9e49b9f": {
-        "summary": {
-          "title": "Report finds high defect rates in solar assets",
-          "main_point": "The 2026 SolarGrade PV Health Report by HelioVolta found that 87% of inspected solar projects contained major issues that impact safety and financial yield.",
-          "bullets": [
-            "The report assessed nearly 8 GW of PV assets across more than 1,500 projects in the U.S. and Puerto Rico.",
-            "Quality issues can increase a system's levelized cost of energy by more than 20% (Solar Power World)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-07"
-      },
       "e8fc3ab8892fe87b": {
         "summary": {
           "title": "European solar and wind systems identified as vulnerable to cyber risks",
@@ -933,27 +816,37 @@
         },
         "mode": "ai",
         "date": "2026-10-17"
+      },
+      "2ee2511481774d87": {
+        "summary": {
+          "title": "Spanish researchers test low-height agrivoltaics in vineyards",
+          "main_point": "A research team in Spain has experimentally tested the integration of low-height photovoltaic systems within vineyards to assess their agricultural and energy performance.",
+          "bullets": [
+            "The systems are positioned closer to the ground between vine rows to reduce structural material requirements, installation costs, and visual impact.",
+            "Researchers tested three agrivoltaic systems at commercial vineyards in southeastern Spain during the 2024 harvest season.",
+            "The design aims to minimize interference with vineyard machinery and routine agricultural operations while limiting shading during critical grape development stages."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-18"
+      },
+      "91f457d4378f2668": {
+        "summary": {
+          "title": "Dutch regulator warns of cyber risks to grid stability from cloud-controlled devices",
+          "main_point": "The Dutch Rijksinspectie Digitale Infrastructuur warns that cyberattacks or faulty updates on cloud platforms could destabilize the grid by simultaneously controlling large numbers of home energy devices.",
+          "bullets": [
+            "The regulator states that a sudden supply and demand imbalance of 3 GW or more can disrupt the grid.",
+            "The Rijksinspectie Digitale Infrastructuur argues that the EU Cyber Resilience Act and NIS2 directive only partially cover the companies managing these platforms.",
+            "The primary risk identified is the backend systems of manufacturers, aggregators, and energy management providers, which act as a single point of entry for large groups of devices."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-18"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/07/auroracell-launches-9-7-kwh-sodium-ion-chromium-oxide-residential-battery": "2026-10-07",
-      "pv-magazine.com/2026/10/07/thousands-of-european-solar-park-systems-exposed-online-say-researchers": "2026-10-07",
-      "energy-storage.news/bw-ess-starts-building-828mwh-bess-italy-market-moves-execution": "2026-10-07",
-      "mercomindia.com/seci-invites-bids-for-rooftop-solar-projects-in-new-delhi": "2026-10-07",
-      "mercomindia.com/jserc-allows-coal-miner-to-connect-1-88-mw-rooftop-solar-project-at-11-kv": "2026-10-07",
-      "pv-magazine-india.com/2026/10/06/tata-power-renewables-surpasses-5-67-gw-of-rooftop-solar-capacity-in-india": "2026-10-07",
-      "mercomindia.com/project-finance-brief-rezolv-secures-637million-solar": "2026-10-07",
-      "pv-magazine-india.com/2026/10/07/bondada-engineering-secures-inr-1153-93-crore-epc-order-for-270-mwp-solar-project-in-maharashtra": "2026-10-07",
-      "pv-magazine-usa.com/2026/10/07/heterojunction-solar-cell-built-with-biomass-lignin-based-silver-paste-achieves-25-96-efficiency": "2026-10-07",
-      "pv-magazine.com/2026/10/07/heterojunction-solar-cell-built-with-biomass-lignin-based-silver-paste-achieves-25-96-efficiency": "2026-10-07",
-      "pv-magazine-usa.com/2026/10/07/meta-backed-solar-project-on-reclaimed-indiana-coal-mine-secures-350-million": "2026-10-07",
-      "pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-by-meta": "2026-10-07",
-      "pv-tech.org/bondada-secures-us119-3-million-epc-order-for-270mw-solar-pv-project-in-maharashtra": "2026-10-07",
-      "pv-tech.org/clearway-secures-financing-starts-construction-on-650mw-missouri-solar-project": "2026-10-07",
-      "solarpowerworldonline.com/2026/10/missouri-utility-solar-project-will-occupy-former-strip-mine-land": "2026-10-07",
-      "pv-magazine-usa.com/2026/10/07/hithiums-sodium-ion-storage-push-where-it-could-win-where-it-wont-and-path-to-bankability": "2026-10-07",
-      "pv-magazine-usa.com/2026/10/07/high-defect-rates-drag-down-solar-performance-and-yield-finds-report": "2026-10-07",
-      "solarpowerworldonline.com/2026/10/heliovolta-report-quality-issues-raise-solar-systems-lcoe-by-20": "2026-10-07",
       "mercomindia.com/over-8500-european-solar-wind-systems-found-vulnerable-to-cyber-risks": "2026-10-08",
       "pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks": "2026-10-08",
       "pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access": "2026-10-08",
@@ -1087,52 +980,54 @@
       "pv-magazine-usa.com/2026/10/16/nightpeak-energy-brings-second-300-mwh-phase-of-texas-project-online": "2026-10-17",
       "pv-magazine-usa.com/2026/10/16/patent-lawsuit-points-to-10-gw-ingot-and-wafer-equipment-import-for-teslas-10-billion-texas-solar-factory": "2026-10-17",
       "pv-magazine-usa.com/2026/10/16/in-case-you-missed-it-solar-stories-of-the-week-1016": "2026-10-17",
-      "pv-magazine-usa.com/2026/10/16/swift-current-alleges-widespread-module-defects-in-lawsuit-against-first-solar": "2026-10-17"
+      "pv-magazine-usa.com/2026/10/16/swift-current-alleges-widespread-module-defects-in-lawsuit-against-first-solar": "2026-10-17",
+      "pv-magazine.com/2026/10/17/spanish-researchers-test-low-height-agrivoltaics-in-vineyards": "2026-10-18",
+      "pv-magazine.com/2026/10/17/dutch-regulator-flags-eu-cyber-gap-for-cloud-controlled-home-batteries": "2026-10-18"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-17"
+        "last_ok": "2026-10-18"
       }
     },
     "alerts": {},
