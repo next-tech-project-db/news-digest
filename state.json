@@ -1,124 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.096277,
-  "requests": 33,
+  "spent_usd": 0.102659,
+  "requests": 35,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.036241
+      "2026-10": 0.038679
     },
     "cache": {
-      "e8fc3ab8892fe87b": {
-        "summary": {
-          "title": "European solar and wind systems identified as vulnerable to cyber risks",
-          "main_point": "Researchers have identified thousands of internet-facing systems linked to solar and wind energy assets across Europe, highlighting potential cybersecurity threats.",
-          "bullets": [
-            "Modat identified 8,547 internet-facing systems linked to solar parks and wind farms across 35 European countries (Mercom India).",
-            "A joint Dutch team of researchers reported that almost 8,000 European solar energy systems are exposed to internet cyberattacks (PV Tech)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "18ed5ccb5457eeae": {
-        "summary": {
-          "title": "Sungrow patches iSolarCloud vulnerability following security research",
-          "main_point": "Sungrow deployed an emergency patch to its iSolarCloud platform after researchers discovered a vulnerability that allowed unauthorized account access.",
-          "bullets": [
-            "The vulnerability was reported to Sungrow on Aug. 22 by an independent researcher working with Jakkaru.",
-            "Sungrow deployed an emergency patch across all iSolarCloud levels on Aug. 25, resolving the issue the same day.",
-            "The flaw affected the cloud infrastructure, potentially exposing all inverters connected to the platform."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "c1840b293a07426c": {
-        "summary": {
-          "title": "Maxxen Energy operates containerized battery manufacturing facility in T\u00fcrkiye",
-          "main_point": "Maxxen Energy is operating a 20,000-square-meter containerized battery manufacturing plant in Ayd\u0131n, T\u00fcrkiye, which began operations in 2026.",
-          "bullets": [
-            "The facility produces a 5 MWh DC Box container and an optional MV Box power station with outputs of 2.5 MW, 5.0 MW, or 10 MW.",
-            "Maxxen is headquartered in Switzerland and is a subsidiary of Kontek Energy."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "a16e769b2bdd95c4": {
-        "summary": {
-          "title": "Punjab Energy Development Agency invites bids for solar projects",
-          "main_point": "The Punjab Energy Development Agency has issued a tender for grid-connected rooftop and ground-mounted solar projects using the RESCO model.",
-          "bullets": [
-            "The projects will feature a net metering or net billing facility."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "22e283996de5a3a4": {
-        "summary": {
-          "title": "MERC approves compensation for solar developer generation losses",
-          "main_point": "The Maharashtra Electricity Regulatory Commission ordered the Maharashtra State Power Generation Company to pay \u20b911.10 million in compensation for deemed generation losses.",
-          "bullets": [
-            "The compensation relates to a 50 MW solar project that could not evacuate power due to grid unavailability."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "1ed0403474a0cb38": {
-        "summary": {
-          "title": "SECI Invites Bids to Set Up Wind Projects Across India",
-          "main_point": "Listen to this article The Solar Energy Corporation of India (SECI) has floated a tender to set up interstate transmission system (ISTS)-connected wind projects nationwide.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-08"
-      },
-      "6e0e66443a68f6b4": {
-        "summary": {
-          "title": "Recent utility-scale solar project developments in the United States",
-          "main_point": "New utility-scale solar projects have been completed in Minnesota and secured financing in Indiana.",
-          "bullets": [
-            "Cedar Creek Energy completed the 5.046-MW Ramsey II Renewable Station in Minnesota.",
-            "Zelestra secured $350 million in financing for its 203 MW Reclamation solar project in Indiana, which is backed by a power purchase agreement with Meta."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "75e1e427173edb1e": {
-        "summary": {
-          "title": "Green Clean Solar manages solar panel recycling in Georgia",
-          "main_point": "Green Clean Solar is providing recycling services for damaged solar panels at a project site in Maysville, Georgia.",
-          "bullets": [
-            "The company specializes in managing solar waste generated during construction and operations."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
-      "53b8bf3a4be57590": {
-        "summary": {
-          "title": "AMMP launches AI tool for renewable energy asset management",
-          "main_point": "Data platform AMMP has introduced an AI coworker named Ray to assist renewable energy asset management teams with reporting and decision-making.",
-          "bullets": [
-            "The tool is designed to integrate into existing asset management workflows to identify problems and draft reports."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-08"
-      },
       "2479005bcd5b6261": {
         "summary": {
           "title": "Dutch researchers calculate green hydrogen costs as low as \u20ac7.2/kg",
@@ -844,22 +733,121 @@
         },
         "mode": "ai",
         "date": "2026-10-18"
+      },
+      "9e19e7735af633f7": {
+        "summary": {
+          "title": "Epyr raises \u20ac15 million for industrial thermal energy storage expansion",
+          "main_point": "France-based thermal energy storage provider Epyr has secured \u20ac15 million in an oversubscribed Series A funding round.",
+          "bullets": [
+            "The funding round is equivalent to approximately $17 million (Mercom India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "524f059406dabcd4": {
+        "summary": {
+          "title": "Norwegian politicians propose legalizing plug-in solar and batteries",
+          "main_point": "Members of the Green Party in Norway have proposed removing restrictions on plug-in solar and battery systems to benefit consumers and landlords.",
+          "bullets": [
+            "The proposal aims to remove bureaucratic obstacles and taxes on clean energy production (pv magazine)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "48add0237610351c": {
+        "summary": {
+          "title": "Study suggests renewable energy expansion benefits oil-exporting nations",
+          "main_point": "Researchers at LUT University in Finland found that oil-dependent countries can increase export revenues by replacing domestic fossil fuel consumption with renewable electricity.",
+          "bullets": [
+            "Norway is cited as a successful example of combining oil and gas production with extensive renewable energy generation (pv magazine)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "207f91ff082c7272": {
+        "summary": {
+          "title": "Chennai Port Authority and ACME Solar announce new energy projects",
+          "main_point": "Chennai Port Authority has invited bids for a rooftop solar project, while ACME Solar signed a power procurement agreement for a 300 MW/1,200 MWh dispatchable energy project.",
+          "bullets": [
+            "Chennai Port Authority is seeking a grid-connected rooftop solar project under the RESCO model (Mercom India).",
+            "ACME Solar's project will supply 4 MWh per MW of contracted capacity for four hours daily during non-solar hours (pv magazine India).",
+            "The ACME Solar project tariff is INR 6/kWh (pv magazine India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "6c1da556c7aff4a3": {
+        "summary": {
+          "title": "ACME Solar signs 300 MW dispatchable renewable energy agreement",
+          "main_point": "ACME Solar has signed a power procurement agreement with the Solar Energy Corporation of India for a 300 MW/1,200 MWh firm and dispatchable renewable energy project.",
+          "bullets": [
+            "The project was secured at a tariff of INR 6 ($0.063)/kWh (pv magazine).",
+            "The agreement requires a minimum monthly availability of 90% (pv magazine)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "e60b0eaf56125f31": {
+        "summary": {
+          "title": "Trontek to launch 5 MWh liquid-cooled battery storage system",
+          "main_point": "Trontek Electronics will debut its 5 MWh EKOM containerized battery energy storage system at The Battery Show India 2026.",
+          "bullets": [
+            "The system features lithium iron phosphate cells, liquid cooling, and a cycle life exceeding 9,000 cycles (pv magazine India).",
+            "The design aims for a system efficiency of over 93% (pv magazine India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "3a70b2401f927971": {
+        "summary": {
+          "title": "JinkoSolar unveils 510-W all-black residential solar module",
+          "main_point": "JinkoSolar has introduced the Tiger Neo 5.0 residential module, which utilizes a combination of TOPCon and HJT technologies.",
+          "bullets": [
+            "The 48-cell module offers a maximum power output of 510 W and 25.52% efficiency (Solar Power World)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "87312b9acd2ff220": {
+        "summary": {
+          "title": "Duke Energy Florida completes 75-MW Bailey Mill solar site",
+          "main_point": "Duke Energy Florida has finished construction on the 74.9-MW Bailey Mill Solar Center in Jefferson County.",
+          "bullets": [
+            "The project is intended to help lower long-term energy costs for customers (Solar Power World)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
+      },
+      "69e82668d57d3e0d": {
+        "summary": {
+          "title": "US battery storage sector faces year-end commissioning challenges",
+          "main_point": "The US battery energy storage system sector is experiencing recurring difficulties related to commissioning and policy during the year-end period.",
+          "bullets": [
+            "The year-end rush is described as a perennial challenge for the industry (Energy-Storage.news)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-19"
       }
     },
     "shown": {
-      "mercomindia.com/over-8500-european-solar-wind-systems-found-vulnerable-to-cyber-risks": "2026-10-08",
-      "pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks": "2026-10-08",
-      "pv-magazine.com/2026/10/08/sungrow-patches-isolarcloud-vulnerability-after-security-researchers-gain-access": "2026-10-08",
-      "pv-magazine.com/2026/10/08/inside-bess-manufacturing-maxxens-utility-scale-storage-factory-in-europe": "2026-10-08",
-      "pv-magazine-india.com/2026/10/08/auroracell-launches-9-7-kwh-sodium-ion-chromium-oxide-residential-battery": "2026-10-08",
-      "mercomindia.com/punjab-energy-development-agency-floats-tender-solar-projects": "2026-10-08",
-      "mercomindia.com/seci-invites-bids-peak-power-supply-from-ists-connected-renewable-projects": "2026-10-08",
-      "mercomindia.com/merc-allows-solar-developers-\u20b911-million-generation-loss-compensation-claim": "2026-10-08",
-      "mercomindia.com/seci-invites-bids-to-set-up-wind-projects-across-india": "2026-10-08",
-      "solarpowerworldonline.com/2026/10/cedar-creek-completes-5-mw-solar-project-near-closed-minnesota-landfill": "2026-10-08",
-      "solarpowerworldonline.com/2026/10/from-broken-panels-to-responsible-recovery-green-clean-solar-leads-industry-recycling-efforts": "2026-10-08",
-      "solarpowerworldonline.com/2026/10/nc-foodbank-goes-solar-to-protect-funding-for-community-support": "2026-10-08",
-      "solarpowerworldonline.com/2026/10/ammp-launches-ai-coworker-for-renewable-energy-asset-managers": "2026-10-08",
       "pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg": "2026-10-09",
       "pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain": "2026-10-09",
       "energy-storage.news/bess-industry-buzz-optimisation-curtailment-gb-deal-making-revenues-europe": "2026-10-09",
@@ -982,52 +970,65 @@
       "pv-magazine-usa.com/2026/10/16/in-case-you-missed-it-solar-stories-of-the-week-1016": "2026-10-17",
       "pv-magazine-usa.com/2026/10/16/swift-current-alleges-widespread-module-defects-in-lawsuit-against-first-solar": "2026-10-17",
       "pv-magazine.com/2026/10/17/spanish-researchers-test-low-height-agrivoltaics-in-vineyards": "2026-10-18",
-      "pv-magazine.com/2026/10/17/dutch-regulator-flags-eu-cyber-gap-for-cloud-controlled-home-batteries": "2026-10-18"
+      "pv-magazine.com/2026/10/17/dutch-regulator-flags-eu-cyber-gap-for-cloud-controlled-home-batteries": "2026-10-18",
+      "mercomindia.com/epyr-raises-17-million-to-expand-industrial-thermal-energy-storage": "2026-10-19",
+      "pv-magazine.com/2026/10/19/politicians-propose-plug-in-solar-batteries-in-norway": "2026-10-19",
+      "pv-magazine.com/2026/10/19/100-renewables-is-doable-even-in-oil-countries": "2026-10-19",
+      "mercomindia.com/chennai-port-authority-invites-bids-for-rooftop-solar-project": "2026-10-19",
+      "pv-magazine-india.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-project-at-inr-6-kwh": "2026-10-19",
+      "pv-magazine.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-project-at-inr-6-kwh": "2026-10-19",
+      "pv-magazine-india.com/2026/10/19/ntpc-to-deploy-247solars-solar-thermal-technology-for-round-the-clock-clean-power": "2026-10-19",
+      "pv-magazine-india.com/2026/10/19/evolve-green-targets-3-gw-renewable-energy-asset-portfolio-by-2030": "2026-10-19",
+      "pv-magazine-india.com/2026/10/19/beyond-generation-why-power-quality-will-define-the-next-phase-of-indias-renewable-energy-growth": "2026-10-19",
+      "pv-magazine-india.com/2026/10/19/trontek-to-unveil-5-mwh-liquid-cooled-battery-storage-system-at-the-battery-show-india-2026": "2026-10-19",
+      "solarpowerworldonline.com/2026/10/jinko-unveils-510-w-all-black-residential-solar-panel": "2026-10-19",
+      "solarpowerworldonline.com/2026/10/duke-energy-florida-completes-75-mw-bailey-mill-solar-site": "2026-10-19",
+      "energy-storage.news/year-end-scramble-exposes-us-bess-sectors-commissioning-and-policy-strains": "2026-10-19"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-18"
+        "last_ok": "2026-10-19"
       }
     },
     "alerts": {},
