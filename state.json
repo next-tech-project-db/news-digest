@@ -1,129 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.102659,
-  "requests": 35,
+  "spent_usd": 0.10975,
+  "requests": 37,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.038679
+      "2026-10": 0.041378
     },
     "cache": {
-      "2479005bcd5b6261": {
-        "summary": {
-          "title": "Dutch researchers calculate green hydrogen costs as low as \u20ac7.2/kg",
-          "main_point": "A study of a 200 MW electrolyzer in the Netherlands found that long-term revenue guarantees are necessary for financial viability, with LCOH ranging from \u20ac7.2/kg to \u20ac7.7/kg depending on the sourcing configuration.",
-          "bullets": [
-            "The levelized cost of hydrogen was approximately \u20ac7.2/kg to \u20ac7.3/kg for PPA and hybrid configurations.",
-            "Wholesale electricity sourcing resulted in an LCOH of \u20ac7.7/kg.",
-            "Researchers concluded that all three configurations remain financially unviable without additional support, such as a hydrogen contract for difference."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "ef29a928a4b53817": {
-        "summary": {
-          "title": "Dos Grados acquires 500MW-plus of solar projects from Akuo in Spain",
-          "main_point": "Dos Grados has reached an agreement to purchase three solar PV projects from Akuo with a combined capacity exceeding 500MW.",
-          "bullets": [
-            "The acquisition involves three PV solar projects located in Spain.",
-            "The total installed capacity of the projects is more than 500MW."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "d2f5b5018eefc025": {
-        "summary": {
-          "title": "BESS industry buzz: optimisation and curtailment in GB",
-          "main_point": "The latest BESS Industry Buzz highlights ongoing discussions regarding battery energy storage system optimisation, curtailment, and revenue trends across Europe.",
-          "bullets": [
-            "The report covers industry sentiment regarding BESS deal-making and revenue generation."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "97e989b10d571284": {
-        "summary": {
-          "title": "MNRE Adds 402 MW of Solar Cell Capacity to ALMM, Total Nears 38 GW",
-          "main_point": "The Ministry of New and Renewable Energy (MNRE) has added 402 MW of solar cell manufacturing capacity to the Approved List of Models and Manufacturers (ALMM) List-II, taking the total enlisted capacity to 37.8 GW.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-09"
-      },
-      "c04a571341b813b5": {
-        "summary": {
-          "title": "China wafer prices hold steady amid divergent output plans",
-          "main_point": "China's wafer market prices remained stable ahead of the Golden Week holiday, with producers showing varying production strategies for the fourth quarter.",
-          "bullets": [
-            "FOB China N-type M10 and 210R wafer prices remained unchanged at $0.149/pc and $0.153/pc respectively.",
-            "Wafer inventories are estimated at approximately 25 GW.",
-            "Some manufacturers are reportedly planning to increase output in October despite a lack of consensus on production cuts."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "7369dad0dcfcb686": {
-        "summary": {
-          "title": "Prices drive Pakistan\u2019s metered solar, outages drive hidden uptake",
-          "main_point": "A study by researchers from Pakistan and the United Kingdom identifies two distinct solar adoption channels in Pakistan: registered net metering for high-income users and unregistered off-grid systems in areas with poor grid reliability.",
-          "bullets": [
-            "The research combined data from Ember, NEPRA, and Renewables First to analyze solar adoption at the distribution-company level.",
-            "Registered net metering is primarily utilized by higher-income customers in well-served utility areas."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "659899c8c0b676d4": {
-        "summary": {
-          "title": "Batteries beat gas peakers on cost globally",
-          "main_point": "Wood Mackenzie reports that four-hour battery storage has become cheaper than open-cycle gas turbines across all 43 modeled global markets, though North America faces specific trade and policy challenges.",
-          "bullets": [
-            "Single-axis tracker solar is the lowest-cost new-build power source in 43 of 48 modeled markets.",
-            "North American energy storage investment is being supported by data center demand and rising peaking costs."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "d2e8a9ba8f7f1265": {
-        "summary": {
-          "title": "Thermal energy storage delivers industrial heat and grid solutions",
-          "main_point": "Thermal energy storage systems are being positioned to reduce industrial reliance on natural gas while offering potential solutions for renewable energy curtailment.",
-          "bullets": [
-            "A September 2026 IEA report suggested a 35% global electrification target by 2035 is within reach using existing technologies.",
-            "MGA Thermal is developing electro-thermal energy storage systems to manage industrial loads and grid issues."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
-      "07e03fe25c0c89d2": {
-        "summary": {
-          "title": "Voltus raises $225 million for demand flexibility portfolio",
-          "main_point": "Virtual power plant operator Voltus raised $225 million in a Series D funding round to support its goal of building a 20 GW demand flexibility portfolio.",
-          "bullets": [
-            "The funding round was led by Generation Investment Management, with Activate Capital and Vitol as co-leads.",
-            "Voltus enrolls distributed energy resource owners to help grid operators meet peak demand.",
-            "The North American Electric Reliability Corporation estimates a need for over 270 gigawatts of new peak capacity."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-09"
-      },
       "a36225ee087bb3db": {
         "summary": {
           "title": "Austria receives 43,300 solar subsidy applications in ten minutes",
@@ -845,22 +729,123 @@
         },
         "mode": "ai",
         "date": "2026-10-19"
+      },
+      "e1bc36d3ee38601b": {
+        "summary": {
+          "title": "Norwegian and Danish funds invest in 500 MW Philippine solar project",
+          "main_point": "The Climate Investment Fund and Impact Fund Denmark are acquiring a 49% stake in Vena Energy's 500 MW Ixus Bugallon solar project in the Philippines.",
+          "bullets": [
+            "Vena Energy retains a 51% stake in the project located in the province of Pangasinan.",
+            "The project reached financial close in July 2026 with $310 million in senior loans from eight international banks."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "273e380d68ec9357": {
+        "summary": {
+          "title": "Ikigai Energy and RheEnergise partner for Italian high-density hydro projects",
+          "main_point": "Developer Ikigai Energy and LDES firm RheEnergise signed an MOU to develop a pipeline of projects in Italy using high-density hydro technology.",
+          "bullets": [
+            "The partnership focuses on deploying RheEnergise\u2019s proprietary HD Hydro technology."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "a1cff788520dcf84": {
+        "summary": {
+          "title": "German grid operator Netze BW automates solar connection approvals",
+          "main_point": "Netze BW has introduced an automated assessment process that reduces grid connection approval times for small-scale PV systems from 12 days to five minutes.",
+          "bullets": [
+            "The system applies to PV installations with capacities of up to 15 kW in areas with sufficient grid capacity.",
+            "Since launching in late July 2026, the company has received over 16,000 connection requests, with more than 5,000 applicants already processed."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "05b22f6196c2bcbe": {
+        "summary": {
+          "title": "Trontek to launch 5 MWh liquid-cooled battery storage system",
+          "main_point": "Trontek Electronics will unveil its 5 MWh EKOM containerized battery energy storage system at The Battery Show India 2026.",
+          "bullets": [
+            "The system uses lithium iron phosphate cells, features liquid cooling, and is rated for over 9,000 cycles and a 15-year calendar life.",
+            "The design achieves a system efficiency of over 93%."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "1c9bdcd67c246f27": {
+        "summary": {
+          "title": "Morocco and India solar project updates",
+          "main_point": "Morocco has invited EPC bids for 350 MW of solar, while Truzon Clean Energies secured a 72 MW EPC order in India.",
+          "bullets": [
+            "The Moroccan Agency for Sustainable Energy is seeking contractors for ground-mounted projects totaling at least 350 MW (Mercom India).",
+            "Truzon Clean Energies received a INR 236 crore order for 72 MW of solar projects in Maharashtra, of which 15 MW is already executed (pv magazine India)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "5e67e07a1967e791": {
+        "summary": {
+          "title": "ACME Solar signs 300 MW FDRE power purchase agreement",
+          "main_point": "ACME Solar has signed a PPA with SECI for 300 MW/1,200 MWh of assured peak power supply at a tariff of INR 6/kWh.",
+          "bullets": [
+            "The project requires a minimum monthly availability of 90% and will supply 4 MWh per MW of contracted capacity for four hours daily during non-solar hours.",
+            "The project will integrate solar and battery energy storage system technologies."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "d3a358850f19b703": {
+        "summary": {
+          "title": "Swift Current Energy sues First Solar over module defects",
+          "main_point": "Independent power producer Swift Current Energy has filed a lawsuit against First Solar in the New York County Supreme Court regarding alleged module defects.",
+          "bullets": [
+            "The dispute involves thin-film cadmium telluride solar modules."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "6607650f83a28546": {
+        "summary": {
+          "title": "Qcells to launch US-produced residential solar panels",
+          "main_point": "Qcells plans to introduce residential solar panels featuring U.S.-made aluminum frames by the end of 2026 to help installers qualify for tax credit bonuses.",
+          "bullets": [
+            "The updated Q.TRON AC and Q.PEAK DUO AC lines will use frames fabricated at Aluko Group\u2019s facility in Tennessee.",
+            "The initiative aims to meet domestic content requirements for the 10% Investment Tax Credit bonus."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
+      },
+      "de7b11fdad34d24d": {
+        "summary": {
+          "title": "Dominion Energy plans 3.5 GW battery storage expansion",
+          "main_point": "Dominion Energy has filed an integrated resource plan outlining the construction of 3.5 GW of battery energy storage systems over the next 20 years.",
+          "bullets": [
+            "The planned capacity is intended for the PJM interconnection region."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-20"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg": "2026-10-09",
-      "pv-tech.org/dos-grados-acquires-500mw-solar-projects-from-akuo-in-spain": "2026-10-09",
-      "energy-storage.news/bess-industry-buzz-optimisation-curtailment-gb-deal-making-revenues-europe": "2026-10-09",
-      "mercomindia.com/mnre-adds-402-mw-of-solar-cell-capacity-to-almm-total-nears-38-gw": "2026-10-09",
-      "pv-magazine-india.com/2026/10/08/tp-solar-produced-1-gw-of-pv-modules-and-900-mw-cells-in-q2-fy27": "2026-10-09",
-      "pv-magazine-usa.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts": "2026-10-09",
-      "pv-magazine.com/2026/10/09/china-wafer-prices-hold-steady-amid-divergent-output-plans-and-looming-polysilicon-cuts": "2026-10-09",
-      "pv-magazine.com/2026/10/09/prices-drive-pakistans-metered-solar-outages-drive-hidden-uptake": "2026-10-09",
-      "pv-magazine-usa.com/2026/10/08/batteries-beat-gas-peakers-on-cost-globally-but-u-s-faces-trade-headwinds": "2026-10-09",
-      "utilitydive.com/news/4-hour-storage-cheaper-than-gas-peakers-across-global-markets-woodmac/832489": "2026-10-09",
-      "solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe": "2026-10-09",
-      "pv-magazine-usa.com/2026/10/09/thermal-energy-storage-delivers-industrial-heat-but-can-solve-grid-issues-too": "2026-10-09",
-      "pv-magazine-usa.com/2026/10/09/voltus-raises-225-million-in-anticipation-of-20-gw-demand-flexibility-portfolio": "2026-10-09",
       "pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes": "2026-10-10",
       "pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences": "2026-10-10",
       "pv-magazine.com/2026/10/10/beyond-gigawatts-why-leadership-decides-italys-energy-security": "2026-10-10",
@@ -983,52 +968,66 @@
       "pv-magazine-india.com/2026/10/19/trontek-to-unveil-5-mwh-liquid-cooled-battery-storage-system-at-the-battery-show-india-2026": "2026-10-19",
       "solarpowerworldonline.com/2026/10/jinko-unveils-510-w-all-black-residential-solar-panel": "2026-10-19",
       "solarpowerworldonline.com/2026/10/duke-energy-florida-completes-75-mw-bailey-mill-solar-site": "2026-10-19",
-      "energy-storage.news/year-end-scramble-exposes-us-bess-sectors-commissioning-and-policy-strains": "2026-10-19"
+      "energy-storage.news/year-end-scramble-exposes-us-bess-sectors-commissioning-and-policy-strains": "2026-10-19",
+      "pv-magazine.com/2026/10/20/norwegian-danish-funds-invest-in-500-mw-philippine-solar-project": "2026-10-20",
+      "pv-magazine.com/2026/10/20/dutch-bank-finances-50-mw-of-solar-in-ivory-coast": "2026-10-20",
+      "energy-storage.news/developer-ikigai-partners-with-high-density-hydro-ldes-tech-firm-rheenergise-for-italy-projects": "2026-10-20",
+      "pv-magazine.com/2026/10/20/german-dso-cuts-residential-solar-grid-connection-approval-time-to-5-minutes": "2026-10-20",
+      "energy-storage.news/india-must-align-battery-storage-and-transmission-to-cut-renewable-curtailment": "2026-10-20",
+      "mercomindia.com/morocco-floats-epc-tender-for-350-mw-solar-projects": "2026-10-20",
+      "pv-magazine-india.com/2026/10/19/truzon-wins-72-mw-solar-epc-order-under-pm-kusum-in-maharashtra": "2026-10-20",
+      "mercomindia.com/vena-energy-sell-49-stake-500mw-solar-project-philippines": "2026-10-20",
+      "mercomindia.com/cleanchoice-energy-secures-85-million-loan-solar-expansion": "2026-10-20",
+      "pv-tech.org/swift-current-sues-first-solar-over-alleged-module-defects": "2026-10-20",
+      "pv-magazine-usa.com/2026/10/19/the-rapidly-growing-business-of-solar-grazing": "2026-10-20",
+      "pv-tech.org/qcells-unveils-two-us-produced-residential-pv-panels": "2026-10-20",
+      "pv-magazine-india.com/2026/10/19/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup": "2026-10-20",
+      "energy-storage.news/dominion-energy-files-irp-with-plans-to-build-3-5gw-of-bess-in-pjm-over-next-20-years": "2026-10-20"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-19"
+        "last_ok": "2026-10-20"
       }
     },
     "alerts": {},
