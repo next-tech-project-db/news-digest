@@ -1,123 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.10975,
-  "requests": 37,
+  "spent_usd": 0.114319,
+  "requests": 38,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.041378
     },
     "cache": {
-      "a36225ee087bb3db": {
-        "summary": {
-          "title": "Austria receives 43,300 solar subsidy applications in ten minutes",
-          "main_point": "Austria's final funding round for photovoltaic and battery storage systems saw 43,300 applications submitted within the first 10 minutes of the portal opening.",
-          "bullets": [
-            "The Federal Ministry for Economic Affairs, Energy and Tourism reported that demand exceeded the second funding round, which saw 24,900 tickets in the first 10 minutes.",
-            "The government is reconsidering its subsidy approach following the high demand and recent consultations."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
-      "4fb265691f52694b": {
-        "summary": {
-          "title": "Sunbooster secures European patent for bifacial photovoltaic fences",
-          "main_point": "Austrian company Sunbooster has patented a vertical bifacial photovoltaic fence solution now protected in 18 European Union member states.",
-          "bullets": [
-            "The system uses 18.6 cm-high bifacial strips with a conversion efficiency of 22.8%.",
-            "Strips are rated at 62 W for a 2-meter length or 79 W for a 2.5-meter length.",
-            "The company is targeting expansion in the French market, where it has completed its first installation."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
-      "e3d7b62f03280fe2": {
-        "summary": {
-          "title": "Italy faces grid connection requests exceeding 300 GW",
-          "main_point": "Renewable energy connection requests in Italy have reached over 300 GW, significantly higher than the capacity planned for 2030.",
-          "bullets": [
-            "Since September, grid access is granted based on who obtains authorization first rather than the order of application."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
-      "237b0c336fdb6c48": {
-        "summary": {
-          "title": "NTPC tenders solar and storage projects while POWERGRID commissions transmission line",
-          "main_point": "POWERGRID has commissioned a transmission project for a 2,500 MW solar zone in Karnataka, while NTPC has issued tenders for a 1 GW solar project and a 3,300 MWh BESS.",
-          "bullets": [
-            "POWERGRID commissioned the Bidar, Karnataka project on October 5, 2026.",
-            "NTPC Renewable Energy Ltd is seeking EPC services for a 1 GW ground-mounted solar project in Andhra Pradesh.",
-            "NTPC Green Energy Ltd is seeking an EPC package for a 3,300 MWh battery energy storage system at the Khavda solar plant in Gujarat."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
-      "5dfd361bf3a34439": {
-        "summary": {
-          "title": "India adds 402 MW of solar cell capacity to ALMM list",
-          "main_point": "The Ministry of New and Renewable Energy has updated its Approved List of Models and Manufacturers, bringing total enlisted solar cell capacity to 37.8 GW.",
-          "bullets": [
-            "The 12th revision of the list was issued on 8 October 2026 (PV Tech)."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
-      "9a75dd4579696239": {
-        "summary": {
-          "title": "Beyond gigawatts: Why India\u2019s clean energy future depends on storage intelligence",
-          "main_point": "For decades, the success of India\u2019s renewable energy transition has largely been measured in gigawatts.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-10"
-      },
-      "005f0185f52dbb6f": {
-        "summary": {
-          "title": "Majority of U.S. solar manufacturing expansion plans lack financing",
-          "main_point": "Over 70% of announced U.S. solar manufacturing expansion plans have not yet been financed, according to the Solar Manufacturing USA Quarterly report.",
-          "bullets": [
-            "Solar PV manufacturing capital expenditure is forecast to decline year-on-year in 2027 compared to 2026 figures of approximately $3 billion."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
-      "8f06a0094aaa0e3d": {
-        "summary": {
-          "title": "Poly pricing and potential expansion",
-          "main_point": "Recent industry checks in the United States suggest that an increase in US minimum import prices (MIPs) under the polysilicon Section 232 framework may not occur until after Dec.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-10"
-      },
-      "a5006884d9d9eacb": {
-        "summary": {
-          "title": "Clearway begins construction on 650 MW Swan Energy Center",
-          "main_point": "Clearway Energy Group has closed financing and commenced construction on the 650 MW Swan Energy Center in Bates County, Missouri.",
-          "bullets": [
-            "Construction is expected to continue through the middle of 2028.",
-            "The project site will employ up to 500 workers during the construction period."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-10"
-      },
       "88f89835fc39032b": {
         "summary": {
           "title": "Can Beijing end the race to the bottom?",
@@ -846,20 +736,6 @@
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes": "2026-10-10",
-      "pv-magazine.com/2026/10/10/sunbooster-secures-european-patent-for-bifacial-photovoltaic-fences": "2026-10-10",
-      "pv-magazine.com/2026/10/10/beyond-gigawatts-why-leadership-decides-italys-energy-security": "2026-10-10",
-      "mercomindia.com/powergrid-commissions-project-to-evacuate-2-5-gw-solar-energy-in-karnataka": "2026-10-10",
-      "mercomindia.com/petrogreen-subsidiaries-secure-20-million-40-mw-solar-project": "2026-10-10",
-      "pv-magazine-india.com/2026/10/09/ntpc-tenders-1-gw-solar-pv-project-in-andhra-pradesh-and-3-3-gwh-bess-at-khavda": "2026-10-10",
-      "pv-tech.org/indias-mnre-issues-12th-solar-cell-almm-revision-capacity-reaches-37-8gw": "2026-10-10",
-      "pv-magazine.com/2026/10/10/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence": "2026-10-10",
-      "pv-magazine-india.com/2026/10/09/beyond-gigawatts-why-indias-clean-energy-future-depends-on-storage-intelligence": "2026-10-10",
-      "pv-magazine.com/2026/10/10/more-than-70-of-announced-u-s-solar-manufacturing-expansion-plans-yet-to-be-financed": "2026-10-10",
-      "pv-magazine-usa.com/2026/10/09/in-case-you-missed-it-solar-stories-of-the-week-2": "2026-10-10",
-      "pv-magazine-usa.com/2026/10/09/more-than-70-of-announced-u-s-solar-manufacturing-expansion-plans-yet-to-be-financed": "2026-10-10",
-      "pv-magazine.com/2026/10/09/poly-pricing-and-potential-expansion": "2026-10-10",
-      "pv-magazine-usa.com/2026/10/09/project-financing-roundup-clearway-begins-construction-pivot-energy-closes-loan": "2026-10-10",
       "pv-magazine.com/2026/10/10/can-beijing-end-the-race-to-the-bottom": "2026-10-11",
       "pv-tech.org/voltage-energy-europe-utility-scale-solar-ebos-solutions": "2026-10-12",
       "pv-magazine.com/2026/10/12/france-defines-terms-for-long-term-capacity-auction": "2026-10-12",
@@ -982,52 +858,71 @@
       "pv-magazine-usa.com/2026/10/19/the-rapidly-growing-business-of-solar-grazing": "2026-10-20",
       "pv-tech.org/qcells-unveils-two-us-produced-residential-pv-panels": "2026-10-20",
       "pv-magazine-india.com/2026/10/19/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup": "2026-10-20",
-      "energy-storage.news/dominion-energy-files-irp-with-plans-to-build-3-5gw-of-bess-in-pjm-over-next-20-years": "2026-10-20"
+      "energy-storage.news/dominion-energy-files-irp-with-plans-to-build-3-5gw-of-bess-in-pjm-over-next-20-years": "2026-10-20",
+      "mercomindia.com/funding-ma-roundup-epyr-raises-17-million-funding": "2026-10-21",
+      "pv-magazine.com/2026/10/21/construction-innovations-could-cut-gigawatt-scale-solar-costs-by-22": "2026-10-21",
+      "energy-storage.news/enertrag-and-axpo-reach-fid-order-equipment-on-french-bess-projects-totalling-239mwh": "2026-10-21",
+      "mercomindia.com/daily-news-wrap-up-us-solar-duties-threaten-indias-solar-exports": "2026-10-21",
+      "mercomindia.com/topcon-accounts-for-over-50-of-indias-operational-solar-cell-capacity": "2026-10-21",
+      "pv-magazine.com/2026/10/21/zambia-surpasses-1-gw-solar-milestone": "2026-10-21",
+      "pv-magazine.com/2026/10/21/indias-solar-industry-faces-a-test-of-durability-and-cost": "2026-10-21",
+      "pv-magazine-india.com/2026/10/21/durability-not-price-will-decide-the-next-phase-of-indian-solar": "2026-10-21",
+      "pv-tech.org/india-curtails-96-9gw-solar-pv-september": "2026-10-21",
+      "pv-magazine-india.com/2026/10/21/nash-energy-to-showcase-made-in-india-lfp-cell-and-energy-storage-solutions-at-the-battery-show-india-2026": "2026-10-21",
+      "pv-magazine.com/2026/10/21/hoymiles-releases-a-2000-kwh-ci-energy-storage-solution": "2026-10-21",
+      "pv-magazine-usa.com/2026/10/20/qnetic-testing-flywheel-to-compete-with-lithium-ion-for-grid-connected-energy-storage": "2026-10-21",
+      "mercomindia.com/project-finance-brief-energyre-secures-815-million": "2026-10-21",
+      "pv-magazine-usa.com/2026/10/21/ontario-grid-operator-proposes-regulation-market-role-for-batteries": "2026-10-21",
+      "pv-magazine.com/2026/10/21/peru-proposes-reviving-power-interconnection-with-chile-to-tap-its-solar-generation": "2026-10-21",
+      "solarpowerworldonline.com/2026/10/solar-storage-project-grants-new-resilience-on-california-reservation": "2026-10-21",
+      "solarpowerworldonline.com/2026/10/solar-storage-industry-group-opposes-nextera-and-dominion-merger": "2026-10-21",
+      "solarpowerworldonline.com/2026/10/7-mw-solar-system-completed-for-arkansas-water-district": "2026-10-21",
+      "solarpowerworldonline.com/2026/10/illinois-arboretum-commits-to-sustainability-mission-with-hillside-solar-project": "2026-10-21"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-20"
+        "last_ok": "2026-10-21"
       }
     },
     "alerts": {},
