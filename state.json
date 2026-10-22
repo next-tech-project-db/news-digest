@@ -1,23 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.114319,
-  "requests": 38,
+  "spent_usd": 0.116861,
+  "requests": 40,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.041378
+      "2026-10": 0.04392
     },
     "cache": {
-      "88f89835fc39032b": {
-        "summary": {
-          "title": "Can Beijing end the race to the bottom?",
-          "main_point": "China\u2019s solar industry has spent two decades proving how far costs can fall.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-11"
-      },
       "c17a67d0916efece": {
         "summary": {
           "title": "Voltage Energy targets European utility-scale solar market with eBOS solutions",
@@ -733,10 +723,119 @@
         },
         "mode": "ai",
         "date": "2026-10-20"
+      },
+      "825cbcf345f419a6": {
+        "summary": {
+          "title": "Engie begins construction of first co-located solar and battery project in France",
+          "main_point": "Engie has started building a 29.8 MW solar plant paired with a 20 MWh battery energy storage system in Saint-Jean-Froidmentel, France.",
+          "bullets": [
+            "The project, named Parc du Buisson, features nearly 46,000 solar panels on a 23-hectare former quarry site.",
+            "The battery system has a power output of 8.8 MW and is capable of discharging for more than two hours at full power.",
+            "European Energy has signed 30-year agreements with Traditional Owners for three solar-plus-storage projects in Queensland, Australia, including a 1.1GW solar plant (PV Tech)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "9a673261f998df4b": {
+        "summary": {
+          "title": "French battery storage market shifts toward longer durations",
+          "main_point": "Investments in the French battery energy storage market are moving toward longer durations as the secondary reserve market approaches saturation.",
+          "bullets": [
+            "The secondary reserve market is currently the primary revenue source for operational projects."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "e918bdfa5cb20319": {
+        "summary": {
+          "title": "Faria Renewables inaugurates battery storage project in Greece",
+          "main_point": "Faria Renewables has inaugurated a 49.9MW/134.16MWh battery energy storage system in Elassona, Greece, supplied by Huawei.",
+          "bullets": [
+            "The project is known as the Galani BESS."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "64515c083fa3e829": {
+        "summary": {
+          "title": "India battery storage manufacturing capacity reaches 86 GWh",
+          "main_point": "India's operational battery energy storage manufacturing capacity has reached 86 GWh, with 92% concentrated in downstream manufacturing.",
+          "bullets": [
+            "NASH Energy plans to showcase various made-in-India LFP cells and battery storage solutions at The Battery Show India 2026."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "dea85d1a0670b030": {
+        "summary": {
+          "title": "China proposes export controls on solar manufacturing technologies",
+          "main_point": "China's Ministry of Commerce and Ministry of Science and Technology have proposed new export restrictions on high-efficiency solar manufacturing technologies.",
+          "bullets": [
+            "The proposal includes 12 photovoltaic technologies, such as perovskite and tandem solar manufacturing, as well as advanced polysilicon and wafer production know-how (pv magazine India).",
+            "The public consultation for these proposals runs until Nov. 15 (pv magazine India)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "fec3433865cfd4d5": {
+        "summary": {
+          "title": "Rooftop solar offers cost savings for industries in Uttar Pradesh",
+          "main_point": "Commercial and industrial consumers in Uttar Pradesh could reduce electricity costs by using rooftop solar installations.",
+          "bullets": [
+            "The estimated levelized cost of energy for rooftop solar is \u20b92\u2013\u20b92.10/kWh, compared to grid tariffs of \u20b97.20\u2013\u20b97.90/kWh.",
+            "The state allows rooftop solar installations of up to 2 MW, depending on contract demand and regulations."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "9b1d696538ae61b8": {
+        "summary": {
+          "title": "Pivot Energy closes US$500 million credit facility for US solar PV and BESS deployments",
+          "main_point": "Pivot Energy has closed a US$500 million bilateral corporate credit facility to further solar PV and BESS deployments.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-22"
+      },
+      "b08cabbeeea020ad": {
+        "summary": {
+          "title": "Industry highlights importance of chemical compliance at battery storage sites",
+          "main_point": "Site operators are being urged to maintain accurate chemical documentation and safety data sheets to manage risks at battery energy storage sites.",
+          "bullets": [
+            "The need for improved documentation follows the January 2025 fire at Vistra\u2019s 300 MW facility in Moss Landing, California."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
+      },
+      "9d5de809730fd3fd": {
+        "summary": {
+          "title": "Kendall Sustainable Infrastructure brings community solar online",
+          "main_point": "Kendall Sustainable Infrastructure has commissioned three community solar projects totaling 15.8MWdc across New York and Oregon.",
+          "bullets": [
+            "The projects are now operational."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-22"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/10/can-beijing-end-the-race-to-the-bottom": "2026-10-11",
       "pv-tech.org/voltage-energy-europe-utility-scale-solar-ebos-solutions": "2026-10-12",
       "pv-magazine.com/2026/10/12/france-defines-terms-for-long-term-capacity-auction": "2026-10-12",
       "pv-magazine-india.com/2026/10/12/french-solar-tender-prices-drop-sharply-in-latest-rounds": "2026-10-12",
@@ -877,52 +976,66 @@
       "solarpowerworldonline.com/2026/10/solar-storage-project-grants-new-resilience-on-california-reservation": "2026-10-21",
       "solarpowerworldonline.com/2026/10/solar-storage-industry-group-opposes-nextera-and-dominion-merger": "2026-10-21",
       "solarpowerworldonline.com/2026/10/7-mw-solar-system-completed-for-arkansas-water-district": "2026-10-21",
-      "solarpowerworldonline.com/2026/10/illinois-arboretum-commits-to-sustainability-mission-with-hillside-solar-project": "2026-10-21"
+      "solarpowerworldonline.com/2026/10/illinois-arboretum-commits-to-sustainability-mission-with-hillside-solar-project": "2026-10-21",
+      "pv-magazine.com/2026/10/22/engie-starts-building-first-co-located-solar-and-battery-project-in-france": "2026-10-22",
+      "pv-tech.org/european-energy-signs-30-year-first-nations-agreements-for-three-australian-solar-projects": "2026-10-22",
+      "energy-storage.news/frances-storage-market-moves-to-higher-durations-with-secondary-reserve-saturation-cliff-edge-approaching": "2026-10-22",
+      "energy-storage.news/faria-renewables-inaugurates-134mwh-huawei-supplied-greece-bess": "2026-10-22",
+      "mercomindia.com/indias-downstream-battery-storage-manufacturing-capacity-reaches-86-gwh": "2026-10-22",
+      "energy-storage.news/indias-energy-storage-market-bridging-the-gap-between-tenders-and-execution": "2026-10-22",
+      "pv-tech.org/china-proposes-export-controls-on-polysilicon-wafers-and-other-pv-technologies": "2026-10-22",
+      "pv-magazine-india.com/2026/10/21/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology": "2026-10-22",
+      "mercomindia.com/rooftop-solar-offers-significant-savings-potential-for-uttar-pradesh-industries": "2026-10-22",
+      "pv-tech.org/pivot-energy-closts-us500-million-credit-facility-solar-pv-bess-deployments": "2026-10-22",
+      "pv-magazine-usa.com/2026/10/21/budderfly-plans-150-mw-municipal-vpp-with-solar-storage-in-u-s-cities": "2026-10-22",
+      "solarpowerworldonline.com/2026/10/25-years-in-solar-what-weve-learned-and-what-comes-next": "2026-10-22",
+      "pv-magazine-usa.com/2026/10/21/the-chemical-compliance-gap-at-battery-storage-sites-what-solar-om-teams-are-still-missing-after-the-2025-bess-fires": "2026-10-22",
+      "pv-tech.org/kendall-sustainable-infrastructure-brings-16mw-of-community-solar-online-in-new-york-and-oregon": "2026-10-22"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-21"
+        "last_ok": "2026-10-22"
       }
     },
     "alerts": {},
