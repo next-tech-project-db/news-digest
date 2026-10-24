@@ -1,11 +1,11 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.124288,
-  "requests": 42,
+  "spent_usd": 0.131169,
+  "requests": 44,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.046717
+      "2026-10": 0.049507
     },
     "cache": {
       "6b1e1dcc12b89e6d": {
@@ -839,23 +839,125 @@
         },
         "mode": "ai",
         "date": "2026-10-23"
+      },
+      "bd9ce018c45c4e54": {
+        "summary": {
+          "title": "Italy deploys 4.83 GW of PV in January-September",
+          "main_point": "Italy installed 4.83 GW of new solar capacity in the first nine months of 2026, bringing the country's cumulative total to 48.35 GW.",
+          "bullets": [
+            "The 4.83 GW of new capacity came from 147,632 new systems.",
+            "Cumulative capacity reached 48.35 GW across 2,314,113 systems by the end of September 2026.",
+            "Third-quarter installations reached 1.74 GW, a 5% increase from the second quarter and 37% higher than the third quarter of 2025."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "643a8543b515b190": {
+        "summary": {
+          "title": "European consortium develops glass-free photovoltaic modules",
+          "main_point": "The European Sunrise consortium is integrating solar cells into fiber-reinforced polymer composites to create lightweight, flexible modules.",
+          "bullets": [
+            "The technology aims to eliminate the need for glass in applications such as vehicles, boats, and noise barriers.",
+            "The project utilizes expertise in lamination, liquid composite molding, and laser cutting."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "52931a5650851222": {
+        "summary": {
+          "title": "Sonnen files for insolvency in Germany",
+          "main_point": "German energy storage and virtual power plant company sonnen GmbH has filed for insolvency two months after being sold by Shell.",
+          "bullets": [
+            "The company was sold by gas major Shell in August."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "e2d1378c0e327cc8": {
+        "summary": {
+          "title": "Rwanda tenders floating solar project and Websol appoints new CEO",
+          "main_point": "Rwanda's Energy Development Corporation has invited bids for a floating solar project, while Websol Renewables has appointed Vinay Vyas as CEO.",
+          "bullets": [
+            "Websol Renewables plans to increase manufacturing capacity to 5,350 MW of solar cells and 4,550 M of modules."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "4b72d8e57c4615ec": {
+        "summary": {
+          "title": "China proposes stricter solar manufacturing standards and module prices remain steady",
+          "main_point": "China's MIIT has proposed new efficiency and consumption standards for solar manufacturers, while export prices for TOPCon modules remain stable.",
+          "bullets": [
+            "The Chinese Module Marker for TOPCon modules remained at $0.107/W FOB China.",
+            "Major polysilicon manufacturers proposed a minimum selling price of CNY 0.79/W for TOPCon modules and CNY 0.86/W for back-contact modules.",
+            "Proposed standards include minimum conversion efficiency requirements and limits on water and energy usage."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "c45181c38538caa7": {
+        "summary": {
+          "title": "Mozambique selects Jampur Group to manage solar factory",
+          "main_point": "The UAE-based Jampur Group will manage and modernize the Beluluane Solar Panel Factory in Mozambique.",
+          "bullets": [
+            "The agreement follows a 2024 restructuring initiative by the Energy Fund to improve operational efficiency.",
+            "The factory was originally inaugurated in November 2013 with an investment of approximately $13 million."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "848c3d94099ec3a3": {
+        "summary": {
+          "title": "Bill for nationwide plug-in solar adoption introduced in U.S. House",
+          "main_point": "The 'Socket Full of Sunshine Act' (HR 10851) was introduced in the U.S. House of Representatives on Oct. 19 to legalize plug-in solar devices.",
+          "bullets": [
+            "Legislative bodies have been passing bills for consumer-level portable solar devices since late 2025."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "76890392672c55a2": {
+        "summary": {
+          "title": "Gritt Robotics introduces AI-assisted automation for solar construction",
+          "main_point": "Gritt Robotics is developing AI-assisted robotics to automate labor-intensive tasks on solar construction sites.",
+          "bullets": [
+            "The technology aims to handle materials transport and repetitive placement in various weather conditions.",
+            "Startups are increasingly developing robots for panel placement and finishing tasks."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
+      },
+      "66e2b1517c0ee801": {
+        "summary": {
+          "title": "Solar and storage provided significant energy cost savings in Texas and California",
+          "main_point": "Solar and battery storage deployments saved Texans $3.55 billion and Californians $2.5 billion in energy costs between June and August 2026.",
+          "bullets": [
+            "Solar generation increased 421% in Texas and 421% in California from 2021 to 2026.",
+            "Battery storage capacity reached 33.1 GWh in Texas and 62.0 GWh in California as of the first half of 2026."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-24"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/13/exide-launches-modular-125-kw-261-kwh-battery-for-ci-applications": "2026-10-13",
-      "pv-magazine.com/2026/10/13/european-ppa-prices-rise-5-in-september": "2026-10-13",
-      "pv-magazine.com/2026/10/13/enpal-wurth-unveil-safety-platform-for-pv-deployment-on-pitched-roofs": "2026-10-13",
-      "mercomindia.com/andhra-pradesh-invites-bids-for-battery-energy-storage-procurement": "2026-10-13",
-      "pv-magazine-india.com/2026/10/13/tata-power-imperial-college-london-collaborate-to-advance-next-generation-energy-systems": "2026-10-13",
-      "energy-storage.news/asean-centre-for-energy-iea-say-southeast-asias-battery-storage-adoption-barriers-are-mostly-regulatory-not-technical": "2026-10-13",
-      "mercomindia.com/vikram-solar-to-set-up-7-5-gwh-battery-storage-facility": "2026-10-13",
-      "pv-magazine-india.com/2026/10/13/vsl-powerhive-to-set-up-7-5-gwh-bess-assembly-plant-in-tamil-nadu": "2026-10-13",
-      "pv-magazine-india.com/2026/10/13/chemvolt-global-begins-work-on-5-gwh-lithium-ion-battery-bess-facility-in-ratlam-madhya-pradesh": "2026-10-13",
-      "mercomindia.com/vikran-engineering-subsidiary-secures-\u20b929-41-billion-loan-from-ireda": "2026-10-13",
-      "pv-magazine-usa.com/2026/10/13/utility-scale-project-roundup-texas-joint-ventures-illinois-commercial-bess-and-cranberry-bog-agrivoltaics": "2026-10-13",
-      "energy-storage.news/clearway-energy-increases-utah-energy-centre-capacity-to-2120mwh": "2026-10-13",
-      "pv-magazine-usa.com/2026/10/13/is-toyo-correct-the-u-s-is-done-building-modules": "2026-10-13",
-      "solarpowerworldonline.com/2026/10/integrated-power-services-acquires-aftermarket-solar-inverter-company-bold-renewables": "2026-10-13",
       "energy-storage.news/ltsas-under-scrutiny-what-bess-owners-really-need-from-their-contracts": "2026-10-14",
       "pv-magazine.com/2026/10/14/mercedes-benz-launches-bidirectional-charging-in-germany": "2026-10-14",
       "pv-magazine.com/2026/10/14/heliup-offers-lightweight-rooftop-pv-modules-with-waterproofing-membrane": "2026-10-14",
@@ -998,52 +1100,64 @@
       "pv-magazine.com/2026/10/23/sodium-ion-storage-maker-peak-energy-raises-108-million-in-gm-led-round": "2026-10-23",
       "energy-storage.news/sodium-ion-bess-hithium-enters-canadian-market-peak-energy-closes-series-b-with-gm-led-funding": "2026-10-23",
       "pv-magazine-usa.com/2026/10/22/how-energy-storage-can-meet-the-power-demands-of-ai-data-centers": "2026-10-23",
-      "mercomindia.com/solar-ppa-prices-rise-6-yoy-in-north-america-fall-4-in-europe": "2026-10-23"
+      "mercomindia.com/solar-ppa-prices-rise-6-yoy-in-north-america-fall-4-in-europe": "2026-10-23",
+      "pv-magazine.com/2026/10/24/italy-deploys-4-83-gw-of-pv-in-january-september": "2026-10-24",
+      "pv-magazine.com/2026/10/24/glass-free-european-photovoltaic-modules-for-vehicles-noise-barriers-and-boats": "2026-10-24",
+      "energy-storage.news/sonnen-files-for-insolvency-in-germany-two-months-after-shell-offloading": "2026-10-24",
+      "mercomindia.com/rwanda-energy-corporation-tenders-floating-solar-plus-storage-project": "2026-10-24",
+      "mercomindia.com/fourth-partner-energy-secures-\u20b97-5-billion-to-finance-wind-solar-project": "2026-10-24",
+      "mercomindia.com/china-proposes-stricter-efficiency-standards-for-solar-manufacturers": "2026-10-24",
+      "pv-magazine-usa.com/2026/10/23/china-solar-module-prices-steady-as-proposed-price-floors-meet-skepticism": "2026-10-24",
+      "pv-magazine.com/2026/10/24/mozambique-entrusts-solar-panel-factory-to-uaes-jampur-group": "2026-10-24",
+      "solarpowerworldonline.com/2026/10/bill-calling-for-nationwide-plug-in-solar-adoption-introduced-in-congress": "2026-10-24",
+      "pv-magazine-usa.com/2026/10/23/a-brief-history-of-solar-in-the-u-s": "2026-10-24",
+      "pv-magazine.com/2026/10/24/gritt-robotics-brings-ai-assisted-robotics-to-bolster-shrinking-solar-workforce": "2026-10-24",
+      "pv-magazine-usa.com/2026/10/23/solar-and-storage-saved-california-2-5-billion-and-texas-3-5-billion-this-summer": "2026-10-24"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-23"
+        "last_ok": "2026-10-24"
       }
     },
     "alerts": {},
