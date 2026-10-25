@@ -1,130 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.131169,
-  "requests": 44,
+  "spent_usd": 0.135485,
+  "requests": 46,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.049507
+      "2026-10": 0.050547
     },
     "cache": {
-      "6b1e1dcc12b89e6d": {
-        "summary": {
-          "title": "BESS industry experts discuss long-term service agreements",
-          "main_point": "A panel of industry experts discussed the requirements and challenges of long-term service agreements for battery energy storage systems at a summit in the UK and Ireland.",
-          "bullets": [
-            "The discussion took place at the Battery Asset Management Summit UK & Ireland 2026."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "f808cffa951669b9": {
-        "summary": {
-          "title": "Mercedes-Benz introduces bidirectional charging in Germany",
-          "main_point": "Mercedes-Benz has launched a bidirectional charging service in Germany that allows electric vehicle owners to participate in the electricity market.",
-          "bullets": [
-            "The MB.Charge Home Pro Intelligent package includes an 11 kW bidirectional DC wallbox priced at \u20ac2,990.",
-            "Customers receive a payment of \u20ac0.1175 per hour while their vehicle is connected to the wallbox.",
-            "The wallbox was developed by The Mobility House in partnership with EcoG and Zhejiang EV-Tech."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "65df2fa6cfd28c9c": {
-        "summary": {
-          "title": "Heliup and Holcim launch lightweight rooftop solar solution",
-          "main_point": "Heliup and Holcim have partnered to offer a lightweight solar system that combines PV modules with a waterproofing membrane for flat roofs.",
-          "bullets": [
-            "The Solar Light TPO system weighs 7 kg/m\u00b2, compared to 15 kg/m\u00b2 to 20 kg/m\u00b2 for conventional systems.",
-            "The solution uses a mounting method that requires no roof penetrations, additional rails, or ballast.",
-            "The waterproofing membrane is available in thicknesses ranging from 1.5 mm to 2 mm."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "700b89c1520c07b2": {
-        "summary": {
-          "title": "NVVN invites bids for rooftop solar project in Chandigarh",
-          "main_point": "NTPC Vidyut Vyapar Nigam has issued a tender for a 1.89 MW rooftop solar project at the Postgraduate Institute of Medical Education and Research.",
-          "bullets": [
-            "The project scope includes design, engineering, supply, installation, testing, commissioning, and 10 years of operation and maintenance services."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "4c82517c379c314e": {
-        "summary": {
-          "title": "Telangana issues tender for firm renewable power supply",
-          "main_point": "The Telangana Power Generation Corporation has invited bids to supply firm and dispatchable renewable energy from projects equipped with energy storage.",
-          "bullets": [
-            "The projects are to be located at Shankar Pally and Ramagundam."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "bcfe71c5e34a0aac": {
-        "summary": {
-          "title": "India's digital economy growth and industrial transformation",
-          "main_point": "India's digital economy accounted for 11.74% of national income in 2022\u201323 and is expected to reach nearly one fifth by 2030.",
-          "bullets": [
-            "The digital economy's contribution in 2022\u201323 was equivalent to approximately INR 31.64 lakh crore.",
-            "Digital infrastructure is increasingly integrated into the foundation of energy, manufacturing, and industrial services."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "312e0326bdba7ce0": {
-        "summary": {
-          "title": "EcoFlow releases Titan series residential energy storage systems",
-          "main_point": "EcoFlow has launched the Titan series of residential battery storage systems, which are scalable from 5 kWh to 30 kWh.",
-          "bullets": [
-            "The series includes the Titan 5000, Titan 5000 Plus, and Titan 5000 Classic models.",
-            "The Titan 5000 Plus delivers 7.2 kW of output from a 5-kWh battery (Solar Power World).",
-            "EcoFlow stated that 80% of 100,000 households analyzed stayed below a power demand of 6.7 kW for 99% of the time (pv magazine)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "02e3b6ea1a4e4bbe": {
-        "summary": {
-          "title": "Unico launches 330kW bidirectional grid-tie inverter",
-          "main_point": "Unico has introduced a 330kW bidirectional grid-tie inverter designed for solar generation, energy storage, and high-power loads.",
-          "bullets": [
-            "The inverter operates at 98.5% efficiency and features a power density of 72W per cubic inch.",
-            "It supports AC voltages from 380 to 900 VAC and a programmable DC voltage range from 600 to 1500 VDC.",
-            "The platform allows for parallel operation in groups of ten or more units."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
-      "c99bbd160fadc797": {
-        "summary": {
-          "title": "Tigo Energy releases guide for solar repowering market",
-          "main_point": "Tigo Energy has published a manual to assist solar contractors in transitioning to service and modernization models for aging photovoltaic systems.",
-          "bullets": [
-            "The guide, titled Repowering Business Playbook, addresses the demand for replacing aging hardware such as string inverters and monitoring equipment."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-14"
-      },
       "e4a7b23153e44dc2": {
         "summary": {
           "title": "Finland mandates grid-forming control for new large wind and solar plants",
@@ -955,22 +838,45 @@
         },
         "mode": "ai",
         "date": "2026-10-24"
+      },
+      "22d69453955dc6c6": {
+        "summary": {
+          "title": "Renewable Energy India Expo 2026 highlights industry growth and capacity concerns",
+          "main_point": "The Renewable Energy India Expo and Battery Show India attracted over 54,000 visitors and 1,000 exhibitors, highlighting a significant expansion in India's solar and storage sectors.",
+          "bullets": [
+            "India's annual module manufacturing capacity is estimated at more than 200 GW.",
+            "Expected annual demand for PV installations in India is projected at 50-60 GW per year through 2030."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-25"
+      },
+      "b1a12803c180777d": {
+        "summary": {
+          "title": "Vietnam orders provinces to introduce rooftop solar incentives by December 2026",
+          "main_point": "Vietnam\u2019s government has ordered provincial and municipal authorities to introduce support policies for households installing rooftop solar systems for self-consumption by the end of December 2026.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-25"
+      },
+      "410a294e0250bd85": {
+        "summary": {
+          "title": "Waaree introduces 520 Wp flexible mono PERC solar module",
+          "main_point": "Waaree has unveiled a lightweight, flexible 520 Wp mono PERC solar module designed for surfaces unsuitable for traditional glass-based panels.",
+          "bullets": [
+            "The module features a conversion efficiency of 19.69% and is approximately 70% lighter than conventional glass-based panels.",
+            "The product is designed with a flexibility of up to 30\u00b0 and weighs 10.5 \u00b1 0.5 kg."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-25"
       }
     },
     "shown": {
-      "energy-storage.news/ltsas-under-scrutiny-what-bess-owners-really-need-from-their-contracts": "2026-10-14",
-      "pv-magazine.com/2026/10/14/mercedes-benz-launches-bidirectional-charging-in-germany": "2026-10-14",
-      "pv-magazine.com/2026/10/14/heliup-offers-lightweight-rooftop-pv-modules-with-waterproofing-membrane": "2026-10-14",
-      "mercomindia.com/nvvn-issues-tender-for-rooftop-solar-project-at-pgimer-chandigarh": "2026-10-14",
-      "mercomindia.com/telangana-floats-tender-for-supply-of-firm-renewable-power": "2026-10-14",
-      "mercomindia.com/ntpc-renewable-energy-invites-bids-for-supply-of-solar-modules": "2026-10-14",
-      "pv-magazine-india.com/2026/10/14/from-connected-plants-to-intelligent-industry-indias-next-digital-transformation": "2026-10-14",
-      "pv-magazine.com/2026/10/14/ecoflow-launches-5-30-kwh-residential-storage-system": "2026-10-14",
-      "solarpowerworldonline.com/2026/10/ecoflow-release-new-5-kwh-energy-storage-system": "2026-10-14",
-      "pv-magazine-usa.com/2026/10/13/jackery-steps-into-rvs-with-built-in-2-kw-solar-and-45-kwh-storage": "2026-10-14",
-      "pv-magazine-usa.com/2026/10/13/anker-solix-announces-wheeled-power-station-with-4-5-kw-output": "2026-10-14",
-      "pv-magazine-usa.com/2026/10/14/unico-launches-330kw-bidirectional-grid-tie-inverter": "2026-10-14",
-      "pv-magazine-usa.com/2026/10/14/solar-repowering-guide-shows-installers-how-to-tap-into-the-aging-rooftop-market": "2026-10-14",
       "pv-magazine.com/2026/10/15/finland-demands-grid-forming-support-for-new-wind-solar-in-weak-grids": "2026-10-15",
       "wysokienapiecie.pl/122081-maxxen-zyski-z-baterii-w-polsce-sa-szalone": "2026-10-15",
       "pv-magazine.com/2026/10/15/scientists-develop-moth-eye-inspired-antireflective-surfaces-for-pv-modules": "2026-10-15",
@@ -1112,52 +1018,55 @@
       "solarpowerworldonline.com/2026/10/bill-calling-for-nationwide-plug-in-solar-adoption-introduced-in-congress": "2026-10-24",
       "pv-magazine-usa.com/2026/10/23/a-brief-history-of-solar-in-the-u-s": "2026-10-24",
       "pv-magazine.com/2026/10/24/gritt-robotics-brings-ai-assisted-robotics-to-bolster-shrinking-solar-workforce": "2026-10-24",
-      "pv-magazine-usa.com/2026/10/23/solar-and-storage-saved-california-2-5-billion-and-texas-3-5-billion-this-summer": "2026-10-24"
+      "pv-magazine-usa.com/2026/10/23/solar-and-storage-saved-california-2-5-billion-and-texas-3-5-billion-this-summer": "2026-10-24",
+      "pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways": "2026-10-25",
+      "pv-magazine.com/2026/10/24/vietnam-orders-provinces-to-introduce-rooftop-solar-incentives-by-december-2026": "2026-10-25",
+      "pv-magazine-india.com/2026/10/24/waaree-showcases-520-wp-flexible-mono-perc-solar-module-with-19-69-efficiency": "2026-10-25"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-24"
+        "last_ok": "2026-10-25"
       }
     },
     "alerts": {},
