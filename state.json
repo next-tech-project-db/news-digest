@@ -1,41 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.15651,
-  "requests": 52,
+  "spent_usd": 0.16297,
+  "requests": 54,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.059247
+      "2026-10": 0.061836
     },
     "cache": {
-      "2ee2511481774d87": {
-        "summary": {
-          "title": "Spanish researchers test low-height agrivoltaics in vineyards",
-          "main_point": "A research team in Spain has experimentally tested the integration of low-height photovoltaic systems within vineyards to assess their agricultural and energy performance.",
-          "bullets": [
-            "The systems are positioned closer to the ground between vine rows to reduce structural material requirements, installation costs, and visual impact.",
-            "Researchers tested three agrivoltaic systems at commercial vineyards in southeastern Spain during the 2024 harvest season.",
-            "The design aims to minimize interference with vineyard machinery and routine agricultural operations while limiting shading during critical grape development stages."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-18"
-      },
-      "91f457d4378f2668": {
-        "summary": {
-          "title": "Dutch regulator warns of cyber risks to grid stability from cloud-controlled devices",
-          "main_point": "The Dutch Rijksinspectie Digitale Infrastructuur warns that cyberattacks or faulty updates on cloud platforms could destabilize the grid by simultaneously controlling large numbers of home energy devices.",
-          "bullets": [
-            "The regulator states that a sudden supply and demand imbalance of 3 GW or more can disrupt the grid.",
-            "The Rijksinspectie Digitale Infrastructuur argues that the EU Cyber Resilience Act and NIS2 directive only partially cover the companies managing these platforms.",
-            "The primary risk identified is the backend systems of manufacturers, aggregators, and energy management providers, which act as a single point of entry for large groups of devices."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-18"
-      },
       "9e19e7735af633f7": {
         "summary": {
           "title": "Epyr raises \u20ac15 million for industrial thermal energy storage expansion",
@@ -996,11 +968,124 @@
         },
         "mode": "ai",
         "date": "2026-10-28"
+      },
+      "6c1147a622620a18": {
+        "summary": {
+          "title": "Ground-mounted solar land use in Italy increased in 2025",
+          "main_point": "Ground-mounted solar installations in Italy occupied 2,798 hectares of land in 2025, up from 1,700 hectares in 2024.",
+          "bullets": [
+            "Annual land use for ground-mounted solar grew from 75 hectares in 2021 to 2,798 hectares in 2025.",
+            "Solar accounted for approximately 27% of the 10,243 hectares of land consumed in Italy in 2025.",
+            "Total land consumption in Italy increased by 22.4% in 2025 compared with 2024."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "63cd6b706c8724de": {
+        "summary": {
+          "title": "European Commission repeals duties on Chinese solar glass",
+          "main_point": "The European Commission has removed antidumping and countervailing duties on Chinese solar glass imports.",
+          "bullets": [
+            "The decision follows findings that the European Union's domestic solar glass industry has ceased production and has no verifiable plans to resume."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "a89c01b5383b98ab": {
+        "summary": {
+          "title": "Portugal mandates grid-forming for large-scale battery storage",
+          "main_point": "Portugal has made grid-forming capabilities mandatory for large-scale battery energy storage systems (BESS) and launched a 1GW tender.",
+          "bullets": [
+            "IPP Sonnedix has commissioned two solar-plus-storage projects in Portugal."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "d5bf016d149f5575": {
+        "summary": {
+          "title": "Gujarat approves battery storage tariffs and new manufacturing facility",
+          "main_point": "The Gujarat Electricity Regulatory Commission approved tariffs for 450 MW/900 MWh of storage, while a new 5 GWh manufacturing facility was announced.",
+          "bullets": [
+            "The GERC approved tariffs for GUVNL to procure 450 MW/900 MWh of standalone battery storage under Phase IX.",
+            "Mecpower Solutions and Navitas Solar are building a 5 GWh battery manufacturing facility in Karjan, Gujarat, expected to start operations in the first quarter of FY 2027\u201328.",
+            "The new facility aims to produce approximately 1,000 battery storage containers annually."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "665e72894d076d99": {
+        "summary": {
+          "title": "Developments in India's renewable energy sector",
+          "main_point": "India's renewable energy sector sees continued solar dominance and new software deployments for project management.",
+          "bullets": [
+            "Solar accounted for 58% of India's renewable energy capacity additions in the third quarter of 2026 (Mercom India).",
+            "Smartgrid Analytics launched Solvyn AURA software to support over 200 GW of renewable capacity over five years (pv magazine India).",
+            "Smartgrid Analytics signed an agreement to deploy Solvyn AURA for 1 GWh of capacity across Andhra Pradesh, Karnataka, and Rajasthan (pv magazine India)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "ef241e4835ef3a40": {
+        "summary": {
+          "title": "SECI invites bids for solar project on Delhi-Dehradun Expressway",
+          "main_point": "The Solar Energy Corporation of India has invited bids for a grid-connected solar project on the Delhi-Dehradun Expressway.",
+          "bullets": [
+            "The project is to be developed on the elevated section of the NH 709B."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "4bc8d5cab8bff034": {
+        "summary": {
+          "title": "Plug-in solar systems gain traction in North America",
+          "main_point": "Plug-in solar systems, often called balcony solar, are emerging as a small-scale renewable energy option in North America.",
+          "bullets": [
+            "Plug-in solar refers to systems under 1.2kW that connect to a home wall outlet via an inverter.",
+            "Ten states, including California, have addressed the legality of these systems this year."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "3fcca0fbed79d682": {
+        "summary": {
+          "title": "Distinction between solar-plus-storage and backup power",
+          "main_point": "Solar-plus-storage systems do not automatically provide backup power during grid outages without specific design verification.",
+          "bullets": [
+            "Providing backup power requires the ability to safely isolate the system from the grid and supply designated loads independently."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
+      },
+      "e0030a536bd9bf75": {
+        "summary": {
+          "title": "First Solar opens 1.7GW manufacturing phase in South Carolina",
+          "main_point": "First Solar has inaugurated the first 1.7GW phase of its manufacturing facility in Gaffney, South Carolina.",
+          "bullets": [
+            "The total investment for the manufacturing facility is US$330 million."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-29"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/17/spanish-researchers-test-low-height-agrivoltaics-in-vineyards": "2026-10-18",
-      "pv-magazine.com/2026/10/17/dutch-regulator-flags-eu-cyber-gap-for-cloud-controlled-home-batteries": "2026-10-18",
       "mercomindia.com/epyr-raises-17-million-to-expand-industrial-thermal-energy-storage": "2026-10-19",
       "pv-magazine.com/2026/10/19/politicians-propose-plug-in-solar-batteries-in-norway": "2026-10-19",
       "pv-magazine.com/2026/10/19/100-renewables-is-doable-even-in-oil-countries": "2026-10-19",
@@ -1137,52 +1222,63 @@
       "solarpowerworldonline.com/2026/10/distributed-energy-infrastructure-completes-new-york-solar-project-despite-site-challenges": "2026-10-28",
       "solarpowerworldonline.com/2026/10/california-is-still-without-a-functioning-community-solar-program": "2026-10-28",
       "energy-storage.news/energy-security-not-just-climate-goals-drive-caribbean-and-latin-american-storage-growth": "2026-10-28",
-      "utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870": "2026-10-28"
+      "utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870": "2026-10-28",
+      "pv-magazine.com/2026/10/29/ground-mounted-solar-used-2798-hectares-of-land-in-italy-in-2025": "2026-10-29",
+      "mercomindia.com/europe-scraps-antidumping-and-countervailing-duties-on-chinese-solar-glass": "2026-10-29",
+      "energy-storage.news/portugal-makes-grid-forming-mandatory-for-large-scale-bess-and-launches-1gw-tender": "2026-10-29",
+      "mercomindia.com/gujarat-approves-tariffs-for-450-mw-900-mwh-battery-storage-projects": "2026-10-29",
+      "pv-magazine-india.com/2026/10/28/mecpower-solutions-navitas-solar-partner-to-establish-5-gwh-battery-energy-storage-manufacturing-facility-in-gujarat": "2026-10-29",
+      "mercomindia.com/daily-news-wrap-up-solars-share-in-indias-renewable-mix-hits-58": "2026-10-29",
+      "mercomindia.com/seci-invites-bids-for-solar-project-on-delhi-dehradun-expressway": "2026-10-29",
+      "solarpowerworldonline.com/2026/10/plug-in-solar-expands-access-to-renewables-but-needs-strong-safety-framework": "2026-10-29",
+      "solarpowerworldonline.com/2026/10/first-solar-to-inaugurate-south-carolina-solar-panel-finishing-facility": "2026-10-29",
+      "pv-magazine-usa.com/2026/10/29/solar-storage-doesnt-automatically-mean-backup-mapping-what-actually-stays-powered": "2026-10-29",
+      "pv-tech.org/first-solar-inaugurates-1-7gw-initial-phase-south-carolina-module-manufacturing-facility": "2026-10-29"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-28"
+        "last_ok": "2026-10-29"
       }
     },
     "alerts": {},
