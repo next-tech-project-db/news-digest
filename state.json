@@ -1,125 +1,13 @@
 {
   "month": "2026-10",
-  "spent_usd": 0.16297,
-  "requests": 54,
+  "spent_usd": 0.169994,
+  "requests": 56,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
-      "2026-10": 0.061836
+      "2026-10": 0.064795
     },
     "cache": {
-      "9e19e7735af633f7": {
-        "summary": {
-          "title": "Epyr raises \u20ac15 million for industrial thermal energy storage expansion",
-          "main_point": "France-based thermal energy storage provider Epyr has secured \u20ac15 million in an oversubscribed Series A funding round.",
-          "bullets": [
-            "The funding round is equivalent to approximately $17 million (Mercom India)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "524f059406dabcd4": {
-        "summary": {
-          "title": "Norwegian politicians propose legalizing plug-in solar and batteries",
-          "main_point": "Members of the Green Party in Norway have proposed removing restrictions on plug-in solar and battery systems to benefit consumers and landlords.",
-          "bullets": [
-            "The proposal aims to remove bureaucratic obstacles and taxes on clean energy production (pv magazine)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "48add0237610351c": {
-        "summary": {
-          "title": "Study suggests renewable energy expansion benefits oil-exporting nations",
-          "main_point": "Researchers at LUT University in Finland found that oil-dependent countries can increase export revenues by replacing domestic fossil fuel consumption with renewable electricity.",
-          "bullets": [
-            "Norway is cited as a successful example of combining oil and gas production with extensive renewable energy generation (pv magazine)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "207f91ff082c7272": {
-        "summary": {
-          "title": "Chennai Port Authority and ACME Solar announce new energy projects",
-          "main_point": "Chennai Port Authority has invited bids for a rooftop solar project, while ACME Solar signed a power procurement agreement for a 300 MW/1,200 MWh dispatchable energy project.",
-          "bullets": [
-            "Chennai Port Authority is seeking a grid-connected rooftop solar project under the RESCO model (Mercom India).",
-            "ACME Solar's project will supply 4 MWh per MW of contracted capacity for four hours daily during non-solar hours (pv magazine India).",
-            "The ACME Solar project tariff is INR 6/kWh (pv magazine India)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "6c1da556c7aff4a3": {
-        "summary": {
-          "title": "ACME Solar signs 300 MW dispatchable renewable energy agreement",
-          "main_point": "ACME Solar has signed a power procurement agreement with the Solar Energy Corporation of India for a 300 MW/1,200 MWh firm and dispatchable renewable energy project.",
-          "bullets": [
-            "The project was secured at a tariff of INR 6 ($0.063)/kWh (pv magazine).",
-            "The agreement requires a minimum monthly availability of 90% (pv magazine)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "e60b0eaf56125f31": {
-        "summary": {
-          "title": "Trontek to launch 5 MWh liquid-cooled battery storage system",
-          "main_point": "Trontek Electronics will debut its 5 MWh EKOM containerized battery energy storage system at The Battery Show India 2026.",
-          "bullets": [
-            "The system features lithium iron phosphate cells, liquid cooling, and a cycle life exceeding 9,000 cycles (pv magazine India).",
-            "The design aims for a system efficiency of over 93% (pv magazine India)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "3a70b2401f927971": {
-        "summary": {
-          "title": "JinkoSolar unveils 510-W all-black residential solar module",
-          "main_point": "JinkoSolar has introduced the Tiger Neo 5.0 residential module, which utilizes a combination of TOPCon and HJT technologies.",
-          "bullets": [
-            "The 48-cell module offers a maximum power output of 510 W and 25.52% efficiency (Solar Power World)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "87312b9acd2ff220": {
-        "summary": {
-          "title": "Duke Energy Florida completes 75-MW Bailey Mill solar site",
-          "main_point": "Duke Energy Florida has finished construction on the 74.9-MW Bailey Mill Solar Center in Jefferson County.",
-          "bullets": [
-            "The project is intended to help lower long-term energy costs for customers (Solar Power World)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
-      "69e82668d57d3e0d": {
-        "summary": {
-          "title": "US battery storage sector faces year-end commissioning challenges",
-          "main_point": "The US battery energy storage system sector is experiencing recurring difficulties related to commissioning and policy during the year-end period.",
-          "bullets": [
-            "The year-end rush is described as a perennial challenge for the industry (Energy-Storage.news)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-19"
-      },
       "e1bc36d3ee38601b": {
         "summary": {
           "title": "Norwegian and Danish funds invest in 500 MW Philippine solar project",
@@ -1083,22 +971,125 @@
         },
         "mode": "ai",
         "date": "2026-10-29"
+      },
+      "53a7671cf425b391": {
+        "summary": {
+          "title": "Benin secures financing for first solar IPP projects",
+          "main_point": "Axian has secured a \u20ac30 million ($33.5 million) financing package for four solar projects in Benin with a combined capacity of 62 MW.",
+          "bullets": [
+            "The financing is provided by the International Finance Corporation and Proparco.",
+            "The projects are located in Natitingou, Djougou, Parakou and Bohicon.",
+            "The plants are expected to generate approximately 110 GWh of electricity once operational."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "71a668d958485ac7": {
+        "summary": {
+          "title": "Greenvolt to install 25 MW of solar canopies at 120 French stores",
+          "main_point": "Greenvolt Next will build and operate 25 MW of solar carports across 120 Carrefour stores in France.",
+          "bullets": [
+            "The project will consist of approximately 45,000 solar panels.",
+            "The agreement follows a national tender launched by Carrefour Property."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "5c3f56b5cc2a3b34": {
+        "summary": {
+          "title": "French solar car park rollout falls short of legal deadline",
+          "main_point": "A survey by Parksun indicates that 85% of large supermarket car parks in France lacked visible solar canopies three months past the July 1, 2026, deadline.",
+          "bullets": [
+            "France's APER law requires outdoor car parks larger than 1,500 square meters to cover half their area with photovoltaic canopies.",
+            "The share of car parks equipped with solar canopies rose from 4.5% in 2023 to 9% in 2026 imagery.",
+            "The actual share of equipped car parks is estimated to be between 8% and 10%."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "169d954da5ad0c3e": {
+        "summary": {
+          "title": "Solar Cell Manufacturing Capacity Under ALMM-II Grows to 45 GW",
+          "main_point": "The Ministry of New and Renewable Energy (MNRE) has added 7,063 MW of solar cell manufacturing capacity to the Approved List of Models and Manufacturers (ALMM) List-II, taking the total enlisted capacity to 44.9 GW.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-10-30"
+      },
+      "07060e04f0f9008d": {
+        "summary": {
+          "title": "Oyster Renewable begins Phase 2 of solar-wind hybrid project",
+          "main_point": "Oyster Renewable Energy has begun the second phase of a wind-solar hybrid project in Madhya Pradesh with a capacity of 341.6 MW.",
+          "bullets": [
+            "The project includes 201.6 MW of wind and 140 MWp of solar capacity.",
+            "Solar commissioning is expected by December 2026, with wind following in March 2027.",
+            "The company plans to develop approximately 800 MW of hybrid capacity in the state with an investment exceeding INR 6,500 (pv magazine India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "e1f552a970f0116e": {
+        "summary": {
+          "title": "Global battery storage failure rate dropped 98% between 2018 and 2025",
+          "main_point": "The annual failure rate of lithium-ion battery energy storage systems declined by 98% globally between 2018 and 2025.",
+          "bullets": [
+            "Chinese portable battery storage manufacturers are reporting an increase in overseas orders in their third quarter results (Energy-Storage.news)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "694d6c98fa5f5625": {
+        "summary": {
+          "title": "Solar and battery storage help lower power prices in California and Texas",
+          "main_point": "Wholesale electricity costs in California and Texas fell by $2.5 billion and $3.55 billion respectively between June and August 2026 compared to 2021.",
+          "bullets": [
+            "The price decline is attributed to increased solar generation and battery storage deployment (Mercom India).",
+            "SEG Solar has signed a land agreement for a $950 million, 4 GW HJT solar cell plant in Texas (PV Tech)."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "e966c919880049be": {
+        "summary": {
+          "title": "SEG Solar plans 4 GW HJT cell manufacturing plant in Texas",
+          "main_point": "SEG Solar is developing a $950 million, 4 GW heterojunction solar cell plant in the Houston area, expected to come online in two phases in 2028 and 2029.",
+          "bullets": [
+            "The project is expected to create more than 700 local jobs (pv magazine).",
+            "First Solar has inaugurated the first 1.7 GW phase of its $330 million manufacturing facility in South Carolina (PV Tech)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
+      },
+      "feafc33f07b040be": {
+        "summary": {
+          "title": "DTE Energy starts commercial operations at 132 MW Fish Creek Solar Park",
+          "main_point": "The 132 MW Fish Creek Solar Park in Michigan is now operational following a $268 million investment.",
+          "bullets": [
+            "The project was fully funded by customers participating in DTE\u2019s MIGreenPower program.",
+            "The solar park is capable of generating enough energy to power approximately 30,000 homes."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-10-30"
       }
     },
     "shown": {
-      "mercomindia.com/epyr-raises-17-million-to-expand-industrial-thermal-energy-storage": "2026-10-19",
-      "pv-magazine.com/2026/10/19/politicians-propose-plug-in-solar-batteries-in-norway": "2026-10-19",
-      "pv-magazine.com/2026/10/19/100-renewables-is-doable-even-in-oil-countries": "2026-10-19",
-      "mercomindia.com/chennai-port-authority-invites-bids-for-rooftop-solar-project": "2026-10-19",
-      "pv-magazine-india.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-project-at-inr-6-kwh": "2026-10-19",
-      "pv-magazine.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-project-at-inr-6-kwh": "2026-10-19",
-      "pv-magazine-india.com/2026/10/19/ntpc-to-deploy-247solars-solar-thermal-technology-for-round-the-clock-clean-power": "2026-10-19",
-      "pv-magazine-india.com/2026/10/19/evolve-green-targets-3-gw-renewable-energy-asset-portfolio-by-2030": "2026-10-19",
-      "pv-magazine-india.com/2026/10/19/beyond-generation-why-power-quality-will-define-the-next-phase-of-indias-renewable-energy-growth": "2026-10-19",
-      "pv-magazine-india.com/2026/10/19/trontek-to-unveil-5-mwh-liquid-cooled-battery-storage-system-at-the-battery-show-india-2026": "2026-10-19",
-      "solarpowerworldonline.com/2026/10/jinko-unveils-510-w-all-black-residential-solar-panel": "2026-10-19",
-      "solarpowerworldonline.com/2026/10/duke-energy-florida-completes-75-mw-bailey-mill-solar-site": "2026-10-19",
-      "energy-storage.news/year-end-scramble-exposes-us-bess-sectors-commissioning-and-policy-strains": "2026-10-19",
       "pv-magazine.com/2026/10/20/norwegian-danish-funds-invest-in-500-mw-philippine-solar-project": "2026-10-20",
       "pv-magazine.com/2026/10/20/dutch-bank-finances-50-mw-of-solar-in-ivory-coast": "2026-10-20",
       "energy-storage.news/developer-ikigai-partners-with-high-density-hydro-ldes-tech-firm-rheenergise-for-italy-projects": "2026-10-20",
@@ -1233,52 +1224,72 @@
       "solarpowerworldonline.com/2026/10/plug-in-solar-expands-access-to-renewables-but-needs-strong-safety-framework": "2026-10-29",
       "solarpowerworldonline.com/2026/10/first-solar-to-inaugurate-south-carolina-solar-panel-finishing-facility": "2026-10-29",
       "pv-magazine-usa.com/2026/10/29/solar-storage-doesnt-automatically-mean-backup-mapping-what-actually-stays-powered": "2026-10-29",
-      "pv-tech.org/first-solar-inaugurates-1-7gw-initial-phase-south-carolina-module-manufacturing-facility": "2026-10-29"
+      "pv-tech.org/first-solar-inaugurates-1-7gw-initial-phase-south-carolina-module-manufacturing-facility": "2026-10-29",
+      "pv-magazine.com/2026/10/30/benin-secures-financing-for-62-mw-of-solar-across-four-sites": "2026-10-30",
+      "pv-magazine.com/2026/10/30/italian-government-rejects-468-mw-of-solar-projects": "2026-10-30",
+      "pv-magazine.com/2026/10/30/greenvolt-to-install-25-mw-of-solar-canopies-at-120-french-stores": "2026-10-30",
+      "pv-magazine.com/2026/10/30/french-solar-car-park-rollout-falls-short-of-legal-deadline": "2026-10-30",
+      "mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-45-gw": "2026-10-30",
+      "pv-magazine-india.com/2026/10/30/engie-commissions-450-mw-of-solar-capacity-in-india": "2026-10-30",
+      "pv-magazine-india.com/2026/10/30/grew-solar-receives-almm-list-ii-approval-for-2-4-gw-n-type-topcon-g12r-cell-manufacturing-capacity": "2026-10-30",
+      "mercomindia.com/ntpc-rel-bids-solar-project-andhra-pradesh": "2026-10-30",
+      "pv-magazine-india.com/2026/10/30/oyster-renewable-begins-phase-2-of-315-6-mw-solar-wind-hybrid-project-in-agar-malwa": "2026-10-30",
+      "mercomindia.com/global-battery-storage-failure-rate-dropped-98-between-2018-and-2025-report": "2026-10-30",
+      "energy-storage.news/chinese-portable-battery-storage-players-report-rising-overseas-orders-in-q3-results": "2026-10-30",
+      "mercomindia.com/solar-battery-storage-help-lower-power-prices-in-california-texas-seia": "2026-10-30",
+      "pv-tech.org/seg-solar-secures-land-for-4gw-hjt-solar-cell-plant-in-texas": "2026-10-30",
+      "pv-tech.org/masdar-explores-nz1-billion-solar-pv-wind-energy-storage-investment-in-new-zealand": "2026-10-30",
+      "pv-magazine.com/2026/10/30/seg-solar-plans-4-gw-hjt-cell-manufacturing-plant-in-texas": "2026-10-30",
+      "pv-magazine-india.com/2026/10/30/first-solar-opens-1-7-gw-module-plant-in-south-carolina": "2026-10-30",
+      "pv-magazine-usa.com/2026/10/29/first-solar-opens-first-phase-of-south-carolina-module-plant": "2026-10-30",
+      "pv-magazine-usa.com/2026/10/29/seg-solar-secures-land-for-planned-4-gw-hjt-solar-cell-facility-in-texas": "2026-10-30",
+      "pv-tech.org/dte-energy-starts-commercial-operations-132mw-fish-creek-solar-park-michigan": "2026-10-30",
+      "solarpowerworldonline.com/2026/10/dte-utility-customers-funded-a-132-mw-michigan-solar-project": "2026-10-30"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-29"
+        "last_ok": "2026-10-30"
       }
     },
     "alerts": {},
