@@ -1,127 +1,13 @@
 {
   "month": "2026-10",
   "spent_usd": 0.169994,
-  "requests": 56,
+  "requests": 57,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795
     },
     "cache": {
-      "e1bc36d3ee38601b": {
-        "summary": {
-          "title": "Norwegian and Danish funds invest in 500 MW Philippine solar project",
-          "main_point": "The Climate Investment Fund and Impact Fund Denmark are acquiring a 49% stake in Vena Energy's 500 MW Ixus Bugallon solar project in the Philippines.",
-          "bullets": [
-            "Vena Energy retains a 51% stake in the project located in the province of Pangasinan.",
-            "The project reached financial close in July 2026 with $310 million in senior loans from eight international banks."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "273e380d68ec9357": {
-        "summary": {
-          "title": "Ikigai Energy and RheEnergise partner for Italian high-density hydro projects",
-          "main_point": "Developer Ikigai Energy and LDES firm RheEnergise signed an MOU to develop a pipeline of projects in Italy using high-density hydro technology.",
-          "bullets": [
-            "The partnership focuses on deploying RheEnergise\u2019s proprietary HD Hydro technology."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "a1cff788520dcf84": {
-        "summary": {
-          "title": "German grid operator Netze BW automates solar connection approvals",
-          "main_point": "Netze BW has introduced an automated assessment process that reduces grid connection approval times for small-scale PV systems from 12 days to five minutes.",
-          "bullets": [
-            "The system applies to PV installations with capacities of up to 15 kW in areas with sufficient grid capacity.",
-            "Since launching in late July 2026, the company has received over 16,000 connection requests, with more than 5,000 applicants already processed."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "05b22f6196c2bcbe": {
-        "summary": {
-          "title": "Trontek to launch 5 MWh liquid-cooled battery storage system",
-          "main_point": "Trontek Electronics will unveil its 5 MWh EKOM containerized battery energy storage system at The Battery Show India 2026.",
-          "bullets": [
-            "The system uses lithium iron phosphate cells, features liquid cooling, and is rated for over 9,000 cycles and a 15-year calendar life.",
-            "The design achieves a system efficiency of over 93%."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "1c9bdcd67c246f27": {
-        "summary": {
-          "title": "Morocco and India solar project updates",
-          "main_point": "Morocco has invited EPC bids for 350 MW of solar, while Truzon Clean Energies secured a 72 MW EPC order in India.",
-          "bullets": [
-            "The Moroccan Agency for Sustainable Energy is seeking contractors for ground-mounted projects totaling at least 350 MW (Mercom India).",
-            "Truzon Clean Energies received a INR 236 crore order for 72 MW of solar projects in Maharashtra, of which 15 MW is already executed (pv magazine India)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "5e67e07a1967e791": {
-        "summary": {
-          "title": "ACME Solar signs 300 MW FDRE power purchase agreement",
-          "main_point": "ACME Solar has signed a PPA with SECI for 300 MW/1,200 MWh of assured peak power supply at a tariff of INR 6/kWh.",
-          "bullets": [
-            "The project requires a minimum monthly availability of 90% and will supply 4 MWh per MW of contracted capacity for four hours daily during non-solar hours.",
-            "The project will integrate solar and battery energy storage system technologies."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "d3a358850f19b703": {
-        "summary": {
-          "title": "Swift Current Energy sues First Solar over module defects",
-          "main_point": "Independent power producer Swift Current Energy has filed a lawsuit against First Solar in the New York County Supreme Court regarding alleged module defects.",
-          "bullets": [
-            "The dispute involves thin-film cadmium telluride solar modules."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "6607650f83a28546": {
-        "summary": {
-          "title": "Qcells to launch US-produced residential solar panels",
-          "main_point": "Qcells plans to introduce residential solar panels featuring U.S.-made aluminum frames by the end of 2026 to help installers qualify for tax credit bonuses.",
-          "bullets": [
-            "The updated Q.TRON AC and Q.PEAK DUO AC lines will use frames fabricated at Aluko Group\u2019s facility in Tennessee.",
-            "The initiative aims to meet domestic content requirements for the 10% Investment Tax Credit bonus."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
-      "de7b11fdad34d24d": {
-        "summary": {
-          "title": "Dominion Energy plans 3.5 GW battery storage expansion",
-          "main_point": "Dominion Energy has filed an integrated resource plan outlining the construction of 3.5 GW of battery energy storage systems over the next 20 years.",
-          "bullets": [
-            "The planned capacity is intended for the PJM interconnection region."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-20"
-      },
       "825cbcf345f419a6": {
         "summary": {
           "title": "Engie begins construction of first co-located solar and battery project in France",
@@ -1090,20 +976,6 @@
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/20/norwegian-danish-funds-invest-in-500-mw-philippine-solar-project": "2026-10-20",
-      "pv-magazine.com/2026/10/20/dutch-bank-finances-50-mw-of-solar-in-ivory-coast": "2026-10-20",
-      "energy-storage.news/developer-ikigai-partners-with-high-density-hydro-ldes-tech-firm-rheenergise-for-italy-projects": "2026-10-20",
-      "pv-magazine.com/2026/10/20/german-dso-cuts-residential-solar-grid-connection-approval-time-to-5-minutes": "2026-10-20",
-      "energy-storage.news/india-must-align-battery-storage-and-transmission-to-cut-renewable-curtailment": "2026-10-20",
-      "mercomindia.com/morocco-floats-epc-tender-for-350-mw-solar-projects": "2026-10-20",
-      "pv-magazine-india.com/2026/10/19/truzon-wins-72-mw-solar-epc-order-under-pm-kusum-in-maharashtra": "2026-10-20",
-      "mercomindia.com/vena-energy-sell-49-stake-500mw-solar-project-philippines": "2026-10-20",
-      "mercomindia.com/cleanchoice-energy-secures-85-million-loan-solar-expansion": "2026-10-20",
-      "pv-tech.org/swift-current-sues-first-solar-over-alleged-module-defects": "2026-10-20",
-      "pv-magazine-usa.com/2026/10/19/the-rapidly-growing-business-of-solar-grazing": "2026-10-20",
-      "pv-tech.org/qcells-unveils-two-us-produced-residential-pv-panels": "2026-10-20",
-      "pv-magazine-india.com/2026/10/19/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup": "2026-10-20",
-      "energy-storage.news/dominion-energy-files-irp-with-plans-to-build-3-5gw-of-bess-in-pjm-over-next-20-years": "2026-10-20",
       "mercomindia.com/funding-ma-roundup-epyr-raises-17-million-funding": "2026-10-21",
       "pv-magazine.com/2026/10/21/construction-innovations-could-cut-gigawatt-scale-solar-costs-by-22": "2026-10-21",
       "energy-storage.news/enertrag-and-axpo-reach-fid-order-equipment-on-french-bess-projects-totalling-239mwh": "2026-10-21",
@@ -1244,52 +1116,64 @@
       "pv-magazine-usa.com/2026/10/29/first-solar-opens-first-phase-of-south-carolina-module-plant": "2026-10-30",
       "pv-magazine-usa.com/2026/10/29/seg-solar-secures-land-for-planned-4-gw-hjt-solar-cell-facility-in-texas": "2026-10-30",
       "pv-tech.org/dte-energy-starts-commercial-operations-132mw-fish-creek-solar-park-michigan": "2026-10-30",
-      "solarpowerworldonline.com/2026/10/dte-utility-customers-funded-a-132-mw-michigan-solar-project": "2026-10-30"
+      "solarpowerworldonline.com/2026/10/dte-utility-customers-funded-a-132-mw-michigan-solar-project": "2026-10-30",
+      "pv-tech.org/scatec-q3-2026-results-impacted-by-ukraine-and-pakistan-solar-assets": "2026-10-31",
+      "pv-tech.org/corporate-buyers-shift-strategies-european-ppa-prices": "2026-10-31",
+      "pv-tech.org/why-buying-cheap-is-costing-pv-developers-their-roi": "2026-10-31",
+      "pv-magazine.com/2026/10/31/indian-pv-at-a-turning-point": "2026-10-31",
+      "pv-tech.org/masdar-starts-construction-malaysian-200mw-floating-solar-pv-project": "2026-10-31",
+      "mercomindia.com/telangana-regulator-approves-procurement-of-2545-mw-solar-power": "2026-10-31",
+      "pv-magazine-usa.com/2026/10/30/in-case-you-missed-it-solar-stories-of-the-week-1030": "2026-10-31",
+      "eia.gov/todayinenergy/detail.php": "2026-10-31",
+      "pv-magazine-usa.com/2026/10/30/u-s-solar-manufacturers-speak-on-executing-profitability-and-scale-as-domestic-capacity-crosses-100-gw": "2026-10-31",
+      "mercomindia.com/waaree-begins-production-at-1-6-gw-solar-module-lines-in-texas": "2026-10-31",
+      "solarpowerworldonline.com/2026/10/seg-solar-plans-hjt-cell-plant-next-to-existing-texas-facilities": "2026-10-31",
+      "pv-tech.org/first-solar-sales-down-23-year-on-year-cuts-full-year-revenue-guidance": "2026-10-31"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-30"
+        "last_ok": "2026-10-31"
       }
     },
     "alerts": {},
