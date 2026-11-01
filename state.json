@@ -1,7 +1,7 @@
 {
-  "month": "2026-10",
-  "spent_usd": 0.169994,
-  "requests": 57,
+  "month": "2026-11",
+  "spent_usd": 0.004157,
+  "requests": 1,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
@@ -976,25 +976,6 @@
       }
     },
     "shown": {
-      "mercomindia.com/funding-ma-roundup-epyr-raises-17-million-funding": "2026-10-21",
-      "pv-magazine.com/2026/10/21/construction-innovations-could-cut-gigawatt-scale-solar-costs-by-22": "2026-10-21",
-      "energy-storage.news/enertrag-and-axpo-reach-fid-order-equipment-on-french-bess-projects-totalling-239mwh": "2026-10-21",
-      "mercomindia.com/daily-news-wrap-up-us-solar-duties-threaten-indias-solar-exports": "2026-10-21",
-      "mercomindia.com/topcon-accounts-for-over-50-of-indias-operational-solar-cell-capacity": "2026-10-21",
-      "pv-magazine.com/2026/10/21/zambia-surpasses-1-gw-solar-milestone": "2026-10-21",
-      "pv-magazine.com/2026/10/21/indias-solar-industry-faces-a-test-of-durability-and-cost": "2026-10-21",
-      "pv-magazine-india.com/2026/10/21/durability-not-price-will-decide-the-next-phase-of-indian-solar": "2026-10-21",
-      "pv-tech.org/india-curtails-96-9gw-solar-pv-september": "2026-10-21",
-      "pv-magazine-india.com/2026/10/21/nash-energy-to-showcase-made-in-india-lfp-cell-and-energy-storage-solutions-at-the-battery-show-india-2026": "2026-10-21",
-      "pv-magazine.com/2026/10/21/hoymiles-releases-a-2000-kwh-ci-energy-storage-solution": "2026-10-21",
-      "pv-magazine-usa.com/2026/10/20/qnetic-testing-flywheel-to-compete-with-lithium-ion-for-grid-connected-energy-storage": "2026-10-21",
-      "mercomindia.com/project-finance-brief-energyre-secures-815-million": "2026-10-21",
-      "pv-magazine-usa.com/2026/10/21/ontario-grid-operator-proposes-regulation-market-role-for-batteries": "2026-10-21",
-      "pv-magazine.com/2026/10/21/peru-proposes-reviving-power-interconnection-with-chile-to-tap-its-solar-generation": "2026-10-21",
-      "solarpowerworldonline.com/2026/10/solar-storage-project-grants-new-resilience-on-california-reservation": "2026-10-21",
-      "solarpowerworldonline.com/2026/10/solar-storage-industry-group-opposes-nextera-and-dominion-merger": "2026-10-21",
-      "solarpowerworldonline.com/2026/10/7-mw-solar-system-completed-for-arkansas-water-district": "2026-10-21",
-      "solarpowerworldonline.com/2026/10/illinois-arboretum-commits-to-sustainability-mission-with-hillside-solar-project": "2026-10-21",
       "pv-magazine.com/2026/10/22/engie-starts-building-first-co-located-solar-and-battery-project-in-france": "2026-10-22",
       "pv-tech.org/european-energy-signs-30-year-first-nations-agreements-for-three-australian-solar-projects": "2026-10-22",
       "energy-storage.news/frances-storage-market-moves-to-higher-durations-with-secondary-reserve-saturation-cliff-edge-approaching": "2026-10-22",
@@ -1133,47 +1114,47 @@
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-10-31"
+        "last_ok": "2026-11-01"
       }
     },
     "alerts": {},
