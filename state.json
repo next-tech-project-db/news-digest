@@ -1,136 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.010717,
-  "requests": 3,
+  "spent_usd": 0.01773,
+  "requests": 5,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.002331
+      "2026-11": 0.005166
     },
     "cache": {
-      "5b6fb6f7aa5ed906": {
-        "summary": {
-          "title": "European solar and battery marketplace expands to Romania",
-          "main_point": "The Solmeria marketplace has expanded into Romania, listing agrivoltaic and hybrid solar-plus-storage projects.",
-          "bullets": [
-            "The platform added two agrivoltaic listings in Cluj county with a combined 6.2 MW of solar and 6 MW/24 MWh of storage.",
-            "The marketplace also includes a ready-to-build 55 MWp hybrid park with 193 MWh of storage.",
-            "The Romania listings have received approximately ten expressions of interest from buyers."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "b1cd7e68d00c8531": {
-        "summary": {
-          "title": "Austria allocates 173 MW in solar PV tender",
-          "main_point": "Austria awarded 173.4 MW of solar capacity across 195 bids in its third auction for 2026 market premiums.",
-          "bullets": [
-            "The volume-weighted average price for the auction was \u20ac0.0642/kWh.",
-            "Successful bids ranged from \u20ac0.054/kWh to \u20ac0.0725/kWh.",
-            "The auction offered 172.6 MW of capacity, with the bidding round closing on Sept. 24, 2026."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "361c3fa26238f793": {
-        "summary": {
-          "title": "Italy awards full 30 MW quota in second floating PV tender",
-          "main_point": "Italy successfully allocated its entire 30 MW quota for floating solar in the second FER2 incentive round.",
-          "bullets": [
-            "Eight projects were successful, with seven having capacities exceeding 1 MW.",
-            "Discounts on the reference tariff for successful projects ranged from 2.010% to 3.25%.",
-            "The largest project is a 5.5 MW installation in Landiona, Piedmont."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "c49d12d64e77881b": {
-        "summary": {
-          "title": "India's battery storage manufacturing capacity reaches 86 GWh",
-          "main_point": "India's operational battery energy storage manufacturing capacity is heavily concentrated in downstream production.",
-          "bullets": [
-            "Downstream manufacturing accounts for 92% of operational capacity, while cell manufacturing accounts for 8%.",
-            "Only 21.6% of the total identified operational and pipeline capacity is currently operational."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "43ba5f521e2a181c": {
-        "summary": {
-          "title": "Websol Renewables appoints new CEO and ACME Solar signs PPA",
-          "main_point": "Websol Renewables has appointed Vinay Vyas as CEO, while ACME Solar secured a 1.2 GWh storage PPA.",
-          "bullets": [
-            "Websol Renewables plans to expand manufacturing capacity to 5,350 MW of solar cells and 4,550 M of modules.",
-            "ACME Solar signed a 300 MW/1,200 MWh PPA with the Solar Energy Corporation of India."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "36c624d89cba938e": {
-        "summary": {
-          "title": "India faces challenges in solar wafer manufacturing expansion",
-          "main_point": "Planned expansion of solar ingot and wafer manufacturing in India risks oversupply if production growth does not align with demand.",
-          "bullets": [
-            "The sector faces potential utilization and cost challenges.",
-            "Growth must align with both domestic demand and exports to avoid oversupply."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "03d7d9a698bf7185": {
-        "summary": {
-          "title": "Solar and storage impact energy costs and manufacturing",
-          "main_point": "Solar and storage are reducing wholesale electricity prices while manufacturers expand domestic production facilities.",
-          "bullets": [
-            "SEIA analysis indicates solar and storage growth helped lower wholesale electricity prices by 42% in Texas.",
-            "PV Hardware USA is expanding its Houston facility by 34,200 square feet, increasing footprint capacity by 42%.",
-            "The expansion at PV Hardware USA is expected to support a 35% increase in pre-assembled tracker component production."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "0b21d8c70e7c04ce": {
-        "summary": {
-          "title": "Peak Energy raises $108 million in Series B funding",
-          "main_point": "Sodium-ion storage developer Peak Energy closed an oversubscribed Series B round led by GM Ventures.",
-          "bullets": [
-            "The funding will support scaling domestic manufacturing and fulfilling over $1 billion in existing orders.",
-            "Peak Energy previously raised $55 million in a 2024 Series A round.",
-            "Hithium has also entered the Canadian market with two BESS solutions."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
-      "5653e9f4dbdb6d71": {
-        "summary": {
-          "title": "Solar PPA prices show regional divergence in third quarter",
-          "main_point": "Solar power purchase agreement prices increased in North America but declined in Europe during the third quarter of 2026.",
-          "bullets": [
-            "North American PPA prices rose 6% year-over-year.",
-            "European PPA prices declined 4.1% year-over-year."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-23"
-      },
       "bd9ce018c45c4e54": {
         "summary": {
           "title": "Italy deploys 4.83 GW of PV in January-September",
@@ -965,25 +843,122 @@
         },
         "mode": "ai",
         "date": "2026-11-02"
+      },
+      "45072efbbc9a4393": {
+        "summary": {
+          "title": "Behind-the-meter generation could provide more grid relief than data center load shifting",
+          "main_point": "An Ember analysis suggests that behind-the-meter generation and storage offer significantly more grid flexibility potential for data centers than load shifting.",
+          "bullets": [
+            "Load shifting is limited by the low latency requirements of cloud services, enterprise workloads, and artificial intelligence inference.",
+            "The study examined nine markets across the United States, Europe, and Southeast Asia."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "fae6e3c0a7a9ef18": {
+        "summary": {
+          "title": "Vastly different fortunes for BESS in Belgium and Germany\u2019s capacity market auctions",
+          "main_point": "Battery storage projects have won nearly 40% of the capacity in Belgium\u2019s latest capacity market (CM) auction results, while Germany\u2019s first has all gone to gas, paying nearly eight times more than Belgium in the process.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-03"
+      },
+      "266e17280e6704cc": {
+        "summary": {
+          "title": "Germany awards 288 MW of solar in rooftop tender",
+          "main_point": "The Federal Network Agency awarded 288 MW of PV capacity across 143 projects at a volume-weighted average price of \u20ac0.0967/kWh.",
+          "bullets": [
+            "A total of 177 bids totaling 347 MW were submitted, with 34 bids totaling 58 MW excluded.",
+            "Awarded prices ranged from \u20ac0.10/kWh to \u20ac0.085/kWh.",
+            "The average award price was higher than the July tender, which stood at \u20ac0.0972/kWh."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "dd2ef882dfc5ee79": {
+        "summary": {
+          "title": "Rayzon Solar on track for December 2026 TOPCon cell plant opening",
+          "main_point": "Rayzon Solar is set to begin production at its 5.1 GW TOPCon solar cell facility in December 2026.",
+          "bullets": [
+            "Initial deliveries from the new facility are expected in the first quarter of 2027.",
+            "The company currently has an installed solar module manufacturing capacity of 11.3 GW."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "f40ae4108d8ba8c8": {
+        "summary": {
+          "title": "RenewSys signs 1.2 GW supply deal with Kosol Energie",
+          "main_point": "RenewSys India will supply POE encapsulants and backsheets to Kosol Energie for 1.2 GW of solar modules over a twelve-month period.",
+          "bullets": [
+            "The materials will support the production of high-efficiency n-type TOPCon modules at Kosol Energie's facility in Gujarat."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "00ffa0ed0867a8f2": {
+        "summary": {
+          "title": "Waaree Renewable Technologies secures BESS and solar contracts",
+          "main_point": "Waaree Renewable Technologies has been awarded an EPC contract for a 200 MW/500 MWh BESS project and a five-year O&M agreement for a 360 MWp solar project.",
+          "bullets": [
+            "The BESS project is scheduled for completion during the financial year 2027-28.",
+            "Engie has separately commissioned 450 MW of solar projects in India, including the 250 MW Khaba project and 200 MW Khavda project."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "dbcc2e82fb73f7a1": {
+        "summary": {
+          "title": "Waaree doubles Texas solar module manufacturing capacity to 3.2 GW",
+          "main_point": "Waaree Solar Americas has increased its Brookshire, Texas, manufacturing capacity to 3.2 GW following the start of production on two new 800 MW lines.",
+          "bullets": [
+            "The company expects its total US module manufacturing capacity to reach 4.8 GW in fiscal 2027.",
+            "Waaree's global module order book exceeds 25 GW."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "a3800158e6fb5454": {
+        "summary": {
+          "title": "DTE Energy and sonnen launch VPP pilot in Michigan",
+          "main_point": "DTE Energy and sonnen have launched a two-year virtual power plant pilot connecting nearly 100 homes in an all-electric community.",
+          "bullets": [
+            "The project is located at Veridian at County Farm, a development featuring 170 mixed-income homes.",
+            "The pilot was approved by the Michigan Public Service Commission."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
+      },
+      "51783b4afdea3058": {
+        "summary": {
+          "title": "Nova Scotia opens technology-neutral capacity call to replace coal",
+          "main_point": "The Nova Scotia Independent Energy System Operator has launched a request for qualifications for on-demand capacity to support the phase-out of coal by 2030.",
+          "bullets": [
+            "Eligible technologies include battery storage, pumped hydro, long-duration storage, geothermal, biomass, thermal generation, hydrogen combustion, hydrogen fuel cells, small modular reactors, and hybrid facilities."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-03"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/23/european-solar-bess-marketplace-expands-to-romania": "2026-10-23",
-      "pv-magazine.com/2026/10/23/austria-allocates-173-mw-at-average-price-of-e0-0642-kwh-in-ground-mounted-pv-tender": "2026-10-23",
-      "pv-magazine.com/2026/10/23/italy-awards-full-30-mw-quota-in-second-floating-pv-tender": "2026-10-23",
-      "mercomindia.com/daily-news-wrap-up-indias-downstream-battery-capacity-hits-86-gwh": "2026-10-23",
-      "pv-magazine-india.com/2026/10/23/indias-downstream-battery-storage-manufacturing-capacity-reaches-86-gwh-mercom": "2026-10-23",
-      "pv-magazine-india.com/2026/10/23/websol-renewables-appoints-vinay-vyas-as-ceo": "2026-10-23",
-      "energy-storage.news/acme-solar-ppa-seci-clean-energy-solar-india-renewables-assets": "2026-10-23",
-      "mercomindia.com/indias-solar-wafer-expansion-faces-utilization-and-cost-challenges-interview": "2026-10-23",
-      "solarpowerworldonline.com/2026/10/seia-analysis-solar-is-curbing-consumer-energy-costs": "2026-10-23",
-      "pv-magazine-usa.com/2026/10/22/pvh-expands-houston-footprint-to-scale-pre-assembled-solar-trackers": "2026-10-23",
-      "solarpowerworldonline.com/2026/10/neovolta-launching-third-party-ownership-solar-storage-program": "2026-10-23",
-      "pv-tech.org/lodestone-energy-completes-nzxs-first-listing-built-entirely-around-utility-scale-solar-in-new-zealand": "2026-10-23",
-      "pv-magazine.com/2026/10/23/sodium-ion-storage-maker-peak-energy-raises-108-million-in-gm-led-round": "2026-10-23",
-      "energy-storage.news/sodium-ion-bess-hithium-enters-canadian-market-peak-energy-closes-series-b-with-gm-led-funding": "2026-10-23",
-      "pv-magazine-usa.com/2026/10/22/how-energy-storage-can-meet-the-power-demands-of-ai-data-centers": "2026-10-23",
-      "mercomindia.com/solar-ppa-prices-rise-6-yoy-in-north-america-fall-4-in-europe": "2026-10-23",
       "pv-magazine.com/2026/10/24/italy-deploys-4-83-gw-of-pv-in-january-september": "2026-10-24",
       "pv-magazine.com/2026/10/24/glass-free-european-photovoltaic-modules-for-vehicles-noise-barriers-and-boats": "2026-10-24",
       "energy-storage.news/sonnen-files-for-insolvency-in-germany-two-months-after-shell-offloading": "2026-10-24",
@@ -1096,52 +1071,68 @@
       "pv-magazine.com/2026/11/02/japan-proposes-50-metric-ton-trigger-for-solar-panel-recycling-plans": "2026-11-02",
       "pv-magazine-usa.com/2026/11/02/jigar-shah-on-the-shift-to-battery-first-energy-and-virtual-power-plants": "2026-11-02",
       "pv-magazine-usa.com/2026/11/02/solar-sector-corporate-funding-increases-45-through-three-quarters-of-2026": "2026-11-02",
-      "energy-storage.news/trump-bulk-power-equipment-ban-sparks-industry-pushback-lets-not-reinvent-the-wheel": "2026-11-02"
+      "energy-storage.news/trump-bulk-power-equipment-ban-sparks-industry-pushback-lets-not-reinvent-the-wheel": "2026-11-02",
+      "pv-magazine-usa.com/2026/11/03/behind-the-meter-generation-could-deliver-five-times-more-grid-relief-than-data-center-load-shifting": "2026-11-03",
+      "pv-magazine.com/2026/11/03/behind-the-meter-generation-could-deliver-five-times-more-grid-relief-than-data-center-load-shifting": "2026-11-03",
+      "energy-storage.news/vastly-different-fortunes-for-bess-in-belgium-and-germanys-capacity-market-auctions": "2026-11-03",
+      "pv-magazine.com/2026/11/03/germany-awards-288-mw-of-solar-in-rooftop-tender-at-average-price-of-e0-0967-kwh": "2026-11-03",
+      "pv-tech.org/rayzons-5-1gw-topcon-cell-plant-on-track-for-december-2026-opening": "2026-11-03",
+      "pv-tech.org/avaada-secures-almm-enlistment-for-7-1gw-topcon-solar-cell-capacity-launches-745w-module": "2026-11-03",
+      "pv-magazine-india.com/2026/11/02/rayzon-solar-to-start-production-at-5-1-gw-topcon-cell-facility-in-december-plans-ingot-wafer-manufacturing-by-2028": "2026-11-03",
+      "pv-tech.org/renewsys-inks-1-2gw-poe-encapsulant-and-backsheet-supply-deal-with-kosol-energie": "2026-11-03",
+      "pv-magazine-india.com/2026/11/02/renewsys-signs-1-2-gw-poe-encapsulant-and-backsheet-supply-agreement-with-kosol-energie": "2026-11-03",
+      "pv-magazine-india.com/2026/11/03/waaree-renewable-technologies-secures-200-mw-500-mwh-bess-epc-and-360-mwp-solar-om-contracts": "2026-11-03",
+      "pv-tech.org/engie-commissions-450mw-of-solar-projects-in-rajasthan-and-gujarat": "2026-11-03",
+      "pv-magazine.com/2026/11/03/waaree-solar-americas-begins-commercial-production-on-1-6-gw-of-new-module-lines-doubling-texas-capacity-to-3-2-gw": "2026-11-03",
+      "pv-magazine-usa.com/2026/11/03/waaree-solar-americas-doubles-texas-module-production-capacity-to-3-2-gw": "2026-11-03",
+      "pv-magazine-india.com/2026/11/03/waaree-solar-americas-begins-commercial-production-on-1-6-gw-of-new-module-lines-doubling-texas-capacity-to-3-2-gw": "2026-11-03",
+      "pv-magazine-usa.com/2026/11/03/all-electric-community-in-michigan-site-of-dte-managed-vpp-pilot-launches": "2026-11-03",
+      "pv-magazine-usa.com/2026/11/03/canadian-province-opens-tech-neutral-capacity-call-to-replace-coal": "2026-11-03"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-02"
+        "last_ok": "2026-11-03"
       }
     },
     "alerts": {},
