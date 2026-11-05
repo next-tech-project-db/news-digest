@@ -1,50 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.01773,
-  "requests": 6,
+  "spent_usd": 0.024134,
+  "requests": 8,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.005166
+      "2026-11": 0.007523
     },
     "cache": {
-      "22d69453955dc6c6": {
-        "summary": {
-          "title": "Renewable Energy India Expo 2026 highlights industry growth and capacity concerns",
-          "main_point": "The Renewable Energy India Expo and Battery Show India attracted over 54,000 visitors and 1,000 exhibitors, highlighting a significant expansion in India's solar and storage sectors.",
-          "bullets": [
-            "India's annual module manufacturing capacity is estimated at more than 200 GW.",
-            "Expected annual demand for PV installations in India is projected at 50-60 GW per year through 2030."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-25"
-      },
-      "b1a12803c180777d": {
-        "summary": {
-          "title": "Vietnam orders provinces to introduce rooftop solar incentives by December 2026",
-          "main_point": "Vietnam\u2019s government has ordered provincial and municipal authorities to introduce support policies for households installing rooftop solar systems for self-consumption by the end of December 2026.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-25"
-      },
-      "410a294e0250bd85": {
-        "summary": {
-          "title": "Waaree introduces 520 Wp flexible mono PERC solar module",
-          "main_point": "Waaree has unveiled a lightweight, flexible 520 Wp mono PERC solar module designed for surfaces unsuitable for traditional glass-based panels.",
-          "bullets": [
-            "The module features a conversion efficiency of 19.69% and is approximately 70% lighter than conventional glass-based panels.",
-            "The product is designed with a flexibility of up to 30\u00b0 and weighs 10.5 \u00b1 0.5 kg."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-25"
-      },
       "2dedbbe44c1c5823": {
         "summary": {
           "title": "Czech ministry proposes storage capacity auctions to 2027",
@@ -840,12 +804,121 @@
         },
         "mode": "ai",
         "date": "2026-11-03"
+      },
+      "031252fc04e6df7d": {
+        "summary": {
+          "title": "IB Solar signs MoU for 2GW TOPCon cell manufacturing line in India",
+          "main_point": "IB Solar has partnered with three German companies to develop a 2GW TOPCon solar cell manufacturing facility in India.",
+          "bullets": [
+            "The project involves the development of a 2GW TOPCon solar cell manufacturing line and an R&D centre."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "8758e99bba3288de": {
+        "summary": {
+          "title": "Revolta installs first 10 kWh sodium-ion home battery in Germany",
+          "main_point": "Frankfurt-based Revolta has commissioned its first sodium-ion home battery system at a residential property in Germany.",
+          "bullets": [
+            "The system operates at a nominal voltage of 450 V and consists of five battery modules totaling 10 kWh.",
+            "The property features an existing 20 kW solar PV array and a small hydroelectric plant."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "be88ef811ccf7dd6": {
+        "summary": {
+          "title": "Return secures \u20ac835 million financing for German BESS rollout",
+          "main_point": "BESS operator Return has obtained \u20ac835 million in portfolio financing to support its battery energy storage system expansion in Germany.",
+          "bullets": [
+            "The financing was underwritten by Deutsche Bank and Rabobank.",
+            "Return aims to deploy 1GW of BESS capacity annually."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "b81a3227c8bf4821": {
+        "summary": {
+          "title": "NHPC invites bids for battery storage projects in Uttar Pradesh",
+          "main_point": "NHPC has issued a tender for battery energy storage systems and solar-plus-storage power supply at the Jalaun Solar Park.",
+          "bullets": [
+            "The project is located in the state of Uttar Pradesh."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "542a45b3f0112743": {
+        "summary": {
+          "title": "China\u2019s energy storage capacity reaches 167 GW",
+          "main_point": "China's operational new-type energy storage capacity grew to 167 GW/435 GWh by the end of September 2026.",
+          "bullets": [
+            "Capacity increased by 63% year on year, with a net addition of approximately 31 GW/84 GWh in the first nine months of 2026.",
+            "Average storage duration rose to 2.61 hours, and equivalent utilization hours reached 915 hours for the nine-month period."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "0d0bc74d2fef31e6": {
+        "summary": {
+          "title": "Hoymiles plans to establish inverter factory in Oman",
+          "main_point": "Hoymiles has signed a strategic agreement to explore local manufacturing and renewable energy investment in Oman.",
+          "bullets": [
+            "The agreement includes plans to establish the Oman New Energy Ecosystem Cooperation Fund.",
+            "The fund will target distributed solar, energy storage, and power solutions for AI data centers."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "0670ec3d96ff5705": {
+        "summary": {
+          "title": "ARRAY Technologies and Shoals plan to merge",
+          "main_point": "ARRAY Technologies and Shoals Technologies Group have agreed to merge in an all-stock transaction to create an integrated solar hardware platform.",
+          "bullets": [
+            "The transaction is valued at approximately $1.32 billion (pv magazine USA).",
+            "The merger combines ARRAY\u2019s structural tracking and racking systems with Shoals\u2019 electrical balance-of-system solutions."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "3937673699a1b541": {
+        "summary": {
+          "title": "Solar carport project completed at California medical plaza",
+          "main_point": "Watthub Renewables and Sunrock Distributed Generation have installed a 322-kW solar carport system at a medical office building in Irvine, California.",
+          "bullets": [
+            "The solar modules cover approximately 108 parking spots.",
+            "The system serves as the building's primary source of electricity."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-05"
+      },
+      "8c3b5a1085b77095": {
+        "summary": {
+          "title": "\u201cSpeed to power runs through the community\u201d",
+          "main_point": "During a keynote interview at pv magazine USA Week 2026 , Nick de Vries, chief technology officer of Silicon Ranch, examined why solar and storage account for over 90% of U.S.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-05"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways": "2026-10-25",
-      "pv-magazine.com/2026/10/24/vietnam-orders-provinces-to-introduce-rooftop-solar-incentives-by-december-2026": "2026-10-25",
-      "pv-magazine-india.com/2026/10/24/waaree-showcases-520-wp-flexible-mono-perc-solar-module-with-19-69-efficiency": "2026-10-25",
       "pv-magazine.com/2026/10/26/czech-ministry-proposes-storage-capacity-auctions-to-2027": "2026-10-26",
       "pv-magazine.com/2026/10/26/norwegian-alliance-calls-for-increased-solar-support": "2026-10-26",
       "pv-magazine.com/2026/10/26/hungary-proposes-energy-upgrades-for-single-family-homes-apartments": "2026-10-26",
@@ -975,52 +1048,69 @@
       "solarpowerworldonline.com/2026/11/illinois-community-solar-farm-will-produce-renewable-energy-and-hay": "2026-11-04",
       "pv-tech.org/waaree-commences-production-on-1-6gw-solar-module-lines-at-texas-plant": "2026-11-04",
       "pv-tech.org/inox-solar-americas-3gw-us-pv-cell-facility-on-track-for-q2-2027-production": "2026-11-04",
-      "pv-magazine-usa.com/2026/11/04/solar-ppa-prices-rose-in-q3-as-section-232-tariffs-began-to-take-effect-reports-levelten": "2026-11-04"
+      "pv-magazine-usa.com/2026/11/04/solar-ppa-prices-rose-in-q3-as-section-232-tariffs-began-to-take-effect-reports-levelten": "2026-11-04",
+      "pv-tech.org/ib-solar-signs-mou-with-german-firms-for-2gw-topcon-cell-manufacturing-line-and-rd-centre": "2026-11-05",
+      "pv-magazine.com/2026/11/05/revolta-installs-first-10-kwh-sodium-ion-home-battery-in-germany": "2026-11-05",
+      "energy-storage.news/return-secures-835-million-germany-bess-rollout-targets-1gw-annually": "2026-11-05",
+      "mercomindia.com/nhpc-invites-bids-for-battery-storage-projects-uttar-pradesh": "2026-11-05",
+      "mercomindia.com/battery-storage-hybrid-projects-dominate-renewable-auctions-in-q3-2026": "2026-11-05",
+      "pv-magazine.com/2026/11/05/chinas-energy-storage-fleet-grows-to-167-gw-as-utilization-improves": "2026-11-05",
+      "pv-magazine-india.com/2026/11/05/cabinet-approves-inr-14500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems": "2026-11-05",
+      "pv-magazine-india.com/2026/11/05/solis-showcases-ci-energy-storage-solutions-at-rei-expo-2026-marks-10-years-in-india-with-over-10-gw-in-shipments": "2026-11-05",
+      "pv-magazine.com/2026/11/05/hoymiles-plans-to-establish-inverter-factory-in-oman": "2026-11-05",
+      "pv-magazine-india.com/2026/11/05/tata-power-renewable-energy-commissions-300-mw-solar-project-in-karnataka-for-seci": "2026-11-05",
+      "pv-magazine-india.com/2026/11/05/malaysias-data-center-industry-gets-500-mw-solar-1-gwh-battery-storage-boost": "2026-11-05",
+      "solarpowerworldonline.com/2026/11/array-technologies-and-shoals-plan-to-merge-companies": "2026-11-05",
+      "pv-magazine-usa.com/2026/11/04/array-technologies-and-shoals-merge-to-create-integrated-solar-hardware-platform": "2026-11-05",
+      "solarpowerworldonline.com/2026/11/solar-carport-project-at-california-medical-plaza-solves-tricky-energy-billing": "2026-11-05",
+      "solarpowerworldonline.com/2026/11/edp-renewables-250-mw-arkansas-solar-project-slated-for-2028-completion": "2026-11-05",
+      "pv-magazine-usa.com/2026/11/05/speed-to-power-runs-through-the-community": "2026-11-05",
+      "pv-magazine-usa.com/2026/11/05/grid-pressures-accelerate-utility-solar-and-storage-integration": "2026-11-05"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-04"
+        "last_ok": "2026-11-05"
       }
     },
     "alerts": {},
