@@ -1,127 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.024134,
-  "requests": 8,
+  "spent_usd": 0.030539,
+  "requests": 10,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.007523
+      "2026-11": 0.010427
     },
     "cache": {
-      "2dedbbe44c1c5823": {
-        "summary": {
-          "title": "Czech ministry proposes storage capacity auctions to 2027",
-          "main_point": "The Czech Ministry of Industry and Trade has proposed amendments to its capacity mechanism, including moving two supplementary auctions from 2026 to 2027.",
-          "bullets": [
-            "The draft amendment changes 20 provisions of the original measure.",
-            "Written comments on the draft can be submitted until Oct. 30."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "3985b992732c5589": {
-        "summary": {
-          "title": "Norwegian alliance calls for increased solar support",
-          "main_point": "A coalition of 16 Norwegian companies has petitioned the parliament to support the solar industry, citing a significant gap in meeting the 8 TWh goal by 2030.",
-          "bullets": [
-            "The coalition includes Fornybar Norge, the Building Materials Industry Association, and the National Homeowners Association.",
-            "The industry has faced two years of bankruptcies and layoffs."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "467caba0426f904b": {
-        "summary": {
-          "title": "Hungary proposes energy upgrades for single-family homes, apartments",
-          "main_point": "The Hungarian government is preparing a multi-year program to improve the energy efficiency of single-family homes and condominiums as part of its 2027 budget.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-26"
-      },
-      "cf07b80dfe49f13f": {
-        "summary": {
-          "title": "Solis showcases all-in-one C&I energy storage system at REI Expo 2026",
-          "main_point": "Solis introduced its EverCore C&I energy storage system and FlexCore-ID indoor stackable system at the REI 2026 expo.",
-          "bullets": [
-            "The EverCore system can be scaled to a maximum capacity of 1.25 MW/15.66 MWh.",
-            "EverCore can switch between on-grid and off-grid operation in less than 10 milliseconds."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "18518fba8cff3d33": {
-        "summary": {
-          "title": "INA Solar, Caelux target perovskite-silicon tandem module production by 2028",
-          "main_point": "INA Solar and Caelux Corp. have formed a five-year partnership to commercialize 3 GW of hybrid-tandem solar modules by 2028.",
-          "bullets": [
-            "The modules aim for efficiencies of up to 29%.",
-            "The collaboration includes compliance with India\u2019s Approved List of Models and Manufacturers requirements."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "b92cbe5d93f2c6ef": {
-        "summary": {
-          "title": "Citicore secures $552 million for 900 MW solar, 120 MWh storage portfolio",
-          "main_point": "Citicore Renewable Energy Corp. secured PHP 35.014 billion in financing to develop five solar projects and 120 MWh of battery storage in the Philippines.",
-          "bullets": [
-            "The portfolio includes two 300 MW solar plants and three 100 MW solar facilities.",
-            "Each of the three 100 MW projects will incorporate a 40 MWh battery energy storage system."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "b7e142394a2b5a99": {
-        "summary": {
-          "title": "Samsung SDI signs 1 GWh supply agreement for U.S.-made NCA battery storage",
-          "main_point": "Samsung SDI will supply 1 GWh of U.S.-manufactured NCA battery storage to Alpha Omega Power for projects starting construction in 2027.",
-          "bullets": [
-            "The supply agreement covers Samsung Battery Box 1.7 containerized storage.",
-            "Cells and modules will be manufactured at the StarPlus Energy plant in Kokomo, Indiana."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "8ede073d6f4cef35": {
-        "summary": {
-          "title": "Heron Power and NiSource announce US data centre and BESS-focused deals",
-          "main_point": "Heron Power and NiSource have announced separate deals involving battery energy storage systems for data centres.",
-          "bullets": [
-            "The deals involve Vantage and Microsoft."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
-      "93bdeb7ae1a5d2ff": {
-        "summary": {
-          "title": "Xpanner unveils automated pile driving system for solar and BESS",
-          "main_point": "Xpanner has launched the X1 Piling R6, an automated pile driving system designed for utility-scale solar and battery storage sites.",
-          "bullets": [
-            "The system pairs an automation stack with the Everstar R6 crawler base machine.",
-            "Operators control the system by uploading a pile plan and pressing a single button."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-26"
-      },
       "4415b4b63372524d": {
         "summary": {
           "title": "ENNA Solar to acquire Medgidia solar-plus-storage project in Romania",
@@ -916,23 +803,122 @@
         },
         "mode": "extractive",
         "date": "2026-11-05"
+      },
+      "117fb4af4c14326e": {
+        "summary": {
+          "title": "Soluxtec resumes TOPCon solar module production in Germany",
+          "main_point": "German manufacturer Soluxtec has restarted production at its Trier-F\u00f6hren facility using TOPCon technology following an acquisition by Ronmaa.",
+          "bullets": [
+            "The facility has transitioned from M10 to G12-format cells.",
+            "Production will be ramped up gradually, though annual capacity was not disclosed.",
+            "IB Solar has signed an MoU with three German firms to develop a 2GW TOPCon cell manufacturing line in India (PV Tech)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "7f20e9403987dee4": {
+        "summary": {
+          "title": "Third Latvian solar PV plant from Ignitis Renewables enters operations",
+          "main_point": "The 174MW Tume solar farm in Tukums, Latvia, has reached operational status.",
+          "bullets": [
+            "This project marks the first time owner Ignitis Renewables will operate its own facility."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "8bd3bdeb58a3cfd6": {
+        "summary": {
+          "title": "Laser-based recycling method enables over 95% selective silver recovery",
+          "main_point": "Researchers have developed a laser-induced delamination process to separate EVA from aged solar modules, facilitating material recovery.",
+          "bullets": [
+            "The method targets the EVA\u2013Si interface to provide a dry pathway for removing encapsulants.",
+            "The process aims to reduce material intermixing compared to traditional shredding or thermal treatment."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "3ad009d77739b4f7": {
+        "summary": {
+          "title": "Chinese and Indian solar manufacturers report financial results",
+          "main_point": "Several solar manufacturers reported mixed financial results, with JA and Longi seeing revenue declines and Saatvik Green reporting a profit drop.",
+          "bullets": [
+            "JA reported a net loss of CNY 3.64 billion for the first nine months of 2026 (pv magazine).",
+            "Longi reported revenue of CNY 43.864 billion for the first nine months of 2026 (pv magazine).",
+            "Saatvik Green Energy's profit after tax fell 76.2% year-over-year to \u20b9202 million in the second quarter of fiscal year 2027 (Mercom India)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "9609c2f59854883c": {
+        "summary": {
+          "title": "India renewable energy capacity and procurement update",
+          "main_point": "Government agencies in India auctioned 12 GW of renewable energy capacity in the third quarter of 2026.",
+          "bullets": [
+            "Battery energy storage and hybrid projects accounted for 45.2% of the auctioned capacity (Mercom India).",
+            "India added 55.3 GW of non-fossil capacity during fiscal year 2025\u201326 (pv magazine India)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "7ba4c7d9795ef896": {
+        "summary": {
+          "title": "Sodium-ion battery technology approaches commercial production phase",
+          "main_point": "Sodium-ion batteries are emerging as a stationary storage alternative with over 70 GWh in supply agreements already in place.",
+          "bullets": [
+            "Cell-level cost parity with LFP batteries is expected by late 2026.",
+            "Parity at the module and system levels is not anticipated until after 2030.",
+            "BYD plans to reach 30 GWh of sodium-ion battery capacity."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "d24f949bf3df2b0c": {
+        "summary": {
+          "title": "Earnings roundup: Sunrun, SolarEdge, Shoals, Array Technologies, FTC Solar report Q3 numbers",
+          "main_point": "As Q3 2026 earnings season continues, a number of public solar companies have made announcements in recent days.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-06"
+      },
+      "1da66c22b2e4461a": {
+        "summary": {
+          "title": "Faropoint begins construction on New Jersey community solar project",
+          "main_point": "Faropoint has started building a 1.6-MW community solar installation in Fair Lawn, New Jersey.",
+          "bullets": [
+            "This project is the first of 16 planned installations in the state.",
+            "The total capacity for all 16 projects is expected to exceed 10 MW."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-06"
+      },
+      "991c324f0150c8da": {
+        "summary": {
+          "title": "\u201cMoving into a positive political environment for solar\u201d \u2013 is the ITC coming back?",
+          "main_point": "Even before the midterm election results, Roth Capital\u2019s Philip Shen, managing director and senior research analyst, had been hearing that the solar tax credit was still on the minds of many in Washington D.C.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-06"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/26/czech-ministry-proposes-storage-capacity-auctions-to-2027": "2026-10-26",
-      "pv-magazine.com/2026/10/26/norwegian-alliance-calls-for-increased-solar-support": "2026-10-26",
-      "pv-magazine.com/2026/10/26/hungary-proposes-energy-upgrades-for-single-family-homes-apartments": "2026-10-26",
-      "pv-magazine-india.com/2026/10/26/solis-showcases-all-in-one-ci-energy-storage-system-at-rei-2026": "2026-10-26",
-      "energy-storage.news/singapore-targets-1gwh-of-energy-storage-in-energy-infrastructure-plan-to-meet-rising-demand-for-electricity": "2026-10-26",
-      "pv-magazine-usa.com/2026/10/26/ina-solar-caelux-target-perovskite-silicon-tandem-module-production-by-2028": "2026-10-26",
-      "pv-magazine.com/2026/10/26/shakti-pumps-unveils-620-wp-topcon-solar-module-at-rei-expo-2026": "2026-10-26",
-      "pv-magazine-india.com/2026/10/26/shakti-pumps-unveils-620-wp-topcon-solar-module-at-rei-expo-2026": "2026-10-26",
-      "pv-magazine.com/2026/10/26/waaree-showcases-520-wp-flexible-mono-perc-solar-module-with-19-69-efficiency": "2026-10-26",
-      "pv-magazine.com/2026/10/26/citicore-secures-552-million-for-900-mw-solar-120-mwh-storage-portfolio-in-philippines": "2026-10-26",
-      "pv-magazine-usa.com/2026/10/26/samsung-sdi-signs-1-gwh-supply-agreement-for-us-made-nca-battery-storage": "2026-10-26",
-      "pv-magazine.com/2026/10/26/samsung-sdi-signs-1-gwh-supply-agreement-for-us-made-nca-battery-storage": "2026-10-26",
-      "energy-storage.news/heron-power-and-nisource-announce-us-data-centre-and-bess-focused-deals-with-vantage-microsoft": "2026-10-26",
-      "solarpowerworldonline.com/2026/10/xpanner-unveils-automated-pile-driving-system-for-solar-and-bess": "2026-10-26",
       "pv-tech.org/enna-solar-acquire-medgidia-solar-plus-storage-project-romania": "2026-10-27",
       "pv-magazine.com/2026/10/27/creating-value-in-the-turmoil-electric-mobility-supporting-solar-and-storage": "2026-10-27",
       "pv-tech.org/masdar-acquire-550mw-solar-pv-project-lightsource-bp-greece": "2026-10-27",
@@ -1065,52 +1051,66 @@
       "solarpowerworldonline.com/2026/11/solar-carport-project-at-california-medical-plaza-solves-tricky-energy-billing": "2026-11-05",
       "solarpowerworldonline.com/2026/11/edp-renewables-250-mw-arkansas-solar-project-slated-for-2028-completion": "2026-11-05",
       "pv-magazine-usa.com/2026/11/05/speed-to-power-runs-through-the-community": "2026-11-05",
-      "pv-magazine-usa.com/2026/11/05/grid-pressures-accelerate-utility-solar-and-storage-integration": "2026-11-05"
+      "pv-magazine-usa.com/2026/11/05/grid-pressures-accelerate-utility-solar-and-storage-integration": "2026-11-05",
+      "pv-magazine.com/2026/11/06/soluxtec-resumes-topcon-solar-module-production-in-germany": "2026-11-06",
+      "pv-tech.org/third-latvian-solar-pv-plant-from-ignitis-renewables-enters-operations": "2026-11-06",
+      "pv-magazine-usa.com/2026/11/06/laser-based-recycling-method-enables-over-95-selective-silver-recovery-from-end-of-life-solar-panels": "2026-11-06",
+      "pv-magazine.com/2026/11/06/chinese-pv-industry-brief-ja-longi-tongwei-report-widening-losses": "2026-11-06",
+      "mercomindia.com/saatvik-greens-q2-profit-down-76-as-solar-cell-shortage-bites": "2026-11-06",
+      "mercomindia.com/daily-news-wrap-up-battery-storage-hybrid-projects-lead-q3-auctions": "2026-11-06",
+      "pv-magazine-india.com/2026/11/06/indias-energy-independence-depends-on-what-it-can-build-at-home": "2026-11-06",
+      "pv-magazine-india.com/2026/11/05/ai-data-centres-projected-to-add-26-3-gw-to-indias-electricity-demand-by-2031-32": "2026-11-06",
+      "pv-magazine-india.com/2026/11/05/indias-installed-solar-pv-capacity-to-exceed-350-gw-by-2030-iea": "2026-11-06",
+      "pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements": "2026-11-06",
+      "pv-magazine-usa.com/2026/11/06/earnings-roundup-sunrun-solaredge-shoals-array-technologies-ftc-solar-report-q3-numbers": "2026-11-06",
+      "pv-tech.org/solaredge-q3-2026-revenue-down": "2026-11-06",
+      "solarpowerworldonline.com/2026/11/faropoint-building-1st-of-16-new-jersey-community-solar-projects": "2026-11-06",
+      "pv-magazine-usa.com/2026/11/06/moving-into-a-positive-political-environment-for-solar-is-the-itc-coming-back": "2026-11-06"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-05"
+        "last_ok": "2026-11-06"
       }
     },
     "alerts": {},
