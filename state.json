@@ -1,134 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.030539,
-  "requests": 10,
+  "spent_usd": 0.037472,
+  "requests": 12,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.010427
+      "2026-11": 0.013095
     },
     "cache": {
-      "4415b4b63372524d": {
-        "summary": {
-          "title": "ENNA Solar to acquire Medgidia solar-plus-storage project in Romania",
-          "main_point": "ENNA Solar has signed an agreement to acquire a 166MW solar PV project paired with a 612MWh battery energy storage system in Romania.",
-          "bullets": [
-            "The project includes a 166MW solar PV installation.",
-            "The battery energy storage system capacity is 612MWh."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "4f7b0698bfd88bda": {
-        "summary": {
-          "title": "Czech ministry proposes storage capacity auctions to 2027",
-          "main_point": "The Czech Ministry of Industry and Trade has proposed a draft amendment to move two extraordinary supplementary capacity auctions from 2026 to 2027.",
-          "bullets": [
-            "The draft amendment changes 20 provisions of the original measure regarding the country's capacity mechanism.",
-            "Written comments on the draft can be submitted until Oct. 30."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "25be18775f2540d7": {
-        "summary": {
-          "title": "Poland: Greenvolt sells 1.6GWh of projects to A&R, PGE building 800MWh",
-          "main_point": "Greenvolt has agreed to sell two battery energy storage projects in Poland to A&R, while PGE Group has commenced construction on an 800MWh project.",
-          "bullets": [
-            "Greenvolt sold 1.6GWh of projects to A&R.",
-            "PGE Group is building an 800MWh battery energy storage system.",
-            "SC Holding, Tauron, and Tavion have also launched projects in Poland."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "30bc8caa5389fde0": {
-        "summary": {
-          "title": "Shakti Pumps unveils 620 Wp TOPCon solar module at REI Expo 2026",
-          "main_point": "Shakti Pumps showcased its 620 Wp TOPCon solar module at the Renewable Energy India Expo 2026 as part of its expansion into module manufacturing.",
-          "bullets": [
-            "The modules use 16-busbar TOPCon technology in a G12R bifacial, dual-glass configuration.",
-            "Power outputs for the 132- and 144-half-cut-cell formats range from 600 Wp to 630 Wp.",
-            "The modules carry a 10-year product warranty and a 30-year performance warranty."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "addc29bc72b9809b": {
-        "summary": {
-          "title": "Vikram Solar secures order for 289.87 MWp of modules in Rajasthan",
-          "main_point": "Vikram Solar has been contracted to supply 289.87 MWp of n-type TOPCon modules for an 810 MW solar project in Rajasthan.",
-          "bullets": [
-            "The modules are intended for the RUVN Solar Park in Pugal, Bikaner.",
-            "The project is being developed by NLC India Renewables Ltd."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "583c0e73a9690521": {
-        "summary": {
-          "title": "Caelux agrees 3GW TOPCon-perovskite deal with INA Solar",
-          "main_point": "Caelux and INA Solar have signed a five-year partnership to produce 3GW of hybrid tandem solar modules by 2028.",
-          "bullets": [
-            "The partnership aims to integrate Caelux\u2019s power-generating glass technology with INA Solar\u2019s n-type TOPCon platform.",
-            "The companies are targeting module efficiencies of up to 29%."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "f4c9a27da0dac643": {
-        "summary": {
-          "title": "Solar industry coalition opposes Dominion-NextEra merger and T1 Energy receives import waiver",
-          "main_point": "A coalition of solar groups is opposing a $67 billion utility merger in Virginia, while T1 Energy has received a U.S. waiver to import solar cells.",
-          "bullets": [
-            "The Storage and Clean Energy Coalition argues the Dominion-NextEra merger could limit competition for distributed energy resources.",
-            "T1 Energy received a waiver to import up to 1.725 GW of solar cells for its Dallas manufacturing facility (Mercom India)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "692b5ea8d142235b": {
-        "summary": {
-          "title": "Samsung SDI signs 1GWh US BESS supply agreement with Alpha Omega Power",
-          "main_point": "Samsung SDI will supply 1GWh of U.S.-manufactured NCA battery storage to Alpha Omega Power for projects starting construction in 2027.",
-          "bullets": [
-            "The supply agreement covers Samsung Battery Box 1.7 containerized energy storage.",
-            "Cells and modules will be manufactured at the StarPlus Energy plant in Kokomo, Indiana.",
-            "Delivery of the battery containers is expected before the end of 2026."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
-      "165d74d21808957c": {
-        "summary": {
-          "title": "Xpanner launches automated pile driver for utility-scale solar and storage",
-          "main_point": "Xpanner has launched the X1 Piling R6, an automated pile driving system designed to speed up construction on utility-scale solar and battery storage sites.",
-          "bullets": [
-            "The system automates pile positioning, travel, alignment, hammering, and depth control.",
-            "The X1 Piling R6 pairs Xpanner\u2019s automation software with an Everstar R6 crawler base machine."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-27"
-      },
       "65cbd6347390cfae": {
         "summary": {
           "title": "Valo CEO discusses potential for European battery storage industry",
@@ -916,23 +796,122 @@
         },
         "mode": "extractive",
         "date": "2026-11-06"
+      },
+      "f1c70988e365707b": {
+        "summary": {
+          "title": "Researchers develop 10.56 kW solar-powered pleasure boat",
+          "main_point": "A research team from Canada\u2019s Memorial University of Newfoundland has designed a solar-electric propulsion system for a pleasure boat.",
+          "bullets": [
+            "The system is designed for an 11.8-meter-long, 5.8-meter-wide boat that can accommodate five to six adults.",
+            "The design process utilized a two-stage evaluation method combining HOMER Pro energy yield estimates with MATLAB/Simulink dynamic modeling."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "f19242ce915cce82": {
+        "summary": {
+          "title": "Study finds 0.5-meter spacing between solar module rows improves cooling in floating PV systems",
+          "main_point": "A computational fluid dynamics study indicates that 0.5-meter spacing between module rows optimizes cooling for floating solar installations.",
+          "bullets": [
+            "At a wind speed of 3.5 m/s, the 0.5-meter spacing achieved an average module temperature of 27.16 C, compared to 31.07 C for the most compact arrangement.",
+            "Under 1.5 m/s wind conditions, the optimal configuration recorded an average module temperature of 37.02 C.",
+            "Crystalline silicon PV module efficiency typically drops by 0.3% to 0.5% for every 1 C increase in cell temperature."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "0c89b906fd182e69": {
+        "summary": {
+          "title": "Norwegian central bank buys US$300 million stake in Aypa Power",
+          "main_point": "Norges Bank Investment Management has acquired a 10% interest in the North American battery storage developer Aypa Power.",
+          "bullets": [
+            "The investment is valued at US$300 million."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "c56030e2c63a85b5": {
+        "summary": {
+          "title": "India\u2019s solar PV capacity and manufacturing growth",
+          "main_point": "India is projected to expand its solar and renewable energy capacity significantly by 2030.",
+          "bullets": [
+            "The IEA forecasts India's solar PV capacity will exceed 350 GW by 2030 (pv magazine).",
+            "Total renewable power capacity is expected to reach around 530 GW by 2030, with wind at 90 GW and hydropower at 75 GW (pv magazine).",
+            "The Ministry of New and Renewable Energy has added 2.13 GW of solar cell manufacturing capacity to the Approved List (Mercom India)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "289211bf0269fa79": {
+        "summary": {
+          "title": "Portable solar-powered system produces 1.64 liters of drinking water in 8 hours",
+          "main_point": "Researchers at Soochow University developed a portable device that uses electrothermal evaporation to produce clean water from contaminated sources.",
+          "bullets": [
+            "The prototype produced 1.64 liters of water in eight hours using an evaporation surface of 30.72 cm2.",
+            "The device features an interlayer electrothermal evaporator that positions the heating element within the structure to reduce heat loss."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "cd157685b3bf2347": {
+        "summary": {
+          "title": "Avantus upsizes corporate credit facility to $1.28 billion",
+          "main_point": "Utility-scale solar and energy storage developer Avantus has increased its corporate credit facility commitments to $1.28 billion.",
+          "bullets": [
+            "Avantus operates as a developer, owner, and operator of utility-scale solar and energy storage projects."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "b2bccd46a95ae32d": {
+        "summary": {
+          "title": "New York funds energy storage projects and Ford Energy partners with DESRI",
+          "main_point": "New York State has awarded funding for energy storage advancement, while Ford Energy and DESRI have announced a partnership.",
+          "bullets": [
+            "New York\u2019s Power Generation and Storage Innovation program awarded nearly $13 million to 15 projects (Solar Power World).",
+            "Ford Energy and D. E. Shaw Renewable Investments (DESRI) will partner to deploy energy storage in the US (Energy-Storage.news)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "9c7f68b1f382d919": {
+        "summary": {
+          "title": "U.S. solar developers navigate policy stack as Section 232 deadline nears",
+          "main_point": "U.S. solar equipment inventories grew by 126% in the second quarter of 2026 as developers prepared for upcoming trade regulations.",
+          "bullets": [
+            "Industry activity has been influenced by the July 4 construction-start deadline, the July 24 tariff transition, and Foreign Entity of Concern restrictions."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-07"
+      },
+      "3b855bc859a93371": {
+        "summary": {
+          "title": "Democratic sweep in US midterms brings reprieve for solar, but federal gridlock persists",
+          "main_point": "PV Tech spoke with many industry experts about the midterm election results, covering topics such as permitting, state-level impact and investment appetite.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-07"
       }
     },
     "shown": {
-      "pv-tech.org/enna-solar-acquire-medgidia-solar-plus-storage-project-romania": "2026-10-27",
-      "pv-magazine.com/2026/10/27/creating-value-in-the-turmoil-electric-mobility-supporting-solar-and-storage": "2026-10-27",
-      "pv-tech.org/masdar-acquire-550mw-solar-pv-project-lightsource-bp-greece": "2026-10-27",
-      "pv-magazine.com/2026/10/27/czech-ministry-proposes-storage-capacity-auctions-to-2027-2": "2026-10-27",
-      "energy-storage.news/poland-greenvolt-sells-1-6gwh-of-projects-to-ar-pge-building-800mwh-with-fluence-tech": "2026-10-27",
-      "mercomindia.com/daily-news-wrap-up-dcr-module-premium-raises-rooftop-solar-costs": "2026-10-27",
-      "mercomindia.com/monark-university-ionextraa-power-join-hands-for-rooftop-solar-rd-project": "2026-10-27",
-      "pv-magazine-india.com/2026/10/27/vikram-solar-secures-order-to-supply-289-87-mwp-of-modules-for-nlc-indias-rajasthan-project": "2026-10-27",
-      "pv-tech.org/caelux-ina-solar-3gw-topcon-perovskite-hybrid-tandem": "2026-10-27",
-      "pv-magazine-usa.com/2026/10/27/solar-industry-coalition-opposes-67-billion-dominion-nextera-merger-as-proposed": "2026-10-27",
-      "mercomindia.com/t1-energy-secures-us-waiver-to-import-1-73-gw-of-solar-cells": "2026-10-27",
-      "pv-magazine-india.com/2026/10/26/ina-solar-partners-with-us-based-caelux-for-3-gw-of-hybrid-tandem-solar-modules-targets-29-module-efficiency-by-2028": "2026-10-27",
-      "energy-storage.news/samsung-sdi-signs-1gwh-us-bess-supply-agreement-with-alpha-omega-power": "2026-10-27",
-      "pv-magazine-usa.com/2026/10/26/xpanner-launches-automated-pile-driver-to-speed-up-utility-scale-solar-energy-storage-installation": "2026-10-27",
       "energy-storage.news/europe-has-the-capability-to-support-homegrown-bess-industry-valo-ceo-fath-says-in-exclusive-interview": "2026-10-28",
       "pv-magazine.com/2026/10/28/togo-opens-consultation-on-large-scale-solar-tender": "2026-10-28",
       "energy-storage.news/kyon-energy-282mwh-alfeld-battery-storage-project-germany-operation": "2026-10-28",
@@ -1065,52 +1044,67 @@
       "pv-magazine-usa.com/2026/11/06/earnings-roundup-sunrun-solaredge-shoals-array-technologies-ftc-solar-report-q3-numbers": "2026-11-06",
       "pv-tech.org/solaredge-q3-2026-revenue-down": "2026-11-06",
       "solarpowerworldonline.com/2026/11/faropoint-building-1st-of-16-new-jersey-community-solar-projects": "2026-11-06",
-      "pv-magazine-usa.com/2026/11/06/moving-into-a-positive-political-environment-for-solar-is-the-itc-coming-back": "2026-11-06"
+      "pv-magazine-usa.com/2026/11/06/moving-into-a-positive-political-environment-for-solar-is-the-itc-coming-back": "2026-11-06",
+      "pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat": "2026-11-07",
+      "pv-magazine.com/2026/11/07/study-finds-0-5-meter-spacing-between-solar-module-rows-improves-cooling-in-floating-pv-systems": "2026-11-07",
+      "energy-storage.news/norwegian-central-bank-buys-us300-million-stake-in-brookfields-soon-to-be-acquired-bess-developer-aypa-power": "2026-11-07",
+      "pv-magazine.com/2026/11/07/indias-installed-solar-pv-capacity-to-exceed-350-gw-by-2030-says-iea": "2026-11-07",
+      "pv-magazine.com/2026/11/07/beyond-scale-and-hardware": "2026-11-07",
+      "mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-47-gw": "2026-11-07",
+      "energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity": "2026-11-07",
+      "pv-magazine.com/2026/11/07/portable-solar-powered-system-produces-1-64-liters-of-drinking-water-in-8-hours": "2026-11-07",
+      "mercomindia.com/avantus-upsizes-corporate-credit-facility-to-1-28-billion": "2026-11-07",
+      "solarpowerworldonline.com/2026/11/new-york-program-funds-13-million-in-energy-storage-advancement-projects": "2026-11-07",
+      "energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess": "2026-11-07",
+      "pv-magazine.com/2026/11/07/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
+      "pv-magazine-usa.com/2026/11/06/in-case-you-missed-it-solar-stories-of-the-week-1106": "2026-11-07",
+      "pv-magazine-usa.com/2026/11/06/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
+      "pv-tech.org/democratic-sweep-in-us-midterms-brings-reprieve-for-solar-but-federal-gridlock-persists": "2026-11-07"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-06"
+        "last_ok": "2026-11-07"
       }
     },
     "alerts": {},
