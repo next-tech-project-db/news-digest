@@ -1,132 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.037472,
-  "requests": 12,
+  "spent_usd": 0.04129,
+  "requests": 14,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.013095
+      "2026-11": 0.013612
     },
     "cache": {
-      "65cbd6347390cfae": {
-        "summary": {
-          "title": "Valo CEO discusses potential for European battery storage industry",
-          "main_point": "Valo CEO Peter Fath stated that Europe possesses the capability to support a domestic battery energy storage system (BESS) industry.",
-          "bullets": [
-            "Peter Fath, CEO of Valo, discussed the strategy and next steps for the newly launched energy storage joint venture."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "bfe515791874abef": {
-        "summary": {
-          "title": "Togo initiates consultation for large-scale solar tender",
-          "main_point": "The government of Togo is seeking stakeholder feedback on documents for the Nangb\u00e9to solar project before launching a competitive tender.",
-          "bullets": [
-            "The Nangb\u00e9to solar PV project is planned to have a capacity between 70 MW and 110 MW.",
-            "This project is the first phase of a 400 MW clean power program in Togo.",
-            "Documents available for review include the concession agreement, power purchase agreement, tender dossier, and technical requirements."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "7f323260e88e1ff5": {
-        "summary": {
-          "title": "Kyon Energy commissions 282MWh battery storage project in Germany",
-          "main_point": "Kyon Energy has put its 137.5MW/282MWh Alfeld battery energy storage system into operation in Germany.",
-          "bullets": [
-            "The project is potentially the largest of its kind in Germany to reach this milestone."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "13fd8fb7fdffcefd": {
-        "summary": {
-          "title": "Solar energy developments in India",
-          "main_point": "Solar energy continued to lead renewable capacity additions in India during the third quarter of 2026, while Avaada Group introduced a new high-efficiency module.",
-          "bullets": [
-            "India's solar capacity share in renewable energy reached 58% at the end of the third quarter of 2026 (Mercom India).",
-            "Avaada Group unveiled a 745 Wp DCR-compliant n-type TOPCon solar module with 23.98% efficiency at the REI Expo 2026 (pv magazine India)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "665c0b28c930ff1c": {
-        "summary": {
-          "title": "Regulatory and software developments in Indian renewable energy",
-          "main_point": "The CERC approved tariffs for SECI renewable projects, while Smartgrid Analytics launched software to support 200 GW of capacity.",
-          "bullets": [
-            "The CERC adopted tariffs of \u20b96.27 (~$0.0659)/kWh and \u20b96.28 (~$0.0660)/kWh for 1,200 MW of renewable projects with storage (Mercom India).",
-            "Smartgrid Analytics plans to support over 200 GW of renewable capacity over five years using its Solvyn AURA platform (pv magazine India).",
-            "Smartgrid Analytics signed an agreement to deploy Solvyn AURA for 1 GWh of capacity with partners including BluPine Energy (pv magazine India)."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "bd13bb67406caa0a": {
-        "summary": {
-          "title": "Researchers develop acid-free silver recovery method for solar cells",
-          "main_point": "A new method using molten sodium hydroxide and potassium hydroxide can recover up to 97.11% of silver from end-of-life solar cells.",
-          "bullets": [
-            "The process recovered 94.34% of silver at 230 C for 150 seconds.",
-            "Silicon substrate loss was limited to 2.62% at 230 C for 100 seconds."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "5e971d6eafa13817": {
-        "summary": {
-          "title": "Waaree Energies reports financial results and order book growth",
-          "main_point": "Waaree Energies reported a 23.9% year-over-year revenue increase for the second quarter of the 2027 financial year and an order book of INR 59,200 crore.",
-          "bullets": [
-            "Revenue for the second quarter of the 2027 financial year was \u20b975.18 billion (~$783.13 million) (Mercom India).",
-            "The module order book reached 25.6 GW in the second quarter of the 2027 financial year (pv magazine India).",
-            "Revenue for the first half of the 2027 financial year rose 47.3% year on year to INR 15,449.5 crore (pv magazine India)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "f237ea25587c720c": {
-        "summary": {
-          "title": "Developments in residential and utility-scale solar projects",
-          "main_point": "Plug-in solar is emerging as a new installation mode, while Distributed Energy Infrastructure completed a 3.37-MWDC project in New York.",
-          "bullets": [
-            "Plug-in solar systems are defined as small-scale arrays under 1.2 kW that plug directly into wall outlets (pv magazine USA).",
-            "Distributed Energy Infrastructure completed the 3.37-MWDC Sapphire Solar project in Jefferson County, New York (Solar Power World)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
-      "3f68f9305b8a5919": {
-        "summary": {
-          "title": "Energy storage growth drivers in the Americas",
-          "main_point": "BESS development is expanding in Latin America due to regulation and demand, while BNEF increased its US storage forecast by 30%.",
-          "bullets": [
-            "Drivers for BESS in Latin America include regulation, energy independence, and energy demand growth (Energy-Storage.news).",
-            "BNEF increased its US energy storage deployment forecast by 30% due to firm orders from hyperscalers (Utility Dive)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-28"
-      },
       "6c1147a622620a18": {
         "summary": {
           "title": "Ground-mounted solar land use in Italy increased in 2025",
@@ -909,27 +791,24 @@
         },
         "mode": "extractive",
         "date": "2026-11-07"
+      },
+      "188fff64abc49feb": {
+        "summary": {
+          "title": "Government plans to freeze gas prices in 2027",
+          "main_point": "The Ministry of Energy has published draft legislation to freeze gas prices for eligible consumers at 197,27 PLN per MWh in 2027.",
+          "bullets": [
+            "The proposed price freeze level matches the myOrlen tariff approved by the regulator until the end of 2026.",
+            "The basic BASE instrument for 2027 on the Towarowa Gie\u0142da Energii is valued at 324 PLN per MWh.",
+            "The draft assumptions propose extending gas price tariffing for households and sensitive consumers until the end of 2030, instead of the current end of 2027 deadline.",
+            "Minister Mi\u0142osz Motyka estimates the cost of the intervention at approximately 6 billion PLN."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-08"
       }
     },
     "shown": {
-      "energy-storage.news/europe-has-the-capability-to-support-homegrown-bess-industry-valo-ceo-fath-says-in-exclusive-interview": "2026-10-28",
-      "pv-magazine.com/2026/10/28/togo-opens-consultation-on-large-scale-solar-tender": "2026-10-28",
-      "energy-storage.news/kyon-energy-282mwh-alfeld-battery-storage-project-germany-operation": "2026-10-28",
-      "energy-storage.news/giga-storage-closes-e260-million-debt-financing-for-1400mwh-germany-bess": "2026-10-28",
-      "mercomindia.com/solars-share-in-indias-renewable-capacity-rises-to-57-7-at-the-end-of-q3-2026": "2026-10-28",
-      "pv-magazine-india.com/2026/10/28/avaada-unveils-745-wp-dcr-topcon-solar-module-at-rei-expo-2026": "2026-10-28",
-      "pv-tech.org/thai-government-greenlights-us1-48-million-rooftop-solar-programme-deploy-5gw-capacity": "2026-10-28",
-      "mercomindia.com/cerc-approves-tariffs-for-secis-1-2-gw-peak-power-projects": "2026-10-28",
-      "pv-magazine-india.com/2026/10/28/smartgrid-analytics-targets-200-gw-of-renewable-energy-capacity-in-india-with-solvyn-aura": "2026-10-28",
-      "pv-magazine-india.com/2026/10/28/bangladesh-moves-to-cut-tariffs-for-long-delayed-solar-projects": "2026-10-28",
-      "pv-magazine.com/2026/10/28/acid-free-molten-salt-method-recovers-94-of-silver-from-solar-cells": "2026-10-28",
-      "mercomindia.com/waarees-q2-revenue-up-24-aims-to-expand-us-module-plant-capacity-to-4-8-gw": "2026-10-28",
-      "pv-magazine-india.com/2026/10/28/waaree-energies-reports-inr-59200-crore-order-book": "2026-10-28",
-      "pv-magazine-usa.com/2026/10/28/residential-solar-doesnt-have-to-start-on-the-roof": "2026-10-28",
-      "solarpowerworldonline.com/2026/10/distributed-energy-infrastructure-completes-new-york-solar-project-despite-site-challenges": "2026-10-28",
-      "solarpowerworldonline.com/2026/10/california-is-still-without-a-functioning-community-solar-program": "2026-10-28",
-      "energy-storage.news/energy-security-not-just-climate-goals-drive-caribbean-and-latin-american-storage-growth": "2026-10-28",
-      "utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870": "2026-10-28",
       "pv-magazine.com/2026/10/29/ground-mounted-solar-used-2798-hectares-of-land-in-italy-in-2025": "2026-10-29",
       "mercomindia.com/europe-scraps-antidumping-and-countervailing-duties-on-chinese-solar-glass": "2026-10-29",
       "energy-storage.news/portugal-makes-grid-forming-mandatory-for-large-scale-bess-and-launches-1gw-tender": "2026-10-29",
@@ -1059,52 +938,53 @@
       "pv-magazine.com/2026/11/07/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
       "pv-magazine-usa.com/2026/11/06/in-case-you-missed-it-solar-stories-of-the-week-1106": "2026-11-07",
       "pv-magazine-usa.com/2026/11/06/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
-      "pv-tech.org/democratic-sweep-in-us-midterms-brings-reprieve-for-solar-but-federal-gridlock-persists": "2026-11-07"
+      "pv-tech.org/democratic-sweep-in-us-midterms-brings-reprieve-for-solar-but-federal-gridlock-persists": "2026-11-07",
+      "wysokienapiecie.pl/122704-rzad-szykuje-na-2027-rok-zamrozenie-cen-gazu": "2026-11-08"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-07"
+        "last_ok": "2026-11-08"
       }
     },
     "alerts": {},
