@@ -1,129 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.04129,
-  "requests": 14,
+  "spent_usd": 0.047535,
+  "requests": 16,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.013612
+      "2026-11": 0.016082
     },
     "cache": {
-      "6c1147a622620a18": {
-        "summary": {
-          "title": "Ground-mounted solar land use in Italy increased in 2025",
-          "main_point": "Ground-mounted solar installations in Italy occupied 2,798 hectares of land in 2025, up from 1,700 hectares in 2024.",
-          "bullets": [
-            "Annual land use for ground-mounted solar grew from 75 hectares in 2021 to 2,798 hectares in 2025.",
-            "Solar accounted for approximately 27% of the 10,243 hectares of land consumed in Italy in 2025.",
-            "Total land consumption in Italy increased by 22.4% in 2025 compared with 2024."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "63cd6b706c8724de": {
-        "summary": {
-          "title": "European Commission repeals duties on Chinese solar glass",
-          "main_point": "The European Commission has removed antidumping and countervailing duties on Chinese solar glass imports.",
-          "bullets": [
-            "The decision follows findings that the European Union's domestic solar glass industry has ceased production and has no verifiable plans to resume."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "a89c01b5383b98ab": {
-        "summary": {
-          "title": "Portugal mandates grid-forming for large-scale battery storage",
-          "main_point": "Portugal has made grid-forming capabilities mandatory for large-scale battery energy storage systems (BESS) and launched a 1GW tender.",
-          "bullets": [
-            "IPP Sonnedix has commissioned two solar-plus-storage projects in Portugal."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "d5bf016d149f5575": {
-        "summary": {
-          "title": "Gujarat approves battery storage tariffs and new manufacturing facility",
-          "main_point": "The Gujarat Electricity Regulatory Commission approved tariffs for 450 MW/900 MWh of storage, while a new 5 GWh manufacturing facility was announced.",
-          "bullets": [
-            "The GERC approved tariffs for GUVNL to procure 450 MW/900 MWh of standalone battery storage under Phase IX.",
-            "Mecpower Solutions and Navitas Solar are building a 5 GWh battery manufacturing facility in Karjan, Gujarat, expected to start operations in the first quarter of FY 2027\u201328.",
-            "The new facility aims to produce approximately 1,000 battery storage containers annually."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "665e72894d076d99": {
-        "summary": {
-          "title": "Developments in India's renewable energy sector",
-          "main_point": "India's renewable energy sector sees continued solar dominance and new software deployments for project management.",
-          "bullets": [
-            "Solar accounted for 58% of India's renewable energy capacity additions in the third quarter of 2026 (Mercom India).",
-            "Smartgrid Analytics launched Solvyn AURA software to support over 200 GW of renewable capacity over five years (pv magazine India).",
-            "Smartgrid Analytics signed an agreement to deploy Solvyn AURA for 1 GWh of capacity across Andhra Pradesh, Karnataka, and Rajasthan (pv magazine India)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "ef241e4835ef3a40": {
-        "summary": {
-          "title": "SECI invites bids for solar project on Delhi-Dehradun Expressway",
-          "main_point": "The Solar Energy Corporation of India has invited bids for a grid-connected solar project on the Delhi-Dehradun Expressway.",
-          "bullets": [
-            "The project is to be developed on the elevated section of the NH 709B."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "4bc8d5cab8bff034": {
-        "summary": {
-          "title": "Plug-in solar systems gain traction in North America",
-          "main_point": "Plug-in solar systems, often called balcony solar, are emerging as a small-scale renewable energy option in North America.",
-          "bullets": [
-            "Plug-in solar refers to systems under 1.2kW that connect to a home wall outlet via an inverter.",
-            "Ten states, including California, have addressed the legality of these systems this year."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "3fcca0fbed79d682": {
-        "summary": {
-          "title": "Distinction between solar-plus-storage and backup power",
-          "main_point": "Solar-plus-storage systems do not automatically provide backup power during grid outages without specific design verification.",
-          "bullets": [
-            "Providing backup power requires the ability to safely isolate the system from the grid and supply designated loads independently."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
-      "e0030a536bd9bf75": {
-        "summary": {
-          "title": "First Solar opens 1.7GW manufacturing phase in South Carolina",
-          "main_point": "First Solar has inaugurated the first 1.7GW phase of its manufacturing facility in Gaffney, South Carolina.",
-          "bullets": [
-            "The total investment for the manufacturing facility is US$330 million."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-29"
-      },
       "53a7671cf425b391": {
         "summary": {
           "title": "Benin secures financing for first solar IPP projects",
@@ -806,20 +691,123 @@
         },
         "mode": "ai",
         "date": "2026-11-08"
+      },
+      "f269e16cf4c26095": {
+        "summary": {
+          "title": "Solarwatt launches new bifacial TOPCon BIPV module",
+          "main_point": "Solarwatt has released the Panel vision M 5.0 construct, a bifacial TOPCon module for building-integrated photovoltaic applications.",
+          "bullets": [
+            "The module received general building authority approval from the German Institute for Construction Technology.",
+            "The product is intended for use in carports, parking canopies, facades, and green roof applications."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "4decfc704d8ff748": {
+        "summary": {
+          "title": "French winter temperatures impact regional electricity exports",
+          "main_point": "Each degree of cold in France reduces net electricity exports by approximately 1 GW and increases day-ahead prices in France, Belgium, and Germany.",
+          "bullets": [
+            "Price increases range from \u20ac5/MWh to \u20ac7/MWh during cold spells.",
+            "French temperature fluctuations account for half of the French price response, one-third of the Belgian response, and one-quarter of the German response."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "1ae6772e6992c5a1": {
+        "summary": {
+          "title": "Corporate renewable power purchase agreements decline in 2026",
+          "main_point": "Corporate power purchase agreements in Europe have secured 5.9 GW of renewable capacity so far in 2026, representing a 9.7% decrease compared to the same period last year.",
+          "bullets": [
+            "The 10th edition of the RE-Source event in Amsterdam hosted over 350 corporate energy buyers.",
+            "The event facilitated approximately 400 prescheduled meetings between buyers and suppliers."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "b117a15affabea3e": {
+        "summary": {
+          "title": "Terra Clean invites bids for solar project transformers",
+          "main_point": "Terra Clean, a subsidiary of Indian Oil Corporation, has issued a tender for the supply of power transformers for solar projects in Madhya Pradesh and Gujarat.",
+          "bullets": [
+            "The transformers are intended for solar park projects."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "60918564cb2e1a35": {
+        "summary": {
+          "title": "African Development Bank invests in Egyptian solar project",
+          "main_point": "The African Development Bank signed a $66 million financing agreement for the first phase of the Dandara solar-plus-storage project in Egypt.",
+          "bullets": [
+            "$46 million is sourced from ordinary Bank Group resources.",
+            "$20 million is provided as concessional funding from the Climate Investment Funds\u2019 Clean Technology Fund."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "e7d7511c8aefd3b4": {
+        "summary": {
+          "title": "Karnataka Power Corporation tenders solar-plus-storage project",
+          "main_point": "Karnataka Power Corporation has issued a tender for a ground-mounted solar project integrated with a battery energy storage system.",
+          "bullets": [
+            "The project involves a ground-mounted solar installation combined with battery storage."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "fb65653873b60757": {
+        "summary": {
+          "title": "Community solar and large-scale projects reach milestones",
+          "main_point": "ECA Power energized a 7.4-MWDC community solar project in Illinois, while a 1.2 GW solar project in Texas secured a $1.8 billion green loan.",
+          "bullets": [
+            "The Texas project, Big Rooter Power, is being built on 1,804 hectares of reclaimed coal mine land.",
+            "The first phase of the Texas project loan is $769 million, with a second phase exceeding $1 billion."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "16d09c6c914c5384": {
+        "summary": {
+          "title": "Report finds distributed energy resources could save US power system $614 billion",
+          "main_point": "A study by The Brattle Group indicates that removing barriers to distributed energy resources could save the US power system $614 billion by 2050.",
+          "bullets": [
+            "Distributed solar capacity is projected to grow from 68 GW today to 230 GW by 2050.",
+            "Savings are expected from the growth of distributed solar, distributed storage, and demand flexibility technologies."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
+      },
+      "8c153d81083fc4ad": {
+        "summary": {
+          "title": "Solar and storage companies support federal permitting reform",
+          "main_point": "Hundreds of solar and storage companies have signed a letter to Congress supporting the Bipartisan American Affordability and Jobs Act of 2026.",
+          "bullets": [
+            "The legislation is intended to facilitate the construction of energy projects to help lower energy costs."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-09"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/29/ground-mounted-solar-used-2798-hectares-of-land-in-italy-in-2025": "2026-10-29",
-      "mercomindia.com/europe-scraps-antidumping-and-countervailing-duties-on-chinese-solar-glass": "2026-10-29",
-      "energy-storage.news/portugal-makes-grid-forming-mandatory-for-large-scale-bess-and-launches-1gw-tender": "2026-10-29",
-      "mercomindia.com/gujarat-approves-tariffs-for-450-mw-900-mwh-battery-storage-projects": "2026-10-29",
-      "pv-magazine-india.com/2026/10/28/mecpower-solutions-navitas-solar-partner-to-establish-5-gwh-battery-energy-storage-manufacturing-facility-in-gujarat": "2026-10-29",
-      "mercomindia.com/daily-news-wrap-up-solars-share-in-indias-renewable-mix-hits-58": "2026-10-29",
-      "mercomindia.com/seci-invites-bids-for-solar-project-on-delhi-dehradun-expressway": "2026-10-29",
-      "solarpowerworldonline.com/2026/10/plug-in-solar-expands-access-to-renewables-but-needs-strong-safety-framework": "2026-10-29",
-      "solarpowerworldonline.com/2026/10/first-solar-to-inaugurate-south-carolina-solar-panel-finishing-facility": "2026-10-29",
-      "pv-magazine-usa.com/2026/10/29/solar-storage-doesnt-automatically-mean-backup-mapping-what-actually-stays-powered": "2026-10-29",
-      "pv-tech.org/first-solar-inaugurates-1-7gw-initial-phase-south-carolina-module-manufacturing-facility": "2026-10-29",
       "pv-magazine.com/2026/10/30/benin-secures-financing-for-62-mw-of-solar-across-four-sites": "2026-10-30",
       "pv-magazine.com/2026/10/30/italian-government-rejects-468-mw-of-solar-projects": "2026-10-30",
       "pv-magazine.com/2026/10/30/greenvolt-to-install-25-mw-of-solar-canopies-at-120-french-stores": "2026-10-30",
@@ -939,52 +927,68 @@
       "pv-magazine-usa.com/2026/11/06/in-case-you-missed-it-solar-stories-of-the-week-1106": "2026-11-07",
       "pv-magazine-usa.com/2026/11/06/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
       "pv-tech.org/democratic-sweep-in-us-midterms-brings-reprieve-for-solar-but-federal-gridlock-persists": "2026-11-07",
-      "wysokienapiecie.pl/122704-rzad-szykuje-na-2027-rok-zamrozenie-cen-gazu": "2026-11-08"
+      "wysokienapiecie.pl/122704-rzad-szykuje-na-2027-rok-zamrozenie-cen-gazu": "2026-11-08",
+      "pv-tech.org/solarwatt-launches-new-bifacial-topcon-bipv-module": "2026-11-09",
+      "pv-magazine.com/2026/11/09/solarwatt-launches-bifacial-topcon-solar-modules-for-bipv-applications": "2026-11-09",
+      "pv-magazine.com/2026/11/09/a-degree-in-paris-a-gigawatt-at-the-border": "2026-11-09",
+      "pv-magazine.com/2026/11/09/key-takeaways-from-re-source-2026-in-amsterdam": "2026-11-09",
+      "mercomindia.com/terra-clean-invites-bids-for-supply-of-power-transformers-for-solar-projects": "2026-11-09",
+      "mercomindia.com/gujarat-regulator-adopts-tariff-for-1-25-gw-solar-projects": "2026-11-09",
+      "mercomindia.com/mena-weekly-round-up-afdb-invests-66-million-in-egypts-solar-project": "2026-11-09",
+      "mercomindia.com/karnataka-power-corporation-tenders-solar-plus-storage-project": "2026-11-09",
+      "solarpowerworldonline.com/2026/11/eca-power-completes-community-solar-project-in-town-seeking-revitalization": "2026-11-09",
+      "pv-magazine.com/2026/11/09/texas-sized-solar-project-at-coal-plant-supported-by-1-8-billion-green-loan": "2026-11-09",
+      "solarpowerworldonline.com/2026/11/spw-winners-of-2026-top-products-contest": "2026-11-09",
+      "pv-magazine-usa.com/2026/11/09/texas-sized-solar-project-at-coal-plant-supported-by-1-8-billion-green-loan": "2026-11-09",
+      "pv-tech.org/panamint-capital-closes-finance-for-1-2gw-solar-pv-plant-near-twin-oaks-power-station": "2026-11-09",
+      "energy-storage.news/removing-barriers-to-distributed-energy-resources-could-save-us-power-system-us614-billion-by-2050-report-finds": "2026-11-09",
+      "pv-magazine-usa.com/2026/11/09/saving-614-billion-by-2050-with-distributed-resources-solar-storage-and-flexibility": "2026-11-09",
+      "solarpowerworldonline.com/2026/11/solar-and-storage-companies-voice-support-for-federal-permitting-reform": "2026-11-09"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-08"
+        "last_ok": "2026-11-09"
       }
     },
     "alerts": {},
