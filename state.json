@@ -1,130 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.047535,
-  "requests": 16,
+  "spent_usd": 0.050276,
+  "requests": 18,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.016082
+      "2026-11": 0.018823
     },
     "cache": {
-      "53a7671cf425b391": {
-        "summary": {
-          "title": "Benin secures financing for first solar IPP projects",
-          "main_point": "Axian has secured a \u20ac30 million ($33.5 million) financing package for four solar projects in Benin with a combined capacity of 62 MW.",
-          "bullets": [
-            "The financing is provided by the International Finance Corporation and Proparco.",
-            "The projects are located in Natitingou, Djougou, Parakou and Bohicon.",
-            "The plants are expected to generate approximately 110 GWh of electricity once operational."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "71a668d958485ac7": {
-        "summary": {
-          "title": "Greenvolt to install 25 MW of solar canopies at 120 French stores",
-          "main_point": "Greenvolt Next will build and operate 25 MW of solar carports across 120 Carrefour stores in France.",
-          "bullets": [
-            "The project will consist of approximately 45,000 solar panels.",
-            "The agreement follows a national tender launched by Carrefour Property."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "5c3f56b5cc2a3b34": {
-        "summary": {
-          "title": "French solar car park rollout falls short of legal deadline",
-          "main_point": "A survey by Parksun indicates that 85% of large supermarket car parks in France lacked visible solar canopies three months past the July 1, 2026, deadline.",
-          "bullets": [
-            "France's APER law requires outdoor car parks larger than 1,500 square meters to cover half their area with photovoltaic canopies.",
-            "The share of car parks equipped with solar canopies rose from 4.5% in 2023 to 9% in 2026 imagery.",
-            "The actual share of equipped car parks is estimated to be between 8% and 10%."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "169d954da5ad0c3e": {
-        "summary": {
-          "title": "Solar Cell Manufacturing Capacity Under ALMM-II Grows to 45 GW",
-          "main_point": "The Ministry of New and Renewable Energy (MNRE) has added 7,063 MW of solar cell manufacturing capacity to the Approved List of Models and Manufacturers (ALMM) List-II, taking the total enlisted capacity to 44.9 GW.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-10-30"
-      },
-      "07060e04f0f9008d": {
-        "summary": {
-          "title": "Oyster Renewable begins Phase 2 of solar-wind hybrid project",
-          "main_point": "Oyster Renewable Energy has begun the second phase of a wind-solar hybrid project in Madhya Pradesh with a capacity of 341.6 MW.",
-          "bullets": [
-            "The project includes 201.6 MW of wind and 140 MWp of solar capacity.",
-            "Solar commissioning is expected by December 2026, with wind following in March 2027.",
-            "The company plans to develop approximately 800 MW of hybrid capacity in the state with an investment exceeding INR 6,500 (pv magazine India)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "e1f552a970f0116e": {
-        "summary": {
-          "title": "Global battery storage failure rate dropped 98% between 2018 and 2025",
-          "main_point": "The annual failure rate of lithium-ion battery energy storage systems declined by 98% globally between 2018 and 2025.",
-          "bullets": [
-            "Chinese portable battery storage manufacturers are reporting an increase in overseas orders in their third quarter results (Energy-Storage.news)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "694d6c98fa5f5625": {
-        "summary": {
-          "title": "Solar and battery storage help lower power prices in California and Texas",
-          "main_point": "Wholesale electricity costs in California and Texas fell by $2.5 billion and $3.55 billion respectively between June and August 2026 compared to 2021.",
-          "bullets": [
-            "The price decline is attributed to increased solar generation and battery storage deployment (Mercom India).",
-            "SEG Solar has signed a land agreement for a $950 million, 4 GW HJT solar cell plant in Texas (PV Tech)."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "e966c919880049be": {
-        "summary": {
-          "title": "SEG Solar plans 4 GW HJT cell manufacturing plant in Texas",
-          "main_point": "SEG Solar is developing a $950 million, 4 GW heterojunction solar cell plant in the Houston area, expected to come online in two phases in 2028 and 2029.",
-          "bullets": [
-            "The project is expected to create more than 700 local jobs (pv magazine).",
-            "First Solar has inaugurated the first 1.7 GW phase of its $330 million manufacturing facility in South Carolina (PV Tech)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
-      "feafc33f07b040be": {
-        "summary": {
-          "title": "DTE Energy starts commercial operations at 132 MW Fish Creek Solar Park",
-          "main_point": "The 132 MW Fish Creek Solar Park in Michigan is now operational following a $268 million investment.",
-          "bullets": [
-            "The project was fully funded by customers participating in DTE\u2019s MIGreenPower program.",
-            "The solar park is capable of generating enough energy to power approximately 30,000 homes."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-10-30"
-      },
       "e5e755fbed98ebbd": {
         "summary": {
           "title": "Belgian spin-off Noak raises \u20ac5 million for perovskite-silicon solar cells",
@@ -805,29 +689,120 @@
         },
         "mode": "ai",
         "date": "2026-11-09"
+      },
+      "8f7993f7fe52b796": {
+        "summary": {
+          "title": "Ecoprogetti deploys solar module recycling plant in Italy",
+          "main_point": "Ecoprogetti has delivered an automated solar module recycling line to Haiki+ Group in Sale, Italy, which has been operational since early 2025.",
+          "bullets": [
+            "The recycling line can process up to 120 solar panels per hour, or approximately 4 tonnes per hour.",
+            "The system has a nominal potential of around 700,000 tonnes annually if operated continuously.",
+            "The plant currently maintains an uptime of 94%."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "f1297433b43decc6": {
+        "summary": {
+          "title": "Romania\u2019s renewable project pipeline surpasses 114 GW",
+          "main_point": "Romania has 1,625 renewable energy projects larger than 1 MW with valid grid connection permits, totaling 114.9 GW of approved export capacity.",
+          "bullets": [
+            "As of October 1, 1,055 projects have signed connection contracts, totaling 63.7 GW of capacity.",
+            "A total of 749 projects have obtained building permits, while 262 projects have received establishment authorisations.",
+            "The number of projects with valid grid connection permits fell by 1.1% compared to the start of September."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "19b082189ddf79ce": {
+        "summary": {
+          "title": "Italy: RWE and BNZ launch construction on large-scale battery projects",
+          "main_point": "RWE and BNZ have announced the start of construction on battery energy storage system projects in Italy with a combined capacity of nearly 500MWh.",
+          "bullets": [
+            "The projects are described as large-scale battery energy storage systems."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "79f3ca968102b7ab": {
+        "summary": {
+          "title": "SECI and NHPC invite bids for solar and storage projects",
+          "main_point": "The Solar Energy Corporation of India and NHPC Ltd have issued separate tenders for rooftop solar and battery energy storage system projects.",
+          "bullets": [
+            "SECI is seeking developers for rooftop solar projects on New Delhi Municipal Council buildings.",
+            "NHPC is seeking developers for battery energy storage systems at the 1.2 GW Jalaun Solar Park, with two configuration options for solar-plus-storage scheduling."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "20bb849021d786e3": {
+        "summary": {
+          "title": "Terra Clean tenders transmission infrastructure for renewable projects",
+          "main_point": "Terra Clean has invited bids for engineering, procurement, and construction contractors to develop transmission infrastructure for renewable energy projects.",
+          "bullets": [
+            "The scope includes design, supply, construction, and commissioning of pooling substations and extra high voltage transmission lines.",
+            "The infrastructure will support interstate and intrastate transmission system-connected solar, wind, and hybrid projects."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "f5be2ae7a4008751": {
+        "summary": {
+          "title": "Huaneng commissions dual-flywheel frequency regulation system",
+          "main_point": "Huaneng Group has commissioned a 5.5 MW, 1.375 MWh dual-flywheel frequency regulation system at its Lanzhou power plant.",
+          "bullets": [
+            "The primary 5 MW, 1.25 MWh flywheel unit is claimed to be the highest-power single flywheel unit in China.",
+            "The system achieves a grid response time below 100 milliseconds and a regulation accuracy above 99.5%."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "3328ff2667c1c5d2": {
+        "summary": {
+          "title": "Senate advances federal energy permitting bill",
+          "main_point": "The Senate is fast tracking legislation that would reduce permitting times for energy projects, but possibly to the detriment of longstanding policies protecting the environment.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-10"
+      },
+      "940e4154e25bce7f": {
+        "summary": {
+          "title": "Solar O&M hiring surges as job market demands broad technical skills",
+          "main_point": "An analysis of U.S. solar job listings shows that while 84% of operations and maintenance job descriptions require electrical skills, only 9% mandate an electrician license.",
+          "bullets": [
+            "Data from the Interstate Renewable Energy Council indicates that 23% of operations and maintenance employers reported severe difficulty in finding qualified workers in 2024."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-10"
+      },
+      "74fbf51f2116983b": {
+        "summary": {
+          "title": "Qcells US modules first to pass all reliability tests from Kiwa PVEL and RETC",
+          "main_point": "Qcells has passed all evaluation categories in module reliability tests conducted by Kiwa PVEL and the Renewable Energy Test Center (RETC) for US-made solar modules.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-10"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/10/30/benin-secures-financing-for-62-mw-of-solar-across-four-sites": "2026-10-30",
-      "pv-magazine.com/2026/10/30/italian-government-rejects-468-mw-of-solar-projects": "2026-10-30",
-      "pv-magazine.com/2026/10/30/greenvolt-to-install-25-mw-of-solar-canopies-at-120-french-stores": "2026-10-30",
-      "pv-magazine.com/2026/10/30/french-solar-car-park-rollout-falls-short-of-legal-deadline": "2026-10-30",
-      "mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-45-gw": "2026-10-30",
-      "pv-magazine-india.com/2026/10/30/engie-commissions-450-mw-of-solar-capacity-in-india": "2026-10-30",
-      "pv-magazine-india.com/2026/10/30/grew-solar-receives-almm-list-ii-approval-for-2-4-gw-n-type-topcon-g12r-cell-manufacturing-capacity": "2026-10-30",
-      "mercomindia.com/ntpc-rel-bids-solar-project-andhra-pradesh": "2026-10-30",
-      "pv-magazine-india.com/2026/10/30/oyster-renewable-begins-phase-2-of-315-6-mw-solar-wind-hybrid-project-in-agar-malwa": "2026-10-30",
-      "mercomindia.com/global-battery-storage-failure-rate-dropped-98-between-2018-and-2025-report": "2026-10-30",
-      "energy-storage.news/chinese-portable-battery-storage-players-report-rising-overseas-orders-in-q3-results": "2026-10-30",
-      "mercomindia.com/solar-battery-storage-help-lower-power-prices-in-california-texas-seia": "2026-10-30",
-      "pv-tech.org/seg-solar-secures-land-for-4gw-hjt-solar-cell-plant-in-texas": "2026-10-30",
-      "pv-tech.org/masdar-explores-nz1-billion-solar-pv-wind-energy-storage-investment-in-new-zealand": "2026-10-30",
-      "pv-magazine.com/2026/10/30/seg-solar-plans-4-gw-hjt-cell-manufacturing-plant-in-texas": "2026-10-30",
-      "pv-magazine-india.com/2026/10/30/first-solar-opens-1-7-gw-module-plant-in-south-carolina": "2026-10-30",
-      "pv-magazine-usa.com/2026/10/29/first-solar-opens-first-phase-of-south-carolina-module-plant": "2026-10-30",
-      "pv-magazine-usa.com/2026/10/29/seg-solar-secures-land-for-planned-4-gw-hjt-solar-cell-facility-in-texas": "2026-10-30",
-      "pv-tech.org/dte-energy-starts-commercial-operations-132mw-fish-creek-solar-park-michigan": "2026-10-30",
-      "solarpowerworldonline.com/2026/10/dte-utility-customers-funded-a-132-mw-michigan-solar-project": "2026-10-30",
       "pv-tech.org/scatec-q3-2026-results-impacted-by-ukraine-and-pakistan-solar-assets": "2026-10-31",
       "pv-tech.org/corporate-buyers-shift-strategies-european-ppa-prices": "2026-10-31",
       "pv-tech.org/why-buying-cheap-is-costing-pv-developers-their-roi": "2026-10-31",
@@ -943,52 +918,67 @@
       "pv-tech.org/panamint-capital-closes-finance-for-1-2gw-solar-pv-plant-near-twin-oaks-power-station": "2026-11-09",
       "energy-storage.news/removing-barriers-to-distributed-energy-resources-could-save-us-power-system-us614-billion-by-2050-report-finds": "2026-11-09",
       "pv-magazine-usa.com/2026/11/09/saving-614-billion-by-2050-with-distributed-resources-solar-storage-and-flexibility": "2026-11-09",
-      "solarpowerworldonline.com/2026/11/solar-and-storage-companies-voice-support-for-federal-permitting-reform": "2026-11-09"
+      "solarpowerworldonline.com/2026/11/solar-and-storage-companies-voice-support-for-federal-permitting-reform": "2026-11-09",
+      "pv-tech.org/ecoprogretti-deploys-solar-module-recycling-plant-italy": "2026-11-10",
+      "pv-magazine-india.com/2026/11/10/ecoprogetti-presents-automated-line-for-recycling-end-of-life-pv-modules": "2026-11-10",
+      "pv-magazine.com/2026/11/10/romanias-renewable-project-pipeline-surpasses-114-gw": "2026-11-10",
+      "energy-storage.news/italy-rwe-and-bnz-launch-construction-on-large-scale-battery-projects": "2026-11-10",
+      "mercomindia.com/seci-tenders-rooftop-solar-projects-for-delhi-municipal-body-buildings": "2026-11-10",
+      "pv-magazine-india.com/2026/11/10/nhpc-invites-bids-for-bess-projects-at-1-2-gw-jalaun-solar-park": "2026-11-10",
+      "mercomindia.com/telangana-invites-bids-install-rooftop-solar-systems-and-solar-streetlights": "2026-11-10",
+      "pv-magazine-india.com/2026/11/10/polycab-crosses-6-gw-in-solar-inverter-shipments-plans-500-kw-utility-scale-launch-next-year": "2026-11-10",
+      "mercomindia.com/terra-clean-tenders-transmission-infrastructure-renewable-projects": "2026-11-10",
+      "pv-magazine.com/2026/11/10/huaneng-commissions-dual-flywheel-frequency-regulation-system-claims-china-single-unit-power-record": "2026-11-10",
+      "solarpowerworldonline.com/2026/11/senate-advances-federal-energy-permitting-bill": "2026-11-10",
+      "pv-magazine-usa.com/2026/11/10/more-than-300-solar-and-storage-companies-urge-congress-to-pass-bipartisan-permitting-reform": "2026-11-10",
+      "solarpowerworldonline.com/2026/11/a-review-of-solar-roots-the-pioneers-of-pv": "2026-11-10",
+      "pv-magazine-usa.com/2026/11/09/solar-om-hiring-surges-as-job-market-demands-broad-technical-skills-with-few-license-mandates": "2026-11-10",
+      "pv-tech.org/qcells-us-modules-first-to-pass-all-reliability-tests-from-kiwa-pvel-and-retc": "2026-11-10"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-09"
+        "last_ok": "2026-11-10"
       }
     },
     "alerts": {},
