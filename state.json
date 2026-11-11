@@ -1,12 +1,12 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.050276,
-  "requests": 18,
+  "spent_usd": 0.056682,
+  "requests": 20,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.018823
+      "2026-11": 0.021491
     },
     "cache": {
       "e5e755fbed98ebbd": {
@@ -800,21 +800,126 @@
         },
         "mode": "extractive",
         "date": "2026-11-10"
+      },
+      "9b804efade5869cd": {
+        "summary": {
+          "title": "The PPA market has a flexibility problem, hybrid PPAs are part of the answer",
+          "main_point": "Hybrid power purchase agreements combining solar with wind or storage are increasingly needed to address market cannibalisation and the limitations of solar-only contracts.",
+          "bullets": [
+            "Simple 10-year, pay-as-produced solar PPAs remain in use for buyers seeking long-term price references.",
+            "Increased solar penetration has led to generation concentration and price cannibalisation.",
+            "Hybrid PPAs offer a power profile that better matches actual consumption and provides more predictable costs."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "99c642dc17351459": {
+        "summary": {
+          "title": "Paris leads EU capitals for rooftop solar generation potential",
+          "main_point": "Rooftop PV can make a substantial contribution to urban electricity supply across each of the EU\u2019s 27 capital cities, according to new research.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-11"
+      },
+      "c84e36393aaf687b": {
+        "summary": {
+          "title": "SpaceX orders HJT solar cell manufacturing equipment from Singulus Technologies",
+          "main_point": "Singulus Technologies has secured a contract to supply solar cell production equipment to SpaceX.",
+          "bullets": [
+            "The order is for heterojunction (HJT) solar cell manufacturing equipment."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "a1c51311e01fcb97": {
+        "summary": {
+          "title": "Solar tracker adoption in India could reach 70% in five years",
+          "main_point": "Single-axis solar tracker adoption in India's utility-scale market is expected to grow significantly, while Polycab India has reached a milestone in inverter shipments.",
+          "bullets": [
+            "Single-axis solar tracker adoption is expected to rise to nearly 60% to 70% over the next three to five years (Mercom India).",
+            "Polycab India Ltd has shipped 6 GW of inverters, totaling more than 11 lakh units (pv magazine India).",
+            "Polycab inverters account for 30% of total rooftop solar installations under the PM Surya Ghar: Muft Bijli Yojana (pv magazine India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "e4b8e20113ce305a": {
+        "summary": {
+          "title": "CASC completes maiden flight of solar-powered UAV in China",
+          "main_point": "The 11th Research Institute of CASC successfully conducted the first flight of its Light Cavalry solar-powered UAV on Nov. 11.",
+          "bullets": [
+            "The UAV features an 8-meter wingspan, a maximum takeoff weight of 45 kg, and a payload capacity exceeding 5 kg.",
+            "Design targets include continuous operation for up to 30 hours at altitudes up to 7,000 meters.",
+            "The aircraft can be launched from a vehicle without a runway and requires 20 minutes of ground preparation."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "01e6c28bb105ddb5": {
+        "summary": {
+          "title": "RelyEZ debuts on HKEX Main Board",
+          "main_point": "RelyEZ has listed its shares on the Main Board of The Stock Exchange of Hong Kong Limited.",
+          "bullets": [
+            "The company provides energy storage system solutions."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "419af7f2812db149": {
+        "summary": {
+          "title": "Heliene and Caelux combine PV cells and solar glass for a hybrid module",
+          "main_point": "Heliene and Caelux Corporation have commenced commercial production of a hybrid-tandem solar module for the US market.",
+          "bullets": [
+            "The module integrates Caelux perovskite glass with Heliene silicon N-type cells.",
+            "The product places two energy-generating sources into a single solar panel."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "887130e815a16abe": {
+        "summary": {
+          "title": "Connecticut completes 1.4 MW solar project at state Veterans Affairs campus",
+          "main_point": "Connecticut has completed two solar installations totaling 1.404 MW DC at the Department of Veterans Affairs campus in Rocky Hill.",
+          "bullets": [
+            "The projects are expected to generate approximately 1.84 million kWh of electricity annually.",
+            "The installations are estimated to provide $2.2 million in direct energy cost savings over a 20-year lifecycle.",
+            "The systems were developed under the Connecticut Green Bank\u2019s Solar Marketplace Assistance Program Plus."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
+      },
+      "03f51cc18ba93be3": {
+        "summary": {
+          "title": "Lunar Energy introduces updated Lunar System and new bidirectional EV charger",
+          "main_point": "Lunar Energy announced a next-generation battery system and a new bidirectional EV charger.",
+          "bullets": [
+            "The new battery system allows for 30 kWh of storage per stack, with the ability to parallel up to ten stacks.",
+            "The updated hybrid inverter offers 13.4 kW of continuous power output, compared to 9.6 kW in the previous model.",
+            "The system supports 185 locked rotor amps of motor-starting current."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-11"
       }
     },
     "shown": {
-      "pv-tech.org/scatec-q3-2026-results-impacted-by-ukraine-and-pakistan-solar-assets": "2026-10-31",
-      "pv-tech.org/corporate-buyers-shift-strategies-european-ppa-prices": "2026-10-31",
-      "pv-tech.org/why-buying-cheap-is-costing-pv-developers-their-roi": "2026-10-31",
-      "pv-magazine.com/2026/10/31/indian-pv-at-a-turning-point": "2026-10-31",
-      "pv-tech.org/masdar-starts-construction-malaysian-200mw-floating-solar-pv-project": "2026-10-31",
-      "mercomindia.com/telangana-regulator-approves-procurement-of-2545-mw-solar-power": "2026-10-31",
-      "pv-magazine-usa.com/2026/10/30/in-case-you-missed-it-solar-stories-of-the-week-1030": "2026-10-31",
-      "eia.gov/todayinenergy/detail.php": "2026-10-31",
-      "pv-magazine-usa.com/2026/10/30/u-s-solar-manufacturers-speak-on-executing-profitability-and-scale-as-domestic-capacity-crosses-100-gw": "2026-10-31",
-      "mercomindia.com/waaree-begins-production-at-1-6-gw-solar-module-lines-in-texas": "2026-10-31",
-      "solarpowerworldonline.com/2026/10/seg-solar-plans-hjt-cell-plant-next-to-existing-texas-facilities": "2026-10-31",
-      "pv-tech.org/first-solar-sales-down-23-year-on-year-cuts-full-year-revenue-guidance": "2026-10-31",
       "pv-magazine.com/2026/11/02/belgian-spin-off-noak-raises-e5-million-for-perovskite-silicon-solar-cells": "2026-11-02",
       "pv-magazine.com/2026/11/02/retractable-photovoltaics-for-wastewater-treatment": "2026-11-02",
       "mercomindia.com/solarworld-acquires-50-stake-in-2-4-gw-solar-cell-manufacturing-jv": "2026-11-02",
@@ -933,52 +1038,63 @@
       "pv-magazine-usa.com/2026/11/10/more-than-300-solar-and-storage-companies-urge-congress-to-pass-bipartisan-permitting-reform": "2026-11-10",
       "solarpowerworldonline.com/2026/11/a-review-of-solar-roots-the-pioneers-of-pv": "2026-11-10",
       "pv-magazine-usa.com/2026/11/09/solar-om-hiring-surges-as-job-market-demands-broad-technical-skills-with-few-license-mandates": "2026-11-10",
-      "pv-tech.org/qcells-us-modules-first-to-pass-all-reliability-tests-from-kiwa-pvel-and-retc": "2026-11-10"
+      "pv-tech.org/qcells-us-modules-first-to-pass-all-reliability-tests-from-kiwa-pvel-and-retc": "2026-11-10",
+      "pv-magazine.com/2026/11/11/the-ppa-market-has-a-flexibility-problem-hybrid-ppas-are-part-of-the-answer": "2026-11-11",
+      "pv-magazine.com/2026/11/11/paris-leads-eu-capitals-for-rooftop-solar-generation-potential": "2026-11-11",
+      "pv-tech.org/spacex-orders-hjt-solar-cell-manufacturing-equipment-from-singulus-technologies": "2026-11-11",
+      "mercomindia.com/solar-tracker-adoption-in-india-could-reach-70-in-five-years-interview": "2026-11-11",
+      "pv-magazine.com/2026/11/11/casc-completes-maiden-flight-of-solar-powered-uav-in-china": "2026-11-11",
+      "energy-storage.news/relyez-debuts-on-hkex-main-board-becoming-latest-chinese-energy-storage-player-to-list-in-hong-kong": "2026-11-11",
+      "solarpowerworldonline.com/2026/11/heliene-and-caelux-combine-pv-cells-and-solar-glass-for-a-hybrid-module": "2026-11-11",
+      "solarpowerworldonline.com/2026/11/colorado-nonprofit-launches-plug-in-solar-program-ahead-of-new-state-law": "2026-11-11",
+      "pv-tech.org/heliene-caelux-launch-us-made-perovskite-glass-tandem-module": "2026-11-11",
+      "pv-magazine-usa.com/2026/11/11/connecticut-completes-1-4-mw-solar-project-at-state-veterans-affairs-campus": "2026-11-11",
+      "pv-magazine-usa.com/2026/11/11/lunar-energy-introduces-updated-lunar-system-and-new-bidirectional-ev-charger": "2026-11-11"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-10"
+        "last_ok": "2026-11-11"
       }
     },
     "alerts": {},
