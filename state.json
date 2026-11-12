@@ -1,12 +1,12 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.056682,
-  "requests": 20,
+  "spent_usd": 0.063003,
+  "requests": 22,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.021491
+      "2026-11": 0.02409
     },
     "cache": {
       "e5e755fbed98ebbd": {
@@ -917,6 +917,112 @@
         },
         "mode": "ai",
         "date": "2026-11-11"
+      },
+      "c44dc7e22528098d": {
+        "summary": {
+          "title": "PV ModuleTech Europe 2026 discussions focus on testing and procurement",
+          "main_point": "Key topics at PV ModuleTech Europe 2026 included module testing challenges, the role of BESS, and the procurement landscape.",
+          "bullets": [
+            "Module testing challenges, BESS, and procurement were identified as primary discussion points at the event."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-12"
+      },
+      "f5e091498b87180a": {
+        "summary": {
+          "title": "Sweden plans new inverter and battery database for 2027",
+          "main_point": "Energif\u00f6retagen Sverige is preparing to launch a digital database called Rikta R\u00e4tt 2.0 in 2027 to provide technical information on solar and battery inverters.",
+          "bullets": [
+            "The database will replace the existing list of pre-assessed inverters to assist distribution system operators with grid connection applications.",
+            "Inclusion in the database will not constitute an official approval or proof of compliance with technical requirements."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-12"
+      },
+      "dff621cb78b64b02": {
+        "summary": {
+          "title": "Chasing the sun: Feasible CO\u2082 supply as a gateway to low-cost e-fuel production",
+          "main_point": "Producing fuels from captured CO 2 requires large amounts of renewable electricity, yet major carbon sources and the best wind or solar sites are often far apart.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-12"
+      },
+      "5c2168ff20878662": {
+        "summary": {
+          "title": "India\u2019s Solar Capacity Rises 21% YoY in 9M Despite Cell Shortages",
+          "main_point": "India installed 27.3 GW of large-scale solar capacity in the first nine months (9M) of the calendar year (CY) 2026, up 21% year-over-year (YoY) compared to 22.5 GW, according to Mercom India Research\u2019s newly released 9M and Q3 2026 India Solar Market Update Report.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-12"
+      },
+      "57e754a49bd51bfc": {
+        "summary": {
+          "title": "Odisha proposes 4% energy storage obligation by 2030",
+          "main_point": "The Odisha Electricity Regulatory Commission has proposed increasing the renewable purchase obligation to 43.33% and adding a 4% energy storage obligation by financial year 2030.",
+          "bullets": [
+            "The proposed regulations aim to integrate higher levels of renewable energy and storage capacity by financial year 2030."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-12"
+      },
+      "827ad47a8a7458c9": {
+        "summary": {
+          "title": "Octopus Energy launches $600 million fund for Asian renewables",
+          "main_point": "Octopus Energy has launched a $600 million fund to support clean energy projects in Asia, with an initial investment in a Philippine solar and storage developer.",
+          "bullets": [
+            "The fund is backed by $50 million from Japanese investors.",
+            "The first investment in Octali Energy Development targets 450 MW of solar and 350 MWh of battery storage in the Philippines by 2030."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-12"
+      },
+      "974779a69b481b3b": {
+        "summary": {
+          "title": "Lydian Energy brings 600 MWh Utah battery system online",
+          "main_point": "Lydian Energy's 150 MW/600 MWh Faraday battery energy storage system in Utah has reached commercial operation and is supporting a Meta data center.",
+          "bullets": [
+            "The system has been in commercial operation since Sept. 18.",
+            "The project provides storage capacity to PacifiCorp and supports Meta\u2019s Eagle Mountain data center under a specific utility tariff."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-12"
+      },
+      "c618d2baa80cb161": {
+        "summary": {
+          "title": "Connecticut completes 1.4 MW solar project for Veterans Affairs",
+          "main_point": "Connecticut has completed two solar installations totaling 1.404 MW DC at the Department of Veterans Affairs campus in Rocky Hill.",
+          "bullets": [
+            "The projects are projected to generate approximately 1.84 million kWh of electricity annually.",
+            "The installations are estimated to save $2.2 million in energy costs over a 20-year lifecycle."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-12"
+      },
+      "6db05bac2a5d1c2a": {
+        "summary": {
+          "title": "DC bidirectional charging and data centre demand are reshaping the case for US DERs",
+          "main_point": "As data centre demand surges, utilities and developers are turning to distributed energy resources (DERs) to ease grid strain.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-12"
       }
     },
     "shown": {
@@ -1049,52 +1155,63 @@
       "solarpowerworldonline.com/2026/11/colorado-nonprofit-launches-plug-in-solar-program-ahead-of-new-state-law": "2026-11-11",
       "pv-tech.org/heliene-caelux-launch-us-made-perovskite-glass-tandem-module": "2026-11-11",
       "pv-magazine-usa.com/2026/11/11/connecticut-completes-1-4-mw-solar-project-at-state-veterans-affairs-campus": "2026-11-11",
-      "pv-magazine-usa.com/2026/11/11/lunar-energy-introduces-updated-lunar-system-and-new-bidirectional-ev-charger": "2026-11-11"
+      "pv-magazine-usa.com/2026/11/11/lunar-energy-introduces-updated-lunar-system-and-new-bidirectional-ev-charger": "2026-11-11",
+      "pv-tech.org/testing-challenges-bess-changing-procurement-landscape-pv-moduletech-europe": "2026-11-12",
+      "pv-magazine.com/2026/11/12/sweden-plans-new-inverter-and-battery-database": "2026-11-12",
+      "pv-magazine.com/2026/11/12/chasing-the-sun-feasible-co2-supply-as-a-gateway-to-low-cost-e-fuel-production": "2026-11-12",
+      "mercomindia.com/indias-solar-capacity-rises-21-yoy-in-9m-despite-cell-shortages": "2026-11-12",
+      "pv-magazine-india.com/2026/11/12/india-should-not-design-tomorrows-solar-parks-for-yesterdays-electricity-market": "2026-11-12",
+      "mercomindia.com/odisha-proposes-4-energy-storage-obligation-by-fy-2030": "2026-11-12",
+      "pv-magazine.com/2026/11/12/octopus-aims-to-mobilize-600-million-for-asian-renewables": "2026-11-12",
+      "pv-magazine-usa.com/2026/11/12/utility-tariff-links-600-mwh-utah-battery-to-meta-data-center": "2026-11-12",
+      "energy-storage.news/lydians-600mwh-utah-bess-reaches-commercial-operation-supporting-meta-data-centre": "2026-11-12",
+      "solarpowerworldonline.com/2026/11/connecticut-solar-projects-directly-support-veterans-affairs-campus": "2026-11-12",
+      "energy-storage.news/dc-bidirectional-charging-and-data-centre-demand-are-reshaping-the-case-for-us-ders": "2026-11-12"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-11"
+        "last_ok": "2026-11-12"
       }
     },
     "alerts": {},
