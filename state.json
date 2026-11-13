@@ -1,115 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.063003,
-  "requests": 22,
+  "spent_usd": 0.065623,
+  "requests": 24,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.02409
+      "2026-11": 0.02671
     },
     "cache": {
-      "e5e755fbed98ebbd": {
-        "summary": {
-          "title": "Belgian spin-off Noak raises \u20ac5 million for perovskite-silicon solar cells",
-          "main_point": "Noak, a spin-off from imec and Hasselt University, has secured \u20ac5 million in seed funding to industrialize perovskite-silicon tandem solar technology.",
-          "bullets": [
-            "The funding was provided by the Helios Foundation, Nuhma, and V2HFin.",
-            "The company utilizes intellectual property developed over a decade of research at the Institute for Materials Research."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
-      "7f463e2d6fcaa9cd": {
-        "summary": {
-          "title": "Retractable photovoltaics for wastewater treatment",
-          "main_point": "A 2.745 MW retractable solar roof is under construction at a wastewater treatment plant in Stuttgart-M\u00fchlhausen, Germany.",
-          "bullets": [
-            "The system will feature 5,280 photovoltaic modules covering 17,493 m2.",
-            "The installation consists of 120 retractable sections suspended from steel cables, with completion expected in the second quarter of 2027."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
-      "5242aa9b0395760d": {
-        "summary": {
-          "title": "Solar manufacturing updates in India and Indonesia",
-          "main_point": "Solarworld Energy Solutions acquired a 50% stake in a manufacturing joint venture, while Yingfa Ruineng launched a new facility in Indonesia.",
-          "bullets": [
-            "Solarworld Energy Solutions acquired a 50% stake in Rays Green Energy Manufacturing for \u20b9268.2 million (Mercom India).",
-            "Yingfa Ruineng launched a 7.5GW TOPCon solar cell manufacturing plant in Indonesia (PV Tech)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
-      "c9ff0f9075d0f123": {
-        "summary": {
-          "title": "Envision claims world first with 800 V DC architecture for AI data center",
-          "main_point": "Envision Energy has deployed an integrated 800 V DC power system combining solid-state transformers and battery storage at its Galaxy AI data center.",
-          "bullets": [
-            "The system uses the Dubhe Controller to coordinate power supply with computing demand in real time.",
-            "The technology converts 10 kV medium voltage to an 800 V DC bus."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
-      "ef970e4c6db671e2": {
-        "summary": {
-          "title": "Japan proposes 50-metric-ton trigger for solar panel recycling plans",
-          "main_point": "Japan\u2019s Ministry of the Environment and Ministry of Economy, Trade and Industry (METI) have proposed that owners of commercial solar installations planning to dispose of 50 metric tons (MT) or more of panels be required to file an advance disposal plan.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-02"
-      },
-      "abdb9138bca3c8ab": {
-        "summary": {
-          "title": "Jigar Shah on the shift to battery-first energy and virtual power plants",
-          "main_point": "Residential battery storage is increasingly being utilized for grid capacity management rather than solely for emergency backup.",
-          "bullets": [
-            "Energy demand from data centers, electric vehicles, and industrial facilities is driving the evolution of virtual power plants.",
-            "Traditional solar installers are being encouraged to adapt to a battery-first market."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
-      "b3120359dbcad090": {
-        "summary": {
-          "title": "Solar sector corporate funding increases 45% through three quarters of 2026",
-          "main_point": "Global solar sector corporate funding reached $25.1 billion across 170 deals in the first nine months of 2026, according to Mercom Capital Group.",
-          "bullets": [
-            "This represents a 45% year-over-year increase compared to the $17.3 billion raised in the first nine months of 2025.",
-            "Debt financing accounted for $20.4 billion of the total funding, marking a 61% increase."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
-      "b9a77ebf5fc68328": {
-        "summary": {
-          "title": "Trump bulk power equipment ban sparks industry pushback",
-          "main_point": "A 26 August executive order from US President Donald Trump banning certain foreign-made power equipment has caused concern within the energy storage industry.",
-          "bullets": [
-            "The order targets bulk power equipment imports.",
-            "The industry has responded with public comment and private concern."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-02"
-      },
       "45072efbbc9a4393": {
         "summary": {
           "title": "Behind-the-meter generation could provide more grid relief than data center load shifting",
@@ -1023,18 +922,123 @@
         },
         "mode": "extractive",
         "date": "2026-11-12"
+      },
+      "c59029f82d57699b": {
+        "summary": {
+          "title": "BloombergNEF forecasts 188 GW of new energy storage in 2026",
+          "main_point": "Global energy storage installations are projected to reach 188 GW/535 GWh in 2026, representing a 45% increase over 2025 capacity.",
+          "bullets": [
+            "China, the United States, and Australia are expected to account for 62% of new global deployments.",
+            "India's new installations are forecast to exceed 6 GW in 2026, following tender awards."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "551e3dbf37a6b1a1": {
+        "summary": {
+          "title": "Sodium-ion batteries show increased maturity for stationary storage",
+          "main_point": "Sodium-ion technology is becoming a viable alternative to lithium-ion due to improvements in energy density, safety, and manufacturability.",
+          "bullets": [
+            "Commercial sodium-ion cells have achieved energy densities of approximately 175 Wh/kg.",
+            "Advanced lithium iron phosphate cells have energy densities of approximately 205 Wh/kg."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "1ae1bf3c3d2f9b67": {
+        "summary": {
+          "title": "DS1 to construct 300 MW solar project in Lithuania",
+          "main_point": "Energy infrastructure contractor DS1 has been selected to build a 300 MW solar power plant, which is described as the largest in Lithuania.",
+          "bullets": [
+            "The project is billed as the Baltic country\u2019s largest PV power plant."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "f786f9564cc37e4d": {
+        "summary": {
+          "title": "T\u00fcrkiye and China sign $15 billion renewable energy agreement",
+          "main_point": "T\u00fcrkiye and China have signed a memorandum of understanding for $15 billion in investments toward renewable energy and electricity infrastructure.",
+          "bullets": [
+            "The agreement aims to implement 7 GW of new solar and wind power, along with energy storage and 4 GW of transmission infrastructure.",
+            "T\u00fcrkiye targets 125 GW of solar and wind capacity by 2035 and 175 GW by 2040."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "80de7220fd61fece": {
+        "summary": {
+          "title": "Maharashtra reports 19.3 GW of installed solar capacity",
+          "main_point": "As of June 2026, Maharashtra reached 19.3 GW of installed solar capacity, with open access solar accounting for 5.8 GW.",
+          "bullets": [
+            "Open access solar represents 43.1% of the state's cumulative large-scale solar capacity.",
+            "Oyster Renewable Energy is building a 60.9 MW wind-solar hybrid project in Andhra Pradesh for Laurus Labs, with completion expected by December 2026."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "6e238b480460161f": {
+        "summary": {
+          "title": "PM Surya Ghar residential solar program nears 20 GW",
+          "main_point": "India's PM Surya Ghar: Muft Bijli Yojana program has reached 19,639.6 MW of installed capacity across 5.66 million systems.",
+          "bullets": [
+            "The program has achieved 67% of its target capacity."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "e7acc8f8deed9569": {
+        "summary": {
+          "title": "NAED Energy launches high-volume tandem solar cell deposition platform",
+          "main_point": "NAED Energy Holding has introduced the PV-1 PECVD-V, a vertical in-line deposition platform capable of processing 96,000 wafers per hour.",
+          "bullets": [
+            "The new platform doubles the output of the company's previous 48,000-wafer-per-hour XL-class platform.",
+            "The system is designed to produce T2X two-terminal perovskite/heterojunction tandem cells targeting 30% efficiency."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "ade5e4b7ec5ef9f7": {
+        "summary": {
+          "title": "Masdar completes $950 million Lockhart solar and storage complex",
+          "main_point": "Masdar has finished construction on the Lockhart Solar and Storage complex in California, featuring 365 MW of solar and 173.7 MW of battery storage.",
+          "bullets": [
+            "The facility is designed to power approximately 350,000 homes and businesses.",
+            "The project supported over 1,000 peak construction jobs over a four-year development period."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
+      },
+      "fc1d4a96beaca487": {
+        "summary": {
+          "title": "US midterms raise questions for solar AI growth",
+          "main_point": "Voter support for data centre moratoriums in the US midterms may impact the future growth of solar PV linked to AI demand.",
+          "bullets": [
+            "The results create uncertainty regarding the pace of solar expansion previously driven by data centre energy needs."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-13"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/11/02/belgian-spin-off-noak-raises-e5-million-for-perovskite-silicon-solar-cells": "2026-11-02",
-      "pv-magazine.com/2026/11/02/retractable-photovoltaics-for-wastewater-treatment": "2026-11-02",
-      "mercomindia.com/solarworld-acquires-50-stake-in-2-4-gw-solar-cell-manufacturing-jv": "2026-11-02",
-      "pv-tech.org/yingfa-ruineng-launches-7-5gw-topcon-solar-cell-manufacturing-plant-in-indonesia": "2026-11-02",
-      "pv-magazine.com/2026/11/02/envision-claims-world-first-with-800-v-dc-architecture-for-ai-data-center": "2026-11-02",
-      "pv-magazine.com/2026/11/02/japan-proposes-50-metric-ton-trigger-for-solar-panel-recycling-plans": "2026-11-02",
-      "pv-magazine-usa.com/2026/11/02/jigar-shah-on-the-shift-to-battery-first-energy-and-virtual-power-plants": "2026-11-02",
-      "pv-magazine-usa.com/2026/11/02/solar-sector-corporate-funding-increases-45-through-three-quarters-of-2026": "2026-11-02",
-      "energy-storage.news/trump-bulk-power-equipment-ban-sparks-industry-pushback-lets-not-reinvent-the-wheel": "2026-11-02",
       "pv-magazine-usa.com/2026/11/03/behind-the-meter-generation-could-deliver-five-times-more-grid-relief-than-data-center-load-shifting": "2026-11-03",
       "pv-magazine.com/2026/11/03/behind-the-meter-generation-could-deliver-five-times-more-grid-relief-than-data-center-load-shifting": "2026-11-03",
       "energy-storage.news/vastly-different-fortunes-for-bess-in-belgium-and-germanys-capacity-market-auctions": "2026-11-03",
@@ -1166,52 +1170,68 @@
       "pv-magazine-usa.com/2026/11/12/utility-tariff-links-600-mwh-utah-battery-to-meta-data-center": "2026-11-12",
       "energy-storage.news/lydians-600mwh-utah-bess-reaches-commercial-operation-supporting-meta-data-centre": "2026-11-12",
       "solarpowerworldonline.com/2026/11/connecticut-solar-projects-directly-support-veterans-affairs-campus": "2026-11-12",
-      "energy-storage.news/dc-bidirectional-charging-and-data-centre-demand-are-reshaping-the-case-for-us-ders": "2026-11-12"
+      "energy-storage.news/dc-bidirectional-charging-and-data-centre-demand-are-reshaping-the-case-for-us-ders": "2026-11-12",
+      "pv-magazine-usa.com/2026/11/13/bnef-forecasts-209-gw-of-new-batteries-in-2027": "2026-11-13",
+      "pv-magazine-usa.com/2026/11/13/sodium-ion-batteries-close-gap-with-lithium-ion-as-utility-scale-storage-opportunities-grow": "2026-11-13",
+      "pv-magazine.com/2026/11/13/sodium-ion-batteries-close-gap-with-lithium-ion-as-utility-scale-storage-opportunities-grow": "2026-11-13",
+      "pv-tech.org/ds1-builds-300mw-jonova-pv-lithuania-energix": "2026-11-13",
+      "mercomindia.com/calibrant-energy-secures-145million-solar-battery-storage-projects": "2026-11-13",
+      "pv-magazine.com/2026/11/13/turkiye-china-sign-15-billion-renewables-investment-plan": "2026-11-13",
+      "pv-magazine-india.com/2026/11/12/huawei-unveils-20-kw-all-in-one-residential-energy-storage-system": "2026-11-13",
+      "mercomindia.com/delayed-grid-upgrades-challenge-maharashtras-rising-power-demand": "2026-11-13",
+      "pv-magazine-india.com/2026/11/12/oyster-renewable-develops-60-9-mw-wind-solar-hybrid-project-for-laurus-labs-in-andhra-pradesh": "2026-11-13",
+      "mercomindia.com/pm-surya-ghar-achieves-67-of-target-nears-20-gw-capacity": "2026-11-13",
+      "pv-magazine-usa.com/2026/11/13/us-firm-claims-96000-wafer-per-hour-deposition-line-for-tandem-cells": "2026-11-13",
+      "pv-magazine.com/2026/11/13/us-firm-claims-96000-wafer-per-hour-deposition-line-for-tandem-cells": "2026-11-13",
+      "pv-magazine-usa.com/2026/11/12/heliene-announces-commercial-production-of-perovskite-tandem-modules-using-caelux-glass": "2026-11-13",
+      "pv-tech.org/naed-deposition-platform-tandem-perovskite-hjt-cells": "2026-11-13",
+      "pv-magazine-usa.com/2026/11/13/masdar-completes-950-million-solar-and-battery-storage-project-in-california": "2026-11-13",
+      "pv-tech.org/us-midterms-data-centre-backlash-could-slow-solars-ai-boom": "2026-11-13"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-12"
+        "last_ok": "2026-11-13"
       }
     },
     "alerts": {},
