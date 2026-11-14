@@ -1,127 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.065623,
-  "requests": 24,
+  "spent_usd": 0.071949,
+  "requests": 26,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.02671
+      "2026-11": 0.029354
     },
     "cache": {
-      "45072efbbc9a4393": {
-        "summary": {
-          "title": "Behind-the-meter generation could provide more grid relief than data center load shifting",
-          "main_point": "An Ember analysis suggests that behind-the-meter generation and storage offer significantly more grid flexibility potential for data centers than load shifting.",
-          "bullets": [
-            "Load shifting is limited by the low latency requirements of cloud services, enterprise workloads, and artificial intelligence inference.",
-            "The study examined nine markets across the United States, Europe, and Southeast Asia."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "fae6e3c0a7a9ef18": {
-        "summary": {
-          "title": "Vastly different fortunes for BESS in Belgium and Germany\u2019s capacity market auctions",
-          "main_point": "Battery storage projects have won nearly 40% of the capacity in Belgium\u2019s latest capacity market (CM) auction results, while Germany\u2019s first has all gone to gas, paying nearly eight times more than Belgium in the process.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-03"
-      },
-      "266e17280e6704cc": {
-        "summary": {
-          "title": "Germany awards 288 MW of solar in rooftop tender",
-          "main_point": "The Federal Network Agency awarded 288 MW of PV capacity across 143 projects at a volume-weighted average price of \u20ac0.0967/kWh.",
-          "bullets": [
-            "A total of 177 bids totaling 347 MW were submitted, with 34 bids totaling 58 MW excluded.",
-            "Awarded prices ranged from \u20ac0.10/kWh to \u20ac0.085/kWh.",
-            "The average award price was higher than the July tender, which stood at \u20ac0.0972/kWh."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "dd2ef882dfc5ee79": {
-        "summary": {
-          "title": "Rayzon Solar on track for December 2026 TOPCon cell plant opening",
-          "main_point": "Rayzon Solar is set to begin production at its 5.1 GW TOPCon solar cell facility in December 2026.",
-          "bullets": [
-            "Initial deliveries from the new facility are expected in the first quarter of 2027.",
-            "The company currently has an installed solar module manufacturing capacity of 11.3 GW."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "f40ae4108d8ba8c8": {
-        "summary": {
-          "title": "RenewSys signs 1.2 GW supply deal with Kosol Energie",
-          "main_point": "RenewSys India will supply POE encapsulants and backsheets to Kosol Energie for 1.2 GW of solar modules over a twelve-month period.",
-          "bullets": [
-            "The materials will support the production of high-efficiency n-type TOPCon modules at Kosol Energie's facility in Gujarat."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "00ffa0ed0867a8f2": {
-        "summary": {
-          "title": "Waaree Renewable Technologies secures BESS and solar contracts",
-          "main_point": "Waaree Renewable Technologies has been awarded an EPC contract for a 200 MW/500 MWh BESS project and a five-year O&M agreement for a 360 MWp solar project.",
-          "bullets": [
-            "The BESS project is scheduled for completion during the financial year 2027-28.",
-            "Engie has separately commissioned 450 MW of solar projects in India, including the 250 MW Khaba project and 200 MW Khavda project."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "dbcc2e82fb73f7a1": {
-        "summary": {
-          "title": "Waaree doubles Texas solar module manufacturing capacity to 3.2 GW",
-          "main_point": "Waaree Solar Americas has increased its Brookshire, Texas, manufacturing capacity to 3.2 GW following the start of production on two new 800 MW lines.",
-          "bullets": [
-            "The company expects its total US module manufacturing capacity to reach 4.8 GW in fiscal 2027.",
-            "Waaree's global module order book exceeds 25 GW."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "a3800158e6fb5454": {
-        "summary": {
-          "title": "DTE Energy and sonnen launch VPP pilot in Michigan",
-          "main_point": "DTE Energy and sonnen have launched a two-year virtual power plant pilot connecting nearly 100 homes in an all-electric community.",
-          "bullets": [
-            "The project is located at Veridian at County Farm, a development featuring 170 mixed-income homes.",
-            "The pilot was approved by the Michigan Public Service Commission."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
-      "51783b4afdea3058": {
-        "summary": {
-          "title": "Nova Scotia opens technology-neutral capacity call to replace coal",
-          "main_point": "The Nova Scotia Independent Energy System Operator has launched a request for qualifications for on-demand capacity to support the phase-out of coal by 2030.",
-          "bullets": [
-            "Eligible technologies include battery storage, pumped hydro, long-duration storage, geothermal, biomass, thermal generation, hydrogen combustion, hydrogen fuel cells, small modular reactors, and hybrid facilities."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-03"
-      },
       "031252fc04e6df7d": {
         "summary": {
           "title": "IB Solar signs MoU for 2GW TOPCon cell manufacturing line in India",
@@ -1036,25 +923,122 @@
         },
         "mode": "ai",
         "date": "2026-11-13"
+      },
+      "1ba1d2dcbdec702b": {
+        "summary": {
+          "title": "Diversity in renewable energy and UK solar capacity targets",
+          "main_point": "Diverse executive teams are linked to better financial performance, yet women remain underrepresented in the renewable energy sector as the UK targets 45 GW of solar capacity by 2030.",
+          "bullets": [
+            "Companies with the most gender-diverse executive teams were 39% more likely to outperform financially, according to a 2023 McKinsey report.",
+            "Women currently hold 32% of renewable energy jobs.",
+            "The UK government aims for at least 45 GW of solar capacity by 2030 and expects 400,000 additional clean energy jobs by that time."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "47f3e5d204215213": {
+        "summary": {
+          "title": "Offtake contracting trends in the UK battery energy storage market",
+          "main_point": "Industry experts report that floor-based offtake structures are becoming the preferred choice in the UK battery energy storage market.",
+          "bullets": [
+            "Contracting for floor-based offtake structures is beginning to standardise."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "f9328240277bdca6": {
+        "summary": {
+          "title": "Rezolv Energy selects partners for Dama Solar project",
+          "main_point": "Rezolv Energy has appointed partners to construct its 1.36GWp Dama Solar project located in Arad County, Romania.",
+          "bullets": [
+            "The Dama Solar project has a capacity of 1.36GWp."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "67ef0a808e635c3e": {
+        "summary": {
+          "title": "Research addresses degradation in copper-plated heterojunction solar cells",
+          "main_point": "Researchers in China have developed a method to mitigate screen printing-induced degradation in copper-plated silicon heterojunction solar cells.",
+          "bullets": [
+            "Screen printing processes can damage passivating contact structures, leading to increased recombination losses and reduced conversion efficiency in HJT cells."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "8bccb31d4576df64": {
+        "summary": {
+          "title": "Transparent bamboo and wood used to improve solar PV skylights",
+          "main_point": "Researchers at India\u2019s Vellore Institute of Technology have tested a glazing system using transparent wood and bamboo to enhance the performance of transparent solar PV modules.",
+          "bullets": [
+            "The system uses a transparent solar PV panel layer to generate electricity and a transparent wood layer to block heat gain.",
+            "Transparent wood was fabricated from 1 mm-thick veneers of balsa, poplar, pine, and bamboo."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "d2b2d0170830d98e": {
+        "summary": {
+          "title": "Yanhe Technology launches perovskite solar modules into orbit",
+          "main_point": "Yanhe Technology successfully launched three perovskite-based solar modules into a 535 km sun-synchronous orbit for in-orbit validation.",
+          "bullets": [
+            "The modules include two tandem devices (perovskite-crystalline silicon and perovskite-CIGS) and one flexible single-junction perovskite module.",
+            "The launch took place on Nov. 7 from the Jiuquan Satellite Launch Center."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "a3d8fbe78c4b4793": {
+        "summary": {
+          "title": "Masdar completes $950 million solar and battery project in California",
+          "main_point": "Masdar has completed the $950 million Lockhart Solar and Storage complex in California, featuring 365 MW of solar and 173.7 MW of battery storage.",
+          "bullets": [
+            "The facility is designed to meet the annual electricity needs of approximately 350,000 homes and businesses.",
+            "The project supported over 1,000 peak on-site construction jobs over a four-year development period."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
+      },
+      "fa4d87bde20aba46": {
+        "summary": {
+          "title": "In case you missed it: Solar stories of the week",
+          "main_point": "Analysts weigh renewable energy permitting, tax credit odds after Democratic sweep Washington policy and tax analysts outline Section 45X extension pathways, Foreign Entity of Concern compliance risks, and grid equipment restrictions for solar and energy storage developers following the midterm elec",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-14"
+      },
+      "e6623d952cccff21": {
+        "summary": {
+          "title": "T1 Energy reports third-quarter results and production guidance",
+          "main_point": "T1 Energy reported $196.6 million in net sales for the third quarter of 2026 and plans to ramp up module production to 5.3 GW in 2027.",
+          "bullets": [
+            "The company posted a net loss from continuing operations of $34.7 million and negative $16.4 million in Adjusted EBITDA.",
+            "Full-year 2026 module production is expected to be between 4 GW and 4.2 GW.",
+            "T1 Energy received a Section 232 waiver to import up to 1.725 GW of solar cells."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-14"
       }
     },
     "shown": {
-      "pv-magazine-usa.com/2026/11/03/behind-the-meter-generation-could-deliver-five-times-more-grid-relief-than-data-center-load-shifting": "2026-11-03",
-      "pv-magazine.com/2026/11/03/behind-the-meter-generation-could-deliver-five-times-more-grid-relief-than-data-center-load-shifting": "2026-11-03",
-      "energy-storage.news/vastly-different-fortunes-for-bess-in-belgium-and-germanys-capacity-market-auctions": "2026-11-03",
-      "pv-magazine.com/2026/11/03/germany-awards-288-mw-of-solar-in-rooftop-tender-at-average-price-of-e0-0967-kwh": "2026-11-03",
-      "pv-tech.org/rayzons-5-1gw-topcon-cell-plant-on-track-for-december-2026-opening": "2026-11-03",
-      "pv-tech.org/avaada-secures-almm-enlistment-for-7-1gw-topcon-solar-cell-capacity-launches-745w-module": "2026-11-03",
-      "pv-magazine-india.com/2026/11/02/rayzon-solar-to-start-production-at-5-1-gw-topcon-cell-facility-in-december-plans-ingot-wafer-manufacturing-by-2028": "2026-11-03",
-      "pv-tech.org/renewsys-inks-1-2gw-poe-encapsulant-and-backsheet-supply-deal-with-kosol-energie": "2026-11-03",
-      "pv-magazine-india.com/2026/11/02/renewsys-signs-1-2-gw-poe-encapsulant-and-backsheet-supply-agreement-with-kosol-energie": "2026-11-03",
-      "pv-magazine-india.com/2026/11/03/waaree-renewable-technologies-secures-200-mw-500-mwh-bess-epc-and-360-mwp-solar-om-contracts": "2026-11-03",
-      "pv-tech.org/engie-commissions-450mw-of-solar-projects-in-rajasthan-and-gujarat": "2026-11-03",
-      "pv-magazine.com/2026/11/03/waaree-solar-americas-begins-commercial-production-on-1-6-gw-of-new-module-lines-doubling-texas-capacity-to-3-2-gw": "2026-11-03",
-      "pv-magazine-usa.com/2026/11/03/waaree-solar-americas-doubles-texas-module-production-capacity-to-3-2-gw": "2026-11-03",
-      "pv-magazine-india.com/2026/11/03/waaree-solar-americas-begins-commercial-production-on-1-6-gw-of-new-module-lines-doubling-texas-capacity-to-3-2-gw": "2026-11-03",
-      "pv-magazine-usa.com/2026/11/03/all-electric-community-in-michigan-site-of-dte-managed-vpp-pilot-launches": "2026-11-03",
-      "pv-magazine-usa.com/2026/11/03/canadian-province-opens-tech-neutral-capacity-call-to-replace-coal": "2026-11-03",
       "energy-storage.news/return-finances-220mwh-in-spain-bw-ess-buys-800mwh-in-france": "2026-11-04",
       "pv-magazine.com/2026/11/04/lithuania-moves-to-revive-renewables-growth-with-sweeping-reforms": "2026-11-04",
       "pv-magazine.com/2026/11/04/poland-launches-2026-renewables-auction": "2026-11-04",
@@ -1186,52 +1170,61 @@
       "pv-magazine-usa.com/2026/11/12/heliene-announces-commercial-production-of-perovskite-tandem-modules-using-caelux-glass": "2026-11-13",
       "pv-tech.org/naed-deposition-platform-tandem-perovskite-hjt-cells": "2026-11-13",
       "pv-magazine-usa.com/2026/11/13/masdar-completes-950-million-solar-and-battery-storage-project-in-california": "2026-11-13",
-      "pv-tech.org/us-midterms-data-centre-backlash-could-slow-solars-ai-boom": "2026-11-13"
+      "pv-tech.org/us-midterms-data-centre-backlash-could-slow-solars-ai-boom": "2026-11-13",
+      "pv-magazine.com/2026/11/14/the-times-i-regret-are-the-ones-when-i-didnt-value-myself-enough-to-speak-up": "2026-11-14",
+      "energy-storage.news/toll-makes-way-for-floor-offtake-contracting-beginning-to-standardise-in-uk-bess-market": "2026-11-14",
+      "pv-tech.org/rezolv-energy-appoints-partners-1-36gwp-dama-solar-project": "2026-11-14",
+      "pv-magazine.com/2026/11/14/first-attempt-to-address-screen-printing-induced-degradation-in-copper-plated-heterojunction-solar-cells": "2026-11-14",
+      "pv-magazine.com/2026/11/14/transparent-bamboo-boosts-energy-performance-of-solar-pv-skylights": "2026-11-14",
+      "pv-magazine.com/2026/11/14/yanhe-technology-launches-three-perovskite-solar-module-technologies-into-orbit": "2026-11-14",
+      "pv-magazine.com/2026/11/14/masdar-completes-950-million-solar-and-battery-storage-project-in-california": "2026-11-14",
+      "pv-magazine-usa.com/2026/11/13/in-case-you-missed-it-solar-stories-of-the-week1113": "2026-11-14",
+      "pv-magazine-usa.com/2026/11/13/t1-energy-pushes-cell-fab-ramp-to-mid-2027-reports-197-million-net-sales-in-q3": "2026-11-14"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-13"
+        "last_ok": "2026-11-14"
       }
     },
     "alerts": {},
