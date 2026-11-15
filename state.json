@@ -1,7 +1,7 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.071949,
-  "requests": 26,
+  "spent_usd": 0.07503,
+  "requests": 27,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
@@ -1039,22 +1039,6 @@
       }
     },
     "shown": {
-      "energy-storage.news/return-finances-220mwh-in-spain-bw-ess-buys-800mwh-in-france": "2026-11-04",
-      "pv-magazine.com/2026/11/04/lithuania-moves-to-revive-renewables-growth-with-sweeping-reforms": "2026-11-04",
-      "pv-magazine.com/2026/11/04/poland-launches-2026-renewables-auction": "2026-11-04",
-      "mercomindia.com/month-in-a-minute-top-headlines-from-the-indian-renewable-sector-in-october-2026": "2026-11-04",
-      "mercomindia.com/indias-solar-power-generation-rises-48-6-yoy-to-56-9-bu-in-q3-2026": "2026-11-04",
-      "pv-magazine-india.com/2026/11/04/acme-solar-commissions-additional-66-68-mw-of-solar-capacity-at-hybrid-project-in-rajasthan": "2026-11-04",
-      "pv-magazine-india.com/2026/11/03/prime-minister-narendra-modi-inaugurates-bharat-renewable-energy-summit-expo-2026": "2026-11-04",
-      "mercomindia.com/turkiye-awards-785-mw-of-solar-capacity-in-yeka-auction": "2026-11-04",
-      "pv-magazine.com/2026/11/04/kazakhstan-establishes-900-mw-solar-project-pipeline": "2026-11-04",
-      "pv-magazine.com/2026/11/04/malaysias-data-center-industry-gets-500-mw-solar-1-gwh-battery-storage-boost": "2026-11-04",
-      "pv-magazine-india.com/2026/11/04/essar-signs-ppa-with-nhpc-for-300-mw-renewable-energy-project": "2026-11-04",
-      "pv-tech.org/sunraycer-acquires-325mwac-solar-projects-in-illinois-and-missouri": "2026-11-04",
-      "solarpowerworldonline.com/2026/11/illinois-community-solar-farm-will-produce-renewable-energy-and-hay": "2026-11-04",
-      "pv-tech.org/waaree-commences-production-on-1-6gw-solar-module-lines-at-texas-plant": "2026-11-04",
-      "pv-tech.org/inox-solar-americas-3gw-us-pv-cell-facility-on-track-for-q2-2027-production": "2026-11-04",
-      "pv-magazine-usa.com/2026/11/04/solar-ppa-prices-rose-in-q3-as-section-232-tariffs-began-to-take-effect-reports-levelten": "2026-11-04",
       "pv-tech.org/ib-solar-signs-mou-with-german-firms-for-2gw-topcon-cell-manufacturing-line-and-rd-centre": "2026-11-05",
       "pv-magazine.com/2026/11/05/revolta-installs-first-10-kwh-sodium-ion-home-battery-in-germany": "2026-11-05",
       "energy-storage.news/return-secures-835-million-germany-bess-rollout-targets-1gw-annually": "2026-11-05",
@@ -1184,47 +1168,47 @@
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-14"
+        "last_ok": "2026-11-15"
       }
     },
     "alerts": {},
