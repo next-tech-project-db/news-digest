@@ -1,127 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.080753,
-  "requests": 29,
+  "spent_usd": 0.087632,
+  "requests": 31,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.031761
+      "2026-11": 0.034621
     },
     "cache": {
-      "117fb4af4c14326e": {
-        "summary": {
-          "title": "Soluxtec resumes TOPCon solar module production in Germany",
-          "main_point": "German manufacturer Soluxtec has restarted production at its Trier-F\u00f6hren facility using TOPCon technology following an acquisition by Ronmaa.",
-          "bullets": [
-            "The facility has transitioned from M10 to G12-format cells.",
-            "Production will be ramped up gradually, though annual capacity was not disclosed.",
-            "IB Solar has signed an MoU with three German firms to develop a 2GW TOPCon cell manufacturing line in India (PV Tech)."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "7f20e9403987dee4": {
-        "summary": {
-          "title": "Third Latvian solar PV plant from Ignitis Renewables enters operations",
-          "main_point": "The 174MW Tume solar farm in Tukums, Latvia, has reached operational status.",
-          "bullets": [
-            "This project marks the first time owner Ignitis Renewables will operate its own facility."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "8bd3bdeb58a3cfd6": {
-        "summary": {
-          "title": "Laser-based recycling method enables over 95% selective silver recovery",
-          "main_point": "Researchers have developed a laser-induced delamination process to separate EVA from aged solar modules, facilitating material recovery.",
-          "bullets": [
-            "The method targets the EVA\u2013Si interface to provide a dry pathway for removing encapsulants.",
-            "The process aims to reduce material intermixing compared to traditional shredding or thermal treatment."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "3ad009d77739b4f7": {
-        "summary": {
-          "title": "Chinese and Indian solar manufacturers report financial results",
-          "main_point": "Several solar manufacturers reported mixed financial results, with JA and Longi seeing revenue declines and Saatvik Green reporting a profit drop.",
-          "bullets": [
-            "JA reported a net loss of CNY 3.64 billion for the first nine months of 2026 (pv magazine).",
-            "Longi reported revenue of CNY 43.864 billion for the first nine months of 2026 (pv magazine).",
-            "Saatvik Green Energy's profit after tax fell 76.2% year-over-year to \u20b9202 million in the second quarter of fiscal year 2027 (Mercom India)."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "9609c2f59854883c": {
-        "summary": {
-          "title": "India renewable energy capacity and procurement update",
-          "main_point": "Government agencies in India auctioned 12 GW of renewable energy capacity in the third quarter of 2026.",
-          "bullets": [
-            "Battery energy storage and hybrid projects accounted for 45.2% of the auctioned capacity (Mercom India).",
-            "India added 55.3 GW of non-fossil capacity during fiscal year 2025\u201326 (pv magazine India)."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "7ba4c7d9795ef896": {
-        "summary": {
-          "title": "Sodium-ion battery technology approaches commercial production phase",
-          "main_point": "Sodium-ion batteries are emerging as a stationary storage alternative with over 70 GWh in supply agreements already in place.",
-          "bullets": [
-            "Cell-level cost parity with LFP batteries is expected by late 2026.",
-            "Parity at the module and system levels is not anticipated until after 2030.",
-            "BYD plans to reach 30 GWh of sodium-ion battery capacity."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "d24f949bf3df2b0c": {
-        "summary": {
-          "title": "Earnings roundup: Sunrun, SolarEdge, Shoals, Array Technologies, FTC Solar report Q3 numbers",
-          "main_point": "As Q3 2026 earnings season continues, a number of public solar companies have made announcements in recent days.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-06"
-      },
-      "1da66c22b2e4461a": {
-        "summary": {
-          "title": "Faropoint begins construction on New Jersey community solar project",
-          "main_point": "Faropoint has started building a 1.6-MW community solar installation in Fair Lawn, New Jersey.",
-          "bullets": [
-            "This project is the first of 16 planned installations in the state.",
-            "The total capacity for all 16 projects is expected to exceed 10 MW."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-06"
-      },
-      "991c324f0150c8da": {
-        "summary": {
-          "title": "\u201cMoving into a positive political environment for solar\u201d \u2013 is the ITC coming back?",
-          "main_point": "Even before the midterm election results, Roth Capital\u2019s Philip Shen, managing director and senior research analyst, had been hearing that the solar tax credit was still on the minds of many in Washington D.C.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-06"
-      },
       "f1c70988e365707b": {
         "summary": {
           "title": "Researchers develop 10.56 kW solar-powered pleasure boat",
@@ -1037,23 +924,120 @@
         },
         "mode": "ai",
         "date": "2026-11-16"
+      },
+      "f5dc9ae718a735c9": {
+        "summary": {
+          "title": "Poland awards 1.81 GW of solar in latest renewables auctions",
+          "main_point": "Poland's Energy Regulatory Office awarded approximately 1.81 GW of solar capacity across 65 successful bids in two recent renewable energy auctions.",
+          "bullets": [
+            "The auctions included 50 bids for projects larger than 1 MW, comprising 1,799 MW of solar and 64 MW of onshore wind.",
+            "Solar prices ranged from PLN 180/MWh to PLN 327.77/MWh, against a reference price of PLN 389/MWh.",
+            "The total value of the contracted 17.7 TWh of electricity exceeded PLN 5.5 billion."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
+      },
+      "693b5a48dcbd1af0": {
+        "summary": {
+          "title": "BESS owner-operators discuss optimiser management",
+          "main_point": "Industry sources at the Battery Asset Management Summit UK & Ireland 2026 advised that operators should remain hands-on with their optimiser without micromanaging every decision.",
+          "bullets": [
+            "There is limited benefit to questioning every decision made by the optimiser."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
+      },
+      "1d15edbc27d22dd2": {
+        "summary": {
+          "title": "Italy surpasses 1 million renewable-linked battery storage systems",
+          "main_point": "Italy reached 1,004,661 electrochemical energy storage systems integrated with renewables as of October 31, according to Terna.",
+          "bullets": [
+            "The systems have a combined capacity of 12,843.76 MWh and a power output of 6,497.28 MW.",
+            "In October, 13,664 new storage systems were installed, adding 194.79 MWh of capacity and 109.40 MW of power.",
+            "Terna reported 25,026 new solar installations in October, contributing 864.66 MW of capacity."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
+      },
+      "08f8ef4d91edad9c": {
+        "summary": {
+          "title": "India\u2019s solar growth enters a new era",
+          "main_point": "A decade ago, solar power occupied only a small place in India\u2019s electricity mix.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-17"
+      },
+      "5e13ec2bbca9367b": {
+        "summary": {
+          "title": "Waaree and Havells expand battery manufacturing and storage portfolios in India",
+          "main_point": "Waaree ESS has started production at a 5.15GWh battery line, while Havells India has introduced modular battery storage solutions.",
+          "bullets": [
+            "Waaree ESS began commercial production at its 5.15GWh battery pack manufacturing line in Rola, Valsad, Gujarat (Energy-Storage.news).",
+            "Havells India partnered with Norway-based Pixii to offer modular battery storage solutions ranging from 3 kW to 125 kW (pv magazine India)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
+      },
+      "f01fd46b419cfe8c": {
+        "summary": {
+          "title": "Blue Elephant Energy secures financing for agri-PV projects",
+          "main_point": "Blue Elephant Energy has reached financial close for three agri-photovoltaic projects with a total capacity of nearly 96 MW.",
+          "bullets": [
+            "The projects are located in an unspecified region."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
+      },
+      "e9c9eb37f1d3a381": {
+        "summary": {
+          "title": "New energy storage projects announced in the United States",
+          "main_point": "Flatiron Energy has begun construction on a 1.2 GWh facility in Massachusetts, while Soneil Spark has introduced a mobile battery system.",
+          "bullets": [
+            "The Energizar facility in Chelsea is designed for 250 MW of power and 1,200 MWh of storage, with operations expected in late 2027 (pv magazine USA).",
+            "Flatiron Energy acquired approximately $850 million in financing for the Energizar project (pv magazine USA).",
+            "Soneil Spark introduced a portable, modular Mobile Battery Energy Storage System at RE+ 2026 (Solar Power World)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
+      },
+      "70098de565c122c2": {
+        "summary": {
+          "title": "US solar\u2019s new makers, batteries for data centres and electrostates vs petrostates: PV Tech Power 46 out now!",
+          "main_point": "The latest edition of PV Tech Power is available to download, full of exclusive content for the downstream solar PV and BESS industries.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-17"
+      },
+      "80fc70e9fc04f40a": {
+        "summary": {
+          "title": "ESS Tech, Inc. files for Chapter 7 bankruptcy",
+          "main_point": "Portland-based ESS Tech, Inc. ceased operations and filed for Chapter 7 bankruptcy on November 13, 2026.",
+          "bullets": [
+            "The filing in the United States Bankruptcy Court for the District of Delaware marks an immediate end to the business."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-17"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/11/06/soluxtec-resumes-topcon-solar-module-production-in-germany": "2026-11-06",
-      "pv-tech.org/third-latvian-solar-pv-plant-from-ignitis-renewables-enters-operations": "2026-11-06",
-      "pv-magazine-usa.com/2026/11/06/laser-based-recycling-method-enables-over-95-selective-silver-recovery-from-end-of-life-solar-panels": "2026-11-06",
-      "pv-magazine.com/2026/11/06/chinese-pv-industry-brief-ja-longi-tongwei-report-widening-losses": "2026-11-06",
-      "mercomindia.com/saatvik-greens-q2-profit-down-76-as-solar-cell-shortage-bites": "2026-11-06",
-      "mercomindia.com/daily-news-wrap-up-battery-storage-hybrid-projects-lead-q3-auctions": "2026-11-06",
-      "pv-magazine-india.com/2026/11/06/indias-energy-independence-depends-on-what-it-can-build-at-home": "2026-11-06",
-      "pv-magazine-india.com/2026/11/05/ai-data-centres-projected-to-add-26-3-gw-to-indias-electricity-demand-by-2031-32": "2026-11-06",
-      "pv-magazine-india.com/2026/11/05/indias-installed-solar-pv-capacity-to-exceed-350-gw-by-2030-iea": "2026-11-06",
-      "pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements": "2026-11-06",
-      "pv-magazine-usa.com/2026/11/06/earnings-roundup-sunrun-solaredge-shoals-array-technologies-ftc-solar-report-q3-numbers": "2026-11-06",
-      "pv-tech.org/solaredge-q3-2026-revenue-down": "2026-11-06",
-      "solarpowerworldonline.com/2026/11/faropoint-building-1st-of-16-new-jersey-community-solar-projects": "2026-11-06",
-      "pv-magazine-usa.com/2026/11/06/moving-into-a-positive-political-environment-for-solar-is-the-itc-coming-back": "2026-11-06",
       "pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat": "2026-11-07",
       "pv-magazine.com/2026/11/07/study-finds-0-5-meter-spacing-between-solar-module-rows-improves-cooling-in-floating-pv-systems": "2026-11-07",
       "energy-storage.news/norwegian-central-bank-buys-us300-million-stake-in-brookfields-soon-to-be-acquired-bess-developer-aypa-power": "2026-11-07",
@@ -1158,52 +1142,69 @@
       "pv-tech.org/solar-panel-recycling-fifth-pv-facility-california": "2026-11-16",
       "pv-magazine-india.com/2026/11/16/masdar-completes-950-million-solar-and-battery-storage-project-in-california": "2026-11-16",
       "energy-storage.news/flatiron-energy-breaks-ground-on-1-2gwh-massachusetts-bess": "2026-11-16",
-      "energy-storage.news/neovolta-anchors-us-manufacturing-ramp-up-with-us116-million-bess-agreement-as-quarterly-loss-narrows": "2026-11-16"
+      "energy-storage.news/neovolta-anchors-us-manufacturing-ramp-up-with-us116-million-bess-agreement-as-quarterly-loss-narrows": "2026-11-16",
+      "pv-magazine.com/2026/11/17/poland-awards-1-81-gw-of-solar-in-latest-renewables-auctions": "2026-11-17",
+      "energy-storage.news/be-hands-on-dont-micromanage-optimiser-owner-operators": "2026-11-17",
+      "pv-magazine.com/2026/11/17/italy-surpasses-1-million-renewable-linked-battery-storage-systems": "2026-11-17",
+      "pv-magazine-india.com/2026/11/17/indias-solar-growth-enters-a-new-era": "2026-11-17",
+      "pv-magazine.com/2026/11/17/amazon-to-invest-7-billion-in-renewable-energy-in-india-by-2030": "2026-11-17",
+      "mercomindia.com/supreme-court-bars-retrospective-7030-gst-rule-for-solar-epc-firms": "2026-11-17",
+      "pv-magazine-india.com/2026/11/17/amazon-to-invest-7-billion-in-renewable-energy-in-india-by-2030": "2026-11-17",
+      "pv-magazine-india.com/2026/11/17/chinas-solar-tech-curbs-and-indias-manufacturing-gap": "2026-11-17",
+      "pv-magazine-india.com/2026/11/17/global-solar-installations-face-first-annual-decline-in-eight-years": "2026-11-17",
+      "energy-storage.news/waaree-energy-storage-says-new-5-15gwh-gujarat-battery-pack-manufacturing-line-is-milestone-for-make-in-india-strategy": "2026-11-17",
+      "pv-magazine-india.com/2026/11/17/havells-unveils-battery-energy-storage-systems": "2026-11-17",
+      "mercomindia.com/blue-elephant-energy-closes-financing-96mw-agri-pv": "2026-11-17",
+      "pv-magazine-usa.com/2026/11/17/flatiron-energy-breaks-ground-on-boston-area-1-2-gwh-energy-storage-project": "2026-11-17",
+      "solarpowerworldonline.com/2026/11/soneil-spark-introduces-its-mobile-battery-energy-storage-system": "2026-11-17",
+      "energy-storage.news/us-solars-new-makers-batteries-for-data-centres-and-electrostates-vs-petrostates-pv-tech-power-46-out-now": "2026-11-17",
+      "pv-tech.org/meet-americas-new-solar-makers-pv-tech-power-46-out-now": "2026-11-17",
+      "pv-magazine-usa.com/2026/11/17/ess-tech-inc-shuts-down-ceases-operations-files-for-bankruptcy": "2026-11-17"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-16"
+        "last_ok": "2026-11-17"
       }
     },
     "alerts": {},
