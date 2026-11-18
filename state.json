@@ -1,127 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.087632,
-  "requests": 31,
+  "spent_usd": 0.094264,
+  "requests": 33,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.034621
+      "2026-11": 0.037337
     },
     "cache": {
-      "f1c70988e365707b": {
-        "summary": {
-          "title": "Researchers develop 10.56 kW solar-powered pleasure boat",
-          "main_point": "A research team from Canada\u2019s Memorial University of Newfoundland has designed a solar-electric propulsion system for a pleasure boat.",
-          "bullets": [
-            "The system is designed for an 11.8-meter-long, 5.8-meter-wide boat that can accommodate five to six adults.",
-            "The design process utilized a two-stage evaluation method combining HOMER Pro energy yield estimates with MATLAB/Simulink dynamic modeling."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "f19242ce915cce82": {
-        "summary": {
-          "title": "Study finds 0.5-meter spacing between solar module rows improves cooling in floating PV systems",
-          "main_point": "A computational fluid dynamics study indicates that 0.5-meter spacing between module rows optimizes cooling for floating solar installations.",
-          "bullets": [
-            "At a wind speed of 3.5 m/s, the 0.5-meter spacing achieved an average module temperature of 27.16 C, compared to 31.07 C for the most compact arrangement.",
-            "Under 1.5 m/s wind conditions, the optimal configuration recorded an average module temperature of 37.02 C.",
-            "Crystalline silicon PV module efficiency typically drops by 0.3% to 0.5% for every 1 C increase in cell temperature."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "0c89b906fd182e69": {
-        "summary": {
-          "title": "Norwegian central bank buys US$300 million stake in Aypa Power",
-          "main_point": "Norges Bank Investment Management has acquired a 10% interest in the North American battery storage developer Aypa Power.",
-          "bullets": [
-            "The investment is valued at US$300 million."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "c56030e2c63a85b5": {
-        "summary": {
-          "title": "India\u2019s solar PV capacity and manufacturing growth",
-          "main_point": "India is projected to expand its solar and renewable energy capacity significantly by 2030.",
-          "bullets": [
-            "The IEA forecasts India's solar PV capacity will exceed 350 GW by 2030 (pv magazine).",
-            "Total renewable power capacity is expected to reach around 530 GW by 2030, with wind at 90 GW and hydropower at 75 GW (pv magazine).",
-            "The Ministry of New and Renewable Energy has added 2.13 GW of solar cell manufacturing capacity to the Approved List (Mercom India)."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "289211bf0269fa79": {
-        "summary": {
-          "title": "Portable solar-powered system produces 1.64 liters of drinking water in 8 hours",
-          "main_point": "Researchers at Soochow University developed a portable device that uses electrothermal evaporation to produce clean water from contaminated sources.",
-          "bullets": [
-            "The prototype produced 1.64 liters of water in eight hours using an evaporation surface of 30.72 cm2.",
-            "The device features an interlayer electrothermal evaporator that positions the heating element within the structure to reduce heat loss."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "cd157685b3bf2347": {
-        "summary": {
-          "title": "Avantus upsizes corporate credit facility to $1.28 billion",
-          "main_point": "Utility-scale solar and energy storage developer Avantus has increased its corporate credit facility commitments to $1.28 billion.",
-          "bullets": [
-            "Avantus operates as a developer, owner, and operator of utility-scale solar and energy storage projects."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "b2bccd46a95ae32d": {
-        "summary": {
-          "title": "New York funds energy storage projects and Ford Energy partners with DESRI",
-          "main_point": "New York State has awarded funding for energy storage advancement, while Ford Energy and DESRI have announced a partnership.",
-          "bullets": [
-            "New York\u2019s Power Generation and Storage Innovation program awarded nearly $13 million to 15 projects (Solar Power World).",
-            "Ford Energy and D. E. Shaw Renewable Investments (DESRI) will partner to deploy energy storage in the US (Energy-Storage.news)."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "9c7f68b1f382d919": {
-        "summary": {
-          "title": "U.S. solar developers navigate policy stack as Section 232 deadline nears",
-          "main_point": "U.S. solar equipment inventories grew by 126% in the second quarter of 2026 as developers prepared for upcoming trade regulations.",
-          "bullets": [
-            "Industry activity has been influenced by the July 4 construction-start deadline, the July 24 tariff transition, and Foreign Entity of Concern restrictions."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-07"
-      },
-      "3b855bc859a93371": {
-        "summary": {
-          "title": "Democratic sweep in US midterms brings reprieve for solar, but federal gridlock persists",
-          "main_point": "PV Tech spoke with many industry experts about the midterm election results, covering topics such as permitting, state-level impact and investment appetite.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-07"
-      },
       "188fff64abc49feb": {
         "summary": {
           "title": "Government plans to freeze gas prices in 2027",
@@ -1035,24 +922,122 @@
         },
         "mode": "ai",
         "date": "2026-11-17"
+      },
+      "dc1f1cd1dd6aefbe": {
+        "summary": {
+          "title": "Wind power integration reduces hybrid system costs",
+          "main_point": "Adding wind power to solar and battery hybrid systems can lower the median cost of meeting 90% of electricity demand to $0.086/kWh.",
+          "bullets": [
+            "The median cost of meeting 90% of demand drops from $0.105/kWh to $0.086/kWh when wind is included in hybrid systems.",
+            "Wind power reduces the need for battery storage, with required capacity in Canada falling from 24 hours to 10 hours for 90% coverage."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "282beb5875b9a4da": {
+        "summary": {
+          "title": "European solar module prices face pressure from surplus stock",
+          "main_point": "European solar module prices remain under pressure due to excess production capacity and intense competition.",
+          "bullets": [
+            "Average transaction prices in September 2026 were approximately \u20ac0.114/W for bifacial TOPCon modules and \u20ac0.120/W for monofacial TOPCon modules.",
+            "Actual transaction prices vary based on factors including order volumes, brands, and technical specifications."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "ec11d49462275d74": {
+        "summary": {
+          "title": "Solar Materials doubles PV recycling capacity",
+          "main_point": "Solar Materials has opened a second recycling line in Magdeburg, increasing its annual processing capacity to 28,000 metric tons.",
+          "bullets": [
+            "The new line doubles the company's annual processing capacity."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "98802df7673833b9": {
+        "summary": {
+          "title": "Perovskite solar technology potential in India",
+          "main_point": "A study suggests perovskite solar technology could generate approximately $7.92 billion in domestic value addition in India over 15 years.",
+          "bullets": [
+            "The study by the Indian Solar Manufacturers Association and P3C Technology and Solution estimates the value at INR 74,000 crore ($7.92 billion).",
+            "Indian manufacturers are increasingly looking to diversify into energy storage and hybrid inverters due to pressure on solar module margins."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "f50059b842d5465f": {
+        "summary": {
+          "title": "New battery storage initiatives in India and Taiwan",
+          "main_point": "New battery storage projects and regulatory frameworks are being introduced in India and Taiwan to support grid stability.",
+          "bullets": [
+            "POWERGRID has issued two tenders for battery energy storage systems at the Talaricheruvu renewable energy project in Andhra Pradesh (Mercom India).",
+            "Taiwan's Ministry of Economic Affairs requires developers of grid-connected PV plants over 1 MW to install battery storage with a minimum capacity of 2.61 MWh per MW of rated storage power (pv magazine)."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "98de3d1cb6366259": {
+        "summary": {
+          "title": "ADB expands solar and storage support in Bangladesh",
+          "main_point": "The Asian Development Bank is providing transaction advisory services for five additional solar and battery storage projects in Bangladesh.",
+          "bullets": [
+            "The expanded programme covers more than 1 GW of planned capacity across six projects.",
+            "The initiative is expected to mobilise more than $1 billion in private sector investment."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "797333bb520b0371": {
+        "summary": {
+          "title": "US Energy Storage Installations Cross 200 GWh: Report",
+          "main_point": "has surpassed 200 GWh of cumulative energy storage installations with 14.3 GWh of energy storage capacity added in the third quarter (Q3) of 2026, according to the U.S.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-18"
+      },
+      "685f445babee1cee": {
+        "summary": {
+          "title": "Inox Solar Americas and Nextnova advance manufacturing facilities",
+          "main_point": "New solar cell manufacturing facilities are advancing in North Carolina and Oklahoma.",
+          "bullets": [
+            "Inox Solar Americas has moved its 3 GW North Carolina plant into the equipment installation phase, targeting production in the second quarter of 2027 (pv magazine USA).",
+            "Nextnova has inaugurated a new solar cell manufacturing facility in Oklahoma City (Solar Power World)."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
+      },
+      "07c4787a6bc268e4": {
+        "summary": {
+          "title": "ESS Inc files for bankruptcy as Stem Inc faces financial uncertainty",
+          "main_point": "ESS Inc has ceased operations and filed for Chapter 7 bankruptcy, while Stem Inc has raised concerns regarding its ability to continue as a going concern.",
+          "bullets": [
+            "ESS Tech, Inc. filed for Chapter 7 bankruptcy on November 13, 2026.",
+            "Stem Inc has sold its Athena software platform amid financial doubts."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-18"
       }
     },
     "shown": {
-      "pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat": "2026-11-07",
-      "pv-magazine.com/2026/11/07/study-finds-0-5-meter-spacing-between-solar-module-rows-improves-cooling-in-floating-pv-systems": "2026-11-07",
-      "energy-storage.news/norwegian-central-bank-buys-us300-million-stake-in-brookfields-soon-to-be-acquired-bess-developer-aypa-power": "2026-11-07",
-      "pv-magazine.com/2026/11/07/indias-installed-solar-pv-capacity-to-exceed-350-gw-by-2030-says-iea": "2026-11-07",
-      "pv-magazine.com/2026/11/07/beyond-scale-and-hardware": "2026-11-07",
-      "mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-47-gw": "2026-11-07",
-      "energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity": "2026-11-07",
-      "pv-magazine.com/2026/11/07/portable-solar-powered-system-produces-1-64-liters-of-drinking-water-in-8-hours": "2026-11-07",
-      "mercomindia.com/avantus-upsizes-corporate-credit-facility-to-1-28-billion": "2026-11-07",
-      "solarpowerworldonline.com/2026/11/new-york-program-funds-13-million-in-energy-storage-advancement-projects": "2026-11-07",
-      "energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess": "2026-11-07",
-      "pv-magazine.com/2026/11/07/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
-      "pv-magazine-usa.com/2026/11/06/in-case-you-missed-it-solar-stories-of-the-week-1106": "2026-11-07",
-      "pv-magazine-usa.com/2026/11/06/u-s-solar-developers-navigate-policy-stack-as-section-232-deadline-nears": "2026-11-07",
-      "pv-tech.org/democratic-sweep-in-us-midterms-brings-reprieve-for-solar-but-federal-gridlock-persists": "2026-11-07",
       "wysokienapiecie.pl/122704-rzad-szykuje-na-2027-rok-zamrozenie-cen-gazu": "2026-11-08",
       "pv-tech.org/solarwatt-launches-new-bifacial-topcon-bipv-module": "2026-11-09",
       "pv-magazine.com/2026/11/09/solarwatt-launches-bifacial-topcon-solar-modules-for-bipv-applications": "2026-11-09",
@@ -1159,52 +1144,67 @@
       "solarpowerworldonline.com/2026/11/soneil-spark-introduces-its-mobile-battery-energy-storage-system": "2026-11-17",
       "energy-storage.news/us-solars-new-makers-batteries-for-data-centres-and-electrostates-vs-petrostates-pv-tech-power-46-out-now": "2026-11-17",
       "pv-tech.org/meet-americas-new-solar-makers-pv-tech-power-46-out-now": "2026-11-17",
-      "pv-magazine-usa.com/2026/11/17/ess-tech-inc-shuts-down-ceases-operations-files-for-bankruptcy": "2026-11-17"
+      "pv-magazine-usa.com/2026/11/17/ess-tech-inc-shuts-down-ceases-operations-files-for-bankruptcy": "2026-11-17",
+      "pv-magazine-usa.com/2026/11/18/solar-wind-and-batteries-can-deliver-firm-power-at-e78-mwh-says-ember": "2026-11-18",
+      "pv-magazine.com/2026/11/18/european-solar-module-prices-face-additional-pressure-from-surplus-stock-cancelled-projects": "2026-11-18",
+      "pv-tech.org/solar-materials-doubles-pv-recycling-capacity-germany": "2026-11-18",
+      "mercomindia.com/energy-storage-will-be-indias-next-big-growth-opportunity-interview": "2026-11-18",
+      "pv-magazine.com/2026/11/18/perovskite-solar-technology-could-unlock-inr-74000-crore-in-domestic-value-addition-for-india-over-15-years-isma-p3c-study": "2026-11-18",
+      "mercomindia.com/powergrid-invites-bids-battery-storage-projects-andhra-pradesh": "2026-11-18",
+      "mercomindia.com/powergrid-tenders-battery-storage-projects-in-andhra-pradesh": "2026-11-18",
+      "pv-magazine.com/2026/11/18/taiwan-introduces-bidding-framework-for-storage-deployment-at-existing-pv-plants": "2026-11-18",
+      "pv-tech.org/adb-targets-us1-billion-investment-in-bangladeshs-1gw-solar-plus-storage-programme": "2026-11-18",
+      "pv-magazine.com/2026/11/18/adb-supports-1-gw-solar-storage-pipeline-in-bangladesh": "2026-11-18",
+      "mercomindia.com/us-energy-storage-installations-cross-200-gwh-report": "2026-11-18",
+      "energy-storage.news/us-energy-storage-deployments-for-first-nine-months-of-2026-up-20-from-last-year": "2026-11-18",
+      "pv-magazine-usa.com/2026/11/18/inox-solar-americas-advances-3-gw-north-carolina-cell-facility-to-equipment-installation-phase": "2026-11-18",
+      "solarpowerworldonline.com/2026/11/nextnova-unveils-solar-cell-manufacturing-facility": "2026-11-18",
+      "energy-storage.news/ess-inc-files-for-chapter-7-bankruptcy-stem-inc-flags-going-concern-doubts-amidst-athena-optimisation-platform-sale": "2026-11-18"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-17"
+        "last_ok": "2026-11-18"
       }
     },
     "alerts": {},
