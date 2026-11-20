@@ -1,128 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.097026,
-  "requests": 35,
+  "spent_usd": 0.103641,
+  "requests": 37,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.040099
+      "2026-11": 0.0429
     },
     "cache": {
-      "f269e16cf4c26095": {
-        "summary": {
-          "title": "Solarwatt launches new bifacial TOPCon BIPV module",
-          "main_point": "Solarwatt has released the Panel vision M 5.0 construct, a bifacial TOPCon module for building-integrated photovoltaic applications.",
-          "bullets": [
-            "The module received general building authority approval from the German Institute for Construction Technology.",
-            "The product is intended for use in carports, parking canopies, facades, and green roof applications."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "4decfc704d8ff748": {
-        "summary": {
-          "title": "French winter temperatures impact regional electricity exports",
-          "main_point": "Each degree of cold in France reduces net electricity exports by approximately 1 GW and increases day-ahead prices in France, Belgium, and Germany.",
-          "bullets": [
-            "Price increases range from \u20ac5/MWh to \u20ac7/MWh during cold spells.",
-            "French temperature fluctuations account for half of the French price response, one-third of the Belgian response, and one-quarter of the German response."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "1ae6772e6992c5a1": {
-        "summary": {
-          "title": "Corporate renewable power purchase agreements decline in 2026",
-          "main_point": "Corporate power purchase agreements in Europe have secured 5.9 GW of renewable capacity so far in 2026, representing a 9.7% decrease compared to the same period last year.",
-          "bullets": [
-            "The 10th edition of the RE-Source event in Amsterdam hosted over 350 corporate energy buyers.",
-            "The event facilitated approximately 400 prescheduled meetings between buyers and suppliers."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "b117a15affabea3e": {
-        "summary": {
-          "title": "Terra Clean invites bids for solar project transformers",
-          "main_point": "Terra Clean, a subsidiary of Indian Oil Corporation, has issued a tender for the supply of power transformers for solar projects in Madhya Pradesh and Gujarat.",
-          "bullets": [
-            "The transformers are intended for solar park projects."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "60918564cb2e1a35": {
-        "summary": {
-          "title": "African Development Bank invests in Egyptian solar project",
-          "main_point": "The African Development Bank signed a $66 million financing agreement for the first phase of the Dandara solar-plus-storage project in Egypt.",
-          "bullets": [
-            "$46 million is sourced from ordinary Bank Group resources.",
-            "$20 million is provided as concessional funding from the Climate Investment Funds\u2019 Clean Technology Fund."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "e7d7511c8aefd3b4": {
-        "summary": {
-          "title": "Karnataka Power Corporation tenders solar-plus-storage project",
-          "main_point": "Karnataka Power Corporation has issued a tender for a ground-mounted solar project integrated with a battery energy storage system.",
-          "bullets": [
-            "The project involves a ground-mounted solar installation combined with battery storage."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "fb65653873b60757": {
-        "summary": {
-          "title": "Community solar and large-scale projects reach milestones",
-          "main_point": "ECA Power energized a 7.4-MWDC community solar project in Illinois, while a 1.2 GW solar project in Texas secured a $1.8 billion green loan.",
-          "bullets": [
-            "The Texas project, Big Rooter Power, is being built on 1,804 hectares of reclaimed coal mine land.",
-            "The first phase of the Texas project loan is $769 million, with a second phase exceeding $1 billion."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "16d09c6c914c5384": {
-        "summary": {
-          "title": "Report finds distributed energy resources could save US power system $614 billion",
-          "main_point": "A study by The Brattle Group indicates that removing barriers to distributed energy resources could save the US power system $614 billion by 2050.",
-          "bullets": [
-            "Distributed solar capacity is projected to grow from 68 GW today to 230 GW by 2050.",
-            "Savings are expected from the growth of distributed solar, distributed storage, and demand flexibility technologies."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
-      "8c153d81083fc4ad": {
-        "summary": {
-          "title": "Solar and storage companies support federal permitting reform",
-          "main_point": "Hundreds of solar and storage companies have signed a letter to Congress supporting the Bipartisan American Affordability and Jobs Act of 2026.",
-          "bullets": [
-            "The legislation is intended to facilitate the construction of energy projects to help lower energy costs."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-09"
-      },
       "8f7993f7fe52b796": {
         "summary": {
           "title": "Ecoprogetti deploys solar module recycling plant in Italy",
@@ -1131,25 +1017,122 @@
         },
         "mode": "ai",
         "date": "2026-11-19"
+      },
+      "c1a17e5671ae0728": {
+        "summary": {
+          "title": "EQT to acquire Flatiron Energy and its 24 GWh project portfolio",
+          "main_point": "EQT has agreed to acquire U.S. battery storage developer Flatiron Energy from Hull Street Energy, adding a 24 GWh project portfolio to its existing storage investments.",
+          "bullets": [
+            "The acquisition is expected to close in the fourth quarter of 2026, subject to customary conditions and approvals.",
+            "Flatiron Energy's portfolio includes 6 GWh of long-term contracts awarded and 2 GWh under construction.",
+            "Financial terms of the transaction were not disclosed."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
+      },
+      "106ae65513b8d33d": {
+        "summary": {
+          "title": "Spain solar project construction updates in Valladolid and Seville",
+          "main_point": "Construction work has been completed on solar projects in Valladolid and Seville, while a new project has commenced in the Northwest of Spain.",
+          "bullets": [
+            "The updates were announced by Lightsource and Green Arrow."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
+      },
+      "863a560cf2cf67c9": {
+        "summary": {
+          "title": "Germany: operators progress over 4GWh of BESS towards construction ahead of year-end FID deadline",
+          "main_point": "Large-scale BESS projects in Germany have been progressed towards construction by Elements Green, Voltwise, EnBW, Green Flexibility, Flower and Dispatch totalling over 4GWh of capacity.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-20"
+      },
+      "f15cae04a0d62692": {
+        "summary": {
+          "title": "JK Cement to Source Solar Power from Hero Future Energies\u2019s Karnataka Project",
+          "main_point": "Listen to this article JK Cement has announced a \u20b951.45 million (~$554,384.54) investment to acquire a 27% equity stake in Clean Renewable Energy KK 1E,",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-20"
+      },
+      "9d1f2fc9854a90d3": {
+        "summary": {
+          "title": "China grid-connects world\u2019s first artificial-cavern CAES plant",
+          "main_point": "The Yuanchu No. 1 compressed air energy storage station in Gansu province has achieved its first grid connection.",
+          "bullets": [
+            "The facility is rated at 300 MW/1,800 MWh and features four underground rock chambers excavated 110 meters below the surface.",
+            "Total investment for the project reached approximately CNY 2.5 billion ($368 million).",
+            "The plant is designed for an eight-hour charging cycle and six hours of continuous discharge, with a projected annual generation of 600 GWh."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
+      },
+      "a9c69bfa448ebde4": {
+        "summary": {
+          "title": "China begins operating 195 km hydrogen pipeline",
+          "main_point": "A 195 km hydrogen pipeline connecting Darhan Muminggan United Banner with Baotou in Inner Mongolia has commenced operations.",
+          "bullets": [
+            "The pipeline has an approved annual transport capacity of 100,000 tons, with potential to increase to 240,000 tons.",
+            "Transport costs could be reduced from about CNY 13 ($1.83)/kg via tube trailer to approximately CNY 3/kg.",
+            "ACME Group has reached a final investment decision on a $3.6 billion green ammonia project in Odisha, India."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
+      },
+      "0d83adc08b3a1e57": {
+        "summary": {
+          "title": "Tesla plans $3.1 billion polysilicon facility in Texas",
+          "main_point": "Tesla has applied for a property tax limitation to build a $3.1 billion polysilicon refinery in Nueces County, Texas.",
+          "bullets": [
+            "The facility is intended to produce ultra-high-purity polysilicon for solar cells as part of a vertically integrated manufacturing platform.",
+            "Tesla stated it would not build the plant in Texas without the tax incentive and is assessing other locations."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
+      },
+      "8c931b0e807edcd3": {
+        "summary": {
+          "title": "Delta showcases energy infrastructure systems for AI data centers",
+          "main_point": "Delta presented integrated energy infrastructure, including battery energy storage and solid-state transformers, at the RE+ 2026 event.",
+          "bullets": [
+            "The showcase included prefabricated solid-state transformer DC power systems designed for 800 VDC AI infrastructure.",
+            "Delta's microgrid systems are designed to coordinate utility power, onsite generation, and battery storage to manage peak loads."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
+      },
+      "7ca3ba4f752e6494": {
+        "summary": {
+          "title": "Unigrid develops sodium-ion battery alternatives to lithium-ion",
+          "main_point": "San Diego-based Unigrid is developing sodium-ion battery technology as an alternative to lithium-ion for specific market segments.",
+          "bullets": [
+            "The company claims sodium-ion batteries offer better safety, longer cycle and calendar life, and higher thermal tolerance than lithium-ion.",
+            "The primary disadvantages noted for sodium-ion batteries are their weight and size requirements."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-20"
       }
     },
     "shown": {
-      "pv-tech.org/solarwatt-launches-new-bifacial-topcon-bipv-module": "2026-11-09",
-      "pv-magazine.com/2026/11/09/solarwatt-launches-bifacial-topcon-solar-modules-for-bipv-applications": "2026-11-09",
-      "pv-magazine.com/2026/11/09/a-degree-in-paris-a-gigawatt-at-the-border": "2026-11-09",
-      "pv-magazine.com/2026/11/09/key-takeaways-from-re-source-2026-in-amsterdam": "2026-11-09",
-      "mercomindia.com/terra-clean-invites-bids-for-supply-of-power-transformers-for-solar-projects": "2026-11-09",
-      "mercomindia.com/gujarat-regulator-adopts-tariff-for-1-25-gw-solar-projects": "2026-11-09",
-      "mercomindia.com/mena-weekly-round-up-afdb-invests-66-million-in-egypts-solar-project": "2026-11-09",
-      "mercomindia.com/karnataka-power-corporation-tenders-solar-plus-storage-project": "2026-11-09",
-      "solarpowerworldonline.com/2026/11/eca-power-completes-community-solar-project-in-town-seeking-revitalization": "2026-11-09",
-      "pv-magazine.com/2026/11/09/texas-sized-solar-project-at-coal-plant-supported-by-1-8-billion-green-loan": "2026-11-09",
-      "solarpowerworldonline.com/2026/11/spw-winners-of-2026-top-products-contest": "2026-11-09",
-      "pv-magazine-usa.com/2026/11/09/texas-sized-solar-project-at-coal-plant-supported-by-1-8-billion-green-loan": "2026-11-09",
-      "pv-tech.org/panamint-capital-closes-finance-for-1-2gw-solar-pv-plant-near-twin-oaks-power-station": "2026-11-09",
-      "energy-storage.news/removing-barriers-to-distributed-energy-resources-could-save-us-power-system-us614-billion-by-2050-report-finds": "2026-11-09",
-      "pv-magazine-usa.com/2026/11/09/saving-614-billion-by-2050-with-distributed-resources-solar-storage-and-flexibility": "2026-11-09",
-      "solarpowerworldonline.com/2026/11/solar-and-storage-companies-voice-support-for-federal-permitting-reform": "2026-11-09",
       "pv-tech.org/ecoprogretti-deploys-solar-module-recycling-plant-italy": "2026-11-10",
       "pv-magazine-india.com/2026/11/10/ecoprogetti-presents-automated-line-for-recycling-end-of-life-pv-modules": "2026-11-10",
       "pv-magazine.com/2026/11/10/romanias-renewable-project-pipeline-surpasses-114-gw": "2026-11-10",
@@ -1269,52 +1252,64 @@
       "pv-magazine-usa.com/2026/11/19/the-us-solar-manufacturing-landscape-in-2026": "2026-11-19",
       "solarpowerworldonline.com/2026/11/mission-solar-energy-puts-supply-chain-transparency-in-the-spotlight-at-re-2026": "2026-11-19",
       "pv-tech.org/heron-power-1-5gw-power-electronics-deal-google-owned-intersect": "2026-11-19",
-      "pv-magazine-india.com/2026/11/19/tesla-unveils-powercore-medium-voltage-power-electronics-platform": "2026-11-19"
+      "pv-magazine-india.com/2026/11/19/tesla-unveils-powercore-medium-voltage-power-electronics-platform": "2026-11-19",
+      "pv-magazine-usa.com/2026/11/20/eqt-to-acquire-flatiron-energy-picking-up-a-24-gwh-project-portfolio": "2026-11-20",
+      "pv-tech.org/spain-pv-projects-lightsource-green-arrow-valladolid-seville": "2026-11-20",
+      "energy-storage.news/germany-operators-4gwh-large-scale-bess-construction-fid-deadline": "2026-11-20",
+      "mercomindia.com/jk-cement-to-source-solar-power-from-hero-future-energiess-karnataka-project": "2026-11-20",
+      "pv-magazine-india.com/2026/11/19/armee-infotech-signs-mou-with-msedcl-to-develop-135-mw-solar-power-project-in-maharashtra": "2026-11-20",
+      "pv-magazine.com/2026/11/20/china-grid-connects-worlds-first-artificial-cavern-caes-plant": "2026-11-20",
+      "pv-magazine.com/2026/11/20/the-hydrogen-stream-china-starts-operating-195-km-hydrogen-pipeline": "2026-11-20",
+      "pv-tech.org/tesla-3-1-billion-polysilicon-facility-texas-2030": "2026-11-20",
+      "pv-magazine-usa.com/2026/11/19/tesla-seeks-texas-tax-break-for-3-1-billion-polysilicon-plant": "2026-11-20",
+      "pv-magazine-usa.com/2026/11/20/delta-bess-u-series-and-800-vdc-sst-power-system-target-space-savings-and-ai-load-swings": "2026-11-20",
+      "pv-magazine-usa.com/2026/11/20/unigrid-looks-to-fill-gaps-in-lithium-ion-storage-with-effective-sodium-ion-alternatives": "2026-11-20",
+      "pv-magazine.com/2026/11/20/proper-voltage-unigrid-unveil-sodium-ion-storage-solution-for-data-centers": "2026-11-20"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-19"
+        "last_ok": "2026-11-20"
       }
     },
     "alerts": {},
