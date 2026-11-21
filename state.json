@@ -1,125 +1,14 @@
 {
   "month": "2026-11",
-  "spent_usd": 0.103641,
-  "requests": 37,
+  "spent_usd": 0.110601,
+  "requests": 39,
   "pv_tube": {
     "ledger": {
       "2026-09": 0.01426,
       "2026-10": 0.064795,
-      "2026-11": 0.0429
+      "2026-11": 0.045895
     },
     "cache": {
-      "8f7993f7fe52b796": {
-        "summary": {
-          "title": "Ecoprogetti deploys solar module recycling plant in Italy",
-          "main_point": "Ecoprogetti has delivered an automated solar module recycling line to Haiki+ Group in Sale, Italy, which has been operational since early 2025.",
-          "bullets": [
-            "The recycling line can process up to 120 solar panels per hour, or approximately 4 tonnes per hour.",
-            "The system has a nominal potential of around 700,000 tonnes annually if operated continuously.",
-            "The plant currently maintains an uptime of 94%."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "f1297433b43decc6": {
-        "summary": {
-          "title": "Romania\u2019s renewable project pipeline surpasses 114 GW",
-          "main_point": "Romania has 1,625 renewable energy projects larger than 1 MW with valid grid connection permits, totaling 114.9 GW of approved export capacity.",
-          "bullets": [
-            "As of October 1, 1,055 projects have signed connection contracts, totaling 63.7 GW of capacity.",
-            "A total of 749 projects have obtained building permits, while 262 projects have received establishment authorisations.",
-            "The number of projects with valid grid connection permits fell by 1.1% compared to the start of September."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "19b082189ddf79ce": {
-        "summary": {
-          "title": "Italy: RWE and BNZ launch construction on large-scale battery projects",
-          "main_point": "RWE and BNZ have announced the start of construction on battery energy storage system projects in Italy with a combined capacity of nearly 500MWh.",
-          "bullets": [
-            "The projects are described as large-scale battery energy storage systems."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "79f3ca968102b7ab": {
-        "summary": {
-          "title": "SECI and NHPC invite bids for solar and storage projects",
-          "main_point": "The Solar Energy Corporation of India and NHPC Ltd have issued separate tenders for rooftop solar and battery energy storage system projects.",
-          "bullets": [
-            "SECI is seeking developers for rooftop solar projects on New Delhi Municipal Council buildings.",
-            "NHPC is seeking developers for battery energy storage systems at the 1.2 GW Jalaun Solar Park, with two configuration options for solar-plus-storage scheduling."
-          ],
-          "claim_type": "official_data"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "20bb849021d786e3": {
-        "summary": {
-          "title": "Terra Clean tenders transmission infrastructure for renewable projects",
-          "main_point": "Terra Clean has invited bids for engineering, procurement, and construction contractors to develop transmission infrastructure for renewable energy projects.",
-          "bullets": [
-            "The scope includes design, supply, construction, and commissioning of pooling substations and extra high voltage transmission lines.",
-            "The infrastructure will support interstate and intrastate transmission system-connected solar, wind, and hybrid projects."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "f5be2ae7a4008751": {
-        "summary": {
-          "title": "Huaneng commissions dual-flywheel frequency regulation system",
-          "main_point": "Huaneng Group has commissioned a 5.5 MW, 1.375 MWh dual-flywheel frequency regulation system at its Lanzhou power plant.",
-          "bullets": [
-            "The primary 5 MW, 1.25 MWh flywheel unit is claimed to be the highest-power single flywheel unit in China.",
-            "The system achieves a grid response time below 100 milliseconds and a regulation accuracy above 99.5%."
-          ],
-          "claim_type": "company_claim"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "3328ff2667c1c5d2": {
-        "summary": {
-          "title": "Senate advances federal energy permitting bill",
-          "main_point": "The Senate is fast tracking legislation that would reduce permitting times for energy projects, but possibly to the detriment of longstanding policies protecting the environment.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-10"
-      },
-      "940e4154e25bce7f": {
-        "summary": {
-          "title": "Solar O&M hiring surges as job market demands broad technical skills",
-          "main_point": "An analysis of U.S. solar job listings shows that while 84% of operations and maintenance job descriptions require electrical skills, only 9% mandate an electrician license.",
-          "bullets": [
-            "Data from the Interstate Renewable Energy Council indicates that 23% of operations and maintenance employers reported severe difficulty in finding qualified workers in 2024."
-          ],
-          "claim_type": "reported"
-        },
-        "mode": "ai",
-        "date": "2026-11-10"
-      },
-      "74fbf51f2116983b": {
-        "summary": {
-          "title": "Qcells US modules first to pass all reliability tests from Kiwa PVEL and RETC",
-          "main_point": "Qcells has passed all evaluation categories in module reliability tests conducted by Kiwa PVEL and the Renewable Energy Test Center (RETC) for US-made solar modules.",
-          "bullets": [],
-          "claim_type": "reported"
-        },
-        "mode": "extractive",
-        "date": "2026-11-10"
-      },
       "9b804efade5869cd": {
         "summary": {
           "title": "The PPA market has a flexibility problem, hybrid PPAs are part of the answer",
@@ -1130,24 +1019,118 @@
         },
         "mode": "ai",
         "date": "2026-11-20"
+      },
+      "f7d26e7bca07ca34": {
+        "summary": {
+          "title": "Women in Solar+ Europe celebrates men in the energy transition",
+          "main_point": "The Women in Solar+ Europe network marked International Men\u2019s Day by recognizing men who support gender inclusivity and diversity within the solar and energy storage industries.",
+          "bullets": [
+            "The network aims to celebrate men who challenge stereotypes and encourage professional growth regardless of gender.",
+            "The organization emphasizes that creating an inclusive industry is a shared responsibility."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-21"
+      },
+      "d84d061ebeeb8760": {
+        "summary": {
+          "title": "Spain introduces new sustainability requirements for data centers",
+          "main_point": "The Spanish government has approved a royal decree requiring data centers to meet new energy sustainability and environmental standards, including a mandate for 80% renewable electricity.",
+          "bullets": [
+            "Data center projects have secured grid access for 15 GW of capacity, with an additional 20 GW awaiting access.",
+            "The 15 GW of secured capacity includes 6 GW on the transmission network and 9 GW on distribution networks."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-21"
+      },
+      "e481aaadc13bdbf5": {
+        "summary": {
+          "title": "Nowy Nissan Leaf za 150 tys. z\u0142. Czy warto?",
+          "main_point": "Pierwszy Nissan Leaf, kt\u00f3ry zadebiutowa\u0142 w 2009 roku, by\u0142 jednym z tych samochod\u00f3w, kt\u00f3re za 30 lat b\u0119d\u0105 sta\u0142y w gara\u017cach kolekcjoner\u00f3w klasyk\u00f3w.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-21"
+      },
+      "dea14c057c88f242": {
+        "summary": {
+          "title": "India commissions 21.7 GW of solar parks and expands capacity",
+          "main_point": "India has commissioned 21.70 GW of solar projects through solar parks and Ultra Mega Renewable Energy Power Parks, with an additional 20 GW in the pipeline.",
+          "bullets": [
+            "Juniper Green Energy commissioned a 109 MWp solar component in Maharashtra and 95 MWh of BESS capacity in Rajasthan.",
+            "Juniper Green Energy's total operational portfolio has reached 2.95 GWp of renewable energy and 698 MWh of BESS."
+          ],
+          "claim_type": "official_data"
+        },
+        "mode": "ai",
+        "date": "2026-11-21"
+      },
+      "63a73664836fa620": {
+        "summary": {
+          "title": "Global Energy Storage Alliance launched at COP31",
+          "main_point": "The Global Energy Storage Alliance was launched in Antalya, Turkey, featuring 27 co-initiating organizations from the battery and energy sectors.",
+          "bullets": [
+            "Founding organizations include the China Energy Storage Alliance, the China Renewable Energy Engineering Institute, and China Southern Power Grid Energy Storage Co.",
+            "Co-initiators include companies such as CATL, BYD Energy Storage, EVE Energy, Hithium, Sungrow, and ACWA Power.",
+            "The Solar Energy Corporation of India has invited bids to select a trading partner for its 65.8 GW renewable energy portfolio."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-21"
+      },
+      "c2a93f31aa42dc78": {
+        "summary": {
+          "title": "Solid-state battery patent filings reach record high in 2024",
+          "main_point": "Global patent filings for solid-state batteries rose 16% to a record 2,230 in 2024, while lithium-ion battery patents declined by nearly 15% to 2,092.",
+          "bullets": [
+            "South Korea led global solid-state filings in 2024 with 873 applications, overtaking Japan, which recorded 605.",
+            "South Korea's filings represented a nearly 50% year-on-year surge, driven largely by Samsung SDI."
+          ],
+          "claim_type": "reported"
+        },
+        "mode": "ai",
+        "date": "2026-11-21"
+      },
+      "be3353576f90d5b3": {
+        "summary": {
+          "title": "Unigrid promotes sodium-ion batteries as alternative to lithium-ion",
+          "main_point": "San Diego-based Unigrid is developing sodium-ion battery technology, highlighting advantages in safety, cycle life, and thermal tolerance.",
+          "bullets": [
+            "The company notes that sodium-ion chemistries are non-flammable and perform well in extreme temperatures.",
+            "The primary disadvantages of the technology are that the batteries are heavier and occupy more space than lithium-ion alternatives."
+          ],
+          "claim_type": "company_claim"
+        },
+        "mode": "ai",
+        "date": "2026-11-21"
+      },
+      "cd3cf090cfad6aef": {
+        "summary": {
+          "title": "The U.S. solar manufacturing landscape in 2026",
+          "main_point": "There is a group of about 40 companies that are actively producing silicon PV components in the United States, from polysilicon to modules, each with a different growth model out to 2030.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-21"
+      },
+      "d1a5111318af2912": {
+        "summary": {
+          "title": "Tariffs, taxes and a BESS price rise",
+          "main_point": "US tariffs on battery energy storage system (BESS) imports rank among the steepest worldwide.",
+          "bullets": [],
+          "claim_type": "reported"
+        },
+        "mode": "extractive",
+        "date": "2026-11-21"
       }
     },
     "shown": {
-      "pv-tech.org/ecoprogretti-deploys-solar-module-recycling-plant-italy": "2026-11-10",
-      "pv-magazine-india.com/2026/11/10/ecoprogetti-presents-automated-line-for-recycling-end-of-life-pv-modules": "2026-11-10",
-      "pv-magazine.com/2026/11/10/romanias-renewable-project-pipeline-surpasses-114-gw": "2026-11-10",
-      "energy-storage.news/italy-rwe-and-bnz-launch-construction-on-large-scale-battery-projects": "2026-11-10",
-      "mercomindia.com/seci-tenders-rooftop-solar-projects-for-delhi-municipal-body-buildings": "2026-11-10",
-      "pv-magazine-india.com/2026/11/10/nhpc-invites-bids-for-bess-projects-at-1-2-gw-jalaun-solar-park": "2026-11-10",
-      "mercomindia.com/telangana-invites-bids-install-rooftop-solar-systems-and-solar-streetlights": "2026-11-10",
-      "pv-magazine-india.com/2026/11/10/polycab-crosses-6-gw-in-solar-inverter-shipments-plans-500-kw-utility-scale-launch-next-year": "2026-11-10",
-      "mercomindia.com/terra-clean-tenders-transmission-infrastructure-renewable-projects": "2026-11-10",
-      "pv-magazine.com/2026/11/10/huaneng-commissions-dual-flywheel-frequency-regulation-system-claims-china-single-unit-power-record": "2026-11-10",
-      "solarpowerworldonline.com/2026/11/senate-advances-federal-energy-permitting-bill": "2026-11-10",
-      "pv-magazine-usa.com/2026/11/10/more-than-300-solar-and-storage-companies-urge-congress-to-pass-bipartisan-permitting-reform": "2026-11-10",
-      "solarpowerworldonline.com/2026/11/a-review-of-solar-roots-the-pioneers-of-pv": "2026-11-10",
-      "pv-magazine-usa.com/2026/11/09/solar-om-hiring-surges-as-job-market-demands-broad-technical-skills-with-few-license-mandates": "2026-11-10",
-      "pv-tech.org/qcells-us-modules-first-to-pass-all-reliability-tests-from-kiwa-pvel-and-retc": "2026-11-10",
       "pv-magazine.com/2026/11/11/the-ppa-market-has-a-flexibility-problem-hybrid-ppas-are-part-of-the-answer": "2026-11-11",
       "pv-magazine.com/2026/11/11/paris-leads-eu-capitals-for-rooftop-solar-generation-potential": "2026-11-11",
       "pv-tech.org/spacex-orders-hjt-solar-cell-manufacturing-equipment-from-singulus-technologies": "2026-11-11",
@@ -1264,52 +1247,67 @@
       "pv-magazine-usa.com/2026/11/19/tesla-seeks-texas-tax-break-for-3-1-billion-polysilicon-plant": "2026-11-20",
       "pv-magazine-usa.com/2026/11/20/delta-bess-u-series-and-800-vdc-sst-power-system-target-space-savings-and-ai-load-swings": "2026-11-20",
       "pv-magazine-usa.com/2026/11/20/unigrid-looks-to-fill-gaps-in-lithium-ion-storage-with-effective-sodium-ion-alternatives": "2026-11-20",
-      "pv-magazine.com/2026/11/20/proper-voltage-unigrid-unveil-sodium-ion-storage-solution-for-data-centers": "2026-11-20"
+      "pv-magazine.com/2026/11/20/proper-voltage-unigrid-unveil-sodium-ion-storage-solution-for-data-centers": "2026-11-20",
+      "pv-magazine.com/2026/11/21/celebrating-men-challenging-stereotypes-building-a-stronger-energy-future-together": "2026-11-21",
+      "pv-magazine.com/2026/11/21/spain-approves-new-data-center-rules-requiring-80-renewable-electricity": "2026-11-21",
+      "wysokienapiecie.pl/122971-nowy-nissan-leaf-za-150-tys-zl-czy-warto": "2026-11-21",
+      "mercomindia.com/india-commissions-21-7-gw-of-solar-parks-20-gw-more-in-pipeline": "2026-11-21",
+      "mercomindia.com/solar-to-meet-over-20-of-global-power-demand-by-2035-iea": "2026-11-21",
+      "pv-magazine-india.com/2026/11/20/juniper-green-energy-commissions-109-mwp-solar-component-of-hybrid-project-in-maharashtra-adds-95-mwh-of-bess-capacity-in-rajasthan": "2026-11-21",
+      "pv-tech.org/beyond-the-pli-scheme-whats-next-indias-solar-manufacturing-ambitions": "2026-11-21",
+      "pv-magazine.com/2026/11/21/catl-byd-acwa-among-co-initiators-of-storage-alliance-unveiled-at-cop31": "2026-11-21",
+      "mercomindia.com/seci-seeks-trading-partner-for-65-8-gw-renewable-energy-portfolio": "2026-11-21",
+      "mercomindia.com/delhi-metro-floats-solar-and-battery-storage-power-procurement-tender": "2026-11-21",
+      "pv-magazine.com/2026/11/21/battery-patents-solid-state-filings-surpass-lithium-ion-to-hit-record-high": "2026-11-21",
+      "pv-magazine.com/2026/11/21/unigrid-looks-to-fill-gaps-in-lithium-ion-storage-with-effective-sodium-ion-alternatives": "2026-11-21",
+      "pv-magazine.com/2026/11/21/the-us-solar-manufacturing-landscape-in-2026-2": "2026-11-21",
+      "pv-magazine-usa.com/2026/11/20/in-case-you-missed-it-solar-stories-of-the-week-3": "2026-11-21",
+      "pv-magazine.com/2026/11/21/tariffs-taxes-and-a-bess-price-rise": "2026-11-21"
     },
     "health": {
       "pv magazine": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "PV Tech": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "Energy-Storage.news": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "Gramwzielone.pl": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "WysokieNapiecie.pl": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "pv magazine India": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "Mercom India": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "pv magazine USA": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "Solar Power World": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "Utility Dive": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       },
       "EIA Today in Energy": {
         "fails": 0,
-        "last_ok": "2026-11-20"
+        "last_ok": "2026-11-21"
       }
     },
     "alerts": {},
